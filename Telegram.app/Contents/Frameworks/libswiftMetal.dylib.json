@@ -1,0 +1,886 @@
+{
+  "bits": 64,
+  "magic": 4277009103,
+  "cpu": {
+    "type": "x86_64",
+    "subtype": "all",
+    "endian": "le"
+  },
+  "filetype": "dylib",
+  "ncmds": 31,
+  "sizeofcmds": 3656,
+  "flags": {
+    "noundefs": true,
+    "dyldlink": true,
+    "twolevel": true,
+    "reexported_dylibs": true,
+    "undefined": true
+  },
+  "cmds": [
+    {
+      "type": "segment_64",
+      "name": "__TEXT",
+      "vmaddr": 0,
+      "vmsize": 40960,
+      "fileoff": 32,
+      "filesize": 40960,
+      "maxprot": {
+        "read": true,
+        "write": true,
+        "exec": true
+      },
+      "initprot": {
+        "read": true,
+        "write": false,
+        "exec": true
+      },
+      "nsects": 13,
+      "flags": {},
+      "sections": [
+        {
+          "sectname": "__text",
+          "segname": "__TEXT",
+          "size": 5435,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__stubs",
+          "segname": "__TEXT",
+          "size": 174,
+          "align": 1,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "symbol_stubs",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__stub_helper",
+          "segname": "__TEXT",
+          "size": 306,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__objc_methname",
+          "segname": "__TEXT",
+          "size": 3547,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "cstring_literals",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          },
+          "data": [
+            "",
+            "addDebugMarker:range:",
+            "allocatedSize",
+            "areProgrammableSamplePositionsSupported",
+            "areRasterOrderGroupsSupported",
+            "argumentBuffersSupport",
+            "autorelease",
+            "class",
+            "conformsToProtocol:",
+            "copyIndirectCommandBuffer:sourceRange:destination:destinationIndex:",
+            "cpuCacheMode",
+            "currentAllocatedSize",
+            "debugDescription",
+            "description",
+            "device",
+            "didModifyRange:",
+            "executeCommandsInBuffer:indirectBuffer:indirectBufferOffset:",
+            "executeCommandsInBuffer:withRange:",
+            "fillBuffer:range:value:",
+            "getDefaultSamplePositions:count:",
+            "getSamplePositions:count:",
+            "hash",
+            "heap",
+            "heapBufferSizeAndAlignWithLength:options:",
+            "heapTextureSizeAndAlignWithDescriptor:",
+            "isAliasable",
+            "isDepth24Stencil8PixelFormatSupported",
+            "isEqual:",
+            "isHeadless",
+            "isKindOfClass:",
+            "isLowPower",
+            "isMemberOfClass:",
+            "isProxy",
+            "isRemovable",
+            "label",
+            "makeAliasable",
+            "maxArgumentBufferSamplerCount",
+            "maxAvailableSizeWithAlignment:",
+            "maxBufferLength",
+            "maxThreadgroupMemoryLength",
+            "maxThreadsPerThreadgroup",
+            "memoryBarrierWithResources:count:",
+            "memoryBarrierWithResources:count:afterStages:beforeStages:",
+            "minimumLinearTextureAlignmentForPixelFormat:",
+            "minimumTextureBufferAlignmentForPixelFormat:",
+            "name",
+            "newArgumentEncoderWithArguments:",
+            "newBufferWithBytes:length:options:",
+            "newBufferWithBytesNoCopy:length:options:deallocator:",
+            "newBufferWithLength:options:",
+            "newCommandQueue",
+            "newCommandQueueWithMaxCommandBufferCount:",
+            "newComputePipelineStateWithDescriptor:options:completionHandler:",
+            "newComputePipelineStateWithDescriptor:options:reflection:error:",
+            "newComputePipelineStateWithFunction:completionHandler:",
+            "newComputePipelineStateWithFunction:error:",
+            "newComputePipelineStateWithFunction:options:completionHandler:",
+            "newComputePipelineStateWithFunction:options:reflection:error:",
+            "newDefaultLibrary",
+            "newDefaultLibraryWithBundle:error:",
+            "newDepthStencilStateWithDescriptor:",
+            "newEvent",
+            "newFence",
+            "newHeapWithDescriptor:",
+            "newIndirectCommandBufferWithDescriptor:maxCommandCount:options:",
+            "newLibraryWithData:error:",
+            "newLibraryWithFile:error:",
+            "newLibraryWithSource:options:completionHandler:",
+            "newLibraryWithSource:options:error:",
+            "newLibraryWithURL:error:",
+            "newRenderPipelineStateWithDescriptor:completionHandler:",
+            "newRenderPipelineStateWithDescriptor:error:",
+            "newRenderPipelineStateWithDescriptor:options:completionHandler:",
+            "newRenderPipelineStateWithDescriptor:options:reflection:error:",
+            "newSamplerStateWithDescriptor:",
+            "newSharedEvent",
+            "newSharedEventWithHandle:",
+            "newSharedTextureWithDescriptor:",
+            "newSharedTextureWithHandle:",
+            "newTextureViewWithPixelFormat:textureType:levels:slices:",
+            "newTextureWithDescriptor:",
+            "newTextureWithDescriptor:iosurface:plane:",
+            "optimizeIndirectCommandBuffer:withRange:",
+            "performSelector:",
+            "performSelector:withObject:",
+            "performSelector:withObject:withObject:",
+            "readWriteTextureSupport",
+            "recommendedMaxWorkingSetSize",
+            "registryID",
+            "release",
+            "resetCommandsInBuffer:withRange:",
+            "resetWithRange:",
+            "respondsToSelector:",
+            "retain",
+            "retainCount",
+            "self",
+            "setBuffers:offsets:withRange:",
+            "setConstantValues:type:withRange:",
+            "setFragmentBuffers:offsets:withRange:",
+            "setFragmentSamplerStates:lodMinClamps:lodMaxClamps:withRange:",
+            "setFragmentSamplerStates:withRange:",
+            "setFragmentTextures:withRange:",
+            "setIndirectCommandBuffers:withRange:",
+            "setLabel:",
+            "setPurgeableState:",
+            "setRenderPipelineStates:withRange:",
+            "setSamplePositions:count:",
+            "setSamplerStates:lodMinClamps:lodMaxClamps:withRange:",
+            "setSamplerStates:withRange:",
+            "setScissorRects:count:",
+            "setTextures:withRange:",
+            "setVertexBuffers:offsets:withRange:",
+            "setVertexSamplerStates:lodMinClamps:lodMaxClamps:withRange:",
+            "setVertexSamplerStates:withRange:",
+            "setVertexTextures:withRange:",
+            "setViewports:count:",
+            "size",
+            "storageMode",
+            "superclass",
+            "supportsFeatureSet:",
+            "supportsTextureSampleCount:",
+            "useHeaps:count:",
+            "useResources:count:usage:",
+            "usedSize",
+            "zone"
+          ]
+        },
+        {
+          "sectname": "__cstring",
+          "segname": "__TEXT",
+          "size": 3717,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "cstring_literals",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          },
+          "data": [
+            "",
+            "#16@0:8",
+            "@\"<MTLArgumentEncoder>\"24@0:8@\"NSArray\"16",
+            "@\"<MTLBuffer>\"32@0:8q16Q24",
+            "@\"<MTLBuffer>\"40@0:8^v16q24Q32",
+            "@\"<MTLBuffer>\"48@0:8^v16q24Q32@?<v@?^vq>40",
+            "@\"<MTLCommandQueue>\"16@0:8",
+            "@\"<MTLCommandQueue>\"24@0:8q16",
+            "@\"<MTLComputePipelineState>\"32@0:8@\"<MTLFunction>\"16^@24",
+            "@\"<MTLComputePipelineState>\"48@0:8@\"<MTLFunction>\"16Q24^@32^@40",
+            "@\"<MTLComputePipelineState>\"48@0:8@\"MTLComputePipelineDescriptor\"16Q24^@32^@40",
+            "@\"<MTLDepthStencilState>\"24@0:8@\"MTLDepthStencilDescriptor\"16",
+            "@\"<MTLDevice>\"16@0:8",
+            "@\"<MTLEvent>\"16@0:8",
+            "@\"<MTLFence>\"16@0:8",
+            "@\"<MTLHeap>\"16@0:8",
+            "@\"<MTLHeap>\"24@0:8@\"MTLHeapDescriptor\"16",
+            "@\"<MTLIndirectCommandBuffer>\"40@0:8@\"MTLIndirectCommandBufferDescriptor\"16q24Q32",
+            "@\"<MTLLibrary>\"16@0:8",
+            "@\"<MTLLibrary>\"32@0:8@\"NSBundle\"16^@24",
+            "@\"<MTLLibrary>\"32@0:8@\"NSString\"16^@24",
+            "@\"<MTLLibrary>\"32@0:8@\"NSURL\"16^@24",
+            "@\"<MTLLibrary>\"32@0:8@\"OS_dispatch_data\"16^@24",
+            "@\"<MTLLibrary>\"40@0:8@\"NSString\"16@\"MTLCompileOptions\"24^@32",
+            "@\"<MTLRenderPipelineState>\"32@0:8@\"MTLRenderPipelineDescriptor\"16^@24",
+            "@\"<MTLRenderPipelineState>\"48@0:8@\"MTLRenderPipelineDescriptor\"16Q24^@32^@40",
+            "@\"<MTLSamplerState>\"24@0:8@\"MTLSamplerDescriptor\"16",
+            "@\"<MTLSharedEvent>\"16@0:8",
+            "@\"<MTLSharedEvent>\"24@0:8@\"MTLSharedEventHandle\"16",
+            "@\"<MTLTexture>\"24@0:8@\"MTLSharedTextureHandle\"16",
+            "@\"<MTLTexture>\"24@0:8@\"MTLTextureDescriptor\"16",
+            "@\"<MTLTexture>\"40@0:8@\"MTLTextureDescriptor\"16^{__IOSurface=}24q32",
+            "@\"NSString\"16@0:8",
+            "@16@0:8",
+            "@24@0:8@16",
+            "@24@0:8q16",
+            "@32@0:8@16^@24",
+            "@32@0:8q16Q24",
+            "@40@0:8@16@24^@32",
+            "@40@0:8@16^{__IOSurface=}24q32",
+            "@40@0:8@16q24Q32",
+            "@40@0:8^v16q24Q32",
+            "@48@0:8@16Q24^@32^@40",
+            "@48@0:8^v16q24Q32@?40",
+            "MTLDevice",
+            "MTLHeap",
+            "MTLResource",
+            "NSObject",
+            "Q16@0:8",
+            "Q24@0:8Q16",
+            "T#,N,R",
+            "T@\"<MTLDevice>\",N,R",
+            "T@\"<MTLHeap>\",N,R",
+            "T@\"NSString\",N,C",
+            "T@\"NSString\",N,R",
+            "TQ,N,R",
+            "Tc,N,R",
+            "Tq,N,R",
+            "T{?=QQQ},N,R",
+            "^@24@0:8:16",
+            "^@32@0:8:16@24",
+            "^@40@0:8:16@24@32",
+            "^v16@0:8",
+            "allocatedSize",
+            "argumentBuffersSupport",
+            "c16@0:8",
+            "c24@0:8#16",
+            "c24@0:8:16",
+            "c24@0:8@\"Protocol\"16",
+            "c24@0:8@16",
+            "c24@0:8Q16",
+            "c24@0:8q16",
+            "cpuCacheMode",
+            "currentAllocatedSize",
+            "debugDescription",
+            "depth24Stencil8PixelFormatSupported",
+            "description",
+            "device",
+            "hash",
+            "headless",
+            "heap",
+            "label",
+            "lowPower",
+            "maxArgumentBufferSamplerCount",
+            "maxBufferLength",
+            "maxThreadgroupMemoryLength",
+            "maxThreadsPerThreadgroup",
+            "name",
+            "programmableSamplePositionsSupported",
+            "q16@0:8",
+            "q24@0:8Q16",
+            "q24@0:8q16",
+            "rasterOrderGroupsSupported",
+            "readWriteTextureSupport",
+            "recommendedMaxWorkingSetSize",
+            "registryID",
+            "removable",
+            "size",
+            "storageMode",
+            "superclass",
+            "usedSize",
+            "v16@0:8",
+            "v24@0:8@\"NSString\"16",
+            "v24@0:8@16",
+            "v24@?0@\"<MTLDevice>\"8@\"NSString\"16",
+            "v32@0:8@\"<MTLFunction>\"16@?<v@?@\"<MTLComputePipelineState>\"@\"NSError\">24",
+            "v32@0:8@\"MTLRenderPipelineDescriptor\"16@?<v@?@\"<MTLRenderPipelineState>\"@\"NSError\">24",
+            "v32@0:8@16@?24",
+            "v32@0:8^{?=ff}16q24",
+            "v40@0:8@\"<MTLFunction>\"16Q24@?<v@?@\"<MTLComputePipelineState>\"@\"MTLComputePipelineReflection\"@\"NSError\">32",
+            "v40@0:8@\"MTLComputePipelineDescriptor\"16Q24@?<v@?@\"<MTLComputePipelineState>\"@\"MTLComputePipelineReflection\"@\"NSError\">32",
+            "v40@0:8@\"MTLRenderPipelineDescriptor\"16Q24@?<v@?@\"<MTLRenderPipelineState>\"@\"MTLRenderPipelineReflection\"@\"NSError\">32",
+            "v40@0:8@\"NSString\"16@\"MTLCompileOptions\"24@?<v@?@\"<MTLLibrary>\"@\"NSError\">32",
+            "v40@0:8@16@24@?32",
+            "v40@0:8@16Q24@?32",
+            "{?=QQQ}16@0:8",
+            "{?=QQ}24@0:8@\"MTLTextureDescriptor\"16",
+            "{?=QQ}24@0:8@16",
+            "{?=QQ}32@0:8q16Q24"
+          ]
+        },
+        {
+          "sectname": "__const",
+          "segname": "__TEXT",
+          "size": 80,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_types",
+          "segname": "__TEXT",
+          "size": 4,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_typeref",
+          "segname": "__TEXT",
+          "size": 27,
+          "align": 1,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_reflstr",
+          "segname": "__TEXT",
+          "size": 4,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          },
+          "data": [
+            "",
+            "x",
+            "y"
+          ]
+        },
+        {
+          "sectname": "__swift5_fieldmd",
+          "segname": "__TEXT",
+          "size": 40,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__info_plist",
+          "segname": "__TEXT",
+          "size": 578,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__unwind_info",
+          "segname": "__TEXT",
+          "size": 216,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__eh_frame",
+          "segname": "__TEXT",
+          "size": 120,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        }
+      ]
+    },
+    {
+      "type": "segment_64",
+      "name": "__DATA",
+      "vmaddr": 40960,
+      "vmsize": 8192,
+      "fileoff": 1144,
+      "filesize": 8192,
+      "maxprot": {
+        "read": true,
+        "write": true,
+        "exec": true
+      },
+      "initprot": {
+        "read": true,
+        "write": true,
+        "exec": false
+      },
+      "nsects": 11,
+      "flags": {},
+      "sections": [
+        {
+          "sectname": "__nl_symbol_ptr",
+          "segname": "__DATA",
+          "size": 16,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "non_lazy_symbol_pointers",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__got",
+          "segname": "__DATA",
+          "size": 32,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "non_lazy_symbol_pointers",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__la_symbol_ptr",
+          "segname": "__DATA",
+          "size": 232,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "lazy_symbol_pointers",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__const",
+          "segname": "__DATA",
+          "size": 224,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_protolist",
+          "segname": "__DATA",
+          "size": 32,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_imageinfo",
+          "segname": "__DATA",
+          "size": 8,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_const",
+          "segname": "__DATA",
+          "size": 6088,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_selrefs",
+          "segname": "__DATA",
+          "size": 272,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "literal_pointers",
+          "attributes": {
+            "usr": {
+              "no_dead_strip": true
+            },
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_protorefs",
+          "segname": "__DATA",
+          "size": 32,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_classrefs",
+          "segname": "__DATA",
+          "size": 8,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "no_dead_strip": true
+            },
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__data",
+          "segname": "__DATA",
+          "size": 56,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        }
+      ]
+    },
+    {
+      "type": "segment_64",
+      "name": "__LINKEDIT",
+      "vmaddr": 49152,
+      "vmsize": 40960,
+      "fileoff": 2096,
+      "filesize": 35664,
+      "maxprot": {
+        "read": true,
+        "write": true,
+        "exec": true
+      },
+      "initprot": {
+        "read": true,
+        "write": false,
+        "exec": false
+      },
+      "nsects": 0,
+      "flags": {},
+      "sections": []
+    },
+    {
+      "type": "id_dylib",
+      "name": "@rpath/libswiftMetal.dylib",
+      "timestamp": 1,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2168
+    },
+    {
+      "type": "dyld_info",
+      "fileoff": 2224
+    },
+    {
+      "type": "symtab",
+      "symoff": 54632,
+      "nsyms": 140,
+      "stroff": 57128,
+      "strsize": 8336,
+      "fileoff": 2272
+    },
+    {
+      "type": "dysymtab",
+      "ilocalsym": 0,
+      "nlocalsym": 51,
+      "iextdefsym": 51,
+      "nextdefsym": 47,
+      "iundefsym": 98,
+      "nundefsym": 42,
+      "tocoff": 0,
+      "ntoc": 0,
+      "modtaboff": 0,
+      "nmodtab": 0,
+      "extrefsymoff": 0,
+      "nextrefsyms": 0,
+      "indirectsymoff": 56872,
+      "nindirectsyms": 64,
+      "extreloff": 0,
+      "nextrel": 0,
+      "locreloff": 0,
+      "nlocrel": 0,
+      "fileoff": 2296
+    },
+    {
+      "type": "uuid",
+      "fileoff": 2376
+    },
+    {
+      "type": "version_min_macosx",
+      "version": "10.9.0",
+      "sdk": "10.14.0",
+      "fileoff": 2400
+    },
+    {
+      "type": "source_version",
+      "fileoff": 2416
+    },
+    {
+      "type": "load_weak_dylib",
+      "name": "/System/Library/Frameworks/Metal.framework/Versions/A/Metal",
+      "timestamp": 2,
+      "current_version": 10553089,
+      "compatibility_version": 65536,
+      "fileoff": 2432
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftFoundation.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2520
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftXPC.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2576
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftos.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2632
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftCoreGraphics.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2680
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
+      "timestamp": 2,
+      "current_version": 81988608,
+      "compatibility_version": 4194304,
+      "fileoff": 2744
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftIOKit.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2848
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftCoreFoundation.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2904
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftCore.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2968
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftDarwin.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 3024
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+      "timestamp": 2,
+      "current_version": 102895360,
+      "compatibility_version": 9830400,
+      "fileoff": 3080
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftDispatch.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 3184
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/IOKit.framework/Versions/A/IOKit",
+      "timestamp": 2,
+      "current_version": 18022400,
+      "compatibility_version": 65536,
+      "fileoff": 3240
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftObjectiveC.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 3328
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+      "timestamp": 2,
+      "current_version": 102895360,
+      "compatibility_version": 19660800,
+      "fileoff": 3384
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/libc++.1.dylib",
+      "timestamp": 2,
+      "current_version": 26216708,
+      "compatibility_version": 65536,
+      "fileoff": 3480
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/libSystem.B.dylib",
+      "timestamp": 2,
+      "current_version": 82115073,
+      "compatibility_version": 65536,
+      "fileoff": 3528
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/libobjc.A.dylib",
+      "timestamp": 2,
+      "current_version": 14942208,
+      "compatibility_version": 65536,
+      "fileoff": 3584
+    },
+    {
+      "type": "function_starts",
+      "dataoff": 54544,
+      "datasize": 88,
+      "fileoff": 3640
+    },
+    {
+      "type": "data_in_code",
+      "dataoff": 54632,
+      "datasize": 0,
+      "fileoff": 3656
+    },
+    {
+      "type": "code_signature",
+      "dataoff": 65472,
+      "datasize": 19344,
+      "fileoff": 3672
+    }
+  ],
+  "hsize": 32
+}

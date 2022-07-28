@@ -1,0 +1,513 @@
+{
+  "bits": 64,
+  "magic": 4277009103,
+  "cpu": {
+    "type": "x86_64",
+    "subtype": "all",
+    "endian": "le"
+  },
+  "filetype": "dylib",
+  "ncmds": 19,
+  "sizeofcmds": 2544,
+  "flags": {
+    "noundefs": true,
+    "dyldlink": true,
+    "twolevel": true,
+    "reexported_dylibs": true,
+    "undefined": true
+  },
+  "cmds": [
+    {
+      "type": "segment_64",
+      "name": "__TEXT",
+      "vmaddr": 0,
+      "vmsize": 151552,
+      "fileoff": 32,
+      "filesize": 151552,
+      "maxprot": {
+        "read": true,
+        "write": true,
+        "exec": true
+      },
+      "initprot": {
+        "read": true,
+        "write": false,
+        "exec": true
+      },
+      "nsects": 13,
+      "flags": {},
+      "sections": [
+        {
+          "sectname": "__text",
+          "segname": "__TEXT",
+          "size": 123547,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__stubs",
+          "segname": "__TEXT",
+          "size": 270,
+          "align": 1,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "symbol_stubs",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__stub_helper",
+          "segname": "__TEXT",
+          "size": 466,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__const",
+          "segname": "__TEXT",
+          "size": 3536,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__cstring",
+          "segname": "__TEXT",
+          "size": 1057,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "cstring_literals",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          },
+          "data": [
+            "",
+            "/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/swift-macosx-x86_64/stdlib/public/SDK/simd/8/simd.swift",
+            "/BuildRoot/Library/Caches/com.apple.xbs/Binaries/swiftlang/install/TempContent/Objects/BNI_assert_lightweight/swift-macosx-x86_64/stdlib/public/core/8/SIMDVectorTypes.swift",
+            "/BuildRoot/Library/Caches/com.apple.xbs/Sources/swiftlang/swiftlang-1001.0.82.4/swift/stdlib/public/core/Range.swift",
+            "Can't form Range with upperBound < lowerBound",
+            "Column index out of range",
+            "Fatal error",
+            "Index out of range",
+            "Precondition failed",
+            "Requires array of 2 vectors",
+            "Requires array of 3 vectors",
+            "Requires array of 4 vectors",
+            "simd_double2x2([",
+            "simd_double2x3([",
+            "simd_double2x4([",
+            "simd_double3x2([",
+            "simd_double3x3([",
+            "simd_double3x4([",
+            "simd_double4x2([",
+            "simd_double4x3([",
+            "simd_double4x4([",
+            "simd_quatd(real: ",
+            "simd_quatf(real: "
+          ]
+        },
+        {
+          "sectname": "__swift5_proto",
+          "segname": "__TEXT",
+          "size": 160,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_types",
+          "segname": "__TEXT",
+          "size": 80,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_typeref",
+          "segname": "__TEXT",
+          "size": 743,
+          "align": 1,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_reflstr",
+          "segname": "__TEXT",
+          "size": 15,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          },
+          "data": [
+            "",
+            "columns",
+            "vector"
+          ]
+        },
+        {
+          "sectname": "__swift5_fieldmd",
+          "segname": "__TEXT",
+          "size": 560,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__info_plist",
+          "segname": "__TEXT",
+          "size": 576,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__unwind_info",
+          "segname": "__TEXT",
+          "size": 4628,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__eh_frame",
+          "segname": "__TEXT",
+          "size": 2648,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        }
+      ]
+    },
+    {
+      "type": "segment_64",
+      "name": "__DATA",
+      "vmaddr": 151552,
+      "vmsize": 12288,
+      "fileoff": 1144,
+      "filesize": 8192,
+      "maxprot": {
+        "read": true,
+        "write": true,
+        "exec": true
+      },
+      "initprot": {
+        "read": true,
+        "write": true,
+        "exec": false
+      },
+      "nsects": 7,
+      "flags": {
+        "highvm": true
+      },
+      "sections": [
+        {
+          "sectname": "__nl_symbol_ptr",
+          "segname": "__DATA",
+          "size": 16,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "non_lazy_symbol_pointers",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__got",
+          "segname": "__DATA",
+          "size": 192,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "non_lazy_symbol_pointers",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__la_symbol_ptr",
+          "segname": "__DATA",
+          "size": 360,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "lazy_symbol_pointers",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__const",
+          "segname": "__DATA",
+          "size": 3392,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__objc_imageinfo",
+          "segname": "__DATA",
+          "size": 8,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__data",
+          "segname": "__DATA",
+          "size": 384,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__bss",
+          "segname": "__DATA",
+          "size": 5120,
+          "align": 4,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "zerofill",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        }
+      ]
+    },
+    {
+      "type": "segment_64",
+      "name": "__LINKEDIT",
+      "vmaddr": 163840,
+      "vmsize": 159744,
+      "fileoff": 1776,
+      "filesize": 159488,
+      "maxprot": {
+        "read": true,
+        "write": true,
+        "exec": true
+      },
+      "initprot": {
+        "read": true,
+        "write": false,
+        "exec": false
+      },
+      "nsects": 0,
+      "flags": {},
+      "sections": []
+    },
+    {
+      "type": "id_dylib",
+      "name": "@rpath/libswiftsimd.dylib",
+      "timestamp": 1,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 1848
+    },
+    {
+      "type": "dyld_info",
+      "fileoff": 1904
+    },
+    {
+      "type": "symtab",
+      "symoff": 194224,
+      "nsyms": 1793,
+      "stroff": 223376,
+      "strsize": 73544,
+      "fileoff": 1952
+    },
+    {
+      "type": "dysymtab",
+      "ilocalsym": 0,
+      "nlocalsym": 559,
+      "iextdefsym": 559,
+      "nextdefsym": 1164,
+      "iundefsym": 1723,
+      "nundefsym": 70,
+      "tocoff": 0,
+      "ntoc": 0,
+      "modtaboff": 0,
+      "nmodtab": 0,
+      "extrefsymoff": 0,
+      "nextrefsyms": 0,
+      "indirectsymoff": 222912,
+      "nindirectsyms": 116,
+      "extreloff": 0,
+      "nextrel": 0,
+      "locreloff": 0,
+      "nlocrel": 0,
+      "fileoff": 1976
+    },
+    {
+      "type": "uuid",
+      "fileoff": 2056
+    },
+    {
+      "type": "version_min_macosx",
+      "version": "10.9.0",
+      "sdk": "10.14.0",
+      "fileoff": 2080
+    },
+    {
+      "type": "source_version",
+      "fileoff": 2096
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftCore.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2112
+    },
+    {
+      "type": "load_dylib",
+      "name": "@rpath/libswiftDarwin.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 2168
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
+      "timestamp": 2,
+      "current_version": 102895360,
+      "compatibility_version": 19660800,
+      "fileoff": 2224
+    },
+    {
+      "type": "load_dylib",
+      "name": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
+      "timestamp": 2,
+      "current_version": 102895360,
+      "compatibility_version": 9830400,
+      "fileoff": 2320
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/libc++.1.dylib",
+      "timestamp": 2,
+      "current_version": 26216708,
+      "compatibility_version": 65536,
+      "fileoff": 2424
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/libSystem.B.dylib",
+      "timestamp": 2,
+      "current_version": 82115073,
+      "compatibility_version": 65536,
+      "fileoff": 2472
+    },
+    {
+      "type": "function_starts",
+      "dataoff": 192352,
+      "datasize": 1720,
+      "fileoff": 2528
+    },
+    {
+      "type": "data_in_code",
+      "dataoff": 194072,
+      "datasize": 152,
+      "fileoff": 2544
+    },
+    {
+      "type": "code_signature",
+      "dataoff": 296928,
+      "datasize": 22304,
+      "fileoff": 2560
+    }
+  ],
+  "hsize": 32
+}
