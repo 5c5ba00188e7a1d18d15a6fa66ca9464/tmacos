@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 50511872,
+      "vmsize": 50528256,
       "fileoff": 104,
-      "filesize": 50511872,
+      "filesize": 50528256,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44283656,
+          "size": 44295944,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1997227,
+          "size": 1997211,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228350,
+          "size": 228369,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -8233,6 +8233,7 @@
             "setScrollEnabled:",
             "setScrollView:",
             "setScrollable:",
+            "setScrollerInsets:",
             "setScrollerStyle:",
             "setSdkConfigured:",
             "setSdkExt:",
@@ -10637,7 +10638,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1419188,
+          "size": 1419492,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22023,6 +22024,8 @@
             "Emoji.AnimalsAndNature",
             "Emoji.Context.Remove",
             "Emoji.FoodAndDrink",
+            "Emoji.Search.AnimatedEmoji",
+            "Emoji.Search.Emoji",
             "Emoji.SmilesAndPeople",
             "Emoji.TravelAndPlaces",
             "EmojiItemViewIdentifier",
@@ -22038,6 +22041,13 @@
             "EmojiPack.PremiumAlert",
             "EmojiPack.Removed.Info",
             "EmojiPack.Removed.Title",
+            "EmojiPack.Restore_countable",
+            "EmojiPack.Restore_few",
+            "EmojiPack.Restore_many",
+            "EmojiPack.Restore_one",
+            "EmojiPack.Restore_other",
+            "EmojiPack.Restore_two",
+            "EmojiPack.Restore_zero",
             "EmojiPack.Unlock_countable",
             "EmojiPack.Unlock_few",
             "EmojiPack.Unlock_many",
@@ -49399,7 +49409,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220727)",
+            "mozjpeg version 4.0.0 (build 20220728)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -53231,6 +53241,7 @@
             "se_SE",
             "search",
             "search only supported for directories",
+            "searchBorder",
             "searchButton",
             "searchBySuggestion",
             "searchClick",
@@ -58271,7 +58282,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 303321,
+          "size": 303381,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -68150,7 +68161,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 592788,
+          "size": 592896,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68178,7 +68189,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345479168,
+      "vmaddr": 4345495552,
       "vmsize": 1982464,
       "fileoff": 2096,
       "filesize": 1982464,
@@ -68224,7 +68235,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1724896,
+          "size": 1725136,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -68323,7 +68334,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4347461632,
+      "vmaddr": 4347478016,
       "vmsize": 4964352,
       "fileoff": 2888,
       "filesize": 3260416,
@@ -68358,7 +68369,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1058712,
+          "size": 1058936,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68371,7 +68382,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 50496,
+          "size": 50504,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68442,7 +68453,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1352056,
+          "size": 1352088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68455,7 +68466,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 749448,
+          "size": 749576,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -68535,10 +68546,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4352425984,
+      "vmaddr": 4352442368,
       "vmsize": 3506176,
       "fileoff": 4080,
-      "filesize": 3490576,
+      "filesize": 3491168,
       "maxprot": {
         "read": true,
         "write": false,
@@ -68559,9 +68570,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58264184,
+      "symoff": 58280944,
       "nsyms": 3649,
-      "stroff": 58351768,
+      "stroff": 58368528,
       "strsize": 131112,
       "fileoff": 4200
     },
@@ -68579,7 +68590,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58322568,
+      "indirectsymoff": 58339328,
       "nindirectsyms": 7299,
       "extreloff": 0,
       "nextrel": 0,
@@ -68605,7 +68616,7 @@
     },
     {
       "type": "main",
-      "entryoff": 35428,
+      "entryoff": 39012,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -69333,20 +69344,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 57987056,
-      "datasize": 277128,
+      "dataoff": 58003752,
+      "datasize": 277192,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58264184,
+      "dataoff": 58280944,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58482880,
-      "datasize": 762448,
+      "dataoff": 58499648,
+      "datasize": 762656,
       "fileoff": 11696
     }
   ],
