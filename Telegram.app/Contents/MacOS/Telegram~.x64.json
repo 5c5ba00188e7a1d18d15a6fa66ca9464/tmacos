@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52079061,
+          "size": 52080021,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -49342,7 +49342,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220728)",
+            "mozjpeg version 4.0.0 (build 20220729)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -68055,7 +68055,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 521512,
+          "size": 521504,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68530,7 +68530,7 @@
     },
     {
       "type": "main",
-      "entryoff": 41920,
+      "entryoff": 41216,
       "stacksize": 0,
       "fileoff": 4480
     },
