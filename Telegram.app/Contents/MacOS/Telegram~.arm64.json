@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 50528256,
+      "vmsize": 50593792,
       "fileoff": 104,
-      "filesize": 50528256,
+      "filesize": 50593792,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44296584,
+          "size": 44352712,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 167716,
+          "size": 167892,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1997211,
+          "size": 1998491,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10638,7 +10638,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1419492,
+          "size": 1419988,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31227,6 +31227,8 @@
             "Telegram.GeneralRowContainerView",
             "Telegram.GeneralRowItem",
             "Telegram.GeneralSettingsViewController",
+            "Telegram.GifKeyboardTabRowItem",
+            "Telegram.GifKeyboardView",
             "Telegram.GifPanelTabRowItem",
             "Telegram.GifPreviewModalView",
             "Telegram.GiftView",
@@ -31725,6 +31727,8 @@
             "Telegram/GeneralLoadingRowItem.swift",
             "Telegram/GeneralRowView.swift",
             "Telegram/GeneralTextRowItem.swift",
+            "Telegram/GifKeyboardController.swift",
+            "Telegram/GifKeyboardTabRowItem.swift",
             "Telegram/GifPanelTabRowItem.swift",
             "Telegram/GifPlayerBufferView.swift",
             "Telegram/GroupCallAvatarMenuItem.swift",
@@ -35975,6 +35979,7 @@
             "_TtC8Telegram15GalleryBehavior",
             "_TtC8Telegram15GalleryPageView",
             "_TtC8Telegram15GalleryTouchBar",
+            "_TtC8Telegram15GifKeyboardView",
             "_TtC8Telegram15GlobalBadgeNode",
             "_TtC8Telegram15GroupCallWindow",
             "_TtC8Telegram15ImageRenderData",
@@ -36348,6 +36353,8 @@
             "_TtC8Telegram21GalleryPageController",
             "_TtC8Telegram21GalleryThumbContainer",
             "_TtC8Telegram21GeneralLoadingRowItem",
+            "_TtC8Telegram21GifKeyboardController",
+            "_TtC8Telegram21GifKeyboardTabRowItem",
             "_TtC8Telegram21GroupCallControlsView",
             "_TtC8Telegram21GroupCallScheduleView",
             "_TtC8Telegram21GroupCallSettingsView",
@@ -36882,6 +36889,7 @@
             "_TtC8TelegramP33_252EF16268341F197640F355FB8C5E6131ServiceEventLogMessagePanelView",
             "_TtC8TelegramP33_252EF16268341F197640F355FB8C5E6133ServiceEventLogMessageContentItem",
             "_TtC8TelegramP33_252EF16268341F197640F355FB8C5E6135ServiceEventLogMessageContainerView",
+            "_TtC8TelegramP33_2650675262557CE3AD6965487F7A56CB9Arguments",
             "_TtC8TelegramP33_269E904566DAAACCA4105E1CB0C9B19019SoftwareVideoStream",
             "_TtC8TelegramP33_269E904566DAAACCA4105E1CB0C9B19032UniversalSoftwareVideoSourceImpl",
             "_TtC8TelegramP33_269E904566DAAACCA4105E1CB0C9B19034UniversalSoftwareVideoSourceThread",
@@ -36894,6 +36902,7 @@
             "_TtC8TelegramP33_27C1C8F1A514ABAE92741C5A09D9580325PreviewContextInteraction",
             "_TtC8TelegramP33_283D88013FBF32C83FA81C819EE526C327DownloadedMediaStoreContext",
             "_TtC8TelegramP33_283D88013FBF32C83FA81C819EE526C338DownloadedMediaStoreManagerPrivateImpl",
+            "_TtC8TelegramP33_286A4BD7A35CD1674E408EC5AF08107721GifKeyboardTabRowView",
             "_TtC8TelegramP33_29AB2C905ADD30BEB8000AEFACDD842121InlineFileDataContext",
             "_TtC8TelegramP33_2F493BC681C68C319C51DA51AB3612AD22RequestJoinChatRowView",
             "_TtC8TelegramP33_2FA888DD99C07B0294F832A919BCCF6620ConnectingStatusView",
@@ -39246,6 +39255,7 @@
             "animation",
             "animationComponentsPoints",
             "animationDuration",
+            "animationLayer",
             "animationPoint",
             "animationProgress",
             "animationSize",
@@ -46419,6 +46429,7 @@
             "imageDimension",
             "imageId",
             "imageItems",
+            "imageLayer",
             "imageSize",
             "imageTintColor",
             "imageUpdated",
@@ -53450,6 +53461,7 @@
             "selectReason",
             "selectRect",
             "selectSound",
+            "selectTab",
             "selectText",
             "selectTextBubble_incoming",
             "selectTextBubble_outgoing",
@@ -58282,7 +58294,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 303381,
+          "size": 303897,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58308,7 +58320,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 19700,
+          "size": 19732,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58321,7 +58333,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 20652,
+          "size": 20696,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68161,7 +68173,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 592896,
+          "size": 594484,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68174,7 +68186,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 387376,
+          "size": 387828,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68189,7 +68201,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345495552,
+      "vmaddr": 4345561088,
       "vmsize": 1982464,
       "fileoff": 2096,
       "filesize": 1982464,
@@ -68209,7 +68221,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 24632,
+          "size": 24664,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68235,7 +68247,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1725136,
+          "size": 1727792,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -68261,7 +68273,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 25304,
+          "size": 25336,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68334,8 +68346,8 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4347478016,
-      "vmsize": 4964352,
+      "vmaddr": 4347543552,
+      "vmsize": 4980736,
       "fileoff": 2888,
       "filesize": 3260416,
       "maxprot": {
@@ -68369,7 +68381,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1058936,
+          "size": 1060368,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68453,7 +68465,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1352088,
+          "size": 1354592,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68466,7 +68478,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 749576,
+          "size": 751880,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -68479,7 +68491,7 @@
         {
           "sectname": "__objc_stublist",
           "segname": "__DATA",
-          "size": 800,
+          "size": 808,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -68518,7 +68530,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1045504,
+          "size": 1046528,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -68546,10 +68558,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4352442368,
+      "vmaddr": 4352524288,
       "vmsize": 3506176,
       "fileoff": 4080,
-      "filesize": 3491168,
+      "filesize": 3492704,
       "maxprot": {
         "read": true,
         "write": false,
@@ -68570,9 +68582,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58280944,
+      "symoff": 58347168,
       "nsyms": 3649,
-      "stroff": 58368528,
+      "stroff": 58434768,
       "strsize": 131112,
       "fileoff": 4200
     },
@@ -68590,8 +68602,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58339328,
-      "nindirectsyms": 7299,
+      "indirectsymoff": 58405552,
+      "nindirectsyms": 7303,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -68616,7 +68628,7 @@
     },
     {
       "type": "main",
-      "entryoff": 38372,
+      "entryoff": 43236,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -69344,20 +69356,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58003752,
-      "datasize": 277192,
+      "dataoff": 58069576,
+      "datasize": 277592,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58280944,
+      "dataoff": 58347168,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58499648,
-      "datasize": 762656,
+      "dataoff": 58565888,
+      "datasize": 763488,
       "fileoff": 11696
     }
   ],
