@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44488136,
+          "size": 44489096,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -68269,7 +68269,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 598084,
+          "size": 598116,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68343,7 +68343,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1731488,
+          "size": 1731696,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -68657,7 +68657,7 @@
       "vmaddr": 4352671744,
       "vmsize": 3506176,
       "fileoff": 4080,
-      "filesize": 3497328,
+      "filesize": 3497344,
       "maxprot": {
         "read": true,
         "write": false,
@@ -68678,9 +68678,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58497416,
+      "symoff": 58497432,
       "nsyms": 3648,
-      "stroff": 58585000,
+      "stroff": 58585016,
       "strsize": 131088,
       "fileoff": 4200
     },
@@ -68698,7 +68698,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58555784,
+      "indirectsymoff": 58555800,
       "nindirectsyms": 7304,
       "extreloff": 0,
       "nextrel": 0,
@@ -68724,7 +68724,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42084,
+      "entryoff": 41124,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -69453,18 +69453,18 @@
     {
       "type": "function_starts",
       "dataoff": 58219248,
-      "datasize": 278168,
+      "datasize": 278184,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58497416,
+      "dataoff": 58497432,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58716096,
+      "dataoff": 58716112,
       "datasize": 765360,
       "fileoff": 11696
     }
