@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 17808988,
+          "size": 17809068,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -78,7 +78,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 14964,
+          "size": 14952,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -95,7 +95,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 14988,
+          "size": 14976,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -25553,7 +25553,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220803)",
+            "mozjpeg version 4.0.0 (build 20220804)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -32400,7 +32400,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 237292,
+          "size": 237296,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -32567,7 +32567,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 9976,
+          "size": 9968,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32734,7 +32734,7 @@
       "vmaddr": 4317560832,
       "vmsize": 2473984,
       "fileoff": 3520,
-      "filesize": 2461440,
+      "filesize": 2461376,
       "maxprot": {
         "read": true,
         "write": false,
@@ -32755,9 +32755,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 24102520,
+      "symoff": 24102464,
       "nsyms": 6272,
-      "stroff": 24220224,
+      "stroff": 24220160,
       "strsize": 145200,
       "fileoff": 3640
     },
@@ -32775,8 +32775,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24202872,
-      "nindirectsyms": 4338,
+      "indirectsymoff": 24202816,
+      "nindirectsyms": 4336,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -32801,7 +32801,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17831396,
+      "entryoff": 17831384,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -33174,19 +33174,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 23966472,
+      "dataoff": 23966416,
       "datasize": 136048,
       "fileoff": 7360
     },
     {
       "type": "data_in_code",
-      "dataoff": 24102520,
+      "dataoff": 24102464,
       "datasize": 0,
       "fileoff": 7376
     },
     {
       "type": "code_signature",
-      "dataoff": 24365424,
+      "dataoff": 24365360,
       "datasize": 329104,
       "fileoff": 7392
     }
