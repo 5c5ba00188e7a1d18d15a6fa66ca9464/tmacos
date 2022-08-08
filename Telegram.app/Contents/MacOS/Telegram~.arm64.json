@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 50790400,
+      "vmsize": 50806784,
       "fileoff": 104,
-      "filesize": 50790400,
+      "filesize": 50806784,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44524040,
+          "size": 44536456,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 168044,
+          "size": 168148,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2001563,
+          "size": 2001819,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10647,7 +10647,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1420804,
+          "size": 1420996,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31398,6 +31398,7 @@
             "Telegram.PremiumDemoLegacyPhoneView",
             "Telegram.PremiumFeatureSlideView",
             "Telegram.PremiumGiftController",
+            "Telegram.PremiumGiftStarSceneView",
             "Telegram.PremiumGradientView",
             "Telegram.PremiumLimitController",
             "Telegram.PremiumLimitView",
@@ -31872,6 +31873,7 @@
             "Telegram/PremiumGiftController.swift",
             "Telegram/PremiumGiftHeaderItem.swift",
             "Telegram/PremiumGiftRowItem.swift",
+            "Telegram/PremiumGiftStarSceneView.swift",
             "Telegram/PremiumLimitController.swift",
             "Telegram/PremiumLimitRowItem.swift",
             "Telegram/PremiumReactionsModal.swift",
@@ -36512,6 +36514,7 @@
             "_TtC8Telegram23PeerMediaWebpageRowItem",
             "_TtC8Telegram23PeerMediaWebpageRowView",
             "_TtC8Telegram23PremiumFeatureSlideView",
+            "_TtC8Telegram23PremiumStatusController",
             "_TtC8Telegram23PremiumStickersDemoView",
             "_TtC8Telegram23PreviewSenderController",
             "_TtC8Telegram23ReplyMarkupButtonLayout",
@@ -36571,6 +36574,7 @@
             "_TtC8Telegram24MediaTrackDecodableFrame",
             "_TtC8Telegram24MicrophonePreviewRowItem",
             "_TtC8Telegram24PassportWindowController",
+            "_TtC8Telegram24PremiumGiftStarSceneView",
             "_TtC8Telegram24PremiumIncreaseLimitItem",
             "_TtC8Telegram24RecentSessionsController",
             "_TtC8Telegram24SharedApplicationContext",
@@ -53171,6 +53175,7 @@
             "scanKeysStatements",
             "scanLine",
             "scanStatements",
+            "scene",
             "scene change threshold",
             "sceneView",
             "scheduleButton",
@@ -58362,7 +58367,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 20776,
+          "size": 20784,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69184,7 +69189,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 594784,
+          "size": 594916,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69197,7 +69202,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 389660,
+          "size": 389836,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69212,7 +69217,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345757696,
+      "vmaddr": 4345774080,
       "vmsize": 1982464,
       "fileoff": 2096,
       "filesize": 1982464,
@@ -69258,7 +69263,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1732912,
+          "size": 1733008,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69284,7 +69289,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 25360,
+          "size": 25368,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69357,10 +69362,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4347740160,
+      "vmaddr": 4347756544,
       "vmsize": 4980736,
       "fileoff": 2888,
-      "filesize": 3260416,
+      "filesize": 3276800,
       "maxprot": {
         "read": true,
         "write": true,
@@ -69392,7 +69397,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1061856,
+          "size": 1062808,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69476,7 +69481,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1355664,
+          "size": 1357400,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69489,7 +69494,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 753064,
+          "size": 754696,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69502,7 +69507,7 @@
         {
           "sectname": "__objc_stublist",
           "segname": "__DATA",
-          "size": 808,
+          "size": 816,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69569,10 +69574,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4352720896,
+      "vmaddr": 4352737280,
       "vmsize": 3506176,
       "fileoff": 4080,
-      "filesize": 3503952,
+      "filesize": 3504592,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69593,9 +69598,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58550056,
+      "symoff": 58583040,
       "nsyms": 3681,
-      "stroff": 58638264,
+      "stroff": 58671248,
       "strsize": 132888,
       "fileoff": 4200
     },
@@ -69613,7 +69618,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58608952,
+      "indirectsymoff": 58641936,
       "nindirectsyms": 7327,
       "extreloff": 0,
       "nextrel": 0,
@@ -69639,7 +69644,7 @@
     },
     {
       "type": "main",
-      "entryoff": 28964,
+      "entryoff": 32100,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70367,20 +70372,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58271640,
-      "datasize": 278416,
+      "dataoff": 58304576,
+      "datasize": 278464,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58550056,
+      "dataoff": 58583040,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58771152,
-      "datasize": 766080,
+      "dataoff": 58804144,
+      "datasize": 766496,
       "fileoff": 11696
     }
   ],
