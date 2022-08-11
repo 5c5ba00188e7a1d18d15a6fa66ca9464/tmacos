@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44538568,
+          "size": 44540040,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -49449,7 +49449,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220809)",
+            "mozjpeg version 4.0.0 (build 20220811)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58334,7 +58334,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 305785,
+          "size": 305793,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -69195,7 +69195,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 594952,
+          "size": 594960,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69650,7 +69650,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29668,
+      "entryoff": 28196,
       "stacksize": 0,
       "fileoff": 4408
     },
