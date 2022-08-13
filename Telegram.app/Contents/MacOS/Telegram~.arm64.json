@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44542088,
+          "size": 44546312,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -10648,7 +10648,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1421140,
+          "size": 1421124,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17390,7 +17390,7 @@
             "@\"NSURL\"40@0:8@\"NSTextView\"16@\"NSTextAttachment\"24Q32",
             "@\"NSUndoManager\"24@0:8@\"NSTextView\"16",
             "@\"NSUndoManager\"24@0:8@\"NSWindow\"16",
-            "@\"NSView\"16@?0@\"TGTextAttachment\"8",
+            "@\"NSView\"32@?0@\"TGTextAttachment\"8{CGSize=dd}16",
             "@\"NSView\"40@0:8@\"NSTableView\"16@\"NSTableColumn\"24q32",
             "@\"NSViewController\"32@0:8@\"NSPageController\"16@\"NSString\"24",
             "@\"TGRTCMTLI420Renderer\"8@?0",
@@ -49450,7 +49450,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220812)",
+            "mozjpeg version 4.0.0 (build 20220813)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -53181,7 +53181,6 @@
             "scanKeysStatements",
             "scanLine",
             "scanStatements",
-            "scene",
             "scene change threshold",
             "sceneView",
             "scheduleButton",
@@ -58335,7 +58334,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 305823,
+          "size": 305851,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -69196,7 +69195,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 594996,
+          "size": 595060,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69209,7 +69208,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 389888,
+          "size": 390208,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69404,7 +69403,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1063120,
+          "size": 1063088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69488,7 +69487,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1358232,
+          "size": 1358224,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69584,7 +69583,7 @@
       "vmaddr": 4352753664,
       "vmsize": 3506176,
       "fileoff": 4080,
-      "filesize": 3504912,
+      "filesize": 3504928,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69605,9 +69604,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58599496,
+      "symoff": 58599512,
       "nsyms": 3682,
-      "stroff": 58687720,
+      "stroff": 58687736,
       "strsize": 132912,
       "fileoff": 4200
     },
@@ -69625,7 +69624,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58658408,
+      "indirectsymoff": 58658424,
       "nindirectsyms": 7328,
       "extreloff": 0,
       "nextrel": 0,
@@ -69651,7 +69650,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42532,
+      "entryoff": 37796,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70379,19 +70378,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58320992,
-      "datasize": 278504,
+      "dataoff": 58320984,
+      "datasize": 278528,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58599496,
+      "dataoff": 58599512,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58820640,
+      "dataoff": 58820656,
       "datasize": 766704,
       "fileoff": 11696
     }
