@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51468117,
+          "size": 51468501,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10640,7 +10640,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1426937,
+          "size": 1426969,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27676,6 +27676,7 @@
             "PremiumGift.ButtonText",
             "PremiumGift.Month",
             "Premium_Boarding_Feature_Next",
+            "Premium_Boarding_Status",
             "Prepare request postbox",
             "PrepareTransceiverStatsInfosAndCallStats_s_w_n",
             "Preparing TCP address, current state: ",
@@ -69336,7 +69337,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 527196,
+          "size": 527200,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69811,7 +69812,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36288,
+      "entryoff": 35904,
       "stacksize": 0,
       "fileoff": 4480
     },
