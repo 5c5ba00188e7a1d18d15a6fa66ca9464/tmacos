@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 43844424,
+          "size": 43847560,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -43945,6 +43945,7 @@
             "emojiSymbolsTabActive",
             "emojiTextView",
             "emojiView",
+            "emoji_status",
             "emoji_suggestions.cpp",
             "emojies",
             "emojiesSoundDisposable",
@@ -46695,6 +46696,7 @@
             "inet6",
             "inf",
             "infinite",
+            "infinite_reactions",
             "info",
             "info.encoded_bytes == 0",
             "info.encoded_bytes > 0",
@@ -56598,7 +56600,6 @@
             "uniqueId",
             "uniqueIdentifier",
             "uniqueMember",
-            "unique_reactions",
             "universalstring is wrong length",
             "unix",
             "unix-afp",
@@ -69443,7 +69444,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 600024,
+          "size": 600036,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69517,7 +69518,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1754544,
+          "size": 1754656,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69831,7 +69832,7 @@
       "vmaddr": 4352131072,
       "vmsize": 3522560,
       "fileoff": 4080,
-      "filesize": 3520080,
+      "filesize": 3520096,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69852,9 +69853,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 57983408,
+      "symoff": 57983424,
       "nsyms": 3681,
-      "stroff": 58071752,
+      "stroff": 58071768,
       "strsize": 132864,
       "fileoff": 4200
     },
@@ -69872,7 +69873,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58042304,
+      "indirectsymoff": 58042320,
       "nindirectsyms": 7362,
       "extreloff": 0,
       "nextrel": 0,
@@ -69898,7 +69899,7 @@
     },
     {
       "type": "main",
-      "entryoff": 34788,
+      "entryoff": 31652,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70626,19 +70627,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 57702976,
-      "datasize": 280432,
+      "dataoff": 57702984,
+      "datasize": 280440,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 57983408,
+      "dataoff": 57983424,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58204624,
+      "dataoff": 58204640,
       "datasize": 758912,
       "fileoff": 11696
     }
