@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 50135040,
+      "vmsize": 50151424,
       "fileoff": 104,
-      "filesize": 50135040,
+      "filesize": 50151424,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 43836104,
+          "size": 43843784,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2006699,
+          "size": 2006955,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10649,7 +10649,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1425604,
+          "size": 1425732,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27719,8 +27719,12 @@
             "Premium.Boarding.Peer.Gift.You.Title",
             "Premium.Boarding.Peer.Info",
             "Premium.Boarding.Peer.Title",
-            "Premium.Boarding.Reactions.Info",
-            "Premium.Boarding.Reactions.Title",
+            "Premium.Boarding.PeerStatus.Info",
+            "Premium.Boarding.PeerStatus.Title",
+            "Premium.Boarding.ReactionsNew.Info",
+            "Premium.Boarding.ReactionsNew.Title",
+            "Premium.Boarding.Status.Info",
+            "Premium.Boarding.Status.Title",
             "Premium.Boarding.Stickers.Info",
             "Premium.Boarding.Stickers.Title",
             "Premium.Boarding.Subscribe",
@@ -43032,7 +43036,6 @@
             "defaultTimescale",
             "defaultTitle",
             "default_base_moof",
-            "default_emoji_statuses_stickerset_id",
             "default_get_buffer called on frame %p",
             "default_get_buffer called on pic %p\n",
             "default_len",
@@ -49564,7 +49567,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220905)",
+            "mozjpeg version 4.0.0 (build 20220906)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -69439,7 +69442,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 599916,
+          "size": 600024,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69452,7 +69455,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 392344,
+          "size": 392384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69467,7 +69470,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345102336,
+      "vmaddr": 4345118720,
       "vmsize": 2015232,
       "fileoff": 2096,
       "filesize": 2015232,
@@ -69513,7 +69516,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1754464,
+          "size": 1754544,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69612,7 +69615,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4347117568,
+      "vmaddr": 4347133952,
       "vmsize": 4997120,
       "fileoff": 2888,
       "filesize": 3276800,
@@ -69647,7 +69650,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1062208,
+          "size": 1062336,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69731,7 +69734,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1356080,
+          "size": 1356112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69744,7 +69747,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 755752,
+          "size": 755528,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69824,10 +69827,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4352114688,
+      "vmaddr": 4352131072,
       "vmsize": 3522560,
       "fileoff": 4080,
-      "filesize": 3519712,
+      "filesize": 3520080,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69848,9 +69851,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 57966872,
+      "symoff": 57983408,
       "nsyms": 3681,
-      "stroff": 58055216,
+      "stroff": 58071752,
       "strsize": 132864,
       "fileoff": 4200
     },
@@ -69868,7 +69871,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58025768,
+      "indirectsymoff": 58042304,
       "nindirectsyms": 7362,
       "extreloff": 0,
       "nextrel": 0,
@@ -69894,7 +69897,7 @@
     },
     {
       "type": "main",
-      "entryoff": 27492,
+      "entryoff": 35684,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70622,20 +70625,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 57686456,
-      "datasize": 280416,
+      "dataoff": 57702976,
+      "datasize": 280432,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 57966872,
+      "dataoff": 57983408,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58188080,
-      "datasize": 758704,
+      "dataoff": 58204624,
+      "datasize": 758912,
       "fileoff": 11696
     }
   ],
