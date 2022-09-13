@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 17031452,
+          "size": 17031932,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 738008,
+          "size": 738024,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -164,7 +164,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 166767,
+          "size": 166799,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -1159,6 +1159,7 @@
             "_errorImage",
             "_errorImageSelected",
             "_eventLogTriangle",
+            "_extend_content_lock",
             "_fake",
             "_fakeActive",
             "_fastSettingsDark",
@@ -9911,7 +9912,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 177352,
+          "size": 177364,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -9963,7 +9964,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 556309,
+          "size": 556405,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12188,6 +12189,7 @@
             "Chat.Context.Message.ContainsEmoji_other",
             "Chat.Context.Message.ContainsEmoji_two",
             "Chat.Context.Message.ContainsEmoji_zero",
+            "Chat.Context.Pinned.Hide",
             "Chat.Context.Reacted",
             "Chat.Context.ReactedFast_countable",
             "Chat.Context.ReactedFast_few",
@@ -20039,6 +20041,7 @@
             "_errorImage",
             "_errorImageSelected",
             "_eventLogTriangle",
+            "_extend_content_lock",
             "_fake",
             "_fakeActive",
             "_fastSettingsDark",
@@ -23492,6 +23495,7 @@
             "expressions prohibited in PRIMARY KEY and UNIQUE constraints",
             "exptext",
             "extReq",
+            "extend_content_lock",
             "extendedCertificateAttributes",
             "extendedKeyUsage",
             "extendedMedia",
@@ -32678,7 +32682,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 235928,
+          "size": 235932,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -32858,7 +32862,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 382576,
+          "size": 382608,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32955,7 +32959,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 270792,
+          "size": 270800,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33012,7 +33016,7 @@
       "vmaddr": 4316823552,
       "vmsize": 2490368,
       "fileoff": 3520,
-      "filesize": 2475888,
+      "filesize": 2476080,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33033,9 +33037,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 23404776,
+      "symoff": 23404968,
       "nsyms": 6273,
-      "stroff": 23522600,
+      "stroff": 23522792,
       "strsize": 145224,
       "fileoff": 3640
     },
@@ -33053,7 +33057,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 23505144,
+      "indirectsymoff": 23505336,
       "nindirectsyms": 4364,
       "extreloff": 0,
       "nextrel": 0,
@@ -33079,7 +33083,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17060580,
+      "entryoff": 17060420,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -33452,19 +33456,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 23267464,
-      "datasize": 137312,
+      "dataoff": 23267648,
+      "datasize": 137320,
       "fileoff": 7360
     },
     {
       "type": "data_in_code",
-      "dataoff": 23404776,
+      "dataoff": 23404968,
       "datasize": 0,
       "fileoff": 7376
     },
     {
       "type": "code_signature",
-      "dataoff": 23667824,
+      "dataoff": 23668016,
       "datasize": 320256,
       "fileoff": 7392
     }
