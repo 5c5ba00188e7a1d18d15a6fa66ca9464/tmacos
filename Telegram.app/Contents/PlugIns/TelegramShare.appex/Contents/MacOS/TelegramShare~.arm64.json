@@ -9963,7 +9963,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 556341,
+          "size": 556309,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14289,7 +14289,6 @@
             "Icon_PollDeleteOption",
             "Icon_PollSelected",
             "Icon_PollSelectedIncorrect",
-            "Icon_Premium_Badge_Small",
             "Icon_Premium_Lock",
             "Icon_Premium_Plus",
             "Icon_Premium_ReactionLock",
@@ -25810,7 +25809,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220912)",
+            "mozjpeg version 4.0.0 (build 20220913)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -33080,7 +33079,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17060548,
+      "entryoff": 17060580,
       "stacksize": 0,
       "fileoff": 3848
     },
