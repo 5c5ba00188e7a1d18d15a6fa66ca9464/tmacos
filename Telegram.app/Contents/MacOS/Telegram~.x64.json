@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51556501,
+          "size": 51559381,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228689,
+          "size": 228808,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -1448,6 +1448,7 @@
             "Tr^v,N,V_impl",
             "Tr^v,R,N",
             "Tr^{?=^v**I^Q},R,N,V_info",
+            "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_fromRect",
             "T{CGSize=dd},V_aspectSize",
             "T{DataChannelInit=BB{optional<int>=B(?=i{dummy_type=[4{empty_struct=}]})}{optional<int>=B(?=i{dummy_type=[4{empty_struct=}]})}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=QQ*}{__short=(?=Cc)[23c]}{__raw=[3Q]})}}}Bi{optional<webrtc::Priority>=B(?=i{dummy_type=[4{empty_struct=}]})}},R,N,V_nativeDataChannelInit",
             "T{FinalState={PersistentState={vector<unsigned char, std::allocator<unsigned char>>=**{__compressed_pair<unsigned char *, std::allocator<unsigned char>>=*}}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=QQ*}{__short=(?=Cc)[23c]}{__raw=[3Q]})}}}{TrafficStats=QQQQ}{CallStats={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=QQ*}{__short=(?=Cc)[23c]}{__raw=[3Q]})}}}{vector<tgcalls::CallStatsNetworkRecord, std::allocator<tgcalls::CallStatsNetworkRecord>>=^{CallStatsNetworkRecord}^{CallStatsNetworkRecord}{__compressed_pair<tgcalls::CallStatsNetworkRecord *, std::allocator<tgcalls::CallStatsNetworkRecord>>=^{CallStatsNetworkRecord}}}{vector<tgcalls::CallStatsBitrateRecord, std::allocator<tgcalls::CallStatsBitrateRecord>>=^{CallStatsBitrateRecord}^{CallStatsBitrateRecord}{__compressed_pair<tgcalls::CallStatsBitrateRecord *, std::allocator<tgcalls::CallStatsBitrateRecord>>=^{CallStatsBitrateRecord}}}}B},R,N,V_finalState",
@@ -2043,6 +2044,7 @@
             "_frameUniform",
             "_frames",
             "_framesLock",
+            "_fromRect",
             "_fullname",
             "_funding",
             "_futureSalts",
@@ -4684,6 +4686,7 @@
             "frame_size",
             "frames",
             "framesLeft",
+            "fromRect",
             "fullURLForPathComponent:",
             "fullname",
             "functionWithName:",
@@ -5161,6 +5164,7 @@
             "initWithID:brand:last4:expMonth:expYear:funding:",
             "initWithIdentifier:",
             "initWithIdentifier:fileId:file:text:info:",
+            "initWithIdentifier:fileId:file:text:info:fromRect:",
             "initWithIdentifier:info:",
             "initWithIdentifier:info:playerScript:response:error:",
             "initWithImpl:",
@@ -10631,7 +10635,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 75084,
+          "size": 75248,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -49529,7 +49533,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220914)",
+            "mozjpeg version 4.0.0 (build 20220915)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -69384,7 +69388,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 528220,
+          "size": 528244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69447,7 +69451,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 35280,
+          "size": 35288,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69486,7 +69490,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1740240,
+          "size": 1739952,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69583,7 +69587,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1220984,
+          "size": 1221080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69596,7 +69600,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 41608,
+          "size": 41624,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69654,7 +69658,7 @@
         {
           "sectname": "__objc_ivar",
           "segname": "__DATA",
-          "size": 17176,
+          "size": 17184,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69789,7 +69793,7 @@
       "vmaddr": 4359766016,
       "vmsize": 3833856,
       "fileoff": 4168,
-      "filesize": 3819424,
+      "filesize": 3819456,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69811,9 +69815,9 @@
     {
       "type": "symtab",
       "symoff": 65744080,
-      "nsyms": 4327,
-      "stroff": 65848040,
-      "strsize": 175264,
+      "nsyms": 4328,
+      "stroff": 65848056,
+      "strsize": 175288,
       "fileoff": 4288
     },
     {
@@ -69823,15 +69827,15 @@
       "iextdefsym": 1,
       "nextdefsym": 680,
       "iundefsym": 681,
-      "nundefsym": 3646,
+      "nundefsym": 3647,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65813312,
-      "nindirectsyms": 8681,
+      "indirectsymoff": 65813328,
+      "nindirectsyms": 8682,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -69859,7 +69863,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40832,
+      "entryoff": 37696,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -70579,8 +70583,8 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 65431488,
-      "datasize": 288368,
+      "dataoff": 65431520,
+      "datasize": 288336,
       "fileoff": 11400
     },
     {
@@ -70591,7 +70595,7 @@
     },
     {
       "type": "code_signature",
-      "dataoff": 66023312,
+      "dataoff": 66023344,
       "datasize": 858128,
       "fileoff": 11432
     }

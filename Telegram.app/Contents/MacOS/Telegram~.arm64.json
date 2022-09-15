@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 43917384,
+          "size": 43918152,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 168500,
+          "size": 168524,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228653,
+          "size": 228772,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -1459,6 +1459,7 @@
             "Tr^v,N,V_impl",
             "Tr^v,R,N",
             "Tr^{?=^v**I^Q},R,N,V_info",
+            "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_fromRect",
             "T{CGSize=dd},V_aspectSize",
             "T{DataChannelInit=BB{optional<int>=B(?=i{dummy_type=[4{empty_struct=}]})}{optional<int>=B(?=i{dummy_type=[4{empty_struct=}]})}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=*QQ}{__short=[23c]{?=C}}{__raw=[3Q]})}}}Bi{optional<webrtc::Priority>=B(?=i{dummy_type=[4{empty_struct=}]})}},R,N,V_nativeDataChannelInit",
             "T{FinalState={PersistentState={vector<unsigned char, std::allocator<unsigned char>>=**{__compressed_pair<unsigned char *, std::allocator<unsigned char>>=*}}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=*QQ}{__short=[23c]{?=C}}{__raw=[3Q]})}}}{TrafficStats=QQQQ}{CallStats={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=*QQ}{__short=[23c]{?=C}}{__raw=[3Q]})}}}{vector<tgcalls::CallStatsNetworkRecord, std::allocator<tgcalls::CallStatsNetworkRecord>>=^{CallStatsNetworkRecord}^{CallStatsNetworkRecord}{__compressed_pair<tgcalls::CallStatsNetworkRecord *, std::allocator<tgcalls::CallStatsNetworkRecord>>=^{CallStatsNetworkRecord}}}{vector<tgcalls::CallStatsBitrateRecord, std::allocator<tgcalls::CallStatsBitrateRecord>>=^{CallStatsBitrateRecord}^{CallStatsBitrateRecord}{__compressed_pair<tgcalls::CallStatsBitrateRecord *, std::allocator<tgcalls::CallStatsBitrateRecord>>=^{CallStatsBitrateRecord}}}}B},R,N,V_finalState",
@@ -2054,6 +2055,7 @@
             "_frameUniform",
             "_frames",
             "_framesLock",
+            "_fromRect",
             "_fullname",
             "_funding",
             "_futureSalts",
@@ -4695,6 +4697,7 @@
             "frame_size",
             "frames",
             "framesLeft",
+            "fromRect",
             "fullURLForPathComponent:",
             "fullname",
             "functionWithName:",
@@ -5172,6 +5175,7 @@
             "initWithID:brand:last4:expMonth:expYear:funding:",
             "initWithIdentifier:",
             "initWithIdentifier:fileId:file:text:info:",
+            "initWithIdentifier:fileId:file:text:info:fromRect:",
             "initWithIdentifier:info:",
             "initWithIdentifier:info:playerScript:response:error:",
             "initWithImpl:",
@@ -10640,7 +10644,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 74805,
+          "size": 74969,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -49596,7 +49600,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220914)",
+            "mozjpeg version 4.0.0 (build 20220915)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -69490,7 +69494,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 601188,
+          "size": 601232,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69538,7 +69542,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 25040,
+          "size": 25048,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69564,7 +69568,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1758256,
+          "size": 1757968,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69698,7 +69702,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1063888,
+          "size": 1063936,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69711,7 +69715,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 50608,
+          "size": 50624,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69769,7 +69773,7 @@
         {
           "sectname": "__objc_ivar",
           "segname": "__DATA",
-          "size": 8588,
+          "size": 8592,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69878,7 +69882,7 @@
       "vmaddr": 4352212992,
       "vmsize": 3538944,
       "fileoff": 4080,
-      "filesize": 3523568,
+      "filesize": 3523632,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69899,10 +69903,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 58067688,
-      "nsyms": 3683,
-      "stroff": 58156080,
-      "strsize": 132912,
+      "symoff": 58067696,
+      "nsyms": 3684,
+      "stroff": 58156112,
+      "strsize": 132936,
       "fileoff": 4200
     },
     {
@@ -69912,15 +69916,15 @@
       "iextdefsym": 1,
       "nextdefsym": 58,
       "iundefsym": 59,
-      "nundefsym": 3624,
+      "nundefsym": 3625,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58126616,
-      "nindirectsyms": 7366,
+      "indirectsymoff": 58126640,
+      "nindirectsyms": 7367,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -69945,7 +69949,7 @@
     },
     {
       "type": "main",
-      "entryoff": 38500,
+      "entryoff": 37156,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70673,19 +70677,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 57786776,
-      "datasize": 280912,
+      "dataoff": 57786816,
+      "datasize": 280880,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58067688,
+      "dataoff": 58067696,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58288992,
+      "dataoff": 58289056,
       "datasize": 759952,
       "fileoff": 11696
     }
