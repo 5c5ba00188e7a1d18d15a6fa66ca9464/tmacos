@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 50233344,
+      "vmsize": 50249728,
       "fileoff": 104,
-      "filesize": 50233344,
+      "filesize": 50249728,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 43919624,
+          "size": 43926600,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 168524,
+          "size": 168604,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2008235,
+          "size": 2008491,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228772,
+          "size": 228892,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -831,6 +831,7 @@
             "T@\"NSString\",R,N,V_documentSubtype",
             "T@\"NSString\",R,N,V_documentType",
             "T@\"NSString\",R,N,V_domain",
+            "T@\"NSString\",R,N,V_emoji",
             "T@\"NSString\",R,N,V_endpointId",
             "T@\"NSString\",R,N,V_errorDescription",
             "T@\"NSString\",R,N,V_errorText",
@@ -1460,6 +1461,7 @@
             "Tr^v,R,N",
             "Tr^{?=^v**I^Q},R,N,V_info",
             "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_fromRect",
+            "T{CGRect={CGPoint=dd}{CGSize=dd}},R,N,V_rect",
             "T{CGSize=dd},V_aspectSize",
             "T{DataChannelInit=BB{optional<int>=B(?=i{dummy_type=[4{empty_struct=}]})}{optional<int>=B(?=i{dummy_type=[4{empty_struct=}]})}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=*QQ}{__short=[23c]{?=C}}{__raw=[3Q]})}}}Bi{optional<webrtc::Priority>=B(?=i{dummy_type=[4{empty_struct=}]})}},R,N,V_nativeDataChannelInit",
             "T{FinalState={PersistentState={vector<unsigned char, std::allocator<unsigned char>>=**{__compressed_pair<unsigned char *, std::allocator<unsigned char>>=*}}}{basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=*QQ}{__short=[23c]{?=C}}{__raw=[3Q]})}}}{TrafficStats=QQQQ}{CallStats={basic_string<char, std::char_traits<char>, std::allocator<char>>={__compressed_pair<std::basic_string<char>::__rep, std::allocator<char>>={__rep=(?={__long=*QQ}{__short=[23c]{?=C}}{__raw=[3Q]})}}}{vector<tgcalls::CallStatsNetworkRecord, std::allocator<tgcalls::CallStatsNetworkRecord>>=^{CallStatsNetworkRecord}^{CallStatsNetworkRecord}{__compressed_pair<tgcalls::CallStatsNetworkRecord *, std::allocator<tgcalls::CallStatsNetworkRecord>>=^{CallStatsNetworkRecord}}}{vector<tgcalls::CallStatsBitrateRecord, std::allocator<tgcalls::CallStatsBitrateRecord>>=^{CallStatsBitrateRecord}^{CallStatsBitrateRecord}{__compressed_pair<tgcalls::CallStatsBitrateRecord *, std::allocator<tgcalls::CallStatsBitrateRecord>>=^{CallStatsBitrateRecord}}}}B},R,N,V_finalState",
@@ -2605,6 +2607,7 @@
             "_receiver",
             "_receivingQuality",
             "_recentValue",
+            "_rect",
             "_reducedBackupDiscoveryTimeout",
             "_reference",
             "_referer",
@@ -5403,6 +5406,7 @@
             "initWithUTF8String:",
             "initWithUUIDString:",
             "initWithUniqueId:attachment:attribute:",
+            "initWithUniqueId:emoji:rect:attribute:",
             "initWithUniqueIdentifier:domainIdentifier:attributeSet:",
             "initWithUpdater:",
             "initWithUrl:method:headers:data:retryIntervals:compressionEnabled:completionHandler:",
@@ -6763,6 +6767,7 @@
             "receivingQuality",
             "recentValue",
             "reconfigureCaptureSessionInput",
+            "rect",
             "rectOfRow:",
             "rectValue",
             "red",
@@ -9615,7 +9620,7 @@
         {
           "sectname": "__objc_classname",
           "segname": "__TEXT",
-          "size": 18202,
+          "size": 18225,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -10572,6 +10577,7 @@
             "TGGifConverter",
             "TGGrowingTextView",
             "TGInputTextAttribute",
+            "TGInputTextEmojiHolder",
             "TGInputTextTag",
             "TGInputTextTagAndRange",
             "TGMediaVideoConversionPresetSettings",
@@ -10644,7 +10650,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 74969,
+          "size": 75020,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -10657,7 +10663,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1426750,
+          "size": 1426894,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -30535,6 +30541,7 @@
             "TGAnimatedEmojiAttributeName",
             "TGCurrencyFormatter.m",
             "TGCustomLinkAttributeName",
+            "TGEmojiHolderAttributeName",
             "TGGifConverter.m",
             "TGModernGrowingDelegate",
             "TGPreformattedCodeAttributeName",
@@ -36304,6 +36311,7 @@
             "_TtC8Telegram19ContextMediaRowView",
             "_TtC8Telegram19EditAccountInfoItem",
             "_TtC8Telegram19EditImageCanvasView",
+            "_TtC8Telegram19EmojiHolderAnimator",
             "_TtC8Telegram19ExternalVideoLoader",
             "_TtC8Telegram19FWDNavigationAction",
             "_TtC8Telegram19GCChatListIndicator",
@@ -39329,6 +39337,7 @@
             "alr_probing",
             "alr_scale",
             "already instantiated",
+            "alreadyAnimated",
             "alt_ref_aq out of range [0..1]",
             "alteredInitialPeerCombinedReadStates",
             "altivec",
@@ -43956,6 +43965,7 @@
             "emojiEffects",
             "emojiFlagsTabActive",
             "emojiFoodTabActive",
+            "emojiHolderAnimator",
             "emojiKeywordDeleted",
             "emojiKeywordsDifference",
             "emojiNatureTabActive",
@@ -49601,7 +49611,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220915)",
+            "mozjpeg version 4.0.0 (build 20220916)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58504,7 +58514,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 311935,
+          "size": 312039,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58543,7 +58553,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 21024,
+          "size": 21028,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69495,7 +69505,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 601228,
+          "size": 602416,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69508,7 +69518,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 392556,
+          "size": 392644,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69523,7 +69533,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345200640,
+      "vmaddr": 4345217024,
       "vmsize": 2015232,
       "fileoff": 2096,
       "filesize": 2015232,
@@ -69569,7 +69579,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1757968,
+          "size": 1756224,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69582,7 +69592,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA_CONST",
-          "size": 192832,
+          "size": 192864,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69595,7 +69605,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 25432,
+          "size": 25448,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69668,8 +69678,8 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4347215872,
-      "vmsize": 4997120,
+      "vmaddr": 4347232256,
+      "vmsize": 5013504,
       "fileoff": 2888,
       "filesize": 3276800,
       "maxprot": {
@@ -69703,7 +69713,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1063968,
+          "size": 1064536,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69716,7 +69726,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 50624,
+          "size": 50640,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69744,7 +69754,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 5688,
+          "size": 5696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69759,7 +69769,7 @@
         {
           "sectname": "__objc_superrefs",
           "segname": "__DATA",
-          "size": 5552,
+          "size": 5560,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69774,7 +69784,7 @@
         {
           "sectname": "__objc_ivar",
           "segname": "__DATA",
-          "size": 8592,
+          "size": 8608,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69787,7 +69797,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1363256,
+          "size": 1363352,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69800,7 +69810,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 756776,
+          "size": 756968,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69880,10 +69890,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4352212992,
+      "vmaddr": 4352245760,
       "vmsize": 3538944,
       "fileoff": 4080,
-      "filesize": 3523696,
+      "filesize": 3523952,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69904,9 +69914,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58067768,
+      "symoff": 58084200,
       "nsyms": 3684,
-      "stroff": 58156184,
+      "stroff": 58172616,
       "strsize": 132936,
       "fileoff": 4200
     },
@@ -69924,7 +69934,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58126712,
+      "indirectsymoff": 58143144,
       "nindirectsyms": 7367,
       "extreloff": 0,
       "nextrel": 0,
@@ -69950,7 +69960,7 @@
     },
     {
       "type": "main",
-      "entryoff": 35684,
+      "entryoff": 43236,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70678,20 +70688,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 57786880,
-      "datasize": 280888,
+      "dataoff": 57803360,
+      "datasize": 280840,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58067768,
+      "dataoff": 58084200,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58289120,
-      "datasize": 759952,
+      "dataoff": 58305552,
+      "datasize": 760160,
       "fileoff": 11696
     }
   ],
