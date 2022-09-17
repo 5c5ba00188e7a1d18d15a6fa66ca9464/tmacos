@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51571829,
+          "size": 51574325,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10654,7 +10654,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1428105,
+          "size": 1428201,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -18064,6 +18064,7 @@
             "Analytics service has been disabled.",
             "Analytics service has been enabled.",
             "And",
+            "Animate Emoji to Input",
             "Anime",
             "Another exception handler was added. If this invokes any kind of exit() after processing the exception, which causes any subsequent error handler not to be invoked, these crashes will NOT be reported to App Center!",
             "Another process (pid = ",
@@ -47701,6 +47702,7 @@
             "k2",
             "k3",
             "kAdaptationDisabled",
+            "kAnimateInputEmoji",
             "kArchiveIsHidden",
             "kAudioHardwarePropertyDevices",
             "kAutomaticConvertEmojiesType2",
@@ -49544,7 +49546,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220916)",
+            "mozjpeg version 4.0.0 (build 20220917)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -56015,6 +56017,7 @@
             "toggleAdminRight",
             "toggleAllAdmins",
             "toggleAllEvents",
+            "toggleAnimatedInputEmoji",
             "toggleApproveNewMembers",
             "toggleAutoArchive",
             "toggleAutomaticDownload",
@@ -69598,7 +69601,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1221864,
+          "size": 1221896,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69804,7 +69807,7 @@
       "vmaddr": 4359782400,
       "vmsize": 3833856,
       "fileoff": 4168,
-      "filesize": 3820160,
+      "filesize": 3820176,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69825,9 +69828,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 65760912,
+      "symoff": 65760920,
       "nsyms": 4328,
-      "stroff": 65864888,
+      "stroff": 65864896,
       "strsize": 175288,
       "fileoff": 4288
     },
@@ -69845,7 +69848,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65830160,
+      "indirectsymoff": 65830168,
       "nindirectsyms": 8682,
       "extreloff": 0,
       "nextrel": 0,
@@ -69874,7 +69877,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40608,
+      "entryoff": 38112,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -70595,18 +70598,18 @@
     {
       "type": "function_starts",
       "dataoff": 65448368,
-      "datasize": 288320,
+      "datasize": 288328,
       "fileoff": 11400
     },
     {
       "type": "data_in_code",
-      "dataoff": 65736688,
+      "dataoff": 65736696,
       "datasize": 24224,
       "fileoff": 11416
     },
     {
       "type": "code_signature",
-      "dataoff": 66040176,
+      "dataoff": 66040192,
       "datasize": 858384,
       "fileoff": 11432
     }
