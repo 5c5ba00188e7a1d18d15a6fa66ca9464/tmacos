@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 105,
-  "sizeofcmds": 11416,
+  "ncmds": 106,
+  "sizeofcmds": 11512,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 57491456,
+      "vmsize": 57507840,
       "fileoff": 104,
-      "filesize": 57491456,
+      "filesize": 57507840,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51574325,
+          "size": 51599541,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80,7 +80,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 12810,
+          "size": 12822,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -97,7 +97,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 20876,
+          "size": 20896,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 373344,
+          "size": 373308,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2121133,
+          "size": 2122413,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10641,7 +10641,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 75299,
+          "size": 75344,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -10654,7 +10654,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1428201,
+          "size": 1428521,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15910,6 +15910,7 @@
             "599123456",
             "59|8[1-3]",
             "59|[6-8]",
+            "5DFF1D6F-8C0A-48C9-800D-F4BEC59C0E50",
             "5QF-Oa-p0T.title",
             "5[0-5]\\d{4,7}|[2-46-9]\\d{5,8}",
             "5[02-9]\\d{6}",
@@ -25579,6 +25580,7 @@
             "Media section has more than one track specified with a=ssrc lines which is not supported with Unified Plan.",
             "MediaBitrateSentInBps ",
             "MediaBitrateSentInKbps",
+            "MediaBoxPartialFile.write error: ",
             "MediaManager isLowCostNetwork: ",
             "MediaManager sendBitrateKbps=",
             "MediaManager::~MediaManager()",
@@ -26407,7 +26409,6 @@
             "OSStatus SSLReadFunction(SSLConnectionRef, void *, size_t *)",
             "OSStatus SSLWriteFunction(SSLConnectionRef, const void *, size_t *)",
             "OS_UNKNOWN",
-            "OS_dispatch_queue",
             "OS_dispatch_source",
             "OS_dispatch_source_timer",
             "OTHERNAME",
@@ -35501,6 +35502,7 @@
             "_TtC7Postbox19IntermediateMessage",
             "_TtC7Postbox19ItemCollectionsView",
             "_TtC7Postbox19MediaBoxFileContext",
+            "_TtC7Postbox19MediaBoxFileManager",
             "_TtC7Postbox19MediaBoxPartialFile",
             "_TtC7Postbox19MessageHistoryTable",
             "_TtC7Postbox19MutableChatListView",
@@ -37427,6 +37429,8 @@
             "_TtCC15TextRecognizing15TextRecognizing5Cache",
             "_TtCC20InAppPurchaseManager20InAppPurchaseManager7Product",
             "_TtCC20InAppPurchaseManager20InAppPurchaseManagerP33_4115544CEA2E476E5499A05F8522A74725PaymentTransactionContext",
+            "_TtCC7Postbox19MediaBoxFileManager11ItemContext",
+            "_TtCC7Postbox19MediaBoxFileManager4Item",
             "_TtCC7Postbox21AdaptedPostboxDecoder13RawObjectData",
             "_TtCC7Postbox21AdaptedPostboxEncoder13RawObjectData",
             "_TtCC7Postbox22_AdaptedPostboxDecoder16UnkeyedContainer",
@@ -37505,6 +37509,7 @@
             "_TtCCC12TelegramVoip23OngoingGroupCallContext14VideoFrameData10I420Buffer",
             "_TtCCC12TelegramVoip23OngoingGroupCallContext14VideoFrameData10NV12Buffer",
             "_TtCCC12TelegramVoip23OngoingGroupCallContext14VideoFrameData12NativeBuffer",
+            "_TtCCC7Postbox19MediaBoxFileManager4Item8Accessor",
             "_TtCCC8Telegram15ChatInvoiceViewP33_958153F24FD191A58AE3F3299C4DFEC517ExtendedMediaView6Button",
             "_TtCCC8Telegram32AccountGroupCallContextCacheImpl4ImplP33_201134FB499D0821353AC0FFEED67EB96Record",
             "_TtCCC8TelegramP33_6C9A70A82E0A62D3AE37F68DC323EC1714AvatarLeftView11PreviewView10CursorView",
@@ -42875,6 +42880,7 @@
             "dataEffectDisposable",
             "dataEffectsContexts",
             "dataEncipherment",
+            "dataFileManager",
             "dataItem",
             "dataOutMoved == AES_BLOCK_SIZE",
             "dataPath",
@@ -47353,6 +47359,7 @@
             "isDeceleratingBecauseOfDragging",
             "isDefault",
             "isDetailsViewVisible",
+            "isDisposed",
             "isDomainLink",
             "isDownOfHistory",
             "isDownSent",
@@ -48312,6 +48319,7 @@
             "localFilePath",
             "localId",
             "localIdentifier",
+            "localIdentifiers",
             "localInputActivityManager",
             "localIsPresentationPaused",
             "localIsVideoPaused",
@@ -48657,6 +48665,7 @@
             "maxMessageRevokeInterval",
             "maxMessageRevokeIntervalInPrivateChats",
             "maxOffset",
+            "maxOpenFiles",
             "maxPinnedChatCount",
             "maxPts",
             "maxRandomness",
@@ -49284,7 +49293,6 @@
             "meta\\s+itemprop=\"regionsAllowed\"\\s+content=\"(.*)\"",
             "metadata",
             "metadataExt",
-            "metadataFd",
             "metadataTable",
             "metadata_header_padding",
             "metalLayer",
@@ -49546,7 +49554,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220917)",
+            "mozjpeg version 4.0.0 (build 20220918)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -49857,6 +49865,7 @@
             "nextHistoryLocationId",
             "nextId",
             "nextIndex",
+            "nextItemId",
             "nextMessageStableId",
             "nextMessageStableIdUpdated",
             "nextMonth",
@@ -58411,7 +58420,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 312043,
+          "size": 312305,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58437,7 +58446,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 20208,
+          "size": 20244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58450,7 +58459,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 21032,
+          "size": 21068,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58476,7 +58485,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 186052,
+          "size": 186212,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -59601,6 +59610,7 @@
             "_newChatCamera",
             "_notification_sound_add",
             "_nsError",
+            "_os_unfair_lock_opaque",
             "_outgoingMessageImage",
             "_outgoingMessageImageSelected",
             "_passcodeLogin",
@@ -61388,6 +61398,7 @@
             "context",
             "context",
             "context",
+            "context",
             "contextIdByStableId",
             "contextItems",
             "contextLoggedOutUpdated",
@@ -61399,6 +61410,7 @@
             "contextObject",
             "contextProxyIdUpdated",
             "contextRef",
+            "contexts",
             "contexts",
             "contexts",
             "contexts",
@@ -61703,6 +61715,7 @@
             "dataArray",
             "dataArray",
             "dataDisposable",
+            "dataFileManager",
             "dataHash",
             "dataJSON",
             "dataPart",
@@ -62677,6 +62690,7 @@
             "file",
             "file",
             "file",
+            "file",
             "fileCdnRedirect",
             "fileContexts",
             "fileGif",
@@ -62953,6 +62967,7 @@
             "generalUnselectedAlpha",
             "generator",
             "generator",
+            "generic",
             "generic",
             "generic",
             "generic",
@@ -63404,6 +63419,7 @@
             "iconStatusEmoji",
             "iconWidth",
             "icons",
+            "id",
             "id",
             "id",
             "id",
@@ -64084,6 +64100,7 @@
             "isDefault",
             "isDefault",
             "isDetailsViewVisible",
+            "isDisposed",
             "isDomainLink",
             "isDynamicColorUpdateLocked",
             "isDynamicContentLocked",
@@ -64657,6 +64674,7 @@
             "local",
             "localFilePath",
             "localId",
+            "localIdentifiers",
             "localInputActivityManager",
             "localInputActivityManager",
             "localIsPresentationPaused",
@@ -64807,6 +64825,7 @@
             "managedServiceViewsDisposable",
             "managedStickerPacksDisposable",
             "managedTopReactionsDisposable",
+            "manager",
             "manual",
             "manx",
             "manxIsleOfMan",
@@ -64883,6 +64902,7 @@
             "maxMessageRevokeInterval",
             "maxMessageRevokeIntervalInPrivateChats",
             "maxMessageRevokeIntervalInPrivateChats",
+            "maxOpenFiles",
             "maxPinnedChatCount",
             "maxPinnedChatCount",
             "maxPinnedChatCount",
@@ -65247,7 +65267,6 @@
             "metaCameroon",
             "metaPath",
             "metadata",
-            "metadataFd",
             "metadataTable",
             "metadataTable",
             "metadataTable",
@@ -65306,6 +65325,7 @@
             "modal",
             "modal",
             "modalAction",
+            "mode",
             "mode",
             "mode",
             "modern",
@@ -65483,6 +65503,7 @@
             "nextId",
             "nextId",
             "nextIndex",
+            "nextItemId",
             "nextMessageStableId",
             "nextMessageStableIdUpdated",
             "nextOffset",
@@ -66734,6 +66755,7 @@
             "reactions",
             "reactionsNotModified",
             "read",
+            "read",
             "readCounters",
             "readDisposable",
             "readDisposable",
@@ -66747,6 +66769,7 @@
             "readStateTable",
             "readStates",
             "readStates",
+            "readwrite",
             "readwrite",
             "ready",
             "ready",
@@ -67813,6 +67836,7 @@
             "stickTopInset",
             "stickView",
             "sticker",
+            "stickerKeyword",
             "stickerPack",
             "stickerPack",
             "stickerPack",
@@ -69324,7 +69348,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 191892,
+          "size": 192300,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69350,7 +69374,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 8580,
+          "size": 8600,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69376,7 +69400,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 191284,
+          "size": 191380,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69402,7 +69426,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 528372,
+          "size": 524964,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69415,7 +69439,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 142960,
+          "size": 143248,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69430,7 +69454,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4352458752,
+      "vmaddr": 4352475136,
       "vmsize": 7323648,
       "fileoff": 2016,
       "filesize": 5586944,
@@ -69465,7 +69489,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 35288,
+          "size": 35320,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69478,7 +69502,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 17080,
+          "size": 17096,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69504,7 +69528,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1738384,
+          "size": 1739120,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69530,7 +69554,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 25448,
+          "size": 25480,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69601,7 +69625,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1221896,
+          "size": 1223016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69642,7 +69666,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 5696,
+          "size": 5712,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69698,7 +69722,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 760645,
+          "size": 761445,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69776,7 +69800,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1064184,
+          "size": 1065208,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69804,10 +69828,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4359782400,
-      "vmsize": 3833856,
+      "vmaddr": 4359798784,
+      "vmsize": 3506176,
       "fileoff": 4168,
-      "filesize": 3820176,
+      "filesize": 3498608,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69828,10 +69852,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 65760920,
-      "nsyms": 4328,
-      "stroff": 65864896,
-      "strsize": 175288,
+      "symoff": 65778152,
+      "nsyms": 4332,
+      "stroff": 65882224,
+      "strsize": 175400,
       "fileoff": 4288
     },
     {
@@ -69841,15 +69865,15 @@
       "iextdefsym": 1,
       "nextdefsym": 680,
       "iundefsym": 681,
-      "nundefsym": 3647,
+      "nundefsym": 3651,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65830168,
-      "nindirectsyms": 8682,
+      "indirectsymoff": 65847464,
+      "nindirectsyms": 8690,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -69867,7 +69891,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.11.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 4448
     },
@@ -69877,7 +69901,7 @@
     },
     {
       "type": "main",
-      "entryoff": 38112,
+      "entryoff": 29792,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -70195,11 +70219,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+      "timestamp": 2,
+      "current_version": 327680,
+      "compatibility_version": 65537,
+      "fileoff": 7992
+    },
+    {
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
       "timestamp": 2,
       "current_version": 174523140,
       "compatibility_version": 65536,
-      "fileoff": 7992
+      "fileoff": 8088
     },
     {
       "type": "load_dylib",
@@ -70207,7 +70239,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8096
+      "fileoff": 8192
     },
     {
       "type": "load_dylib",
@@ -70215,7 +70247,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8192
+      "fileoff": 8288
     },
     {
       "type": "load_dylib",
@@ -70223,7 +70255,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8288
+      "fileoff": 8384
     },
     {
       "type": "load_weak_dylib",
@@ -70231,7 +70263,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8376
+      "fileoff": 8472
     },
     {
       "type": "load_weak_dylib",
@@ -70239,7 +70271,7 @@
       "timestamp": 2,
       "current_version": 6553600,
       "compatibility_version": 65536,
-      "fileoff": 8472
+      "fileoff": 8568
     },
     {
       "type": "load_weak_dylib",
@@ -70247,7 +70279,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8576
+      "fileoff": 8672
     },
     {
       "type": "load_dylib",
@@ -70255,7 +70287,7 @@
       "timestamp": 2,
       "current_version": 24838144,
       "compatibility_version": 65536,
-      "fileoff": 8664
+      "fileoff": 8760
     },
     {
       "type": "load_dylib",
@@ -70263,7 +70295,7 @@
       "timestamp": 2,
       "current_version": 76226054,
       "compatibility_version": 65536,
-      "fileoff": 8760
+      "fileoff": 8856
     },
     {
       "type": "load_weak_dylib",
@@ -70271,7 +70303,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8872
+      "fileoff": 8968
     },
     {
       "type": "load_weak_dylib",
@@ -70279,7 +70311,7 @@
       "timestamp": 2,
       "current_version": 327729,
       "compatibility_version": 65536,
-      "fileoff": 8984
+      "fileoff": 9080
     },
     {
       "type": "load_dylib",
@@ -70287,7 +70319,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9072
+      "fileoff": 9168
     },
     {
       "type": "load_weak_dylib",
@@ -70295,7 +70327,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 9128
+      "fileoff": 9224
     },
     {
       "type": "load_weak_dylib",
@@ -70303,7 +70335,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 9200
+      "fileoff": 9296
     },
     {
       "type": "load_weak_dylib",
@@ -70311,7 +70343,7 @@
       "timestamp": 2,
       "current_version": 73735687,
       "compatibility_version": 65536,
-      "fileoff": 9264
+      "fileoff": 9360
     },
     {
       "type": "load_weak_dylib",
@@ -70319,7 +70351,7 @@
       "timestamp": 2,
       "current_version": 98566443,
       "compatibility_version": 65536,
-      "fileoff": 9328
+      "fileoff": 9424
     },
     {
       "type": "load_weak_dylib",
@@ -70327,7 +70359,7 @@
       "timestamp": 2,
       "current_version": 62128128,
       "compatibility_version": 65536,
-      "fileoff": 9392
+      "fileoff": 9488
     },
     {
       "type": "load_weak_dylib",
@@ -70335,7 +70367,7 @@
       "timestamp": 2,
       "current_version": 47251456,
       "compatibility_version": 65536,
-      "fileoff": 9464
+      "fileoff": 9560
     },
     {
       "type": "load_weak_dylib",
@@ -70343,7 +70375,7 @@
       "timestamp": 2,
       "current_version": 40108317,
       "compatibility_version": 65536,
-      "fileoff": 9544
+      "fileoff": 9640
     },
     {
       "type": "load_weak_dylib",
@@ -70351,7 +70383,7 @@
       "timestamp": 2,
       "current_version": 133438977,
       "compatibility_version": 65536,
-      "fileoff": 9608
+      "fileoff": 9704
     },
     {
       "type": "load_weak_dylib",
@@ -70359,7 +70391,7 @@
       "timestamp": 2,
       "current_version": 1769472,
       "compatibility_version": 65536,
-      "fileoff": 9672
+      "fileoff": 9768
     },
     {
       "type": "load_dylib",
@@ -70367,7 +70399,7 @@
       "timestamp": 2,
       "current_version": 7143424,
       "compatibility_version": 65536,
-      "fileoff": 9728
+      "fileoff": 9824
     },
     {
       "type": "load_weak_dylib",
@@ -70375,7 +70407,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9784
+      "fileoff": 9880
     },
     {
       "type": "load_dylib",
@@ -70383,7 +70415,7 @@
       "timestamp": 2,
       "current_version": 85196829,
       "compatibility_version": 65536,
-      "fileoff": 9840
+      "fileoff": 9936
     },
     {
       "type": "load_dylib",
@@ -70391,7 +70423,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 9896
+      "fileoff": 9992
     },
     {
       "type": "load_weak_dylib",
@@ -70399,7 +70431,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 9952
+      "fileoff": 10048
     },
     {
       "type": "load_dylib",
@@ -70407,7 +70439,7 @@
       "timestamp": 2,
       "current_version": 917504,
       "compatibility_version": 65536,
-      "fileoff": 10008
+      "fileoff": 10104
     },
     {
       "type": "load_dylib",
@@ -70415,7 +70447,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 10072
+      "fileoff": 10168
     },
     {
       "type": "load_weak_dylib",
@@ -70423,7 +70455,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 10136
+      "fileoff": 10232
     },
     {
       "type": "load_weak_dylib",
@@ -70431,7 +70463,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10192
+      "fileoff": 10288
     },
     {
       "type": "load_dylib",
@@ -70439,7 +70471,7 @@
       "timestamp": 2,
       "current_version": 189799937,
       "compatibility_version": 65536,
-      "fileoff": 10256
+      "fileoff": 10352
     },
     {
       "type": "load_dylib",
@@ -70447,7 +70479,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10312
+      "fileoff": 10408
     },
     {
       "type": "load_dylib",
@@ -70455,7 +70487,7 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 10368
+      "fileoff": 10464
     },
     {
       "type": "load_dylib",
@@ -70463,7 +70495,7 @@
       "timestamp": 2,
       "current_version": 4521984,
       "compatibility_version": 65536,
-      "fileoff": 10424
+      "fileoff": 10520
     },
     {
       "type": "load_weak_dylib",
@@ -70471,7 +70503,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 10480
+      "fileoff": 10576
     },
     {
       "type": "load_weak_dylib",
@@ -70479,7 +70511,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10536
+      "fileoff": 10632
     },
     {
       "type": "load_weak_dylib",
@@ -70487,7 +70519,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10592
+      "fileoff": 10688
     },
     {
       "type": "load_weak_dylib",
@@ -70495,7 +70527,7 @@
       "timestamp": 2,
       "current_version": 16848896,
       "compatibility_version": 65536,
-      "fileoff": 10648
+      "fileoff": 10744
     },
     {
       "type": "load_weak_dylib",
@@ -70503,7 +70535,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 10704
+      "fileoff": 10800
     },
     {
       "type": "load_weak_dylib",
@@ -70511,7 +70543,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10760
+      "fileoff": 10856
     },
     {
       "type": "load_weak_dylib",
@@ -70519,7 +70551,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10816
+      "fileoff": 10912
     },
     {
       "type": "load_weak_dylib",
@@ -70527,7 +70559,7 @@
       "timestamp": 2,
       "current_version": 179314197,
       "compatibility_version": 65536,
-      "fileoff": 10880
+      "fileoff": 10976
     },
     {
       "type": "load_dylib",
@@ -70535,7 +70567,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10936
+      "fileoff": 11032
     },
     {
       "type": "load_dylib",
@@ -70543,7 +70575,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10992
+      "fileoff": 11088
     },
     {
       "type": "load_dylib",
@@ -70551,7 +70583,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11048
+      "fileoff": 11144
     },
     {
       "type": "load_weak_dylib",
@@ -70559,7 +70591,7 @@
       "timestamp": 2,
       "current_version": 131329,
       "compatibility_version": 65536,
-      "fileoff": 11104
+      "fileoff": 11200
     },
     {
       "type": "load_weak_dylib",
@@ -70567,7 +70599,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 11160
+      "fileoff": 11256
     },
     {
       "type": "load_weak_dylib",
@@ -70575,7 +70607,7 @@
       "timestamp": 2,
       "current_version": 66912256,
       "compatibility_version": 65536,
-      "fileoff": 11216
+      "fileoff": 11312
     },
     {
       "type": "load_weak_dylib",
@@ -70583,35 +70615,35 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 11264
+      "fileoff": 11360
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 11320
+      "fileoff": 11416
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 11352
+      "fileoff": 11448
     },
     {
       "type": "function_starts",
-      "dataoff": 65448368,
-      "datasize": 288328,
-      "fileoff": 11400
+      "dataoff": 65465552,
+      "datasize": 288472,
+      "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 65736696,
-      "datasize": 24224,
-      "fileoff": 11416
+      "dataoff": 65754024,
+      "datasize": 24128,
+      "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 66040192,
-      "datasize": 858384,
-      "fileoff": 11432
+      "dataoff": 66057632,
+      "datasize": 535760,
+      "fileoff": 11528
     }
   ],
   "hsize": 32

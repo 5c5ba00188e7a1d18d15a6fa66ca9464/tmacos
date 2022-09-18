@@ -8,7 +8,7 @@
   },
   "filetype": "dylib",
   "ncmds": 29,
-  "sizeofcmds": 3920,
+  "sizeofcmds": 4000,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -33,13 +33,13 @@
         "write": false,
         "exec": true
       },
-      "nsects": 10,
+      "nsects": 11,
       "flags": {},
       "sections": [
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 201153,
+          "size": 201201,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -56,7 +56,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 804,
+          "size": 810,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -73,7 +73,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 1356,
+          "size": 1366,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -1213,7 +1213,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 19044,
+          "size": 19033,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -1269,7 +1269,6 @@
             "%@=%@",
             "%d",
             "%ld.%ld.%ld",
-            "%{public}@",
             "&",
             "' '",
             "+",
@@ -1948,6 +1947,19 @@
           }
         },
         {
+          "sectname": "__oslogstring",
+          "segname": "__TEXT",
+          "size": 11,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "cstring_literals",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
           "size": 1600,
@@ -1967,7 +1979,7 @@
       "name": "__DATA",
       "vmaddr": 262144,
       "vmsize": 81920,
-      "fileoff": 904,
+      "fileoff": 984,
       "filesize": 81920,
       "maxprot": {
         "read": true,
@@ -2013,7 +2025,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 1072,
+          "size": 1080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -2222,8 +2234,8 @@
       "name": "__LINKEDIT",
       "vmaddr": 344064,
       "vmsize": 131072,
-      "fileoff": 2336,
-      "filesize": 128176,
+      "fileoff": 2416,
+      "filesize": 125840,
       "maxprot": {
         "read": true,
         "write": false,
@@ -2244,19 +2256,19 @@
       "timestamp": 1,
       "current_version": 70912,
       "compatibility_version": 67072,
-      "fileoff": 2408
+      "fileoff": 2488
     },
     {
       "type": "dyld_info",
-      "fileoff": 2480
+      "fileoff": 2560
     },
     {
       "type": "symtab",
-      "symoff": 354928,
-      "nsyms": 1767,
-      "stroff": 384472,
-      "strsize": 63384,
-      "fileoff": 2528
+      "symoff": 354952,
+      "nsyms": 1768,
+      "stroff": 384520,
+      "strsize": 63400,
+      "fileoff": 2608
     },
     {
       "type": "dysymtab",
@@ -2265,34 +2277,34 @@
       "iextdefsym": 1497,
       "nextdefsym": 29,
       "iundefsym": 1526,
-      "nundefsym": 241,
+      "nundefsym": 242,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 383200,
-      "nindirectsyms": 318,
+      "indirectsymoff": 383240,
+      "nindirectsyms": 320,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 2552
-    },
-    {
-      "type": "uuid",
       "fileoff": 2632
     },
     {
+      "type": "uuid",
+      "fileoff": 2712
+    },
+    {
       "type": "version_min_macosx",
-      "version": "10.11.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
-      "fileoff": 2656
+      "fileoff": 2736
     },
     {
       "type": "source_version",
-      "fileoff": 2672
+      "fileoff": 2752
     },
     {
       "type": "load_dylib",
@@ -2300,7 +2312,7 @@
       "timestamp": 2,
       "current_version": 1507328,
       "compatibility_version": 65536,
-      "fileoff": 2688
+      "fileoff": 2768
     },
     {
       "type": "load_dylib",
@@ -2308,7 +2320,7 @@
       "timestamp": 2,
       "current_version": 137825546,
       "compatibility_version": 2949120,
-      "fileoff": 2776
+      "fileoff": 2856
     },
     {
       "type": "load_dylib",
@@ -2316,7 +2328,7 @@
       "timestamp": 2,
       "current_version": 121438208,
       "compatibility_version": 19660800,
-      "fileoff": 2864
+      "fileoff": 2944
     },
     {
       "type": "load_dylib",
@@ -2324,7 +2336,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 2960
+      "fileoff": 3040
     },
     {
       "type": "load_dylib",
@@ -2332,7 +2344,7 @@
       "timestamp": 2,
       "current_version": 65544,
       "compatibility_version": 65536,
-      "fileoff": 3048
+      "fileoff": 3128
     },
     {
       "type": "load_dylib",
@@ -2340,7 +2352,7 @@
       "timestamp": 2,
       "current_version": 66304,
       "compatibility_version": 65536,
-      "fileoff": 3104
+      "fileoff": 3184
     },
     {
       "type": "load_dylib",
@@ -2348,7 +2360,7 @@
       "timestamp": 2,
       "current_version": 66059,
       "compatibility_version": 65536,
-      "fileoff": 3152
+      "fileoff": 3232
     },
     {
       "type": "load_dylib",
@@ -2356,7 +2368,7 @@
       "timestamp": 2,
       "current_version": 3942456845,
       "compatibility_version": 65536,
-      "fileoff": 3200
+      "fileoff": 3280
     },
     {
       "type": "load_dylib",
@@ -2364,7 +2376,7 @@
       "timestamp": 2,
       "current_version": 76226054,
       "compatibility_version": 65536,
-      "fileoff": 3296
+      "fileoff": 3376
     },
     {
       "type": "load_dylib",
@@ -2372,7 +2384,7 @@
       "timestamp": 2,
       "current_version": 40108317,
       "compatibility_version": 65536,
-      "fileoff": 3408
+      "fileoff": 3488
     },
     {
       "type": "load_dylib",
@@ -2380,7 +2392,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 3496
+      "fileoff": 3576
     },
     {
       "type": "load_dylib",
@@ -2388,7 +2400,7 @@
       "timestamp": 2,
       "current_version": 85917696,
       "compatibility_version": 65536,
-      "fileoff": 3552
+      "fileoff": 3632
     },
     {
       "type": "load_dylib",
@@ -2396,7 +2408,7 @@
       "timestamp": 2,
       "current_version": 121438208,
       "compatibility_version": 9830400,
-      "fileoff": 3608
+      "fileoff": 3688
     },
     {
       "type": "load_dylib",
@@ -2404,35 +2416,35 @@
       "timestamp": 2,
       "current_version": 74776832,
       "compatibility_version": 65536,
-      "fileoff": 3712
+      "fileoff": 3792
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 3816
+      "fileoff": 3896
     },
     {
       "type": "rpath",
       "name": "@loader_path/Frameworks",
-      "fileoff": 3864
+      "fileoff": 3944
     },
     {
       "type": "function_starts",
-      "dataoff": 353824,
+      "dataoff": 353848,
       "datasize": 1096,
-      "fileoff": 3904
+      "fileoff": 3984
     },
     {
       "type": "data_in_code",
-      "dataoff": 354920,
+      "dataoff": 354944,
       "datasize": 8,
-      "fileoff": 3920
+      "fileoff": 4000
     },
     {
       "type": "code_signature",
-      "dataoff": 447856,
-      "datasize": 24384,
-      "fileoff": 3936
+      "dataoff": 447920,
+      "datasize": 21984,
+      "fileoff": 4016
     }
   ],
   "hsize": 32

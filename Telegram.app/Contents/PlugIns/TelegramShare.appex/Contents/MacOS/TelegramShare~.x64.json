@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 61,
-  "sizeofcmds": 7256,
+  "ncmds": 62,
+  "sizeofcmds": 7352,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 22380544,
+      "vmsize": 22413312,
       "fileoff": 104,
-      "filesize": 22380544,
+      "filesize": 22413312,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 19720090,
+          "size": 19749082,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 838055,
+          "size": 839415,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 233175,
+          "size": 233437,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 8400,
+          "size": 8420,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 166799,
+          "size": 166959,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -1281,6 +1281,7 @@
             "_myPeer",
             "_newChatCamera",
             "_notification_sound_add",
+            "_os_unfair_lock_opaque",
             "_outgoingMessageImage",
             "_outgoingMessageImageSelected",
             "_passcodeLogin",
@@ -2925,6 +2926,7 @@
             "context",
             "context",
             "context",
+            "context",
             "contextDisposable",
             "contextIdByStableId",
             "contextItems",
@@ -2942,6 +2944,7 @@
             "contextRef",
             "contextRequestResult",
             "contextValue",
+            "contexts",
             "contexts",
             "contexts",
             "contexts",
@@ -3222,6 +3225,7 @@
             "dataArray",
             "dataArray",
             "dataDisposable",
+            "dataFileManager",
             "dataHash",
             "dataJSON",
             "dataPart",
@@ -4015,6 +4019,7 @@
             "file",
             "file",
             "file",
+            "file",
             "fileCdnRedirect",
             "fileContexts",
             "fileGif",
@@ -4216,6 +4221,7 @@
             "generalPaths",
             "generator",
             "generator",
+            "generic",
             "generic",
             "generic",
             "generic",
@@ -4619,6 +4625,7 @@
             "iconStatusEmoji",
             "icons",
             "icons",
+            "id",
             "id",
             "id",
             "id",
@@ -5270,6 +5277,7 @@
             "isDark",
             "isDefault",
             "isDefault",
+            "isDisposed",
             "isDomainLink",
             "isDynamicColorUpdateLocked",
             "isDynamicContentLocked",
@@ -5738,6 +5746,7 @@
             "local",
             "localFilePath",
             "localId",
+            "localIdentifiers",
             "localInputActivityManager",
             "localInputActivityManager",
             "localIsPresentationPaused",
@@ -5841,6 +5850,7 @@
             "managedServiceViewsDisposable",
             "managedStickerPacksDisposable",
             "managedTopReactionsDisposable",
+            "manager",
             "manual",
             "map",
             "mapLocation",
@@ -5910,6 +5920,7 @@
             "maxMessageRevokeInterval",
             "maxMessageRevokeIntervalInPrivateChats",
             "maxMessageRevokeIntervalInPrivateChats",
+            "maxOpenFiles",
             "maxPinnedChatCount",
             "maxPinnedChatCount",
             "maxPinnedChatCount",
@@ -6269,7 +6280,6 @@
             "messagesSlice",
             "metaPath",
             "metadata",
-            "metadataFd",
             "metadataTable",
             "metadataTable",
             "metadataTable",
@@ -6320,6 +6330,7 @@
             "modal",
             "modal",
             "modalAction",
+            "mode",
             "mode",
             "mode",
             "modern",
@@ -6475,6 +6486,7 @@
             "nextId",
             "nextId",
             "nextIndex",
+            "nextItemId",
             "nextMessageStableId",
             "nextMessageStableIdUpdated",
             "nextOffset",
@@ -7635,6 +7647,7 @@
             "reactions",
             "reactionsNotModified",
             "read",
+            "read",
             "readCounters",
             "readDisposable",
             "readDisposable",
@@ -7648,6 +7661,7 @@
             "readStateTable",
             "readStates",
             "readStates",
+            "readwrite",
             "readwrite",
             "ready",
             "ready",
@@ -8584,6 +8598,7 @@
             "stickTopInset",
             "stickView",
             "sticker",
+            "stickerKeyword",
             "stickerPack",
             "stickerPack",
             "stickerPack",
@@ -9899,7 +9914,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 177364,
+          "size": 177772,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -9925,7 +9940,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 14692,
+          "size": 14728,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -9938,7 +9953,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 11708,
+          "size": 11744,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -9951,7 +9966,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 557077,
+          "size": 557413,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10582,6 +10597,7 @@
             "40f-21a-21d",
             "4J7-dP-txa.title",
             "4sb-4s-VLi.title",
+            "5DFF1D6F-8C0A-48C9-800D-F4BEC59C0E50",
             "5QF-Oa-p0T.title",
             "5kV-Vb-QxS.title",
             "6N38VWS5BX",
@@ -14764,6 +14780,7 @@
             "Mask Algorithm: ",
             "MaxPgcnt",
             "Maximum supported image dimension is %u pixels",
+            "MediaBoxPartialFile.write error: ",
             "MediaSender.DiscardChanges.Header",
             "MediaSender.DiscardChanges.OK",
             "MediaSender.DiscardChanges.Text",
@@ -15209,7 +15226,6 @@
             "OSSL_STORE_open",
             "OSStatus SSLReadFunction(SSLConnectionRef, void *, size_t *)",
             "OSStatus SSLWriteFunction(SSLConnectionRef, const void *, size_t *)",
-            "OS_dispatch_queue",
             "OS_dispatch_source",
             "OS_dispatch_source_timer",
             "OTHERNAME",
@@ -19134,6 +19150,7 @@
             "_TtC7Postbox19IntermediateMessage",
             "_TtC7Postbox19ItemCollectionsView",
             "_TtC7Postbox19MediaBoxFileContext",
+            "_TtC7Postbox19MediaBoxFileManager",
             "_TtC7Postbox19MediaBoxPartialFile",
             "_TtC7Postbox19MessageHistoryTable",
             "_TtC7Postbox19MutableChatListView",
@@ -19537,6 +19554,8 @@
             "_TtCC12TelegramCoreP33_0240C1B06C2A8204928C29E637B2170F28AdMessagesHistoryContextImpl13CachedMessage",
             "_TtCC12TelegramCoreP33_4EE3237EAAE4DA909BD2510171AE857B36SynchronizePeerReadStatesContextImpl9Operation",
             "_TtCC12TelegramCoreP33_61B95C63175FC2527038ADE0E026D70022MultipartCdnHashSource14ClusterContext",
+            "_TtCC7Postbox19MediaBoxFileManager11ItemContext",
+            "_TtCC7Postbox19MediaBoxFileManager4Item",
             "_TtCC7Postbox21AdaptedPostboxDecoder13RawObjectData",
             "_TtCC7Postbox21AdaptedPostboxEncoder13RawObjectData",
             "_TtCC7Postbox22_AdaptedPostboxDecoder16UnkeyedContainer",
@@ -19552,6 +19571,7 @@
             "_TtCCC12TelegramCore14EngineChatList14AdditionalItem9PromoInfo",
             "_TtCCC12TelegramCore14EngineChatList9GroupItem4Item",
             "_TtCCC12TelegramCoreP33_61B95C63175FC2527038ADE0E026D70022MultipartCdnHashSource14ClusterContext10Subscriber",
+            "_TtCCC7Postbox19MediaBoxFileManager4Item8Accessor",
             "_TtCF12TelegramCore16replayFinalStateFT14accountManagerGCS_14AccountManagerCS_27TelegramAccountManagerTypes_7postboxC7Postbox7Postbox13accountPeerIdVS2_6PeerId8mediaBoxCS2_8MediaBox18encryptionProviderPSo18EncryptionProvider_11transactionCS2_11Transaction16auxiliaryMethodsCS_23AccountAuxiliaryMethods10finalStateVS_17AccountFinalState40removePossiblyDeliveredMessagesUniqueIdsGVs10DictionaryVs5Int64S4__10ignoreDateSb_GSqVS_25AccountReplayedFinalState_L_24MessageThreadStatsRecord",
             "_TtCFF12TelegramCore13bufferedFetchFGC14SwiftSignalKit6SignalOCCS_19EngineMediaResource5Fetch6ResultOS3_5Error_GS1_S4_S5__U_FGCS0_10SubscriberS4_S5__PS0_10Disposable_L_5State",
             "_TtCO12TelegramCore18SomeTelegramEngine4Auth",
@@ -22759,6 +22779,7 @@
             "data too small for key size",
             "dataDisposable",
             "dataEncipherment",
+            "dataFileManager",
             "dataOutMoved == AES_BLOCK_SIZE",
             "dataQueue",
             "dataRequests",
@@ -24851,6 +24872,7 @@
             "isCurrent",
             "isDark",
             "isDefault",
+            "isDisposed",
             "isDomainLink",
             "isDynamicColorUpdateLocked",
             "isDynamicContentLocked",
@@ -25191,6 +25213,7 @@
             "local time unavailable",
             "localFilePath",
             "localId",
+            "localIdentifiers",
             "localInputActivityManager",
             "localIsPresentationPaused",
             "localIsVideoPaused",
@@ -25333,6 +25356,7 @@
             "maxMessageId",
             "maxMessageRevokeInterval",
             "maxMessageRevokeIntervalInPrivateChats",
+            "maxOpenFiles",
             "maxPinnedChatCount",
             "maxReadIncomingMessageId",
             "maxReadIncomingMessageIdValue",
@@ -25701,7 +25725,6 @@
             "messagesViewQueue",
             "metaPath",
             "metadata",
-            "metadataFd",
             "metadataTable",
             "method",
             "method not supported",
@@ -25802,7 +25825,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220917)",
+            "mozjpeg version 4.0.0 (build 20220918)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -25913,6 +25936,7 @@
             "nextFetchingPartId",
             "nextId",
             "nextIndex",
+            "nextItemId",
             "nextMessageStableId",
             "nextMessageStableIdUpdated",
             "nextOffset",
@@ -32367,7 +32391,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 187216,
+          "size": 187312,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -32664,7 +32688,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 10242,
+          "size": 10287,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -32677,7 +32701,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 208904,
+          "size": 209448,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -32690,7 +32714,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 116224,
+          "size": 116480,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32705,8 +32729,8 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4317347840,
-      "vmsize": 2228224,
+      "vmaddr": 4317380608,
+      "vmsize": 2244608,
       "fileoff": 1776,
       "filesize": 1884160,
       "maxprot": {
@@ -32740,7 +32764,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 19536,
+          "size": 19568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32779,7 +32803,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 852544,
+          "size": 853312,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -32805,7 +32829,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 8624,
+          "size": 8656,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32861,7 +32885,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 424792,
+          "size": 425912,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32902,7 +32926,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 2160,
+          "size": 2176,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -32958,7 +32982,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 271597,
+          "size": 272381,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33010,7 +33034,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 355416,
+          "size": 356440,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33038,10 +33062,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4319576064,
-      "vmsize": 2523136,
+      "vmaddr": 4319625216,
+      "vmsize": 2392064,
       "fileoff": 3688,
-      "filesize": 2513744,
+      "filesize": 2385680,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33062,10 +33086,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 26156504,
-      "nsyms": 6295,
-      "stroff": 26277112,
-      "strsize": 146136,
+      "symoff": 26190088,
+      "nsyms": 6297,
+      "stroff": 26310744,
+      "strsize": 146232,
       "fileoff": 3808
     },
     {
@@ -33075,15 +33099,15 @@
       "iextdefsym": 1,
       "nextdefsym": 5367,
       "iundefsym": 5368,
-      "nundefsym": 927,
+      "nundefsym": 929,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 26257224,
-      "nindirectsyms": 4971,
+      "indirectsymoff": 26290840,
+      "nindirectsyms": 4975,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -33101,7 +33125,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.11.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
@@ -33111,7 +33135,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19748278,
+      "entryoff": 19777462,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -33197,11 +33221,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
+      "timestamp": 2,
+      "current_version": 327680,
+      "compatibility_version": 65537,
+      "fileoff": 4872
+    },
+    {
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreMedia.framework/Versions/A/CoreMedia",
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 4872
+      "fileoff": 4968
     },
     {
       "type": "load_dylib",
@@ -33209,7 +33241,7 @@
       "timestamp": 2,
       "current_version": 74776832,
       "compatibility_version": 65536,
-      "fileoff": 4968
+      "fileoff": 5064
     },
     {
       "type": "load_dylib",
@@ -33217,7 +33249,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5072
+      "fileoff": 5168
     },
     {
       "type": "load_dylib",
@@ -33225,7 +33257,7 @@
       "timestamp": 2,
       "current_version": 66816,
       "compatibility_version": 66048,
-      "fileoff": 5168
+      "fileoff": 5264
     },
     {
       "type": "load_dylib",
@@ -33233,7 +33265,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5264
+      "fileoff": 5360
     },
     {
       "type": "load_dylib",
@@ -33241,7 +33273,7 @@
       "timestamp": 2,
       "current_version": 68352,
       "compatibility_version": 66048,
-      "fileoff": 5352
+      "fileoff": 5448
     },
     {
       "type": "load_dylib",
@@ -33249,7 +33281,7 @@
       "timestamp": 2,
       "current_version": 3942456845,
       "compatibility_version": 65536,
-      "fileoff": 5448
+      "fileoff": 5544
     },
     {
       "type": "load_dylib",
@@ -33257,7 +33289,7 @@
       "timestamp": 2,
       "current_version": 76226054,
       "compatibility_version": 65536,
-      "fileoff": 5544
+      "fileoff": 5640
     },
     {
       "type": "load_dylib",
@@ -33265,7 +33297,7 @@
       "timestamp": 2,
       "current_version": 66059,
       "compatibility_version": 65536,
-      "fileoff": 5656
+      "fileoff": 5752
     },
     {
       "type": "load_weak_dylib",
@@ -33273,7 +33305,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 5704
+      "fileoff": 5800
     },
     {
       "type": "load_weak_dylib",
@@ -33281,7 +33313,7 @@
       "timestamp": 2,
       "current_version": 47251456,
       "compatibility_version": 65536,
-      "fileoff": 5768
+      "fileoff": 5864
     },
     {
       "type": "load_weak_dylib",
@@ -33289,7 +33321,7 @@
       "timestamp": 2,
       "current_version": 133438977,
       "compatibility_version": 65536,
-      "fileoff": 5848
+      "fileoff": 5944
     },
     {
       "type": "load_weak_dylib",
@@ -33297,7 +33329,7 @@
       "timestamp": 2,
       "current_version": 1769472,
       "compatibility_version": 65536,
-      "fileoff": 5912
+      "fileoff": 6008
     },
     {
       "type": "load_dylib",
@@ -33305,7 +33337,7 @@
       "timestamp": 2,
       "current_version": 7143424,
       "compatibility_version": 65536,
-      "fileoff": 5968
+      "fileoff": 6064
     },
     {
       "type": "load_dylib",
@@ -33313,7 +33345,7 @@
       "timestamp": 2,
       "current_version": 85196829,
       "compatibility_version": 65536,
-      "fileoff": 6024
+      "fileoff": 6120
     },
     {
       "type": "load_weak_dylib",
@@ -33321,7 +33353,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 6080
+      "fileoff": 6176
     },
     {
       "type": "load_weak_dylib",
@@ -33329,7 +33361,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 6136
+      "fileoff": 6232
     },
     {
       "type": "load_dylib",
@@ -33337,7 +33369,7 @@
       "timestamp": 2,
       "current_version": 917504,
       "compatibility_version": 65536,
-      "fileoff": 6192
+      "fileoff": 6288
     },
     {
       "type": "load_dylib",
@@ -33345,7 +33377,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 6256
+      "fileoff": 6352
     },
     {
       "type": "load_weak_dylib",
@@ -33353,7 +33385,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 6320
+      "fileoff": 6416
     },
     {
       "type": "load_weak_dylib",
@@ -33361,7 +33393,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 6376
+      "fileoff": 6472
     },
     {
       "type": "load_dylib",
@@ -33369,7 +33401,7 @@
       "timestamp": 2,
       "current_version": 189799937,
       "compatibility_version": 65536,
-      "fileoff": 6440
+      "fileoff": 6536
     },
     {
       "type": "load_dylib",
@@ -33377,7 +33409,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 6496
+      "fileoff": 6592
     },
     {
       "type": "load_dylib",
@@ -33385,7 +33417,7 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 6552
+      "fileoff": 6648
     },
     {
       "type": "load_dylib",
@@ -33393,7 +33425,7 @@
       "timestamp": 2,
       "current_version": 4521984,
       "compatibility_version": 65536,
-      "fileoff": 6608
+      "fileoff": 6704
     },
     {
       "type": "load_weak_dylib",
@@ -33401,7 +33433,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6664
+      "fileoff": 6760
     },
     {
       "type": "load_weak_dylib",
@@ -33409,7 +33441,7 @@
       "timestamp": 2,
       "current_version": 16848896,
       "compatibility_version": 65536,
-      "fileoff": 6720
+      "fileoff": 6816
     },
     {
       "type": "load_weak_dylib",
@@ -33417,7 +33449,7 @@
       "timestamp": 2,
       "current_version": 179314197,
       "compatibility_version": 65536,
-      "fileoff": 6776
+      "fileoff": 6872
     },
     {
       "type": "load_dylib",
@@ -33425,7 +33457,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 6832
+      "fileoff": 6928
     },
     {
       "type": "load_weak_dylib",
@@ -33433,7 +33465,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 6888
+      "fileoff": 6984
     },
     {
       "type": "load_weak_dylib",
@@ -33441,7 +33473,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 6944
+      "fileoff": 7040
     },
     {
       "type": "load_weak_dylib",
@@ -33449,7 +33481,7 @@
       "timestamp": 2,
       "current_version": 66912256,
       "compatibility_version": 65536,
-      "fileoff": 7000
+      "fileoff": 7096
     },
     {
       "type": "load_weak_dylib",
@@ -33457,40 +33489,40 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 7048
+      "fileoff": 7144
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 7104
+      "fileoff": 7200
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 7136
+      "fileoff": 7232
     },
     {
       "type": "rpath",
       "name": "@executable_path/../../../../Frameworks",
-      "fileoff": 7184
+      "fileoff": 7280
     },
     {
       "type": "function_starts",
-      "dataoff": 26005704,
-      "datasize": 138344,
-      "fileoff": 7240
+      "dataoff": 26039240,
+      "datasize": 138488,
+      "fileoff": 7336
     },
     {
       "type": "data_in_code",
-      "dataoff": 26144048,
-      "datasize": 12456,
-      "fileoff": 7256
+      "dataoff": 26177728,
+      "datasize": 12360,
+      "fileoff": 7352
     },
     {
       "type": "code_signature",
-      "dataoff": 26423248,
-      "datasize": 355200,
-      "fileoff": 7272
+      "dataoff": 26456976,
+      "datasize": 226176,
+      "fileoff": 7368
     }
   ],
   "hsize": 32
