@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51599541,
+          "size": 51596149,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80,7 +80,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 12822,
+          "size": 12846,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -97,7 +97,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 20896,
+          "size": 20936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10654,7 +10654,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1428521,
+          "size": 1428601,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -30189,7 +30189,6 @@
             "Stats.ShowMore_two",
             "Stats.ShowMore_zero",
             "StatusBar.Activate",
-            "StatusEmojiWhite",
             "StatusIndicator",
             "SteelBlue",
             "Stereo High",
@@ -31019,6 +31018,7 @@
             "Telegram.AvatarRightView",
             "Telegram.AvatarTabContainer",
             "Telegram.Avatar_BgListView",
+            "Telegram.Avatar_EmojiList",
             "Telegram.Avatar_EmojiListView",
             "Telegram.Avatar_MonogramView",
             "Telegram.Avatar_StickersList",
@@ -36012,6 +36012,7 @@
             "_TtC8Telegram16APChatController",
             "_TtC8Telegram16Auth_LoadingView",
             "_TtC8Telegram16Auth_LoginHeader",
+            "_TtC8Telegram16Avatar_EmojiList",
             "_TtC8Telegram16CIStickerContext",
             "_TtC8Telegram16ChannelInfoState",
             "_TtC8Telegram16ChannelIntroView",
@@ -43958,6 +43959,8 @@
             "emojies_send_dice",
             "emojies_send_dice_success",
             "emojis",
+            "emojisController",
+            "emojisView",
             "emoticon",
             "emoticons",
             "emplace_back",
@@ -49554,7 +49557,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220919)",
+            "mozjpeg version 4.0.0 (build 20220922)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58420,7 +58423,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 312305,
+          "size": 312309,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58459,7 +58462,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 21068,
+          "size": 21072,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69400,7 +69403,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 191380,
+          "size": 191384,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69426,7 +69429,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 524964,
+          "size": 524996,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69502,7 +69505,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 17096,
+          "size": 17128,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69528,7 +69531,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1739120,
+          "size": 1739632,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69554,7 +69557,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 25480,
+          "size": 25488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69625,7 +69628,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1223016,
+          "size": 1223296,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69709,7 +69712,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1516488,
+          "size": 1517480,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69722,7 +69725,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 761445,
+          "size": 761509,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -69831,7 +69834,7 @@
       "vmaddr": 4359798784,
       "vmsize": 3506176,
       "fileoff": 4168,
-      "filesize": 3498608,
+      "filesize": 3499024,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69852,10 +69855,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 65778152,
-      "nsyms": 4332,
-      "stroff": 65882224,
-      "strsize": 175400,
+      "symoff": 65778368,
+      "nsyms": 4336,
+      "stroff": 65882536,
+      "strsize": 175504,
       "fileoff": 4288
     },
     {
@@ -69865,15 +69868,15 @@
       "iextdefsym": 1,
       "nextdefsym": 680,
       "iundefsym": 681,
-      "nundefsym": 3651,
+      "nundefsym": 3655,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65847464,
-      "nindirectsyms": 8690,
+      "indirectsymoff": 65847744,
+      "nindirectsyms": 8698,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -69901,7 +69904,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29792,
+      "entryoff": 32864,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -70629,19 +70632,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 65465552,
-      "datasize": 288472,
+      "dataoff": 65465712,
+      "datasize": 288512,
       "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 65754024,
-      "datasize": 24128,
+      "dataoff": 65754224,
+      "datasize": 24144,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 66057632,
+      "dataoff": 66058048,
       "datasize": 535760,
       "fileoff": 11528
     }
