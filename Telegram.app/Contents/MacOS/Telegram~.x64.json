@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51611509,
+          "size": 51613141,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10655,7 +10655,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1428681,
+          "size": 1428777,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32976,6 +32976,7 @@
             "Upgrade.ChannelsTooMuch",
             "Upload-Time",
             "Use MP4A-LATM packetization instead of MPEG4-GENERIC for AAC",
+            "Use Native Graphic Context",
             "Use RFC 2190 packetization instead of RFC 4629 for H.263",
             "Use mdta atom for metadata.",
             "Use mode 0 for H.264 in RTP",
@@ -47787,6 +47788,7 @@
             "kSubFramesInFrame <= samples_in_frame_",
             "kSuggestSwapEmoji",
             "kUnderuse",
+            "kUseNativeGraphicContext",
             "kValid",
             "kWaitingForProbingResult: timeout",
             "ka",
@@ -49561,7 +49563,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20220923)",
+            "mozjpeg version 4.0.0 (build 20220925)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -56081,6 +56083,7 @@
             "toggleMenu",
             "toggleMessagesPreview",
             "toggleMode",
+            "toggleNativeGraphicContext",
             "toggleNotifications",
             "toggleNotificationsDisposable",
             "toggleOption",
@@ -69433,7 +69436,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 525232,
+          "size": 525236,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69632,7 +69635,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1223696,
+          "size": 1223728,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69716,7 +69719,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1518128,
+          "size": 1518136,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69838,7 +69841,7 @@
       "vmaddr": 4359815168,
       "vmsize": 3506176,
       "fileoff": 4168,
-      "filesize": 3499568,
+      "filesize": 3499584,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69859,9 +69862,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 65811416,
+      "symoff": 65811440,
       "nsyms": 4336,
-      "stroff": 65915592,
+      "stroff": 65915616,
       "strsize": 175504,
       "fileoff": 4288
     },
@@ -69879,7 +69882,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65880792,
+      "indirectsymoff": 65880816,
       "nindirectsyms": 8700,
       "extreloff": 0,
       "nextrel": 0,
@@ -69908,7 +69911,7 @@
     },
     {
       "type": "main",
-      "entryoff": 33120,
+      "entryoff": 31488,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -70636,19 +70639,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 65498648,
-      "datasize": 288624,
+      "dataoff": 65498664,
+      "datasize": 288632,
       "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 65787272,
+      "dataoff": 65787296,
       "datasize": 24144,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 66091104,
+      "dataoff": 66091120,
       "datasize": 536016,
       "fileoff": 11528
     }
