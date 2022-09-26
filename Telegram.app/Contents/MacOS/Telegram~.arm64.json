@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 43970696,
+          "size": 43969992,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -58537,7 +58537,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 312411,
+          "size": 312417,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -69543,7 +69543,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 598408,
+          "size": 598448,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69931,7 +69931,7 @@
       "vmaddr": 4352278528,
       "vmsize": 3244032,
       "fileoff": 4080,
-      "filesize": 3241632,
+      "filesize": 3241648,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69952,9 +69952,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58135184,
+      "symoff": 58135192,
       "nsyms": 3692,
-      "stroff": 58223792,
+      "stroff": 58223800,
       "strsize": 133152,
       "fileoff": 4200
     },
@@ -69972,7 +69972,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58194256,
+      "indirectsymoff": 58194264,
       "nindirectsyms": 7384,
       "extreloff": 0,
       "nextrel": 0,
@@ -69998,7 +69998,7 @@
     },
     {
       "type": "main",
-      "entryoff": 31332,
+      "entryoff": 32036,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -70726,19 +70726,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 57854000,
+      "dataoff": 57854008,
       "datasize": 281184,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58135184,
+      "dataoff": 58135192,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 58356944,
+      "dataoff": 58356960,
       "datasize": 475600,
       "fileoff": 11696
     }

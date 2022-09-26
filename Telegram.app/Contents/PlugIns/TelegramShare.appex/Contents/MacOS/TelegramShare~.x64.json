@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 19741018,
+          "size": 19741146,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 233481,
+          "size": 233487,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -32701,7 +32701,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 209456,
+          "size": 209464,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
