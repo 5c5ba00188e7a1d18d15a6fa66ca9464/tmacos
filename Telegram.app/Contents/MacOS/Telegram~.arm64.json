@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44613768,
+          "size": 44615944,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -69936,7 +69936,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 604920,
+          "size": 605016,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69949,7 +69949,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 399824,
+          "size": 399880,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70010,7 +70010,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1781936,
+          "size": 1781968,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70391,7 +70391,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36324,
+      "entryoff": 34148,
       "stacksize": 0,
       "fileoff": 4408
     },
