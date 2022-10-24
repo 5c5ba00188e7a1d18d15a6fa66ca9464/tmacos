@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44613896,
+          "size": 44613768,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -69936,7 +69936,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 604816,
+          "size": 604920,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69949,7 +69949,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 399768,
+          "size": 399824,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70324,7 +70324,7 @@
       "vmaddr": 4353048576,
       "vmsize": 3293184,
       "fileoff": 4080,
-      "filesize": 3284752,
+      "filesize": 3284736,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70345,9 +70345,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58909168,
+      "symoff": 58909160,
       "nsyms": 3694,
-      "stroff": 58997968,
+      "stroff": 58997960,
       "strsize": 133320,
       "fileoff": 4200
     },
@@ -70365,7 +70365,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58968272,
+      "indirectsymoff": 58968264,
       "nindirectsyms": 7423,
       "extreloff": 0,
       "nextrel": 0,
@@ -70391,7 +70391,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36452,
+      "entryoff": 36324,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -71120,18 +71120,18 @@
     {
       "type": "function_starts",
       "dataoff": 58624192,
-      "datasize": 284976,
+      "datasize": 284968,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58909168,
+      "dataoff": 58909160,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 59131296,
+      "dataoff": 59131280,
       "datasize": 481648,
       "fileoff": 11696
     }
