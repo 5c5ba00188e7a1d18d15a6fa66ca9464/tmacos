@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 50987008,
+      "vmsize": 51003392,
       "fileoff": 104,
-      "filesize": 50987008,
+      "filesize": 51003392,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44620488,
+          "size": 44626376,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2024107,
+          "size": 2024363,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10662,7 +10662,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1436416,
+          "size": 1436384,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -36425,6 +36425,7 @@
             "_TtC8Telegram19ChatListHoleRowItem",
             "_TtC8Telegram19ChatListHoleRowView",
             "_TtC8Telegram19ChatListNothingItem",
+            "_TtC8Telegram19ChatPendingRequests",
             "_TtC8Telegram19ChatReactionsLayout",
             "_TtC8Telegram19ChatUrlPreviewModel",
             "_TtC8Telegram19ContextMediaRowItem",
@@ -37492,7 +37493,6 @@
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E418CSearchInteraction",
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E418ChatSponsoredModel",
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E419CSearchContextState",
-            "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E419ChatPendingRequests",
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E423FakeAudioLevelGenerator",
             "_TtC8TelegramP33_DCD204F1B3C5B894728DA1AF7F0DF78126ExternalVideoStatusContext",
             "_TtC8TelegramP33_DCFF16CB124922E56EA54E6819092F2C28ForumTopicEmojiSelectRowView",
@@ -58754,7 +58754,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 318557,
+          "size": 318565,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -69973,7 +69973,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345954304,
+      "vmaddr": 4345970688,
       "vmsize": 2031616,
       "fileoff": 2096,
       "filesize": 2031616,
@@ -70019,7 +70019,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1782176,
+          "size": 1782432,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70118,7 +70118,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4347985920,
+      "vmaddr": 4348002304,
       "vmsize": 5062656,
       "fileoff": 2888,
       "filesize": 3309568,
@@ -70153,7 +70153,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1075160,
+          "size": 1075256,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70237,7 +70237,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1379208,
+          "size": 1379224,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70250,7 +70250,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 765000,
+          "size": 765192,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70330,10 +70330,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4353048576,
+      "vmaddr": 4353064960,
       "vmsize": 3293184,
       "fileoff": 4080,
-      "filesize": 3285264,
+      "filesize": 3285424,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70354,9 +70354,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58909680,
+      "symoff": 58926104,
       "nsyms": 3694,
-      "stroff": 58998480,
+      "stroff": 59014904,
       "strsize": 133320,
       "fileoff": 4200
     },
@@ -70374,7 +70374,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58968784,
+      "indirectsymoff": 58985208,
       "nindirectsyms": 7423,
       "extreloff": 0,
       "nextrel": 0,
@@ -70400,7 +70400,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29092,
+      "entryoff": 39332,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -71128,20 +71128,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58624672,
-      "datasize": 285008,
+      "dataoff": 58641080,
+      "datasize": 285024,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58909680,
+      "dataoff": 58926104,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 59131808,
-      "datasize": 481648,
+      "dataoff": 59148224,
+      "datasize": 481776,
       "fileoff": 11696
     }
   ],

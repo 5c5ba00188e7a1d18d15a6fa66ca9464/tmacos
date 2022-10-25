@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52404661,
+          "size": 52412021,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2137005,
+          "size": 2137261,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10653,7 +10653,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1437641,
+          "size": 1437609,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -36324,6 +36324,7 @@
             "_TtC8Telegram19ChatListHoleRowItem",
             "_TtC8Telegram19ChatListHoleRowView",
             "_TtC8Telegram19ChatListNothingItem",
+            "_TtC8Telegram19ChatPendingRequests",
             "_TtC8Telegram19ChatReactionsLayout",
             "_TtC8Telegram19ChatUrlPreviewModel",
             "_TtC8Telegram19ContextMediaRowItem",
@@ -37391,7 +37392,6 @@
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E418CSearchInteraction",
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E418ChatSponsoredModel",
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E419CSearchContextState",
-            "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E419ChatPendingRequests",
             "_TtC8TelegramP33_DC106A3D6D4B3EF45EF7589A728A02E423FakeAudioLevelGenerator",
             "_TtC8TelegramP33_DCD204F1B3C5B894728DA1AF7F0DF78126ExternalVideoStatusContext",
             "_TtC8TelegramP33_DCFF16CB124922E56EA54E6819092F2C28ForumTopicEmojiSelectRowView",
@@ -58648,7 +58648,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 318547,
+          "size": 318555,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -69839,7 +69839,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 531960,
+          "size": 532012,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69941,7 +69941,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1762736,
+          "size": 1762992,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70038,7 +70038,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1232456,
+          "size": 1232552,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70122,7 +70122,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1532680,
+          "size": 1532696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70135,7 +70135,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 768645,
+          "size": 768837,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70244,7 +70244,7 @@
       "vmaddr": 4360732672,
       "vmsize": 3555328,
       "fileoff": 4168,
-      "filesize": 3544368,
+      "filesize": 3544432,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70265,9 +70265,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 66749648,
+      "symoff": 66749704,
       "nsyms": 4338,
-      "stroff": 66854024,
+      "stroff": 66854080,
       "strsize": 175672,
       "fileoff": 4288
     },
@@ -70285,7 +70285,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66819056,
+      "indirectsymoff": 66819112,
       "nindirectsyms": 8741,
       "extreloff": 0,
       "nextrel": 0,
@@ -70314,7 +70314,7 @@
     },
     {
       "type": "main",
-      "entryoff": 39168,
+      "entryoff": 31552,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -71042,19 +71042,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66432808,
-      "datasize": 292464,
+      "dataoff": 66432840,
+      "datasize": 292488,
       "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 66725272,
+      "dataoff": 66725328,
       "datasize": 24376,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 67029696,
+      "dataoff": 67029760,
       "datasize": 543344,
       "fileoff": 11528
     }
