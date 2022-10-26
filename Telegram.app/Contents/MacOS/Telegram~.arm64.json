@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44629320,
+          "size": 44629256,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -49824,7 +49824,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221025)",
+            "mozjpeg version 4.0.0 (build 20221026)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -69945,7 +69945,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605104,
+          "size": 605092,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70354,9 +70354,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58926120,
+      "symoff": 58926112,
       "nsyms": 3694,
-      "stroff": 59014920,
+      "stroff": 59014912,
       "strsize": 133320,
       "fileoff": 4200
     },
@@ -70374,7 +70374,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58985224,
+      "indirectsymoff": 58985216,
       "nindirectsyms": 7423,
       "extreloff": 0,
       "nextrel": 0,
@@ -70400,7 +70400,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36388,
+      "entryoff": 36452,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -71129,12 +71129,12 @@
     {
       "type": "function_starts",
       "dataoff": 58641088,
-      "datasize": 285032,
+      "datasize": 285024,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58926120,
+      "dataoff": 58926112,
       "datasize": 0,
       "fileoff": 11680
     },
