@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20274074,
+          "size": 20274234,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564709,
+          "size": 564613,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2655,8 +2655,6 @@
             "Chat.Service.Group.TookScreenshot",
             "Chat.Service.Group.TopicCreated",
             "Chat.Service.Group.TopicCreated.Icon",
-            "Chat.Service.Group.TopicCreated.You",
-            "Chat.Service.Group.TopicCreated.You.Icon",
             "Chat.Service.Group.TopicEdited.Icon",
             "Chat.Service.Group.TopicEdited.Icon.Removed",
             "Chat.Service.Group.TopicEdited.Mixed",
@@ -16154,7 +16152,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221026)",
+            "mozjpeg version 4.0.0 (build 20221027)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -29802,7 +29800,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68284,
+          "size": 68299,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31005,6 +31003,7 @@
             "deleteBackward:",
             "deliverOn:",
             "delivered",
+            "deminiaturize:",
             "dependsOnPasswordEntry",
             "description",
             "destinationOfSymbolicLinkAtPath:error:",
@@ -33094,7 +33093,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 215348,
+          "size": 215352,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33291,7 +33290,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 14112,
+          "size": 14120,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33362,7 +33361,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 246872,
+          "size": 246896,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33458,7 +33457,7 @@
       "vmaddr": 4320247808,
       "vmsize": 2424832,
       "fileoff": 3688,
-      "filesize": 2424800,
+      "filesize": 2424752,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33479,9 +33478,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 26830184,
+      "symoff": 26830136,
       "nsyms": 6299,
-      "stroff": 26951024,
+      "stroff": 26950976,
       "strsize": 146280,
       "fileoff": 3808
     },
@@ -33499,7 +33498,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 26930968,
+      "indirectsymoff": 26930920,
       "nindirectsyms": 5014,
       "extreloff": 0,
       "nextrel": 0,
@@ -33528,7 +33527,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20300130,
+      "entryoff": 20300226,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -33901,19 +33900,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 26676136,
+      "dataoff": 26676088,
       "datasize": 141584,
       "fileoff": 7336
     },
     {
       "type": "data_in_code",
-      "dataoff": 26817720,
+      "dataoff": 26817672,
       "datasize": 12464,
       "fileoff": 7352
     },
     {
       "type": "code_signature",
-      "dataoff": 27097312,
+      "dataoff": 27097264,
       "datasize": 231168,
       "fileoff": 7368
     }
