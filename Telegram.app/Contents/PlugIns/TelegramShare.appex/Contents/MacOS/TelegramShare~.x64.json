@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20274234,
+          "size": 20273434,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -29800,7 +29800,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68299,
+          "size": 68294,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -32617,7 +32617,6 @@
             "threadImpl",
             "tick",
             "tick:",
-            "tile",
             "timeFixAbsoluteStartTime",
             "timeFixOrSaltsMissing",
             "timeIntervalSince1970",
@@ -33290,7 +33289,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 14120,
+          "size": 14112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,

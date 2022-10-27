@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52418645,
+          "size": 52417877,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228939,
+          "size": 228934,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -9103,7 +9103,6 @@
             "ticketKeyHash",
             "ticketKeys",
             "tickets",
-            "tile",
             "timeControlStatus",
             "timeFixAbsoluteStartTime",
             "timeFixOrSaltsMissing",
@@ -70050,7 +70049,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 41648,
+          "size": 41640,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70313,7 +70312,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40800,
+      "entryoff": 41568,
       "stacksize": 0,
       "fileoff": 4480
     },
