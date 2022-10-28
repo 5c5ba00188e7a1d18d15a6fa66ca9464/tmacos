@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 22986752,
+      "vmsize": 22970368,
       "fileoff": 104,
-      "filesize": 22986752,
+      "filesize": 22970368,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20273434,
+          "size": 20271290,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564613,
+          "size": 564677,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -8232,6 +8232,7 @@
             "URI",
             "URI:",
             "USE TEMP B-TREE FOR %s",
+            "USERNAMES_ACTIVE_TOO_MUCH",
             "USERNOTICE",
             "USERPIC_PRIVACY_REQUIRED",
             "USER_BANNED_IN_CHANNEL",
@@ -16152,7 +16153,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221027)",
+            "mozjpeg version 4.0.0 (build 20221028)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -16850,6 +16851,7 @@
             "peerNameTokenIndexTable",
             "peerNamespacesRequiringMessageTextIndex",
             "peerNextMessageIdByNamespace",
+            "peerNotificationSettings",
             "peerNotificationSettingsBehaviorIndexTable",
             "peerNotificationSettingsBehaviorTable",
             "peerNotificationSettingsTable",
@@ -19759,7 +19761,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 240261,
+          "size": 240313,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -19772,7 +19774,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 170351,
+          "size": 170399,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -26785,6 +26787,7 @@
             "peerNextMessageIdByNamespace",
             "peerNotificationSettings",
             "peerNotificationSettings",
+            "peerNotificationSettings",
             "peerNotificationSettingsBehaviorIndexTable",
             "peerNotificationSettingsBehaviorTable",
             "peerNotificationSettingsBehaviorTimestampView",
@@ -29735,7 +29738,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 182228,
+          "size": 182252,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -32782,7 +32785,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 193124,
+          "size": 193008,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33092,7 +33095,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 215352,
+          "size": 215336,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33120,7 +33123,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4317954048,
+      "vmaddr": 4317937664,
       "vmsize": 2293760,
       "fileoff": 1776,
       "filesize": 1916928,
@@ -33155,7 +33158,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 19848,
+          "size": 19840,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33194,7 +33197,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 870048,
+          "size": 869920,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -33276,7 +33279,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 432296,
+          "size": 432360,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33453,10 +33456,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4320247808,
+      "vmaddr": 4320231424,
       "vmsize": 2424832,
       "fileoff": 3688,
-      "filesize": 2424752,
+      "filesize": 2424704,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33477,9 +33480,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 26830136,
+      "symoff": 26813840,
       "nsyms": 6299,
-      "stroff": 26950976,
+      "stroff": 26934680,
       "strsize": 146280,
       "fileoff": 3808
     },
@@ -33497,8 +33500,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 26930920,
-      "nindirectsyms": 5014,
+      "indirectsymoff": 26914624,
+      "nindirectsyms": 5013,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -33526,7 +33529,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20300226,
+      "entryoff": 20283778,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -33899,20 +33902,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 26676088,
-      "datasize": 141584,
+      "dataoff": 26659800,
+      "datasize": 141576,
       "fileoff": 7336
     },
     {
       "type": "data_in_code",
-      "dataoff": 26817672,
+      "dataoff": 26801376,
       "datasize": 12464,
       "fileoff": 7352
     },
     {
       "type": "code_signature",
-      "dataoff": 27097264,
-      "datasize": 231168,
+      "dataoff": 27080960,
+      "datasize": 231040,
       "fileoff": 7368
     }
   ],
