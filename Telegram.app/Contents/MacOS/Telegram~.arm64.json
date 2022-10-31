@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44634952,
+          "size": 44635464,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -49825,7 +49825,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221030)",
+            "mozjpeg version 4.0.0 (build 20221031)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -70335,7 +70335,7 @@
       "vmaddr": 4353064960,
       "vmsize": 3293184,
       "fileoff": 4080,
-      "filesize": 3285728,
+      "filesize": 3285712,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70356,9 +70356,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58926344,
+      "symoff": 58926336,
       "nsyms": 3695,
-      "stroff": 59015160,
+      "stroff": 59015152,
       "strsize": 133360,
       "fileoff": 4200
     },
@@ -70376,7 +70376,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58985464,
+      "indirectsymoff": 58985456,
       "nindirectsyms": 7424,
       "extreloff": 0,
       "nextrel": 0,
@@ -70402,7 +70402,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29668,
+      "entryoff": 29156,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -71130,19 +71130,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58641224,
+      "dataoff": 58641216,
       "datasize": 285120,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 58926344,
+      "dataoff": 58926336,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 59148528,
+      "dataoff": 59148512,
       "datasize": 481776,
       "fileoff": 11696
     }
