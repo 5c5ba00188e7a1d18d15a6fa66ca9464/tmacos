@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 17487004,
+          "size": 17485532,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 753384,
+          "size": 753288,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 563989,
+          "size": 563941,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11178,7 +11178,6 @@
             "archiveCutoff",
             "archivedPacks",
             "archivedStickers",
-            "areSuspended",
             "arg2 lt arg3",
             "argument of ntile must be a positive integer",
             "argument out of range",
@@ -15181,7 +15180,6 @@
             "is",
             "is not a",
             "isAddedToChatList",
-            "isAlreadyEnqued",
             "isAnimating",
             "isBigEmoji",
             "isBlocked",
@@ -16164,7 +16162,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221031)",
+            "mozjpeg version 4.0.0 (build 20221101)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -17361,7 +17359,6 @@
             "queuedInternalTransactions",
             "queuedRequests",
             "queuedSignals",
-            "queuedTransitions",
             "queuedValues",
             "queues",
             "quick_check",
@@ -19766,7 +19763,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 240293,
+          "size": 240269,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -19779,7 +19776,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 170399,
+          "size": 170351,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -21647,7 +21644,6 @@
             "archived",
             "archivedPacks",
             "archivedStickers",
-            "areSuspended",
             "around",
             "aroundAnimation",
             "aroundId",
@@ -24949,7 +24945,6 @@
             "ipv6",
             "irrelevantLocation",
             "isAddedToChatList",
-            "isAlreadyEnqued",
             "isAnimating",
             "isBigEmoji",
             "isBlocked",
@@ -27313,7 +27308,6 @@
             "queuedInternalTransactions",
             "queuedRequests",
             "queuedSignals",
-            "queuedTransitions",
             "queuedValues",
             "queues",
             "quickReaction",
@@ -29743,7 +29737,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 182252,
+          "size": 182216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -29808,7 +29802,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68299,
+          "size": 68338,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31879,6 +31873,7 @@
             "registerForDraggedTypes:",
             "release",
             "reloadData",
+            "reloadDataForRowIndexes:columnIndexes:",
             "remainingTime",
             "remove",
             "remove:",
@@ -33101,7 +33096,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 243140,
+          "size": 243144,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33281,7 +33276,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 390176,
+          "size": 390080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33294,7 +33289,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 16616,
+          "size": 16624,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33365,7 +33360,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 218416,
+          "size": 218192,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33378,7 +33373,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 278592,
+          "size": 278560,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33435,7 +33430,7 @@
       "vmaddr": 4317396992,
       "vmsize": 2408448,
       "fileoff": 3520,
-      "filesize": 2400656,
+      "filesize": 2400096,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33456,9 +33451,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 23981072,
+      "symoff": 23980536,
       "nsyms": 6280,
-      "stroff": 24099168,
+      "stroff": 24098632,
       "strsize": 145456,
       "fileoff": 3640
     },
@@ -33476,7 +33471,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24081552,
+      "indirectsymoff": 24081016,
       "nindirectsyms": 4404,
       "extreloff": 0,
       "nextrel": 0,
@@ -33502,7 +33497,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17508812,
+      "entryoff": 17509004,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -33875,20 +33870,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 23840560,
-      "datasize": 140512,
+      "dataoff": 23840032,
+      "datasize": 140504,
       "fileoff": 7360
     },
     {
       "type": "data_in_code",
-      "dataoff": 23981072,
+      "dataoff": 23980536,
       "datasize": 0,
       "fileoff": 7376
     },
     {
       "type": "code_signature",
-      "dataoff": 24244624,
-      "datasize": 208896,
+      "dataoff": 24244096,
+      "datasize": 208864,
       "fileoff": 7392
     }
   ],
