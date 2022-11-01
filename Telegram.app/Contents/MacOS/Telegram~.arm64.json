@@ -8,7 +8,7 @@
   },
   "filetype": "execute",
   "ncmds": 107,
-  "sizeofcmds": 11680,
+  "sizeofcmds": 11600,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 51003392,
+      "vmsize": 51019776,
       "fileoff": 104,
-      "filesize": 51003392,
+      "filesize": 51019776,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44633800,
+          "size": 44649416,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 377200,
+          "size": 377208,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2024875,
+          "size": 2025131,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228942,
+          "size": 228947,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -5412,7 +5412,7 @@
             "initWithValidSince:validUntil:salt:",
             "initWithValue:",
             "initWithVersion:filename:",
-            "initWithVersion:queue:proxy:networkType:dataSaving:derivedState:key:isOutgoing:connections:maxLayer:allowP2P:allowTCP:enableStunMarking:logPath:statsLogPath:sendSignalingData:videoCapturer:preferredVideoCodec:audioInputDeviceId:",
+            "initWithVersion:queue:proxy:networkType:dataSaving:derivedState:key:isOutgoing:connections:maxLayer:allowP2P:allowTCP:enableStunMarking:logPath:statsLogPath:sendSignalingData:videoCapturer:preferredVideoCodec:inputDeviceId:outputDeviceId:",
             "initWithVertexShader:fragmentShader:attributes:uniforms:",
             "initWithVideoIdentifier:languageIdentifier:",
             "initWithVideoIdentifier:referer:",
@@ -5766,7 +5766,6 @@
             "liveUpdatePackageHash",
             "liveUpdateReleaseLabel",
             "livemode",
-            "load",
             "loadAssets",
             "loadDataForPathComponent:",
             "loadHTMLString:baseURL:",
@@ -10651,7 +10650,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 75065,
+          "size": 75069,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -10664,7 +10663,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1436592,
+          "size": 1436736,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15509,7 +15508,6 @@
             "3(?:[1245]|3(?:[02-9]|1[0-589]))",
             "3.0",
             "3.0(back)",
-            "3.0.0",
             "3.1",
             "30",
             "30(?:24|3[12]|4[1-35-7]|5[13]|6[189]|[78]1|9[1478])\\d{4}",
@@ -37665,6 +37663,7 @@
             "_TtCC7Postbox22_AdaptedPostboxEncoder20SingleValueContainer",
             "_TtCC7Postbox26EngineMessageHistoryThread4Item",
             "_TtCC7Postbox36MutableMessageHistoryThreadIndexView4Item",
+            "_TtCC7Postbox7Message20AssociatedThreadInfo",
             "_TtCC7TGUIKit14BackgroundViewP33_E8AD138F27BBA84A7810889E24F0CFF811TileControl",
             "_TtCC7TGUIKit14TextViewLayout12EmbeddedItem",
             "_TtCC7TGUIKit14TextViewLayout7Spoiler",
@@ -40030,6 +40029,7 @@
             "associatedPeer",
             "associatedPeerId",
             "associatedPeerIds",
+            "associatedThreadInfo",
             "assume_shared_link",
             "asv1",
             "asv2",
@@ -43183,6 +43183,7 @@
             "decode at 1= 1/2, 2=1/4, 3=1/8 resolutions",
             "decode atomic state error: ",
             "decode error",
+            "decodeMessageThreadInfo",
             "decode_band_types: Input buffer exhausted before END element found\n",
             "decode_fps: ",
             "decode_frame() failed\n",
@@ -58257,6 +58258,7 @@
             "while ",
             "whirlpool",
             "white",
+            "whitelisted_domains",
             "whsxga",
             "whuxga",
             "wide left",
@@ -58754,7 +58756,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 318633,
+          "size": 319151,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58780,7 +58782,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 20852,
+          "size": 20856,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58793,7 +58795,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 21428,
+          "size": 21436,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58819,7 +58821,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 189460,
+          "size": 189540,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -60747,6 +60749,7 @@
             "associatedPeerId",
             "associatedPeerIds",
             "associatedPeerIds",
+            "associatedThreadInfo",
             "asu",
             "asuTanzania",
             "atomicCurrentNetworkType",
@@ -62132,6 +62135,7 @@
             "decimalDigits",
             "decimalSeparator",
             "declined",
+            "decodeMessageThreadInfo",
             "decoder",
             "decryptedMessage",
             "decryptedMessage",
@@ -63649,6 +63653,7 @@
             "hasUnseenMentions",
             "hasUnseenReactions",
             "hasUserInitiatedEntriesValue",
+            "hasVideo",
             "hash",
             "hash",
             "hash",
@@ -63801,6 +63806,8 @@
             "icon",
             "icon",
             "icon",
+            "icon",
+            "iconColor",
             "iconColor",
             "iconColor",
             "iconFileId",
@@ -68829,6 +68836,7 @@
             "title",
             "title",
             "title",
+            "title",
             "titleFont",
             "titleImage",
             "titleLabel",
@@ -69865,7 +69873,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196484,
+          "size": 196584,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69917,7 +69925,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 197072,
+          "size": 197192,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69943,7 +69951,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605312,
+          "size": 605716,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69956,7 +69964,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 399888,
+          "size": 399976,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -69971,7 +69979,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4345970688,
+      "vmaddr": 4345987072,
       "vmsize": 2031616,
       "fileoff": 2096,
       "filesize": 2031616,
@@ -69985,13 +69993,13 @@
         "write": true,
         "exec": false
       },
-      "nsects": 9,
+      "nsects": 8,
       "flags": {},
       "sections": [
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 25360,
+          "size": 25376,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70017,7 +70025,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1783168,
+          "size": 1782752,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70043,22 +70051,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 25760,
-          "align": 3,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "regular",
-          "attributes": {
-            "usr": {
-              "no_dead_strip": true
-            },
-            "sys": {}
-          }
-        },
-        {
-          "sectname": "__objc_nlclslist",
-          "segname": "__DATA_CONST",
-          "size": 32,
+          "size": 25768,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70116,9 +70109,9 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4348002304,
+      "vmaddr": 4348018688,
       "vmsize": 5062656,
-      "fileoff": 2888,
+      "fileoff": 2808,
       "filesize": 3309568,
       "maxprot": {
         "read": true,
@@ -70151,7 +70144,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1075384,
+          "size": 1075760,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70164,7 +70157,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 50648,
+          "size": 50640,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70235,7 +70228,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1378968,
+          "size": 1378976,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70248,7 +70241,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 765320,
+          "size": 765416,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70300,7 +70293,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1076256,
+          "size": 1076384,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70328,10 +70321,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4353064960,
+      "vmaddr": 4353081344,
       "vmsize": 3293184,
-      "fileoff": 4080,
-      "filesize": 3285184,
+      "fileoff": 4000,
+      "filesize": 3286672,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70348,15 +70341,15 @@
     },
     {
       "type": "dyld_info",
-      "fileoff": 4152
+      "fileoff": 4072
     },
     {
       "type": "symtab",
-      "symoff": 58925800,
+      "symoff": 58943544,
       "nsyms": 3695,
-      "stroff": 59014616,
+      "stroff": 59032368,
       "strsize": 133360,
-      "fileoff": 4200
+      "fileoff": 4120
     },
     {
       "type": "dysymtab",
@@ -70372,35 +70365,35 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 58984920,
-      "nindirectsyms": 7424,
+      "indirectsymoff": 59002664,
+      "nindirectsyms": 7426,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 4224
+      "fileoff": 4144
     },
     {
       "type": "load_dylinker",
       "cmd": "/usr/lib/dyld",
-      "fileoff": 4304
+      "fileoff": 4224
     },
     {
       "type": "uuid",
-      "fileoff": 4336
+      "fileoff": 4256
     },
     {
-      "fileoff": 4360
+      "fileoff": 4280
     },
     {
       "type": "source_version",
-      "fileoff": 4392
+      "fileoff": 4312
     },
     {
       "type": "main",
-      "entryoff": 31068,
+      "entryoff": 30044,
       "stacksize": 0,
-      "fileoff": 4408
+      "fileoff": 4328
     },
     {
       "type": "load_dylib",
@@ -70408,7 +70401,7 @@
       "timestamp": 2,
       "current_version": 78643968,
       "compatibility_version": 65536,
-      "fileoff": 4432
+      "fileoff": 4352
     },
     {
       "type": "load_dylib",
@@ -70416,7 +70409,7 @@
       "timestamp": 2,
       "current_version": 37225728,
       "compatibility_version": 65536,
-      "fileoff": 4480
+      "fileoff": 4400
     },
     {
       "type": "load_dylib",
@@ -70424,7 +70417,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 0,
-      "fileoff": 4576
+      "fileoff": 4496
     },
     {
       "type": "load_dylib",
@@ -70432,7 +70425,7 @@
       "timestamp": 2,
       "current_version": 10813440,
       "compatibility_version": 131072,
-      "fileoff": 4672
+      "fileoff": 4592
     },
     {
       "type": "load_dylib",
@@ -70440,7 +70433,7 @@
       "timestamp": 2,
       "current_version": 40108317,
       "compatibility_version": 65536,
-      "fileoff": 4760
+      "fileoff": 4680
     },
     {
       "type": "load_dylib",
@@ -70448,7 +70441,7 @@
       "timestamp": 2,
       "current_version": 65544,
       "compatibility_version": 65536,
-      "fileoff": 4848
+      "fileoff": 4768
     },
     {
       "type": "load_dylib",
@@ -70456,7 +70449,7 @@
       "timestamp": 2,
       "current_version": 9895936,
       "compatibility_version": 65536,
-      "fileoff": 4904
+      "fileoff": 4824
     },
     {
       "type": "load_dylib",
@@ -70464,7 +70457,7 @@
       "timestamp": 2,
       "current_version": 16848896,
       "compatibility_version": 65536,
-      "fileoff": 5000
+      "fileoff": 4920
     },
     {
       "type": "load_weak_dylib",
@@ -70472,7 +70465,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5088
+      "fileoff": 5008
     },
     {
       "type": "load_weak_dylib",
@@ -70480,7 +70473,7 @@
       "timestamp": 2,
       "current_version": 70912,
       "compatibility_version": 67072,
-      "fileoff": 5192
+      "fileoff": 5112
     },
     {
       "type": "load_dylib",
@@ -70488,7 +70481,7 @@
       "timestamp": 2,
       "current_version": 231538688,
       "compatibility_version": 0,
-      "fileoff": 5264
+      "fileoff": 5184
     },
     {
       "type": "load_dylib",
@@ -70496,7 +70489,7 @@
       "timestamp": 2,
       "current_version": 68352,
       "compatibility_version": 66048,
-      "fileoff": 5360
+      "fileoff": 5280
     },
     {
       "type": "load_dylib",
@@ -70504,7 +70497,7 @@
       "timestamp": 2,
       "current_version": 3942456845,
       "compatibility_version": 65536,
-      "fileoff": 5456
+      "fileoff": 5376
     },
     {
       "type": "load_dylib",
@@ -70512,7 +70505,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5552
+      "fileoff": 5472
     },
     {
       "type": "load_dylib",
@@ -70520,7 +70513,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 5656
+      "fileoff": 5576
     },
     {
       "type": "load_dylib",
@@ -70528,7 +70521,7 @@
       "timestamp": 2,
       "current_version": 66059,
       "compatibility_version": 65536,
-      "fileoff": 5752
+      "fileoff": 5672
     },
     {
       "type": "load_dylib",
@@ -70536,7 +70529,7 @@
       "timestamp": 2,
       "current_version": 458752,
       "compatibility_version": 458752,
-      "fileoff": 5800
+      "fileoff": 5720
     },
     {
       "type": "load_dylib",
@@ -70544,7 +70537,7 @@
       "timestamp": 2,
       "current_version": 137825546,
       "compatibility_version": 2949120,
-      "fileoff": 5856
+      "fileoff": 5776
     },
     {
       "type": "load_dylib",
@@ -70552,7 +70545,7 @@
       "timestamp": 2,
       "current_version": 64495106,
       "compatibility_version": 65536,
-      "fileoff": 5944
+      "fileoff": 5864
     },
     {
       "type": "load_dylib",
@@ -70560,7 +70553,7 @@
       "timestamp": 2,
       "current_version": 74776832,
       "compatibility_version": 65536,
-      "fileoff": 6056
+      "fileoff": 5976
     },
     {
       "type": "load_dylib",
@@ -70568,7 +70561,7 @@
       "timestamp": 2,
       "current_version": 66816,
       "compatibility_version": 66048,
-      "fileoff": 6160
+      "fileoff": 6080
     },
     {
       "type": "load_dylib",
@@ -70576,7 +70569,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6256
+      "fileoff": 6176
     },
     {
       "type": "load_dylib",
@@ -70584,7 +70577,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6352
+      "fileoff": 6272
     },
     {
       "type": "load_dylib",
@@ -70592,7 +70585,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 6440
+      "fileoff": 6360
     },
     {
       "type": "load_dylib",
@@ -70600,7 +70593,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 6528
+      "fileoff": 6448
     },
     {
       "type": "load_dylib",
@@ -70608,7 +70601,7 @@
       "timestamp": 2,
       "current_version": 40108317,
       "compatibility_version": 65536,
-      "fileoff": 6624
+      "fileoff": 6544
     },
     {
       "type": "load_dylib",
@@ -70616,7 +70609,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 6728
+      "fileoff": 6648
     },
     {
       "type": "load_dylib",
@@ -70624,7 +70617,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6816
+      "fileoff": 6736
     },
     {
       "type": "load_dylib",
@@ -70632,7 +70625,7 @@
       "timestamp": 2,
       "current_version": 121438208,
       "compatibility_version": 19660800,
-      "fileoff": 6904
+      "fileoff": 6824
     },
     {
       "type": "load_dylib",
@@ -70640,7 +70633,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 7000
+      "fileoff": 6920
     },
     {
       "type": "load_dylib",
@@ -70648,7 +70641,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 7104
+      "fileoff": 7024
     },
     {
       "type": "load_dylib",
@@ -70656,7 +70649,7 @@
       "timestamp": 2,
       "current_version": 85917696,
       "compatibility_version": 65536,
-      "fileoff": 7160
+      "fileoff": 7080
     },
     {
       "type": "load_dylib",
@@ -70664,7 +70657,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7216
+      "fileoff": 7136
     },
     {
       "type": "load_dylib",
@@ -70672,7 +70665,7 @@
       "timestamp": 2,
       "current_version": 3670016,
       "compatibility_version": 65536,
-      "fileoff": 7304
+      "fileoff": 7224
     },
     {
       "type": "load_dylib",
@@ -70680,7 +70673,7 @@
       "timestamp": 2,
       "current_version": 65536000,
       "compatibility_version": 65536,
-      "fileoff": 7416
+      "fileoff": 7336
     },
     {
       "type": "load_dylib",
@@ -70688,7 +70681,7 @@
       "timestamp": 2,
       "current_version": 86704128,
       "compatibility_version": 65536,
-      "fileoff": 7520
+      "fileoff": 7440
     },
     {
       "type": "load_dylib",
@@ -70696,7 +70689,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7616
+      "fileoff": 7536
     },
     {
       "type": "load_dylib",
@@ -70704,7 +70697,7 @@
       "timestamp": 2,
       "current_version": 121438208,
       "compatibility_version": 9830400,
-      "fileoff": 7712
+      "fileoff": 7632
     },
     {
       "type": "load_dylib",
@@ -70712,7 +70705,7 @@
       "timestamp": 2,
       "current_version": 102039809,
       "compatibility_version": 4194304,
-      "fileoff": 7816
+      "fileoff": 7736
     },
     {
       "type": "load_dylib",
@@ -70720,7 +70713,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65537,
-      "fileoff": 7920
+      "fileoff": 7840
     },
     {
       "type": "load_dylib",
@@ -70728,7 +70721,7 @@
       "timestamp": 2,
       "current_version": 174523140,
       "compatibility_version": 65536,
-      "fileoff": 8016
+      "fileoff": 7936
     },
     {
       "type": "load_dylib",
@@ -70736,7 +70729,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8120
+      "fileoff": 8040
     },
     {
       "type": "load_dylib",
@@ -70744,7 +70737,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8216
+      "fileoff": 8136
     },
     {
       "type": "load_dylib",
@@ -70752,7 +70745,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8312
+      "fileoff": 8232
     },
     {
       "type": "load_weak_dylib",
@@ -70760,7 +70753,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8400
+      "fileoff": 8320
     },
     {
       "type": "load_weak_dylib",
@@ -70768,7 +70761,7 @@
       "timestamp": 2,
       "current_version": 6553600,
       "compatibility_version": 65536,
-      "fileoff": 8496
+      "fileoff": 8416
     },
     {
       "type": "load_weak_dylib",
@@ -70776,7 +70769,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8600
+      "fileoff": 8520
     },
     {
       "type": "load_dylib",
@@ -70784,7 +70777,7 @@
       "timestamp": 2,
       "current_version": 24838144,
       "compatibility_version": 65536,
-      "fileoff": 8688
+      "fileoff": 8608
     },
     {
       "type": "load_dylib",
@@ -70792,7 +70785,7 @@
       "timestamp": 2,
       "current_version": 76226054,
       "compatibility_version": 65536,
-      "fileoff": 8784
+      "fileoff": 8704
     },
     {
       "type": "load_weak_dylib",
@@ -70800,7 +70793,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8896
+      "fileoff": 8816
     },
     {
       "type": "load_weak_dylib",
@@ -70808,7 +70801,7 @@
       "timestamp": 2,
       "current_version": 327729,
       "compatibility_version": 65536,
-      "fileoff": 9008
+      "fileoff": 8928
     },
     {
       "type": "load_dylib",
@@ -70816,7 +70809,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9096
+      "fileoff": 9016
     },
     {
       "type": "load_weak_dylib",
@@ -70824,7 +70817,7 @@
       "timestamp": 2,
       "current_version": 133438977,
       "compatibility_version": 65536,
-      "fileoff": 9152
+      "fileoff": 9072
     },
     {
       "type": "load_weak_dylib",
@@ -70832,7 +70825,7 @@
       "timestamp": 2,
       "current_version": 1769472,
       "compatibility_version": 65536,
-      "fileoff": 9224
+      "fileoff": 9144
     },
     {
       "type": "load_dylib",
@@ -70840,7 +70833,7 @@
       "timestamp": 2,
       "current_version": 7143424,
       "compatibility_version": 65536,
-      "fileoff": 9288
+      "fileoff": 9208
     },
     {
       "type": "load_weak_dylib",
@@ -70848,7 +70841,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 9352
+      "fileoff": 9272
     },
     {
       "type": "load_weak_dylib",
@@ -70856,7 +70849,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9424
+      "fileoff": 9344
     },
     {
       "type": "load_dylib",
@@ -70864,7 +70857,7 @@
       "timestamp": 2,
       "current_version": 85196829,
       "compatibility_version": 65536,
-      "fileoff": 9488
+      "fileoff": 9408
     },
     {
       "type": "load_dylib",
@@ -70872,7 +70865,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 9552
+      "fileoff": 9472
     },
     {
       "type": "load_weak_dylib",
@@ -70880,7 +70873,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 9616
+      "fileoff": 9536
     },
     {
       "type": "load_dylib",
@@ -70888,7 +70881,7 @@
       "timestamp": 2,
       "current_version": 917504,
       "compatibility_version": 65536,
-      "fileoff": 9680
+      "fileoff": 9600
     },
     {
       "type": "load_dylib",
@@ -70896,7 +70889,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 9752
+      "fileoff": 9672
     },
     {
       "type": "load_weak_dylib",
@@ -70904,7 +70897,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 9824
+      "fileoff": 9744
     },
     {
       "type": "load_weak_dylib",
@@ -70912,7 +70905,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 9888
+      "fileoff": 9808
     },
     {
       "type": "load_weak_dylib",
@@ -70920,7 +70913,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 9960
+      "fileoff": 9880
     },
     {
       "type": "load_weak_dylib",
@@ -70928,7 +70921,7 @@
       "timestamp": 2,
       "current_version": 73735687,
       "compatibility_version": 65536,
-      "fileoff": 10024
+      "fileoff": 9944
     },
     {
       "type": "load_dylib",
@@ -70936,7 +70929,7 @@
       "timestamp": 2,
       "current_version": 189799937,
       "compatibility_version": 65536,
-      "fileoff": 10088
+      "fileoff": 10008
     },
     {
       "type": "load_dylib",
@@ -70944,7 +70937,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10152
+      "fileoff": 10072
     },
     {
       "type": "load_dylib",
@@ -70952,7 +70945,7 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 10216
+      "fileoff": 10136
     },
     {
       "type": "load_dylib",
@@ -70960,7 +70953,7 @@
       "timestamp": 2,
       "current_version": 4521984,
       "compatibility_version": 65536,
-      "fileoff": 10280
+      "fileoff": 10200
     },
     {
       "type": "load_weak_dylib",
@@ -70968,7 +70961,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 10344
+      "fileoff": 10264
     },
     {
       "type": "load_weak_dylib",
@@ -70976,7 +70969,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10408
+      "fileoff": 10328
     },
     {
       "type": "load_weak_dylib",
@@ -70984,7 +70977,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10472
+      "fileoff": 10392
     },
     {
       "type": "load_weak_dylib",
@@ -70992,7 +70985,7 @@
       "timestamp": 2,
       "current_version": 16848896,
       "compatibility_version": 65536,
-      "fileoff": 10536
+      "fileoff": 10456
     },
     {
       "type": "load_weak_dylib",
@@ -71000,7 +70993,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 10600
+      "fileoff": 10520
     },
     {
       "type": "load_weak_dylib",
@@ -71008,7 +71001,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10664
+      "fileoff": 10584
     },
     {
       "type": "load_weak_dylib",
@@ -71016,7 +71009,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10728
+      "fileoff": 10648
     },
     {
       "type": "load_weak_dylib",
@@ -71024,7 +71017,7 @@
       "timestamp": 2,
       "current_version": 179314197,
       "compatibility_version": 65536,
-      "fileoff": 10800
+      "fileoff": 10720
     },
     {
       "type": "load_dylib",
@@ -71032,7 +71025,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10864
+      "fileoff": 10784
     },
     {
       "type": "load_weak_dylib",
@@ -71040,7 +71033,7 @@
       "timestamp": 2,
       "current_version": 98566443,
       "compatibility_version": 65536,
-      "fileoff": 10928
+      "fileoff": 10848
     },
     {
       "type": "load_dylib",
@@ -71048,7 +71041,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10992
+      "fileoff": 10912
     },
     {
       "type": "load_weak_dylib",
@@ -71056,7 +71049,7 @@
       "timestamp": 2,
       "current_version": 62128128,
       "compatibility_version": 65536,
-      "fileoff": 11056
+      "fileoff": 10976
     },
     {
       "type": "load_dylib",
@@ -71064,7 +71057,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11128
+      "fileoff": 11048
     },
     {
       "type": "load_weak_dylib",
@@ -71072,7 +71065,7 @@
       "timestamp": 2,
       "current_version": 47251456,
       "compatibility_version": 65536,
-      "fileoff": 11192
+      "fileoff": 11112
     },
     {
       "type": "load_weak_dylib",
@@ -71080,7 +71073,7 @@
       "timestamp": 2,
       "current_version": 131329,
       "compatibility_version": 65536,
-      "fileoff": 11272
+      "fileoff": 11192
     },
     {
       "type": "load_weak_dylib",
@@ -71088,7 +71081,7 @@
       "timestamp": 2,
       "current_version": 40108317,
       "compatibility_version": 65536,
-      "fileoff": 11336
+      "fileoff": 11256
     },
     {
       "type": "load_weak_dylib",
@@ -71096,7 +71089,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 11400
+      "fileoff": 11320
     },
     {
       "type": "load_weak_dylib",
@@ -71104,7 +71097,7 @@
       "timestamp": 2,
       "current_version": 66912256,
       "compatibility_version": 65536,
-      "fileoff": 11464
+      "fileoff": 11384
     },
     {
       "type": "load_weak_dylib",
@@ -71112,35 +71105,35 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 11520
+      "fileoff": 11440
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 11584
+      "fileoff": 11504
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 11616
+      "fileoff": 11536
     },
     {
       "type": "function_starts",
-      "dataoff": 58640688,
-      "datasize": 285112,
-      "fileoff": 11664
+      "dataoff": 58658328,
+      "datasize": 285216,
+      "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 58925800,
+      "dataoff": 58943544,
       "datasize": 0,
-      "fileoff": 11680
+      "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 59147984,
-      "datasize": 481776,
-      "fileoff": 11696
+      "dataoff": 59165728,
+      "datasize": 481904,
+      "fileoff": 11616
     }
   ],
   "hsize": 32
