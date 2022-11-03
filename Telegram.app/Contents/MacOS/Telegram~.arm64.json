@@ -49825,7 +49825,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221102)",
+            "mozjpeg version 4.0.0 (build 20221103)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -69952,7 +69952,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605744,
+          "size": 605740,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
