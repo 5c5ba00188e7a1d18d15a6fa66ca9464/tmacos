@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 20217856,
+      "vmsize": 20234240,
       "fileoff": 104,
-      "filesize": 20217856,
+      "filesize": 20234240,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 17489804,
+          "size": 17492220,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 753464,
+          "size": 753480,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564037,
+          "size": 564069,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17616,6 +17616,7 @@
             "restrictToTcp",
             "restrictionInfo",
             "restrictionReason",
+            "restriction_add_platforms",
             "result",
             "result == errSecSuccess",
             "result == kCCSuccess",
@@ -19780,7 +19781,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 170431,
+          "size": 170479,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -21446,6 +21447,7 @@
             "add",
             "add",
             "addAdmins",
+            "addContentRestrictionReasons",
             "addCount",
             "addIsContactUpdates",
             "addMemberError",
@@ -29570,6 +29572,7 @@
             "version",
             "version",
             "version",
+            "version",
             "versionOutdated",
             "versionOutdated",
             "versions",
@@ -29748,7 +29751,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 182328,
+          "size": 182352,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -29813,7 +29816,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68299,
+          "size": 68288,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31883,7 +31886,6 @@
             "reflectScrolledClipView:",
             "registerForDraggedTypes:",
             "release",
-            "reloadData",
             "remainingTime",
             "remove",
             "remove:",
@@ -32796,7 +32798,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 193128,
+          "size": 193148,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33106,7 +33108,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 243316,
+          "size": 243308,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33134,7 +33136,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4315185152,
+      "vmaddr": 4315201536,
       "vmsize": 901120,
       "fileoff": 1856,
       "filesize": 901120,
@@ -33167,7 +33169,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 852000,
+          "size": 852096,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33251,7 +33253,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4316086272,
+      "vmaddr": 4316102656,
       "vmsize": 1310720,
       "fileoff": 2488,
       "filesize": 933888,
@@ -33286,7 +33288,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 390488,
+          "size": 390520,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33299,7 +33301,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 16616,
+          "size": 16608,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33383,7 +33385,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 278768,
+          "size": 278784,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33422,7 +33424,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 2104,
+          "size": 2120,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33437,10 +33439,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4317396992,
+      "vmaddr": 4317413376,
       "vmsize": 2408448,
       "fileoff": 3520,
-      "filesize": 2401504,
+      "filesize": 2402096,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33461,9 +33463,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 23981912,
+      "symoff": 23998752,
       "nsyms": 6280,
-      "stroff": 24100016,
+      "stroff": 24116856,
       "strsize": 145456,
       "fileoff": 3640
     },
@@ -33481,7 +33483,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24082392,
+      "indirectsymoff": 24099232,
       "nindirectsyms": 4405,
       "extreloff": 0,
       "nextrel": 0,
@@ -33507,7 +33509,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17508188,
+      "entryoff": 17524444,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -33880,20 +33882,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 23841368,
-      "datasize": 140544,
+      "dataoff": 23858184,
+      "datasize": 140568,
       "fileoff": 7360
     },
     {
       "type": "data_in_code",
-      "dataoff": 23981912,
+      "dataoff": 23998752,
       "datasize": 0,
       "fileoff": 7376
     },
     {
       "type": "code_signature",
-      "dataoff": 24245472,
-      "datasize": 208896,
+      "dataoff": 24262320,
+      "datasize": 209024,
       "fileoff": 7392
     }
   ],

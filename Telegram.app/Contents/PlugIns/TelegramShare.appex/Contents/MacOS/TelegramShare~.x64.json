@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20277754,
+          "size": 20280474,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 853159,
+          "size": 853175,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564741,
+          "size": 564773,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17607,6 +17607,7 @@
             "restrictToTcp",
             "restrictionInfo",
             "restrictionReason",
+            "restriction_add_platforms",
             "result",
             "result == errSecSuccess",
             "result == kCCSuccess",
@@ -19775,7 +19776,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 170431,
+          "size": 170479,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -21441,6 +21442,7 @@
             "add",
             "add",
             "addAdmins",
+            "addContentRestrictionReasons",
             "addCount",
             "addIsContactUpdates",
             "addMemberError",
@@ -29565,6 +29567,7 @@
             "version",
             "version",
             "version",
+            "version",
             "versionOutdated",
             "versionOutdated",
             "versions",
@@ -29743,7 +29746,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 182328,
+          "size": 182352,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -29808,7 +29811,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68299,
+          "size": 68288,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31878,7 +31881,6 @@
             "reflectScrolledClipView:",
             "registerForDraggedTypes:",
             "release",
-            "reloadData",
             "remainingTime",
             "remove",
             "remove:",
@@ -32791,7 +32793,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 193128,
+          "size": 193148,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33101,7 +33103,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 215412,
+          "size": 215460,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33203,7 +33205,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 870048,
+          "size": 870112,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -33285,7 +33287,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 432672,
+          "size": 432704,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33298,7 +33300,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 14120,
+          "size": 14112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33382,7 +33384,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 279565,
+          "size": 279581,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33447,7 +33449,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 2112,
+          "size": 2128,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33465,7 +33467,7 @@
       "vmaddr": 4320247808,
       "vmsize": 2441216,
       "fileoff": 3688,
-      "filesize": 2425680,
+      "filesize": 2426128,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33486,9 +33488,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 26831064,
+      "symoff": 26831512,
       "nsyms": 6299,
-      "stroff": 26951904,
+      "stroff": 26952352,
       "strsize": 146280,
       "fileoff": 3808
     },
@@ -33506,7 +33508,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 26931848,
+      "indirectsymoff": 26932296,
       "nindirectsyms": 5014,
       "extreloff": 0,
       "nextrel": 0,
@@ -33525,7 +33527,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
@@ -33535,7 +33537,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20299682,
+      "entryoff": 20299490,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -33908,19 +33910,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 26676992,
-      "datasize": 141608,
+      "dataoff": 26677424,
+      "datasize": 141624,
       "fileoff": 7336
     },
     {
       "type": "data_in_code",
-      "dataoff": 26818600,
+      "dataoff": 26819048,
       "datasize": 12464,
       "fileoff": 7352
     },
     {
       "type": "code_signature",
-      "dataoff": 27098192,
+      "dataoff": 27098640,
       "datasize": 231168,
       "fileoff": 7368
     }

@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52437573,
+          "size": 52443685,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10653,7 +10653,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1438249,
+          "size": 1438281,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -53064,6 +53064,7 @@
             "restrictedView",
             "restrictionInfo",
             "restrictionReason",
+            "restriction_add_platforms",
             "result",
             "result == errSecSuccess",
             "result == kCCSuccess",
@@ -58721,7 +58722,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 189540,
+          "size": 189588,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -60364,6 +60365,7 @@
             "add",
             "add",
             "addAdmins",
+            "addContentRestrictionReasons",
             "addCount",
             "addIsContactUpdates",
             "addMemberError",
@@ -69530,6 +69532,7 @@
             "version",
             "version",
             "version",
+            "version",
             "versionOutdated",
             "versionOutdated",
             "version_needed",
@@ -69774,7 +69777,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196596,
+          "size": 196620,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69826,7 +69829,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 197192,
+          "size": 197212,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69852,7 +69855,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 532360,
+          "size": 532468,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69954,7 +69957,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1763376,
+          "size": 1763440,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70036,7 +70039,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1233232,
+          "size": 1233264,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70133,7 +70136,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 769349,
+          "size": 769381,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70224,7 +70227,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 664320,
+          "size": 664352,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70242,7 +70245,7 @@
       "vmaddr": 4360781824,
       "vmsize": 3555328,
       "fileoff": 4088,
-      "filesize": 3546352,
+      "filesize": 3546816,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70263,9 +70266,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 66784048,
+      "symoff": 66784512,
       "nsyms": 4339,
-      "stroff": 66888448,
+      "stroff": 66888912,
       "strsize": 175704,
       "fileoff": 4208
     },
@@ -70283,7 +70286,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66853472,
+      "indirectsymoff": 66853936,
       "nindirectsyms": 8744,
       "extreloff": 0,
       "nextrel": 0,
@@ -70302,7 +70305,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 4368
     },
@@ -70312,7 +70315,7 @@
     },
     {
       "type": "main",
-      "entryoff": 35744,
+      "entryoff": 29376,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -70669,7 +70672,7 @@
       "fileoff": 8304
     },
     {
-      "type": "load_weak_dylib",
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -71040,19 +71043,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66466992,
-      "datasize": 292680,
+      "dataoff": 66467432,
+      "datasize": 292704,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 66759672,
+      "dataoff": 66760136,
       "datasize": 24376,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 67064160,
+      "dataoff": 67064624,
       "datasize": 543632,
       "fileoff": 11448
     }
