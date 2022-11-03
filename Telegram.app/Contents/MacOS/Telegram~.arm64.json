@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44649864,
+          "size": 44651148,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 377208,
+          "size": 377168,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10662,7 +10662,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1436736,
+          "size": 1437053,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14486,6 +14486,7 @@
             "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/signal_processing/auto_correlation.c",
             "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/signal_processing/filter_ar.c",
             "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/signal_processing/filter_ar_fast_q12.c",
+            "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/signal_processing/min_max_operations_neon.c",
             "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/signal_processing/splitting_filter1.c",
             "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/sparse_fir_filter.cc",
             "/Users/telegram/build/submodules/libtgvoip/webrtc_dsp/common_audio/vad/vad_filterbank.c",
@@ -21169,6 +21170,7 @@
             "DCHECK failed: (data_length) <= (240)",
             "DCHECK failed: (data_length) > (0)",
             "DCHECK failed: (filtered_ix) >= (0)",
+            "DCHECK failed: (length) > (0)",
             "DCHECK failed: (magnitude_length) == (time_data_length / 2 + 1)",
             "DCHECK failed: (num_bands - 1) <= (2)",
             "DCHECK failed: (order) <= (in_vector_length)",
@@ -39833,9 +39835,11 @@
             "assertion failed: ( psEnc->sCmn.subfr_length * psEnc->sCmn.nb_subfr ) == psEnc->sCmn.frame_length",
             "assertion failed: ( shapingLPCOrder & 1 ) == 0",
             "assertion failed: ((ptr - sh.arena) & ((sh.arena_size >> list) - 1)) == 0",
+            "assertion failed: (AES_ENCRYPT == enc) || (AES_DECRYPT == enc)",
             "assertion failed: (bit & 1) == 0",
             "assertion failed: (char **)temp->next->p_next == list",
             "assertion failed: (d & 1) == 0",
+            "assertion failed: (length % AES_BLOCK_SIZE) == 0",
             "assertion failed: (opus_custom_decoder_ctl(celt_dec, 10008, (((void)((st->stream_channels) == (opus_int32)0)), (opus_int32)(st->stream_channels)))) == OPUS_OK",
             "assertion failed: (opus_custom_decoder_ctl(celt_dec, 10010, (((void)((0) == (opus_int32)0)), (opus_int32)(0)))) == OPUS_OK",
             "assertion failed: (opus_custom_decoder_ctl(celt_dec, 10010, (((void)((start_band) == (opus_int32)0)), (opus_int32)(start_band)))) == OPUS_OK",
@@ -39916,6 +39920,7 @@
             "assertion failed: idx > 0",
             "assertion failed: ifact_Q2 <= 4",
             "assertion failed: ifact_Q2 >= 0",
+            "assertion failed: in && out && key && ivec",
             "assertion failed: inLen >= S->Fs_in_kHz",
             "assertion failed: itheta>=0",
             "assertion failed: ix[ n ][ 0 ] < 3",
@@ -42535,6 +42540,7 @@
             "crossCertificatePair",
             "crossGroupCall",
             "crypto kernel",
+            "crypto/aes/aes_ige.c",
             "crypto/asn1/a_bitstr.c",
             "crypto/asn1/a_d2i_fp.c",
             "crypto/asn1/a_digest.c",
@@ -69952,7 +69958,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605740,
+          "size": 605720,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69965,7 +69971,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 399976,
+          "size": 399984,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70026,7 +70032,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1782752,
+          "size": 1782832,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70242,7 +70248,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 765640,
+          "size": 765704,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70294,7 +70300,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1076384,
+          "size": 1076416,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70325,7 +70331,7 @@
       "vmaddr": 4353081344,
       "vmsize": 3293184,
       "fileoff": 4000,
-      "filesize": 3286960,
+      "filesize": 3287360,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70346,9 +70352,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58960088,
+      "symoff": 58960488,
       "nsyms": 3695,
-      "stroff": 59048912,
+      "stroff": 59049312,
       "strsize": 133360,
       "fileoff": 4120
     },
@@ -70366,7 +70372,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 59019208,
+      "indirectsymoff": 59019608,
       "nindirectsyms": 7426,
       "extreloff": 0,
       "nextrel": 0,
@@ -70392,7 +70398,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29340,
+      "entryoff": 27440,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -71120,19 +71126,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58674864,
-      "datasize": 285224,
+      "dataoff": 58675256,
+      "datasize": 285232,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 58960088,
+      "dataoff": 58960488,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 59182272,
+      "dataoff": 59182672,
       "datasize": 482032,
       "fileoff": 11616
     }
