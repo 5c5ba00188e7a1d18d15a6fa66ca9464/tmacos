@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 58408960,
+      "vmsize": 58425344,
       "fileoff": 104,
-      "filesize": 58408960,
+      "filesize": 58425344,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52443685,
+          "size": 52446757,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228944,
+          "size": 228966,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -4221,6 +4221,7 @@
             "dictionaryWithObject:forKey:",
             "dictionaryWithObjects:forKeys:count:",
             "dictionaryWithObjectsAndKeys:",
+            "didAddRowView:forRow:",
             "didAddSubview:",
             "didBeginInteractingWithScrubber:",
             "didCancelInteractingWithScrubber:",
@@ -10653,7 +10654,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1438281,
+          "size": 1438297,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -40427,6 +40428,7 @@
             "beginEditingMessage",
             "beginInnerLocation",
             "beginMessageSelection",
+            "beginPendingTime",
             "beginSelect",
             "beginSendingMessages messageContexts.count: ",
             "beginSendingMessages messages.count: ",
@@ -49764,7 +49766,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221103)",
+            "mozjpeg version 4.0.0 (build 20221104)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58657,7 +58659,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 319107,
+          "size": 319097,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58722,7 +58724,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 189588,
+          "size": 189620,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -60875,6 +60877,7 @@
             "becomeMasterDisposable",
             "beforeRange",
             "beforeSetupItem",
+            "beginPendingTime",
             "beginSelect",
             "beginSendingMessagesDisposables",
             "behaviorTable",
@@ -69777,7 +69780,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196620,
+          "size": 196644,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69829,7 +69832,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 197212,
+          "size": 197176,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69855,7 +69858,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 532468,
+          "size": 532444,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69883,7 +69886,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4353376256,
+      "vmaddr": 4353392640,
       "vmsize": 7405568,
       "fileoff": 2016,
       "filesize": 5652480,
@@ -69957,7 +69960,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1763440,
+          "size": 1763376,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70039,7 +70042,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1233264,
+          "size": 1233376,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70123,7 +70126,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1538800,
+          "size": 1539080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70242,10 +70245,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4360781824,
+      "vmaddr": 4360798208,
       "vmsize": 3555328,
       "fileoff": 4088,
-      "filesize": 3546816,
+      "filesize": 3547280,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70266,9 +70269,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 66784512,
+      "symoff": 66801232,
       "nsyms": 4339,
-      "stroff": 66888912,
+      "stroff": 66905632,
       "strsize": 175704,
       "fileoff": 4208
     },
@@ -70286,7 +70289,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66853936,
+      "indirectsymoff": 66870656,
       "nindirectsyms": 8744,
       "extreloff": 0,
       "nextrel": 0,
@@ -70305,7 +70308,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.13.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 4368
     },
@@ -70315,7 +70318,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29376,
+      "entryoff": 42688,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -70672,7 +70675,7 @@
       "fileoff": 8304
     },
     {
-      "type": "load_dylib",
+      "type": "load_weak_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -71043,20 +71046,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66467432,
+      "dataoff": 66484152,
       "datasize": 292704,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 66760136,
+      "dataoff": 66776856,
       "datasize": 24376,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 67064624,
-      "datasize": 543632,
+      "dataoff": 67081344,
+      "datasize": 543760,
       "fileoff": 11448
     }
   ],

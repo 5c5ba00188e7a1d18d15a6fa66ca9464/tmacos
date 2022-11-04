@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44656844,
+          "size": 44658316,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 168892,
+          "size": 168940,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228908,
+          "size": 228930,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -4232,6 +4232,7 @@
             "dictionaryWithObject:forKey:",
             "dictionaryWithObjects:forKeys:count:",
             "dictionaryWithObjectsAndKeys:",
+            "didAddRowView:forRow:",
             "didAddSubview:",
             "didBeginInteractingWithScrubber:",
             "didCancelInteractingWithScrubber:",
@@ -10662,7 +10663,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1437085,
+          "size": 1437101,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -40535,6 +40536,7 @@
             "beginEditingMessage",
             "beginInnerLocation",
             "beginMessageSelection",
+            "beginPendingTime",
             "beginSelect",
             "beginSendingMessages messageContexts.count: ",
             "beginSendingMessages messages.count: ",
@@ -49831,7 +49833,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221103)",
+            "mozjpeg version 4.0.0 (build 20221104)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58763,7 +58765,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 319117,
+          "size": 319107,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58828,7 +58830,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 189588,
+          "size": 189620,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -60981,6 +60983,7 @@
             "becomeMasterDisposable",
             "beforeRange",
             "beforeSetupItem",
+            "beginPendingTime",
             "beginSelect",
             "beginSendingMessagesDisposables",
             "behaviorTable",
@@ -69883,7 +69886,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196620,
+          "size": 196644,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69935,7 +69938,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 197212,
+          "size": 197176,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69961,7 +69964,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605800,
+          "size": 605744,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70035,7 +70038,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1782912,
+          "size": 1782832,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70154,7 +70157,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1075920,
+          "size": 1076032,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70167,7 +70170,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 50632,
+          "size": 50640,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70238,7 +70241,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1385280,
+          "size": 1385496,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70251,7 +70254,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 765704,
+          "size": 765736,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70334,7 +70337,7 @@
       "vmaddr": 4353097728,
       "vmsize": 3293184,
       "fileoff": 4000,
-      "filesize": 3287984,
+      "filesize": 3288320,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70355,9 +70358,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 58977336,
+      "symoff": 58977664,
       "nsyms": 3695,
-      "stroff": 59066160,
+      "stroff": 59066488,
       "strsize": 133360,
       "fileoff": 4120
     },
@@ -70375,7 +70378,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 59036456,
+      "indirectsymoff": 59036784,
       "nindirectsyms": 7426,
       "extreloff": 0,
       "nextrel": 0,
@@ -70401,7 +70404,7 @@
     },
     {
       "type": "main",
-      "entryoff": 37872,
+      "entryoff": 36400,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -70758,7 +70761,7 @@
       "fileoff": 8232
     },
     {
-      "type": "load_dylib",
+      "type": "load_weak_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -71129,19 +71132,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 58692088,
+      "dataoff": 58692416,
       "datasize": 285248,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 58977336,
+      "dataoff": 58977664,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 59199520,
+      "dataoff": 59199856,
       "datasize": 482192,
       "fileoff": 11616
     }

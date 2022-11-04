@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20280474,
+          "size": 20282618,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 853175,
+          "size": 853239,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564773,
+          "size": 564805,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11441,6 +11441,7 @@
             "beforeRange",
             "beforeSetupItem",
             "begin sending, continued: ",
+            "beginPendingTime",
             "beginSelect",
             "beginSendingMessages messageContexts.count: ",
             "beginSendingMessages messages.count: ",
@@ -16155,7 +16156,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221103)",
+            "mozjpeg version 4.0.0 (build 20221104)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -19763,7 +19764,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 240287,
+          "size": 240277,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -19776,7 +19777,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 170479,
+          "size": 170511,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -21873,6 +21874,7 @@
             "becomeMasterDisposable",
             "beforeRange",
             "beforeSetupItem",
+            "beginPendingTime",
             "beginSelect",
             "beginSendingMessagesDisposables",
             "behaviorTable",
@@ -29746,7 +29748,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 182352,
+          "size": 182376,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -29811,7 +29813,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68288,
+          "size": 68310,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31025,6 +31027,7 @@
             "dictionaryWithObject:forKey:",
             "dictionaryWithObjects:forKeys:count:",
             "dictionaryWithObjectsAndKeys:",
+            "didAddRowView:forRow:",
             "didAddSubview:",
             "didChangeValueForKey:",
             "didConnect:",
@@ -32793,7 +32796,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 193148,
+          "size": 193112,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33103,7 +33106,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 215460,
+          "size": 215456,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33205,7 +33208,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 870112,
+          "size": 870048,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -33287,7 +33290,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 432704,
+          "size": 432816,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33371,7 +33374,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 247024,
+          "size": 247232,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33384,7 +33387,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 279581,
+          "size": 279597,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33467,7 +33470,7 @@
       "vmaddr": 4320247808,
       "vmsize": 2441216,
       "fileoff": 3688,
-      "filesize": 2426128,
+      "filesize": 2426464,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33488,9 +33491,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 26831512,
+      "symoff": 26831848,
       "nsyms": 6299,
-      "stroff": 26952352,
+      "stroff": 26952688,
       "strsize": 146280,
       "fileoff": 3808
     },
@@ -33508,7 +33511,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 26932296,
+      "indirectsymoff": 26932632,
       "nindirectsyms": 5014,
       "extreloff": 0,
       "nextrel": 0,
@@ -33527,7 +33530,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.13.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
@@ -33537,7 +33540,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20299490,
+      "entryoff": 20299394,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -33910,19 +33913,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 26677424,
+      "dataoff": 26677760,
       "datasize": 141624,
       "fileoff": 7336
     },
     {
       "type": "data_in_code",
-      "dataoff": 26819048,
+      "dataoff": 26819384,
       "datasize": 12464,
       "fileoff": 7352
     },
     {
       "type": "code_signature",
-      "dataoff": 27098640,
+      "dataoff": 27098976,
       "datasize": 231168,
       "fileoff": 7368
     }
