@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52449125,
+          "size": 52449669,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228963,
+          "size": 228941,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -4220,7 +4220,6 @@
             "dictionaryWithObject:forKey:",
             "dictionaryWithObjects:forKeys:count:",
             "dictionaryWithObjectsAndKeys:",
-            "didAddRowView:forRow:",
             "didAddSubview:",
             "didBeginInteractingWithScrubber:",
             "didCancelInteractingWithScrubber:",
@@ -10654,7 +10653,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1438761,
+          "size": 1438905,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -52357,6 +52356,7 @@
             "q24@?0@\"NSNumber\"8@\"NSNumber\"16",
             "q24@?0@\"NSString\"8@\"NSString\"16",
             "q24@?0@8@16",
+            "q32@0:8{CGPoint=dd}16",
             "q48@0:8@\"NSTableView\"16q24q32@\"NSString\"40",
             "q48@0:8@\"NSTextView\"16q24{_NSRange=QQ}32",
             "q48@0:8@16q24q32@40",
@@ -58556,6 +58556,7 @@
             "{%ssegid=%d h=%d pgno=%d}",
             "{?={?=qiIq}{?=qiIq}}16@0:8",
             "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8",
+            "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8q16",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"NSMenu\"16@\"NSScreen\"24",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"NSPageController\"16@24",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"QLPreviewPanel\"16@\"<QLPreviewItem>\"24",
@@ -58575,6 +58576,7 @@
             "{CGSize=dd}56@0:8@16{CGSize=dd}24{CGSize=dd}40",
             "{CLLocationCoordinate2D=dd}16@0:8",
             "{Exif}",
+            "{_NSRange=QQ}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16",
             "{_NSRange=QQ}56@0:8@\"NSTextView\"16{_NSRange=QQ}24{_NSRange=QQ}40",
             "{_NSRange=QQ}56@0:8@16{_NSRange=QQ}24{_NSRange=QQ}40",
             "{averages} ",
@@ -69871,7 +69873,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 532504,
+          "size": 532516,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70139,7 +70141,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1539312,
+          "size": 1539360,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70261,7 +70263,7 @@
       "vmaddr": 4360798208,
       "vmsize": 3555328,
       "fileoff": 4088,
-      "filesize": 3547632,
+      "filesize": 3547648,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70282,9 +70284,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 66801488,
+      "symoff": 66801496,
       "nsyms": 4340,
-      "stroff": 66905920,
+      "stroff": 66905928,
       "strsize": 175776,
       "fileoff": 4208
     },
@@ -70302,7 +70304,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66870928,
+      "indirectsymoff": 66870936,
       "nindirectsyms": 8748,
       "extreloff": 0,
       "nextrel": 0,
@@ -70331,7 +70333,7 @@
     },
     {
       "type": "main",
-      "entryoff": 39264,
+      "entryoff": 38720,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71060,18 +71062,18 @@
     {
       "type": "function_starts",
       "dataoff": 66484376,
-      "datasize": 292736,
+      "datasize": 292744,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 66777112,
+      "dataoff": 66777120,
       "datasize": 24376,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 67081696,
+      "dataoff": 67081712,
       "datasize": 543760,
       "fileoff": 11448
     }

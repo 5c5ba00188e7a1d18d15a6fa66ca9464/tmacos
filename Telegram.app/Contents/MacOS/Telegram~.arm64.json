@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 44661004,
+          "size": 44661516,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 168940,
+          "size": 168964,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 228927,
+          "size": 228905,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -4231,7 +4231,6 @@
             "dictionaryWithObject:forKey:",
             "dictionaryWithObjects:forKeys:count:",
             "dictionaryWithObjectsAndKeys:",
-            "didAddRowView:forRow:",
             "didAddSubview:",
             "didBeginInteractingWithScrubber:",
             "didCancelInteractingWithScrubber:",
@@ -10663,7 +10662,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1437565,
+          "size": 1437709,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -52425,6 +52424,7 @@
             "q24@?0@\"NSNumber\"8@\"NSNumber\"16",
             "q24@?0@\"NSString\"8@\"NSString\"16",
             "q24@?0@8@16",
+            "q32@0:8{CGPoint=dd}16",
             "q48@0:8@\"NSTableView\"16q24q32@\"NSString\"40",
             "q48@0:8@\"NSTextView\"16q24{_NSRange=QQ}32",
             "q48@0:8@16q24q32@40",
@@ -58662,6 +58662,7 @@
             "{%ssegid=%d h=%d pgno=%d}",
             "{?={?=qiIq}{?=qiIq}}16@0:8",
             "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8",
+            "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8q16",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"NSMenu\"16@\"NSScreen\"24",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"NSPageController\"16@24",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"QLPreviewPanel\"16@\"<QLPreviewItem>\"24",
@@ -58681,6 +58682,7 @@
             "{CGSize=dd}56@0:8@16{CGSize=dd}24{CGSize=dd}40",
             "{CLLocationCoordinate2D=dd}16@0:8",
             "{Exif}",
+            "{_NSRange=QQ}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16",
             "{_NSRange=QQ}56@0:8@\"NSTextView\"16{_NSRange=QQ}24{_NSRange=QQ}40",
             "{_NSRange=QQ}56@0:8@16{_NSRange=QQ}24{_NSRange=QQ}40",
             "{averages} ",
@@ -69977,7 +69979,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605884,
+          "size": 605912,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70183,7 +70185,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 50640,
+          "size": 50632,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70417,7 +70419,7 @@
     },
     {
       "type": "main",
-      "entryoff": 32624,
+      "entryoff": 32048,
       "stacksize": 0,
       "fileoff": 4328
     },

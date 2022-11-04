@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20278458,
+          "size": 20278522,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564805,
+          "size": 564949,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17337,6 +17337,7 @@
             "q24@?0@\"MTPreparedMessage\"8@\"MTPreparedMessage\"16",
             "q24@?0@\"NSNumber\"8@\"NSNumber\"16",
             "q24@?0@\"NSString\"8@\"NSString\"16",
+            "q32@0:8{CGPoint=dd}16",
             "q48@0:8@\"NSTableView\"16q24q32@\"NSString\"40",
             "q48@0:8@\"NSTextView\"16q24{_NSRange=QQ}32",
             "q48@0:8@16q24q32@40",
@@ -19745,8 +19746,10 @@
             "zone",
             "{%ssegid=%d h=%d pgno=%d}",
             "{CGRect={CGPoint=dd}{CGSize=dd}}16@0:8",
+            "{CGRect={CGPoint=dd}{CGSize=dd}}24@0:8q16",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@\"NSMenu\"16@\"NSScreen\"24",
             "{CGRect={CGPoint=dd}{CGSize=dd}}32@0:8@16@24",
+            "{_NSRange=QQ}48@0:8{CGRect={CGPoint=dd}{CGSize=dd}}16",
             "{_NSRange=QQ}56@0:8@\"NSTextView\"16{_NSRange=QQ}24{_NSRange=QQ}40",
             "{_NSRange=QQ}56@0:8@16{_NSRange=QQ}24{_NSRange=QQ}40",
             "{averages} ",
@@ -29813,7 +29816,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68297,
+          "size": 68275,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31026,7 +31029,6 @@
             "dictionaryWithObject:forKey:",
             "dictionaryWithObjects:forKeys:count:",
             "dictionaryWithObjectsAndKeys:",
-            "didAddRowView:forRow:",
             "didAddSubview:",
             "didChangeValueForKey:",
             "didConnect:",
@@ -33105,7 +33107,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 215480,
+          "size": 215488,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33373,7 +33375,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 247288,
+          "size": 247336,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33539,7 +33541,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20299310,
+      "entryoff": 20299182,
       "stacksize": 0,
       "fileoff": 4000
     },
