@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 20234240,
+      "vmsize": 20250624,
       "fileoff": 104,
-      "filesize": 20234240,
+      "filesize": 20250624,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 17490428,
+          "size": 17514220,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 37632,
+          "size": 37656,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 753544,
+          "size": 753624,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 564245,
+          "size": 564293,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -7617,6 +7617,7 @@
             "T@\"NSString\",N,C",
             "T@\"NSString\",N,R",
             "T@\"NSTouchBar\",N,R",
+            "T@,N,R",
             "TABLE",
             "TB,N",
             "TB,N,R",
@@ -10845,6 +10846,7 @@
             "accessChallengeData",
             "accessChallengeDataViews",
             "accessHash",
+            "accessibilityFocusedUIElement",
             "account",
             "account.acceptAuthorization",
             "account.cancelPasswordEmail",
@@ -16167,7 +16169,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221105)",
+            "mozjpeg version 4.0.0 (build 20221106)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -19772,7 +19774,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 240287,
+          "size": 240367,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -29795,7 +29797,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 15344,
+          "size": 15348,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -29821,7 +29823,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68275,
+          "size": 68324,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -30624,6 +30626,8 @@
             "acceptsFirstMouse:",
             "acceptsFirstResponder",
             "accessHostOverride",
+            "accessibilityFocusedUIElement",
+            "accessibilityLabel",
             "acknowledgementReceived",
             "actionForKey:",
             "actionForLayer:forKey:",
@@ -33112,7 +33116,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 243260,
+          "size": 243392,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33125,7 +33129,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 171312,
+          "size": 171304,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33140,7 +33144,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4315201536,
+      "vmaddr": 4315217920,
       "vmsize": 901120,
       "fileoff": 1856,
       "filesize": 901120,
@@ -33257,7 +33261,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4316102656,
+      "vmaddr": 4316119040,
       "vmsize": 1310720,
       "fileoff": 2488,
       "filesize": 933888,
@@ -33292,7 +33296,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 390632,
+          "size": 390648,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33305,7 +33309,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 16600,
+          "size": 16616,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33389,7 +33393,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 278808,
+          "size": 278840,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33415,7 +33419,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 373608,
+          "size": 373736,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33443,10 +33447,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4317413376,
+      "vmaddr": 4317429760,
       "vmsize": 2408448,
       "fileoff": 3520,
-      "filesize": 2402544,
+      "filesize": 2402976,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33467,9 +33471,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 23999240,
+      "symoff": 24015928,
       "nsyms": 6279,
-      "stroff": 24117344,
+      "stroff": 24134032,
       "strsize": 145424,
       "fileoff": 3640
     },
@@ -33487,7 +33491,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24099704,
+      "indirectsymoff": 24116392,
       "nindirectsyms": 4409,
       "extreloff": 0,
       "nextrel": 0,
@@ -33513,7 +33517,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17524148,
+      "entryoff": 17540132,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -33886,20 +33890,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 23858672,
-      "datasize": 140568,
+      "dataoff": 23875320,
+      "datasize": 140608,
       "fileoff": 7360
     },
     {
       "type": "data_in_code",
-      "dataoff": 23999240,
+      "dataoff": 24015928,
       "datasize": 0,
       "fileoff": 7376
     },
     {
       "type": "code_signature",
-      "dataoff": 24262768,
-      "datasize": 209024,
+      "dataoff": 24279456,
+      "datasize": 209152,
       "fileoff": 7392
     }
   ],
