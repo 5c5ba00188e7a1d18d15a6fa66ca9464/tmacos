@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20393402,
+          "size": 20393530,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -29889,7 +29889,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 68374,
+          "size": 68359,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31243,7 +31243,6 @@
             "fixedTimeDifference",
             "flags",
             "flagsChanged:",
-            "flashScrollers",
             "floatValue",
             "floodWaitSeconds",
             "flushSSLBuffers",
@@ -33381,7 +33380,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 14112,
+          "size": 14104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33548,7 +33547,7 @@
       "vmaddr": 4320362496,
       "vmsize": 2441216,
       "fileoff": 3688,
-      "filesize": 2433088,
+      "filesize": 2433216,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33569,9 +33568,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 26952120,
+      "symoff": 26952248,
       "nsyms": 6300,
-      "stroff": 27073024,
+      "stroff": 27073152,
       "strsize": 146296,
       "fileoff": 3808
     },
@@ -33589,7 +33588,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27052920,
+      "indirectsymoff": 27053048,
       "nindirectsyms": 5025,
       "extreloff": 0,
       "nextrel": 0,
@@ -33991,19 +33990,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 26797472,
+      "dataoff": 26797600,
       "datasize": 142136,
       "fileoff": 7336
     },
     {
       "type": "data_in_code",
-      "dataoff": 26939608,
+      "dataoff": 26939736,
       "datasize": 12512,
       "fileoff": 7352
     },
     {
       "type": "code_signature",
-      "dataoff": 27219328,
+      "dataoff": 27219456,
       "datasize": 232128,
       "fileoff": 7368
     }

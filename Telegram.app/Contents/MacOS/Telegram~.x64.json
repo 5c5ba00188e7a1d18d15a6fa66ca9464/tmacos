@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52656421,
+          "size": 52657861,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2139901,
+          "size": 2140157,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 229040,
+          "size": 229025,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -4615,7 +4615,6 @@
             "fixedTimeDifference",
             "flags",
             "flagsChanged:",
-            "flashScrollers",
             "flavor",
             "floatForKey:",
             "floatValue",
@@ -10657,7 +10656,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1440569,
+          "size": 1440537,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -39164,9 +39163,6 @@
             "additional input too long",
             "additional verification",
             "additionalAttributes",
-            "additionalBadgeNode",
-            "additionalBadgeSelectedNode",
-            "additionalBadgeView",
             "additionalChatListIndexNamespace",
             "additionalChatListItemsTable",
             "additionalData",
@@ -40381,6 +40377,7 @@
             "badgeSelectedBackgroundColor",
             "badgeSelectedNode",
             "badgeSelectedTextColor",
+            "badgeShortView",
             "badgeTextColor",
             "badgeView",
             "band < num_bands_",
@@ -43610,6 +43607,7 @@
             "displayLayout",
             "displayLink",
             "displayLinkAnimator",
+            "displayNameView",
             "displayNode",
             "displayPreviews",
             "displayPrivateLinkMenu",
@@ -45554,6 +45552,7 @@
             "getGradientOffsetRect",
             "getHeaderBorderColor",
             "getHeaderColor",
+            "getHideProgress",
             "getModalTheme",
             "getOrientation",
             "getRowIdStatements",
@@ -46071,6 +46070,7 @@
             "hidden_layer_.output_size() == output_layer_.input_size()",
             "hideAnimated",
             "hideCaptions",
+            "hideContent",
             "hideControls",
             "hideControlsDisposable",
             "hideDisposable",
@@ -69974,7 +69974,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 533576,
+          "size": 533584,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70037,7 +70037,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 35696,
+          "size": 35704,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70076,7 +70076,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1767952,
+          "size": 1767824,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70158,7 +70158,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1235912,
+          "size": 1236008,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70171,7 +70171,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 41656,
+          "size": 41648,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70242,7 +70242,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1553288,
+          "size": 1553352,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70255,7 +70255,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 776869,
+          "size": 777061,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70364,7 +70364,7 @@
       "vmaddr": 4361043968,
       "vmsize": 3571712,
       "fileoff": 4088,
-      "filesize": 3555920,
+      "filesize": 3556160,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70385,10 +70385,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 67053600,
-      "nsyms": 4340,
-      "stroff": 67158064,
-      "strsize": 175720,
+      "symoff": 67053800,
+      "nsyms": 4341,
+      "stroff": 67158280,
+      "strsize": 175744,
       "fileoff": 4208
     },
     {
@@ -70398,15 +70398,15 @@
       "iextdefsym": 1,
       "nextdefsym": 680,
       "iundefsym": 681,
-      "nundefsym": 3659,
+      "nundefsym": 3660,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 67123040,
-      "nindirectsyms": 8755,
+      "indirectsymoff": 67123256,
+      "nindirectsyms": 8756,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -70434,7 +70434,7 @@
     },
     {
       "type": "main",
-      "entryoff": 37280,
+      "entryoff": 35584,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71162,19 +71162,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66735656,
-      "datasize": 293504,
+      "dataoff": 66735832,
+      "datasize": 293528,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 67029160,
+      "dataoff": 67029360,
       "datasize": 24440,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 67333792,
+      "dataoff": 67334032,
       "datasize": 545712,
       "fileoff": 11448
     }
