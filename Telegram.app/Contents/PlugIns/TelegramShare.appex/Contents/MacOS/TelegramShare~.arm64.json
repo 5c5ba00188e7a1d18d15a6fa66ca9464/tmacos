@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 17593532,
+          "size": 17594444,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 754280,
+          "size": 754312,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 565829,
+          "size": 566069,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2804,6 +2804,13 @@
             "Chat.Title.Replies_two",
             "Chat.Title.Replies_zero",
             "Chat.Title.ScheduledMessages",
+            "Chat.Title.Topic_countable",
+            "Chat.Title.Topic_few",
+            "Chat.Title.Topic_many",
+            "Chat.Title.Topic_one",
+            "Chat.Title.Topic_other",
+            "Chat.Title.Topic_zero",
+            "Chat.Title.Topics_two",
             "Chat.Toast.ReportSuccess",
             "Chat.Tooltip.HiddenForwardName",
             "Chat.TopicHeader.Empty",
@@ -14174,6 +14181,7 @@
             "givenName",
             "glob",
             "globalContext",
+            "globalForumId",
             "globalLocationDisposable",
             "globalMessageHistoryTagsTable",
             "globalMessageIdsPeerIdNamespaces",
@@ -16207,7 +16215,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221121)",
+            "mozjpeg version 4.0.0 (build 20221122)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -17829,6 +17837,7 @@
             "scrollCompletion",
             "scrollDeltaX",
             "scrollDeltaY",
+            "scrollDidUpdate",
             "scrollHandler",
             "scrollListeners",
             "scrollView",
@@ -19821,7 +19830,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 240863,
+          "size": 240889,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -19834,7 +19843,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 171215,
+          "size": 171231,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -24102,6 +24111,7 @@
             "global",
             "global",
             "globalContext",
+            "globalForumId",
             "globalLocationDisposable",
             "globalMessageHistoryTagsTable",
             "globalMessageIdsPeerIdNamespaces",
@@ -27874,6 +27884,7 @@
             "scrollCompletion",
             "scrollDeltaX",
             "scrollDeltaY",
+            "scrollDidUpdate",
             "scrollHandler",
             "scrollHandler",
             "scrollIndicatorInsets",
@@ -29848,7 +29859,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 182960,
+          "size": 182984,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33208,7 +33219,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 244216,
+          "size": 244220,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -33388,7 +33399,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 390872,
+          "size": 390936,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33472,7 +33483,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 221152,
+          "size": 221216,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33485,7 +33496,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 279176,
+          "size": 279200,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -33542,7 +33553,7 @@
       "vmaddr": 4317511680,
       "vmsize": 2424832,
       "fileoff": 3520,
-      "filesize": 2409920,
+      "filesize": 2410320,
       "maxprot": {
         "read": true,
         "write": false,
@@ -33563,9 +33574,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 24103984,
+      "symoff": 24104392,
       "nsyms": 6281,
-      "stroff": 24222144,
+      "stroff": 24222552,
       "strsize": 145464,
       "fileoff": 3640
     },
@@ -33583,7 +33594,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24204480,
+      "indirectsymoff": 24204888,
       "nindirectsyms": 4416,
       "extreloff": 0,
       "nextrel": 0,
@@ -33609,7 +33620,7 @@
     },
     {
       "type": "main",
-      "entryoff": 17615608,
+      "entryoff": 17615272,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -33982,19 +33993,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 23962872,
-      "datasize": 141112,
+      "dataoff": 23963264,
+      "datasize": 141128,
       "fileoff": 7360
     },
     {
       "type": "data_in_code",
-      "dataoff": 24103984,
+      "dataoff": 24104392,
       "datasize": 0,
       "fileoff": 7376
     },
     {
       "type": "code_signature",
-      "dataoff": 24367616,
+      "dataoff": 24368016,
       "datasize": 209856,
       "fileoff": 7392
     }
