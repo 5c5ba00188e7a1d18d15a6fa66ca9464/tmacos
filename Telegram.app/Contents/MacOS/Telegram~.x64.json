@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 58720256,
+      "vmsize": 58753024,
       "fileoff": 104,
-      "filesize": 58720256,
+      "filesize": 58753024,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52734437,
+          "size": 52764773,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2140413,
+          "size": 2140669,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10656,7 +10656,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1441657,
+          "size": 1441897,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -19887,6 +19887,8 @@
             "Chat.Context.ReactedFast_zero",
             "Chat.Context.Reaction.Quick",
             "Chat.Context.RemoveFavoriteSticker",
+            "Chat.Context.ReportFalsePositive",
+            "Chat.Context.ReportFalsePositive.Thanks",
             "Chat.Context.Restrict",
             "Chat.Context.SaveMedia",
             "Chat.Context.SaveRingtone.Add",
@@ -43244,6 +43246,7 @@
             "defaultDuration",
             "defaultEmpty",
             "defaultGlobalNotificationSettings",
+            "defaultHistoryTTL",
             "defaultImageSize",
             "defaultIncludePeer",
             "defaultMessageNamespaceReadStates",
@@ -46032,6 +46035,7 @@
             "headerLayout",
             "headerPartState",
             "headerSeparatorView",
+            "headerStableIds",
             "headerTextView",
             "headerTitle",
             "headerView",
@@ -49436,6 +49440,7 @@
             "messages.getChats",
             "messages.getCommonChats",
             "messages.getCustomEmojiDocuments",
+            "messages.getDefaultHistoryTTL",
             "messages.getDhConfig",
             "messages.getDialogFilters",
             "messages.getDialogUnreadMarks",
@@ -49544,6 +49549,7 @@
             "messages.setBotShippingResults",
             "messages.setChatAvailableReactions",
             "messages.setChatTheme",
+            "messages.setDefaultHistoryTTL",
             "messages.setDefaultReaction",
             "messages.setEncryptedTyping",
             "messages.setGameScore",
@@ -51040,6 +51046,7 @@
             "overlayBlendMode",
             "overlayController",
             "overlayPanelColor",
+            "overlayPreview",
             "overlayView",
             "overread end of atom '%.4s' by %lld bytes\n",
             "overread, skip %d enddists: %d %d\n",
@@ -51335,6 +51342,7 @@
             "pattern-wallpaper-mask--------",
             "patternCheckbox",
             "patternsController",
+            "pause",
             "pauseCount",
             "paused",
             "pausedImageView",
@@ -51805,6 +51813,7 @@
             "plane",
             "plane %d - correct ",
             "platform",
+            "play",
             "playAfter",
             "playAfterDragging",
             "playAndRecord",
@@ -57893,6 +57902,7 @@
             "value=",
             "valueBox",
             "valueDisposable",
+            "valueIsUpdated",
             "valueRef",
             "values",
             "valuesAnimators",
@@ -58770,7 +58780,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 320201,
+          "size": 320289,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -58796,7 +58806,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 20908,
+          "size": 20912,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58809,7 +58819,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 21484,
+          "size": 21488,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -58835,7 +58845,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 190340,
+          "size": 190436,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -62297,6 +62307,7 @@
             "defaultDay",
             "defaultEmpty",
             "defaultGlobalNotificationSettings",
+            "defaultHistoryTTL",
             "defaultIncludePeer",
             "defaultIsDark",
             "defaultMessageNamespaceReadStates",
@@ -63716,6 +63727,8 @@
             "header",
             "headerLabel",
             "headerPartState",
+            "headerStableId",
+            "headerStableIds",
             "headerView",
             "heading",
             "hebrew",
@@ -65531,6 +65544,7 @@
             "messageActionWebViewDataSent",
             "messageActionWebViewDataSentMe",
             "messageAuthorAvatar",
+            "messageAutoremoveTimeout",
             "messageAutoremoveTimeout",
             "messageAutoremoveTimeout",
             "messageAutoremoveTimeoutUpdated",
@@ -69935,7 +69949,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 197240,
+          "size": 197304,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69987,7 +70001,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 198436,
+          "size": 198664,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70013,7 +70027,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 533856,
+          "size": 533952,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70026,7 +70040,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 145560,
+          "size": 145592,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70041,7 +70055,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4353687552,
+      "vmaddr": 4353720320,
       "vmsize": 7438336,
       "fileoff": 2016,
       "filesize": 5685248,
@@ -70076,7 +70090,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 35712,
+          "size": 35720,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70115,7 +70129,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1769040,
+          "size": 1769840,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70197,7 +70211,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1236424,
+          "size": 1236584,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70281,7 +70295,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1555472,
+          "size": 1555536,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70294,7 +70308,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 777285,
+          "size": 777349,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70400,10 +70414,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4361125888,
+      "vmaddr": 4361158656,
       "vmsize": 3571712,
       "fileoff": 4088,
-      "filesize": 3558432,
+      "filesize": 3560080,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70424,9 +70438,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 67137312,
+      "symoff": 67171472,
       "nsyms": 4341,
-      "stroff": 67241800,
+      "stroff": 67275960,
       "strsize": 175744,
       "fileoff": 4208
     },
@@ -70444,8 +70458,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 67206768,
-      "nindirectsyms": 8757,
+      "indirectsymoff": 67240928,
+      "nindirectsyms": 8758,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -70473,7 +70487,7 @@
     },
     {
       "type": "main",
-      "entryoff": 38880,
+      "entryoff": 40032,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71201,20 +71215,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66819128,
-      "datasize": 293728,
+      "dataoff": 66853176,
+      "datasize": 293840,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 67112856,
+      "dataoff": 67147016,
       "datasize": 24456,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 67417552,
-      "datasize": 546384,
+      "dataoff": 67451712,
+      "datasize": 546640,
       "fileoff": 11448
     }
   ],
