@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52764773,
+          "size": 52764709,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -49847,7 +49847,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221122)",
+            "mozjpeg version 4.0.0 (build 20221123)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58780,7 +58780,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 320289,
+          "size": 320309,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -70027,7 +70027,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 533952,
+          "size": 533960,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70487,7 +70487,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40032,
+      "entryoff": 40096,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71216,13 +71216,13 @@
     {
       "type": "function_starts",
       "dataoff": 66853176,
-      "datasize": 293840,
+      "datasize": 293848,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 67147016,
-      "datasize": 24456,
+      "dataoff": 67147024,
+      "datasize": 24448,
       "fileoff": 11432
     },
     {
