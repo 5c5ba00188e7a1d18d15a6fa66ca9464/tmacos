@@ -3,7 +3,7 @@
 <plist version="1.0">
 <dict>
 	<key>APPCENTER_SECRET</key>
-	<string>6ed2ac30-49e1-4073-87c2-f1ffcb74e81f</string>
+	<string>4ff72ee6-40ca-438b-a068-7ba14a53e288</string>
 	<key>ATSApplicationFontsPath</key>
 	<string>fonts</string>
 	<key>BuildMachineOSBuild</key>
@@ -43,7 +43,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>240323</string>
+	<string>240324</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -88,7 +88,7 @@
 	<key>SOURCE</key>
 	<string>BETA</string>
 	<key>SUFeedURL</key>
-	<string>https://api.appcenter.ms/v0.1/public/sparkle/apps/6ed2ac30-49e1-4073-87c2-f1ffcb74e81f</string>
+	<string>https://api.appcenter.ms/v0.1/public/sparkle/apps/4ff72ee6-40ca-438b-a068-7ba14a53e288</string>
 	<key>SUPublicDSAKeyFile</key>
 	<string>dsa_pub.pem</string>
 	<key>UIAppFonts</key>
