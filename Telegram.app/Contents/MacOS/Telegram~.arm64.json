@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 45017676,
+          "size": 45020556,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -10669,7 +10669,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1442375,
+          "size": 1442401,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -56697,6 +56697,7 @@
             "topWindow",
             "top_bottom",
             "topicLinkView",
+            "topicPhotoView",
             "topicRightBar",
             "topics",
             "topicsLayout",
@@ -70184,7 +70185,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 606144,
+          "size": 606168,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70258,7 +70259,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1792928,
+          "size": 1793056,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70377,7 +70378,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1079304,
+          "size": 1079368,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70461,7 +70462,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1402456,
+          "size": 1402464,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70474,7 +70475,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 774568,
+          "size": 774600,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70557,7 +70558,7 @@
       "vmaddr": 4353523712,
       "vmsize": 3309568,
       "fileoff": 4000,
-      "filesize": 3305952,
+      "filesize": 3305968,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70578,9 +70579,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 59417736,
+      "symoff": 59417760,
       "nsyms": 3697,
-      "stroff": 59506648,
+      "stroff": 59506672,
       "strsize": 133392,
       "fileoff": 4120
     },
@@ -70598,7 +70599,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 59476888,
+      "indirectsymoff": 59476912,
       "nindirectsyms": 7440,
       "extreloff": 0,
       "nextrel": 0,
@@ -70624,7 +70625,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36828,
+      "entryoff": 33948,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -71352,19 +71353,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 59130808,
-      "datasize": 286928,
+      "dataoff": 59130816,
+      "datasize": 286944,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 59417736,
+      "dataoff": 59417760,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 59640048,
+      "dataoff": 59640064,
       "datasize": 485616,
       "fileoff": 11616
     }
