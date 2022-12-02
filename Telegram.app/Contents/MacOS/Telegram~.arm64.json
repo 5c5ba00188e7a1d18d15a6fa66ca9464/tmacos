@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 45021324,
+          "size": 45021964,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -49964,7 +49964,7 @@
             "moveTo",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20221201)",
+            "mozjpeg version 4.0.0 (build 20221202)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -70185,7 +70185,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 606180,
+          "size": 606204,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70259,7 +70259,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1793136,
+          "size": 1793296,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70558,7 +70558,7 @@
       "vmaddr": 4353523712,
       "vmsize": 3309568,
       "fileoff": 4000,
-      "filesize": 3305984,
+      "filesize": 3306000,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70579,9 +70579,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 59417776,
+      "symoff": 59417792,
       "nsyms": 3697,
-      "stroff": 59506688,
+      "stroff": 59506704,
       "strsize": 133392,
       "fileoff": 4120
     },
@@ -70599,7 +70599,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 59476928,
+      "indirectsymoff": 59476944,
       "nindirectsyms": 7440,
       "extreloff": 0,
       "nextrel": 0,
@@ -70625,7 +70625,7 @@
     },
     {
       "type": "main",
-      "entryoff": 32924,
+      "entryoff": 32284,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -71353,19 +71353,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 59130824,
-      "datasize": 286952,
+      "dataoff": 59130832,
+      "datasize": 286960,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 59417776,
+      "dataoff": 59417792,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 59640080,
+      "dataoff": 59640096,
       "datasize": 485616,
       "fileoff": 11616
     }
