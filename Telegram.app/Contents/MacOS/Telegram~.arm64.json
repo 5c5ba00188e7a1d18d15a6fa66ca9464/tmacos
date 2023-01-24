@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 52281344,
+      "vmsize": 52297728,
       "fileoff": 104,
-      "filesize": 52281344,
+      "filesize": 52297728,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 45921284,
+          "size": 45934340,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1954092,
+          "size": 1954604,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 230657,
+          "size": 230646,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -5559,7 +5559,6 @@
             "isDebuggerAttached",
             "isDigitOrLeadingPlusSign_:",
             "isDisconnected",
-            "isEditable",
             "isEmpty",
             "isEnabled",
             "isEnabledKey",
@@ -10730,7 +10729,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1442943,
+          "size": 1443039,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22318,8 +22317,11 @@
             "Entered VoIPController::~VoIPController",
             "Enterprises",
             "Entertainment.Emoji",
+            "Entertainment.Emoji.New",
             "Entertainment.GIF",
+            "Entertainment.GIF.New",
             "Entertainment.Stickers",
+            "Entertainment.Stickers.New",
             "Entertainment.Switch.Emoji",
             "Entertainment.Switch.GifAndStickers",
             "Environment variable to disable service has been set; not starting service %@",
@@ -40708,6 +40710,7 @@
             "baseData must be an object.",
             "baseData was set but baseType is missing or invalid.",
             "baseEndpoint",
+            "baseLang",
             "baseLangPackVersion",
             "baseLanguageCode",
             "basePath",
@@ -45594,6 +45597,7 @@
             "from a library ",
             "from the matching local media section",
             "from the matching previous remote media section",
+            "fromLang",
             "fromLines",
             "fromPoints",
             "fromTheme",
@@ -50107,7 +50111,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230124)",
+            "mozjpeg version 4.0.0 (build 20230125)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -56921,7 +56925,7 @@
             "transitionStyle",
             "transitionTimer",
             "translate",
-            "translateChannels",
+            "translateChats",
             "translatesAutoresizingMaskIntoConstraints",
             "translations",
             "transparent",
@@ -59061,7 +59065,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 329845,
+          "size": 329953,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59087,7 +59091,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 21768,
+          "size": 21800,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59100,7 +59104,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22184,
+          "size": 22192,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59126,7 +59130,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 194404,
+          "size": 194372,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69611,7 +69615,7 @@
             "transitionStyle",
             "transitionTimer",
             "translate",
-            "translateChannels",
+            "translateChats",
             "translateResult",
             "translatedStringCount",
             "translation",
@@ -70570,7 +70574,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 617136,
+          "size": 617628,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70583,7 +70587,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 416488,
+          "size": 416964,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70598,7 +70602,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4347248640,
+      "vmaddr": 4347265024,
       "vmsize": 2064384,
       "fileoff": 2096,
       "filesize": 2064384,
@@ -70618,7 +70622,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 25896,
+          "size": 25904,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70644,7 +70648,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1804736,
+          "size": 1805552,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70728,7 +70732,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4349313024,
+      "vmaddr": 4349329408,
       "vmsize": 5226496,
       "fileoff": 2808,
       "filesize": 3457024,
@@ -70776,7 +70780,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51048,
+          "size": 51040,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70860,7 +70864,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 790160,
+          "size": 790384,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70912,7 +70916,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1101872,
+          "size": 1102896,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70940,10 +70944,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4354539520,
+      "vmaddr": 4354555904,
       "vmsize": 3342336,
       "fileoff": 4000,
-      "filesize": 3327632,
+      "filesize": 3328800,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70964,9 +70968,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 60414992,
+      "symoff": 60432392,
       "nsyms": 3690,
-      "stroff": 60503968,
+      "stroff": 60521368,
       "strsize": 133016,
       "fileoff": 4120
     },
@@ -70984,8 +70988,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 60474032,
-      "nindirectsyms": 7483,
+      "indirectsymoff": 60491432,
+      "nindirectsyms": 7484,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -71010,7 +71014,7 @@
     },
     {
       "type": "main",
-      "entryoff": 28060,
+      "entryoff": 29596,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -71738,20 +71742,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 60122416,
-      "datasize": 292576,
+      "dataoff": 60139688,
+      "datasize": 292704,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 60414992,
+      "dataoff": 60432392,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 60636992,
-      "datasize": 493392,
+      "dataoff": 60654384,
+      "datasize": 493552,
       "fileoff": 11616
     }
   ],
