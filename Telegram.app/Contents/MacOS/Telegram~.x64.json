@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54124581,
+          "size": 54124901,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -59040,7 +59040,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 329953,
+          "size": 329969,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -71009,7 +71009,7 @@
     },
     {
       "type": "main",
-      "entryoff": 32496,
+      "entryoff": 32176,
       "stacksize": 0,
       "fileoff": 4400
     },
