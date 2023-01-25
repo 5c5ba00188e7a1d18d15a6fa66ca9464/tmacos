@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20948954,
+          "size": 20951098,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 870039,
+          "size": 870183,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 248971,
+          "size": 248977,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10440,7 +10440,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 188684,
+          "size": 188736,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10479,7 +10479,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12436,
+          "size": 12440,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10492,7 +10492,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 583525,
+          "size": 583701,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15196,9 +15196,11 @@
             "InputAttach.Popover.File",
             "InputAttach.Popover.Location",
             "InputAttach.Popover.Music",
+            "InputAttach.Popover.Photo",
             "InputAttach.Popover.PhotoOrVideo",
             "InputAttach.Popover.Picture",
             "InputAttach.Popover.Poll",
+            "InputAttach.Popover.Video",
             "InputContact.inputPhoneContact",
             "InputData.Date.Day.Placeholder",
             "InputData.Date.Day.Placeholder1",
@@ -16825,6 +16827,8 @@
             "Premium.Boarding.Stickers.Title",
             "Premium.Boarding.Subscribe",
             "Premium.Boarding.Title",
+            "Premium.Boarding.Translate.Info",
+            "Premium.Boarding.Translate.Title",
             "Premium.Boarding.Voice.Info",
             "Premium.Boarding.Voice.Title",
             "Premium.GetPremium.Double",
@@ -20360,6 +20364,7 @@
             "_TtC7TGUIKit15NullActionClass",
             "_TtC7TGUIKit15SPopoverRowItem",
             "_TtC7TGUIKit15SearchTextField",
+            "_TtC7TGUIKit15SimpleTextLayer",
             "_TtC7TGUIKit16AppMenuBasicItem",
             "_TtC7TGUIKit16NavigationHeader",
             "_TtC7TGUIKit16SelectingControl",
@@ -34043,7 +34048,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221016,
+          "size": 221076,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34171,7 +34176,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 9048,
+          "size": 9056,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34227,7 +34232,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 442840,
+          "size": 443016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34311,7 +34316,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 258776,
+          "size": 259176,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34324,7 +34329,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 289085,
+          "size": 289149,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34407,7 +34412,7 @@
       "vmaddr": 4321083392,
       "vmsize": 2506752,
       "fileoff": 3688,
-      "filesize": 2502240,
+      "filesize": 2503392,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34428,10 +34433,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 27718008,
-      "nsyms": 6331,
-      "stroff": 27839688,
-      "strsize": 147312,
+      "symoff": 27719000,
+      "nsyms": 6333,
+      "stroff": 27840712,
+      "strsize": 147408,
       "fileoff": 3808
     },
     {
@@ -34439,8 +34444,8 @@
       "ilocalsym": 0,
       "nlocalsym": 1,
       "iextdefsym": 1,
-      "nextdefsym": 5384,
-      "iundefsym": 5385,
+      "nextdefsym": 5386,
+      "iundefsym": 5387,
       "nundefsym": 946,
       "tocoff": 0,
       "ntoc": 0,
@@ -34448,7 +34453,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27819304,
+      "indirectsymoff": 27820328,
       "nindirectsyms": 5095,
       "extreloff": 0,
       "nextrel": 0,
@@ -34477,7 +34482,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20972928,
+      "entryoff": 20972448,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -34858,20 +34863,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27558096,
-      "datasize": 146792,
+      "dataoff": 27559048,
+      "datasize": 146832,
       "fileoff": 7392
     },
     {
       "type": "data_in_code",
-      "dataoff": 27704888,
+      "dataoff": 27705880,
       "datasize": 13120,
       "fileoff": 7408
     },
     {
       "type": "code_signature",
-      "dataoff": 27987008,
-      "datasize": 238112,
+      "dataoff": 27988128,
+      "datasize": 238144,
       "fileoff": 7424
     }
   ],
