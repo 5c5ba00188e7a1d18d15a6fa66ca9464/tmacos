@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20948890,
+          "size": 20948954,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10492,7 +10492,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 583493,
+          "size": 583525,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13196,6 +13196,7 @@
             "Chat.Translate.Menu.DoNotTranslate",
             "Chat.Translate.Menu.Hide",
             "Chat.Translate.Menu.Hide.Tooltip",
+            "Chat.Translate.Menu.To",
             "Chat.Translate.ShowOriginal",
             "Chat.Translate.To",
             "Chat.UndoManager.ChannelDeleted_countable",
@@ -34406,7 +34407,7 @@
       "vmaddr": 4321083392,
       "vmsize": 2506752,
       "fileoff": 3688,
-      "filesize": 2502208,
+      "filesize": 2502240,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34427,9 +34428,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27717976,
+      "symoff": 27718008,
       "nsyms": 6331,
-      "stroff": 27839656,
+      "stroff": 27839688,
       "strsize": 147312,
       "fileoff": 3808
     },
@@ -34447,7 +34448,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27819272,
+      "indirectsymoff": 27819304,
       "nindirectsyms": 5095,
       "extreloff": 0,
       "nextrel": 0,
@@ -34476,7 +34477,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20972960,
+      "entryoff": 20972928,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -34857,19 +34858,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27558064,
+      "dataoff": 27558096,
       "datasize": 146792,
       "fileoff": 7392
     },
     {
       "type": "data_in_code",
-      "dataoff": 27704856,
+      "dataoff": 27704888,
       "datasize": 13120,
       "fileoff": 7408
     },
     {
       "type": "code_signature",
-      "dataoff": 27986976,
+      "dataoff": 27987008,
       "datasize": 238112,
       "fileoff": 7424
     }
