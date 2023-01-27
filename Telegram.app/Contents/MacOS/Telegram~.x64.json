@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54196997,
+          "size": 54198757,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -59065,7 +59065,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 330635,
+          "size": 330643,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -70584,7 +70584,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 538916,
+          "size": 538924,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70768,7 +70768,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1262400,
+          "size": 1262464,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70852,7 +70852,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1620912,
+          "size": 1620928,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70974,7 +70974,7 @@
       "vmaddr": 4362698752,
       "vmsize": 3588096,
       "fileoff": 4088,
-      "filesize": 3582976,
+      "filesize": 3582992,
       "maxprot": {
         "read": true,
         "write": false,
@@ -70995,9 +70995,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 68711504,
+      "symoff": 68711520,
       "nsyms": 4266,
-      "stroff": 68815000,
+      "stroff": 68815016,
       "strsize": 171312,
       "fileoff": 4208
     },
@@ -71015,7 +71015,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 68779760,
+      "indirectsymoff": 68779776,
       "nindirectsyms": 8810,
       "extreloff": 0,
       "nextrel": 0,
@@ -71044,7 +71044,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36848,
+      "entryoff": 35088,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71772,19 +71772,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68385624,
-      "datasize": 300656,
+      "dataoff": 68385632,
+      "datasize": 300664,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 68686280,
+      "dataoff": 68686296,
       "datasize": 25224,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 68986320,
+      "dataoff": 68986336,
       "datasize": 558640,
       "fileoff": 11448
     }
