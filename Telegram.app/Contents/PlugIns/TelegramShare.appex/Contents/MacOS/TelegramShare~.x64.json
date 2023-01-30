@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20991898,
+          "size": 21002586,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 871527,
+          "size": 871703,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 249603,
+          "size": 249677,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 175487,
+          "size": 175599,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2212,6 +2212,7 @@
             "availableReactionsNotModified",
             "availableSavedLocalizations",
             "availableSize",
+            "avatar",
             "avatar",
             "avatar",
             "avatar",
@@ -4501,6 +4502,7 @@
             "generic",
             "generic",
             "generic",
+            "generic",
             "genericPublic",
             "geo",
             "geoDistance",
@@ -5426,10 +5428,12 @@
             "invalidGrouping",
             "invalidHash",
             "invalidJoinAsPeer",
+            "invalidLanguage",
             "invalidLastName",
             "invalidLater",
             "invalidLater",
             "invalidMedia",
+            "invalidMessageId",
             "invalidPassword",
             "invalidPassword",
             "invalidPassword",
@@ -5954,6 +5958,7 @@
             "limitExceeded",
             "limitExceeded",
             "limitExceeded",
+            "limitExceeded",
             "limitReached",
             "limited",
             "line",
@@ -6012,6 +6017,7 @@
             "loadingHole",
             "loadingMoreEarlier",
             "loadingPlaceholders",
+            "local",
             "local",
             "local",
             "local",
@@ -9322,6 +9328,7 @@
             "textIndexTable",
             "textIndexTable",
             "textInset",
+            "textIsEmpty",
             "textItalic",
             "textLayout",
             "textLayout",
@@ -9340,6 +9347,7 @@
             "textStrike",
             "textSubscript",
             "textSuperscript",
+            "textTooLong",
             "textTooLong",
             "textUnderline",
             "textUrl",
@@ -10450,7 +10458,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 188964,
+          "size": 189076,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10476,7 +10484,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 16164,
+          "size": 16172,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10489,7 +10497,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12464,
+          "size": 12468,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10502,7 +10510,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 584021,
+          "size": 584133,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14739,6 +14747,8 @@
             "INDEX %d",
             "INDEX %s",
             "INN",
+            "INPUT_TEXT_EMPTY",
+            "INPUT_TEXT_TOO_LONG",
             "INS",
             "INSERT INTO %Q.'%q_content' VALUES(%s)",
             "INSERT INTO %Q.sqlite_master VALUES('index',%Q,%Q,#%d,%Q);",
@@ -26803,6 +26813,7 @@
             "messages.getEmojiKeywords",
             "messages.getEmojiKeywordsDifference",
             "messages.getEmojiKeywordsLanguages",
+            "messages.getEmojiProfilePhotoGroups",
             "messages.getEmojiStatusGroups",
             "messages.getEmojiStickers",
             "messages.getEmojiURL",
@@ -27038,7 +27049,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230127)",
+            "mozjpeg version 4.0.0 (build 20230130)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -33755,7 +33766,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 205544,
+          "size": 205844,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34068,7 +34079,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221636,
+          "size": 221728,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34081,7 +34092,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 122112,
+          "size": 122144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34170,7 +34181,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 900640,
+          "size": 901376,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -34349,7 +34360,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 289933,
+          "size": 289965,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34401,7 +34412,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 396776,
+          "size": 397032,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34432,7 +34443,7 @@
       "vmaddr": 4321132544,
       "vmsize": 2523136,
       "fileoff": 3688,
-      "filesize": 2507664,
+      "filesize": 2508432,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34453,9 +34464,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27772000,
+      "symoff": 27772736,
       "nsyms": 6334,
-      "stroff": 27893752,
+      "stroff": 27894488,
       "strsize": 147416,
       "fileoff": 3808
     },
@@ -34473,7 +34484,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27873344,
+      "indirectsymoff": 27874080,
       "nindirectsyms": 5102,
       "extreloff": 0,
       "nextrel": 0,
@@ -34502,7 +34513,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21017644,
+      "entryoff": 21016620,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -34883,20 +34894,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27611776,
-      "datasize": 147096,
+      "dataoff": 27612408,
+      "datasize": 147192,
       "fileoff": 7392
     },
     {
       "type": "data_in_code",
-      "dataoff": 27758872,
-      "datasize": 13128,
+      "dataoff": 27759600,
+      "datasize": 13136,
       "fileoff": 7408
     },
     {
       "type": "code_signature",
-      "dataoff": 28041168,
-      "datasize": 238528,
+      "dataoff": 28041904,
+      "datasize": 238560,
       "fileoff": 7424
     }
   ],

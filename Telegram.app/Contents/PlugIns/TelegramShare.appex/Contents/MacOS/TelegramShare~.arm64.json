@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 20922368,
+      "vmsize": 20938752,
       "fileoff": 104,
-      "filesize": 20922368,
+      "filesize": 20938752,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18102140,
+          "size": 18111356,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 773032,
+          "size": 773224,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 249603,
+          "size": 249677,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -164,7 +164,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 175487,
+          "size": 175599,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2225,6 +2225,7 @@
             "availableReactionsNotModified",
             "availableSavedLocalizations",
             "availableSize",
+            "avatar",
             "avatar",
             "avatar",
             "avatar",
@@ -4514,6 +4515,7 @@
             "generic",
             "generic",
             "generic",
+            "generic",
             "genericPublic",
             "geo",
             "geoDistance",
@@ -5439,10 +5441,12 @@
             "invalidGrouping",
             "invalidHash",
             "invalidJoinAsPeer",
+            "invalidLanguage",
             "invalidLastName",
             "invalidLater",
             "invalidLater",
             "invalidMedia",
+            "invalidMessageId",
             "invalidPassword",
             "invalidPassword",
             "invalidPassword",
@@ -5967,6 +5971,7 @@
             "limitExceeded",
             "limitExceeded",
             "limitExceeded",
+            "limitExceeded",
             "limitReached",
             "limited",
             "line",
@@ -6025,6 +6030,7 @@
             "loadingHole",
             "loadingMoreEarlier",
             "loadingPlaceholders",
+            "local",
             "local",
             "local",
             "local",
@@ -9335,6 +9341,7 @@
             "textIndexTable",
             "textIndexTable",
             "textInset",
+            "textIsEmpty",
             "textItalic",
             "textLayout",
             "textLayout",
@@ -9353,6 +9360,7 @@
             "textStrike",
             "textSubscript",
             "textSuperscript",
+            "textTooLong",
             "textTooLong",
             "textUnderline",
             "textUrl",
@@ -10463,7 +10471,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 188964,
+          "size": 189076,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10489,7 +10497,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 16164,
+          "size": 16172,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10502,7 +10510,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12464,
+          "size": 12468,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10515,7 +10523,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 583311,
+          "size": 583423,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14797,6 +14805,8 @@
             "INDEX %d",
             "INDEX %s",
             "INN",
+            "INPUT_TEXT_EMPTY",
+            "INPUT_TEXT_TOO_LONG",
             "INS",
             "INSERT INTO %Q.'%q_content' VALUES(%s)",
             "INSERT INTO %Q.sqlite_master VALUES('index',%Q,%Q,#%d,%Q);",
@@ -26814,6 +26824,7 @@
             "messages.getEmojiKeywords",
             "messages.getEmojiKeywordsDifference",
             "messages.getEmojiKeywordsLanguages",
+            "messages.getEmojiProfilePhotoGroups",
             "messages.getEmojiStatusGroups",
             "messages.getEmojiStickers",
             "messages.getEmojiURL",
@@ -27049,7 +27060,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230127)",
+            "mozjpeg version 4.0.0 (build 20230130)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -33760,7 +33771,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 205544,
+          "size": 205844,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34073,7 +34084,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 249100,
+          "size": 249228,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34086,7 +34097,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 180788,
+          "size": 180820,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34101,7 +34112,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4315889664,
+      "vmaddr": 4315906048,
       "vmsize": 933888,
       "fileoff": 1856,
       "filesize": 933888,
@@ -34134,7 +34145,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 884944,
+          "size": 885696,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34218,7 +34229,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4316823552,
+      "vmaddr": 4316839936,
       "vmsize": 1359872,
       "fileoff": 2488,
       "filesize": 966656,
@@ -34350,7 +34361,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 289088,
+          "size": 289120,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34376,7 +34387,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 396408,
+          "size": 396664,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34404,10 +34415,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4318183424,
+      "vmaddr": 4318199808,
       "vmsize": 2490368,
       "fileoff": 3520,
-      "filesize": 2482880,
+      "filesize": 2483744,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34428,9 +34439,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 24824704,
+      "symoff": 24841824,
       "nsyms": 6315,
-      "stroff": 24943712,
+      "stroff": 24960832,
       "strsize": 146584,
       "fileoff": 3640
     },
@@ -34448,7 +34459,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24925744,
+      "indirectsymoff": 24942864,
       "nindirectsyms": 4492,
       "extreloff": 0,
       "nextrel": 0,
@@ -34474,7 +34485,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18120016,
+      "entryoff": 18135312,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -34855,20 +34866,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 24678688,
-      "datasize": 146016,
+      "dataoff": 24695712,
+      "datasize": 146112,
       "fileoff": 7424
     },
     {
       "type": "data_in_code",
-      "dataoff": 24824704,
+      "dataoff": 24841824,
       "datasize": 0,
       "fileoff": 7440
     },
     {
       "type": "code_signature",
-      "dataoff": 25090304,
-      "datasize": 215488,
+      "dataoff": 25107424,
+      "datasize": 215616,
       "fileoff": 7456
     }
   ],
