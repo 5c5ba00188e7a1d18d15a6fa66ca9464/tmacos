@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 60162048,
+      "vmsize": 60178432,
       "fileoff": 104,
-      "filesize": 60162048,
+      "filesize": 60178432,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54213957,
+          "size": 54222949,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2070077,
+          "size": 2070333,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10721,7 +10721,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1445782,
+          "size": 1445734,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -36461,6 +36461,7 @@
             "_TtC8Telegram19Auth_CountryManager",
             "_TtC8Telegram19Avatar_MonogramView",
             "_TtC8Telegram19Avatar_StickersList",
+            "_TtC8Telegram19BackCategoryControl",
             "_TtC8Telegram19CalendarMonthStruct",
             "_TtC8Telegram19CallHeaderBasicView",
             "_TtC8Telegram19CameraCaptureDevice",
@@ -36869,6 +36870,7 @@
             "_TtC8Telegram24UserInfoSuggestPhotoItem",
             "_TtC8Telegram24WallpaperColorPickerView",
             "_TtC8Telegram24WidgetStickersController",
+            "_TtC8Telegram25AnimatedEmojiesCategories",
             "_TtC8Telegram25AnimatedStickerHeaderItem",
             "_TtC8Telegram25ChannelCommentsRenderData",
             "_TtC8Telegram25ChannelEventLogController",
@@ -37503,8 +37505,6 @@
             "_TtC8TelegramP33_BC2715777D9347CA6ED33A8037A206E919InviteLinkArguments",
             "_TtC8TelegramP33_BDC7630F832214E23DB1904B19C7D68519NewContactArguments",
             "_TtC8TelegramP33_BE4B0C554ABD904BCCE84ECEF9C6065E21GeneralLoadingRowView",
-            "_TtC8TelegramP33_BE8152C6B239A42C33F9B664CCC098C819BackCategoryControl",
-            "_TtC8TelegramP33_BE8152C6B239A42C33F9B664CCC098C825AnimatedEmojiesCategories",
             "_TtC8TelegramP33_BE8152C6B239A42C33F9B664CCC098C89Arguments",
             "_TtC8TelegramP33_BE8808C7A5D90FC20AF23E3E718D014D9Arguments",
             "_TtC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB19DesktopCapturerView",
@@ -37797,6 +37797,7 @@
             "_TtCC8Telegram21WallpaperCheckboxView14ColorsListView",
             "_TtCC8Telegram23StickerMediaContentViewP33_6C490F3C139B79FF163A9FB1B55CBC418LockView",
             "_TtCC8Telegram24StickerPremiumHolderViewP33_C5C639C8240C3CE4FD2860194E00219E10AcceptView",
+            "_TtCC8Telegram25AnimatedEmojiesCategoriesP33_BE8152C6B239A42C33F9B664CCC098C812CategoryView",
             "_TtCC8Telegram25PremiumBoardingDoubleView10HeaderView",
             "_TtCC8Telegram25PresentationGroupCallImplP33_201134FB499D0821353AC0FFEED67EB927SpeakingParticipantsContext",
             "_TtCC8Telegram25ReactionsWindowControllerP33_865F755C442A0CD260A4BB45934AE3A51V",
@@ -37828,7 +37829,6 @@
             "_TtCC8TelegramP33_96B2CBD4F381EF834C67D5611F4ABC5319StickerToMp4Context6Export",
             "_TtCC8TelegramP33_9DA84C0CCD06DDCA70CE851BD167446B25SelectBotRequestEmptyView10CreateView",
             "_TtCC8TelegramP33_A627ED0FEFC6667E1591192B64B957AC14ShareModalView19ForumTopicArguments",
-            "_TtCC8TelegramP33_BE8152C6B239A42C33F9B664CCC098C825AnimatedEmojiesCategories12CategoryView",
             "_TtCC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB19DesktopCapturerView5Micro",
             "_TtCC8TelegramP33_C132402AC8EF995BA0EA2570D70292AB13RenderFpsLoop6Values",
             "_TtCC8TelegramP33_CD16D913679D1C9FFF4C45454E21113314ColorsListView5Color",
@@ -50117,7 +50117,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230130)",
+            "mozjpeg version 4.0.0 (build 20230131)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -59068,7 +59068,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 330735,
+          "size": 330715,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59094,7 +59094,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 21884,
+          "size": 21888,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59107,7 +59107,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22232,
+          "size": 22236,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70595,7 +70595,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 539020,
+          "size": 539112,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70608,7 +70608,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 149456,
+          "size": 149488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70623,7 +70623,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4355129344,
+      "vmaddr": 4355145728,
       "vmsize": 7602176,
       "fileoff": 2016,
       "filesize": 5816320,
@@ -70697,7 +70697,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1785936,
+          "size": 1786224,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70779,7 +70779,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1262496,
+          "size": 1262784,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70863,7 +70863,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1620936,
+          "size": 1621136,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70876,7 +70876,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 795797,
+          "size": 795893,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70954,7 +70954,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1110664,
+          "size": 1110792,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70982,10 +70982,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4362731520,
+      "vmaddr": 4362747904,
       "vmsize": 3588096,
       "fileoff": 4088,
-      "filesize": 3583856,
+      "filesize": 3584080,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71006,9 +71006,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 68728640,
+      "symoff": 68745120,
       "nsyms": 4266,
-      "stroff": 68832144,
+      "stroff": 68848624,
       "strsize": 171312,
       "fileoff": 4208
     },
@@ -71026,7 +71026,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 68796896,
+      "indirectsymoff": 68813376,
       "nindirectsyms": 8811,
       "extreloff": 0,
       "nextrel": 0,
@@ -71055,7 +71055,7 @@
     },
     {
       "type": "main",
-      "entryoff": 35504,
+      "entryoff": 42384,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71783,20 +71783,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68402664,
-      "datasize": 300744,
+      "dataoff": 68419096,
+      "datasize": 300792,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 68703408,
+      "dataoff": 68719888,
       "datasize": 25232,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69003456,
-      "datasize": 558768,
+      "dataoff": 69019936,
+      "datasize": 558896,
       "fileoff": 11448
     }
   ],
