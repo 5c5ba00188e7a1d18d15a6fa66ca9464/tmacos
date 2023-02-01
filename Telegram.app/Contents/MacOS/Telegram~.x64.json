@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54266853,
+          "size": 54266373,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10722,7 +10722,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1446406,
+          "size": 1446422,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -29638,6 +29638,7 @@
             "Send first message to start this topic.",
             "Send reliably, type=%u, len=%u, retry=%.3f, timeout=%.3f",
             "Send stream with SSRC '",
+            "Send this info to @vihor",
             "Send udp pings",
             "Send video packet",
             "SendData called before transport is ready",
@@ -30769,7 +30770,6 @@
             "TGUIKit/TGSplitView.swift",
             "TGUIKit/TabBarController.swift",
             "TGUIKit/TabBarView.swift",
-            "TGUIKit/TableRowItem.swift",
             "TGUIKit/TableRowView.swift",
             "TGUIKit/TableView.swift",
             "TGUIKit/TextButtonBarView.swift",
@@ -53627,7 +53627,7 @@
             "routing_number",
             "row",
             "row ",
-            "row is fucked up == ",
+            "row height calculation is failed for ",
             "row value misused",
             "rowHeight",
             "rowView",
@@ -71083,7 +71083,7 @@
     },
     {
       "type": "main",
-      "entryoff": 43760,
+      "entryoff": 44240,
       "stacksize": 0,
       "fileoff": 4400
     },

@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18149388,
+          "size": 18148060,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10536,7 +10536,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 584079,
+          "size": 584095,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17881,6 +17881,7 @@
             "Send Proxied Owner",
             "Send Proxied Router",
             "Send Router",
+            "Send this info to @vihor",
             "Separator.ShowLess",
             "Separator.ShowMore",
             "Sequence",
@@ -18488,7 +18489,6 @@
             "TGUIKit/TGSplitView.swift",
             "TGUIKit/TabBarController.swift",
             "TGUIKit/TabBarView.swift",
-            "TGUIKit/TableRowItem.swift",
             "TGUIKit/TableRowView.swift",
             "TGUIKit/TableView.swift",
             "TGUIKit/TextButtonBarView.swift",
@@ -28637,7 +28637,7 @@
             "roundCorners",
             "row",
             "row ",
-            "row is fucked up == ",
+            "row height calculation is failed for ",
             "row value misused",
             "rowid",
             "rows",
@@ -30766,7 +30766,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 69276,
+          "size": 69356,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31585,6 +31585,7 @@
             "addAddressForDatacenterWithId:address:",
             "addAnimation:forKey:",
             "addAttribute:value:range:",
+            "addButtonWithTitle:",
             "addChangeListener:",
             "addConstraint:",
             "addContainerMessageIdMapping:childMessageIds:",
@@ -32974,6 +32975,7 @@
             "runLoopModes",
             "runLoopThread",
             "runLoopThreadFunc",
+            "runModal",
             "runUntilDate:",
             "sRGBColorSpace",
             "salt",
@@ -33033,6 +33035,7 @@
             "setActualizationPingResendTimer:",
             "setAdditive:",
             "setAddressStyle:",
+            "setAlertStyle:",
             "setAlignment:",
             "setAlignment:range:",
             "setAlignmentMode:",
@@ -33198,6 +33201,7 @@
             "setImage:",
             "setImpl:",
             "setInResponseToMessageId:",
+            "setInformativeText:",
             "setInitialVelocity:",
             "setInputStream:",
             "setInsertionPointColor:",
@@ -33232,6 +33236,7 @@
             "setMessagePayload:",
             "setMessageProcessed:",
             "setMessageSeqNo:",
+            "setMessageText:",
             "setMessageWasSentOnce:",
             "setMinimalExecuteTime:",
             "setMonth:",
@@ -34112,7 +34117,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 250036,
+          "size": 250028,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34305,7 +34310,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 17016,
+          "size": 17056,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34333,7 +34338,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 2192,
+          "size": 2200,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34446,7 +34451,7 @@
       "vmaddr": 4318248960,
       "vmsize": 2490368,
       "fileoff": 3520,
-      "filesize": 2481664,
+      "filesize": 2481728,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34467,10 +34472,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 24888512,
-      "nsyms": 6315,
-      "stroff": 25007528,
-      "strsize": 146584,
+      "symoff": 24888536,
+      "nsyms": 6316,
+      "stroff": 25007568,
+      "strsize": 146608,
       "fileoff": 3640
     },
     {
@@ -34480,14 +34485,14 @@
       "iextdefsym": 1,
       "nextdefsym": 5380,
       "iundefsym": 5381,
-      "nundefsym": 934,
+      "nundefsym": 935,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24989552,
+      "indirectsymoff": 24989592,
       "nindirectsyms": 4494,
       "extreloff": 0,
       "nextrel": 0,
@@ -34513,7 +34518,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18179840,
+      "entryoff": 18179760,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -34894,19 +34899,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 24742048,
+      "dataoff": 24742072,
       "datasize": 146464,
       "fileoff": 7424
     },
     {
       "type": "data_in_code",
-      "dataoff": 24888512,
+      "dataoff": 24888536,
       "datasize": 0,
       "fileoff": 7440
     },
     {
       "type": "code_signature",
-      "dataoff": 25154112,
+      "dataoff": 25154176,
       "datasize": 216000,
       "fileoff": 7456
     }
