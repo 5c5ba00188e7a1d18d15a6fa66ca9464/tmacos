@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 20987904,
+      "vmsize": 20971520,
       "fileoff": 104,
-      "filesize": 20987904,
+      "filesize": 20971520,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18148060,
+          "size": 18145756,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10536,7 +10536,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 584095,
+          "size": 584015,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17881,7 +17881,6 @@
             "Send Proxied Owner",
             "Send Proxied Router",
             "Send Router",
-            "Send this info to @vihor",
             "Separator.ShowLess",
             "Separator.ShowMore",
             "Sequence",
@@ -27085,7 +27084,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230201)",
+            "mozjpeg version 4.0.0 (build 20230202)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -28637,7 +28636,6 @@
             "roundCorners",
             "row",
             "row ",
-            "row height calculation is failed for ",
             "row value misused",
             "rowid",
             "rows",
@@ -30766,7 +30764,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 69356,
+          "size": 69276,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31585,7 +31583,6 @@
             "addAddressForDatacenterWithId:address:",
             "addAnimation:forKey:",
             "addAttribute:value:range:",
-            "addButtonWithTitle:",
             "addChangeListener:",
             "addConstraint:",
             "addContainerMessageIdMapping:childMessageIds:",
@@ -32975,7 +32972,6 @@
             "runLoopModes",
             "runLoopThread",
             "runLoopThreadFunc",
-            "runModal",
             "runUntilDate:",
             "sRGBColorSpace",
             "salt",
@@ -33035,7 +33031,6 @@
             "setActualizationPingResendTimer:",
             "setAdditive:",
             "setAddressStyle:",
-            "setAlertStyle:",
             "setAlignment:",
             "setAlignment:range:",
             "setAlignmentMode:",
@@ -33201,7 +33196,6 @@
             "setImage:",
             "setImpl:",
             "setInResponseToMessageId:",
-            "setInformativeText:",
             "setInitialVelocity:",
             "setInputStream:",
             "setInsertionPointColor:",
@@ -33236,7 +33230,6 @@
             "setMessagePayload:",
             "setMessageProcessed:",
             "setMessageSeqNo:",
-            "setMessageText:",
             "setMessageWasSentOnce:",
             "setMinimalExecuteTime:",
             "setMonth:",
@@ -34145,7 +34138,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4315955200,
+      "vmaddr": 4315938816,
       "vmsize": 933888,
       "fileoff": 1856,
       "filesize": 933888,
@@ -34262,7 +34255,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4316889088,
+      "vmaddr": 4316872704,
       "vmsize": 1359872,
       "fileoff": 2488,
       "filesize": 966656,
@@ -34310,7 +34303,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 17056,
+          "size": 17016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34338,7 +34331,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 2200,
+          "size": 2192,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34448,10 +34441,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4318248960,
+      "vmaddr": 4318232576,
       "vmsize": 2490368,
       "fileoff": 3520,
-      "filesize": 2481728,
+      "filesize": 2481536,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34472,10 +34465,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 24888536,
-      "nsyms": 6316,
-      "stroff": 25007568,
-      "strsize": 146608,
+      "symoff": 24872128,
+      "nsyms": 6315,
+      "stroff": 24991144,
+      "strsize": 146584,
       "fileoff": 3640
     },
     {
@@ -34485,14 +34478,14 @@
       "iextdefsym": 1,
       "nextdefsym": 5380,
       "iundefsym": 5381,
-      "nundefsym": 935,
+      "nundefsym": 934,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 24989592,
+      "indirectsymoff": 24973168,
       "nindirectsyms": 4494,
       "extreloff": 0,
       "nextrel": 0,
@@ -34518,7 +34511,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18179760,
+      "entryoff": 18163536,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -34899,20 +34892,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 24742072,
+      "dataoff": 24725664,
       "datasize": 146464,
       "fileoff": 7424
     },
     {
       "type": "data_in_code",
-      "dataoff": 24888536,
+      "dataoff": 24872128,
       "datasize": 0,
       "fileoff": 7440
     },
     {
       "type": "code_signature",
-      "dataoff": 25154176,
-      "datasize": 216000,
+      "dataoff": 25137728,
+      "datasize": 215872,
       "fileoff": 7456
     }
   ],

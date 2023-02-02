@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46073668,
+          "size": 46071428,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -10731,7 +10731,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1444655,
+          "size": 1444575,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -29736,7 +29736,6 @@
             "Send first message to start this topic.",
             "Send reliably, type=%u, len=%u, retry=%.3f, timeout=%.3f",
             "Send stream with SSRC '",
-            "Send this info to @vihor",
             "Send udp pings",
             "Send video packet",
             "SendData called before transport is ready",
@@ -50148,7 +50147,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230201)",
+            "mozjpeg version 4.0.0 (build 20230202)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -53638,7 +53637,6 @@
             "routing_number",
             "row",
             "row ",
-            "row height calculation is failed for ",
             "row value misused",
             "rowHeight",
             "rowView",
@@ -71090,7 +71088,7 @@
     },
     {
       "type": "main",
-      "entryoff": 28508,
+      "entryoff": 31004,
       "stacksize": 0,
       "fileoff": 4328
     },
