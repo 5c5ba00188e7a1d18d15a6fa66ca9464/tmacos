@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18146732,
+          "size": 18147228,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34111,7 +34111,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 250028,
+          "size": 250024,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34172,7 +34172,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 888400,
+          "size": 888368,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
