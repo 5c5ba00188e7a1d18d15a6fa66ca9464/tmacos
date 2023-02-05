@@ -27076,7 +27076,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230203)",
+            "mozjpeg version 4.0.0 (build 20230205)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -34533,7 +34533,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.13.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
