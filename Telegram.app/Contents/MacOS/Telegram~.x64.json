@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54407685,
+          "size": 54416133,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10733,7 +10733,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1448950,
+          "size": 1449078,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31051,6 +31051,7 @@
             "TND",
             "TNS filter order %d is greater than maximum %d.\n",
             "TO",
+            "TOKEN_WAS_INVALIDATED",
             "TOO_LONG",
             "TOO_LONG:%@",
             "TOO_MANY_RETRIES",
@@ -39791,6 +39792,7 @@
             "app",
             "app data in handshake",
             "appBuild",
+            "appConfigNotModified",
             "appDataDisposable",
             "appEncryption",
             "appExt",
@@ -47894,7 +47896,7 @@
             "iods video profile atom.",
             "iods_audio_profile",
             "iods_video_profile",
-            "ios_disable_parallel_channel_reset",
+            "ios_disable_parallel_channel_reset_v2",
             "ip",
             "ipAddress",
             "ipAddressChoice",
@@ -50215,7 +50217,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230217)",
+            "mozjpeg version 4.0.0 (build 20230220)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -55757,10 +55759,12 @@
             "stickerView",
             "stickers",
             "stickers.addStickerToSet",
+            "stickers.changeSticker",
             "stickers.changeStickerPosition",
             "stickers.checkShortName",
             "stickers.createStickerSet",
             "stickers.removeStickerFromSet",
+            "stickers.renameStickerSet",
             "stickers.setStickerSetThumb",
             "stickers.suggestShortName",
             "stickersAddFeatured",
@@ -59186,7 +59190,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 332671,
+          "size": 332925,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59212,7 +59216,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 21980,
+          "size": 21984,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59225,7 +59229,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22296,
+          "size": 22304,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59251,7 +59255,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 195636,
+          "size": 195700,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -61124,6 +61128,8 @@
             "apiHash",
             "apiId",
             "apiId",
+            "appConfig",
+            "appConfigNotModified",
             "appData",
             "appDataDisposable",
             "appName",
@@ -63222,6 +63228,7 @@
             "emoji",
             "emoji",
             "emoji",
+            "emoji",
             "emojiGenericAnimations",
             "emojiGroup",
             "emojiGroups",
@@ -64246,6 +64253,7 @@
             "hasUserInitiatedEntriesValue",
             "hasUsername",
             "hasVideo",
+            "hash",
             "hash",
             "hash",
             "hash",
@@ -65459,6 +65467,7 @@
             "keys",
             "keys",
             "keyword",
+            "keywords",
             "khmer",
             "khmerCambodia",
             "kicked",
@@ -69080,6 +69089,7 @@
             "stickers",
             "stickers",
             "stickers",
+            "stickers",
             "stickersNotModified",
             "stop",
             "storageBox",
@@ -70703,7 +70713,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 204480,
+          "size": 204584,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70729,7 +70739,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 8980,
+          "size": 9000,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70755,7 +70765,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 210800,
+          "size": 210932,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70781,7 +70791,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 539560,
+          "size": 539664,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70794,7 +70804,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 149816,
+          "size": 149880,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70844,7 +70854,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 36248,
+          "size": 36256,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70883,7 +70893,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1790896,
+          "size": 1791472,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -70965,7 +70975,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1266856,
+          "size": 1266824,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71049,7 +71059,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1625648,
+          "size": 1625640,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71062,7 +71072,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 799605,
+          "size": 799509,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71171,7 +71181,7 @@
       "vmaddr": 4362960896,
       "vmsize": 3604480,
       "fileoff": 4088,
-      "filesize": 3592688,
+      "filesize": 3593680,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71192,9 +71202,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 68964424,
+      "symoff": 68965408,
       "nsyms": 4276,
-      "stroff": 69068192,
+      "stroff": 69069184,
       "strsize": 171736,
       "fileoff": 4208
     },
@@ -71212,8 +71222,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69032840,
-      "nindirectsyms": 8838,
+      "indirectsymoff": 69033824,
+      "nindirectsyms": 8839,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -71241,7 +71251,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40752,
+      "entryoff": 31280,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71969,19 +71979,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68637152,
-      "datasize": 301920,
+      "dataoff": 68638056,
+      "datasize": 301992,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 68939072,
-      "datasize": 25352,
+      "dataoff": 68940048,
+      "datasize": 25360,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69239936,
+      "dataoff": 69240928,
       "datasize": 560496,
       "fileoff": 11448
     }
