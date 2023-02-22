@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54404005,
+          "size": 54400837,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10742,7 +10742,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1449862,
+          "size": 1449878,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -37987,6 +37987,7 @@
             "_alertCheckBoxSelected",
             "_alertCheckBoxUnselected",
             "_animateArchive",
+            "_animatedEmojies",
             "_appConfiguration",
             "_appUpdate",
             "_appearanceAddPlatformTheme",
@@ -42132,6 +42133,7 @@
             "checkbox",
             "checkboxContainer",
             "checkedHistoryImportPeer",
+            "checker",
             "checkerboard",
             "checkerboard_lr",
             "checkerboard_rl",
@@ -49965,7 +49967,6 @@
             "messagesReceived",
             "messagesSent",
             "messagesViewQueue",
-            "messagesViewQueue_",
             "meta",
             "metaPath",
             "meta\\s+itemprop=\"regionsAllowed\"\\s+content=\"(.*)\"",
@@ -59219,7 +59220,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 333033,
+          "size": 333053,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -70820,7 +70821,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 539708,
+          "size": 539688,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71004,7 +71005,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1266888,
+          "size": 1266952,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71101,7 +71102,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 799733,
+          "size": 799797,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71210,7 +71211,7 @@
       "vmaddr": 4362960896,
       "vmsize": 3604480,
       "fileoff": 4088,
-      "filesize": 3594784,
+      "filesize": 3594800,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71231,9 +71232,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 68966072,
+      "symoff": 68966080,
       "nsyms": 4284,
-      "stroff": 69070024,
+      "stroff": 69070032,
       "strsize": 172008,
       "fileoff": 4208
     },
@@ -71251,7 +71252,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69034616,
+      "indirectsymoff": 69034624,
       "nindirectsyms": 8851,
       "extreloff": 0,
       "nextrel": 0,
@@ -71280,7 +71281,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42288,
+      "entryoff": 45456,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -72009,18 +72010,18 @@
     {
       "type": "function_starts",
       "dataoff": 68638704,
-      "datasize": 302008,
+      "datasize": 302016,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 68940712,
+      "dataoff": 68940720,
       "datasize": 25360,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69242032,
+      "dataoff": 69242048,
       "datasize": 560496,
       "fileoff": 11448
     }
