@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21106682,
+          "size": 21108570,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10604,7 +10604,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 587393,
+          "size": 587377,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33990,7 +33990,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 206780,
+          "size": 206864,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34304,7 +34304,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 223500,
+          "size": 223516,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34406,7 +34406,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 905696,
+          "size": 905792,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -34668,7 +34668,7 @@
       "vmaddr": 4321280000,
       "vmsize": 2523136,
       "fileoff": 3688,
-      "filesize": 2519184,
+      "filesize": 2519200,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34689,9 +34689,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27929056,
+      "symoff": 27929064,
       "nsyms": 6345,
-      "stroff": 28051216,
+      "stroff": 28051224,
       "strsize": 147680,
       "fileoff": 3808
     },
@@ -34709,7 +34709,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28030576,
+      "indirectsymoff": 28030584,
       "nindirectsyms": 5159,
       "extreloff": 0,
       "nextrel": 0,
@@ -34738,7 +34738,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21131586,
+      "entryoff": 21131522,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35128,18 +35128,18 @@
     {
       "type": "function_starts",
       "dataoff": 27767720,
-      "datasize": 148120,
+      "datasize": 148128,
       "fileoff": 7480
     },
     {
       "type": "data_in_code",
-      "dataoff": 27915840,
+      "dataoff": 27915848,
       "datasize": 13216,
       "fileoff": 7496
     },
     {
       "type": "code_signature",
-      "dataoff": 28198896,
+      "dataoff": 28198912,
       "datasize": 239776,
       "fileoff": 7512
     }
