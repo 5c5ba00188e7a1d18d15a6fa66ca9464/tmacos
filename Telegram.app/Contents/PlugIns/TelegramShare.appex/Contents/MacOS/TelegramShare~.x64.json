@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21108570,
+          "size": 21107898,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 875367,
+          "size": 875287,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 251673,
+          "size": 251667,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 176863,
+          "size": 176847,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -5181,7 +5181,6 @@
             "initializedHistoryPeerIdTags",
             "initializedHistoryPeerIds",
             "initializer",
-            "inkContainer",
             "inkViews",
             "inlineBotSwitchPM",
             "inlinePlaceholder",
@@ -10552,7 +10551,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 190660,
+          "size": 190632,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10591,7 +10590,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12540,
+          "size": 12536,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10604,7 +10603,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 587377,
+          "size": 587281,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -18430,7 +18429,6 @@
             "TGUIKit.ImageBarView",
             "TGUIKit.InfiniteProgressView",
             "TGUIKit.InfiniteProgressViewParameters",
-            "TGUIKit.InkContainer",
             "TGUIKit.LinearProgressControl",
             "TGUIKit.MagnifyView",
             "TGUIKit.MajorNavigationController",
@@ -20752,7 +20750,6 @@
             "_TtCC7TGUIKit14TextViewLayout12EmbeddedItem",
             "_TtCC7TGUIKit14TextViewLayout7Spoiler",
             "_TtCC7TGUIKit30AnimatedGradientBackgroundView9CloneView",
-            "_TtCC7TGUIKit8TextViewP33_06A0149783EB96F3AAA2D8C6B5CBD23C12InkContainer",
             "_TtCC7TGUIKit8TextViewP33_06A0149783EB96F3AAA2D8C6B5CBD23C17EmbeddedContainer",
             "_TtCCC12TelegramCore14EngineChatList14AdditionalItem9PromoInfo",
             "_TtCCC12TelegramCore14EngineChatList9GroupItem4Item",
@@ -25880,7 +25877,6 @@
             "initializedHistoryPeerIds",
             "initializer",
             "initials",
-            "inkContainer",
             "inkViews",
             "inlineBotSwitchPM",
             "inlineQueryPeerTypeBroadcast",
@@ -27234,7 +27230,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230223)",
+            "mozjpeg version 4.0.0 (build 20230224)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -30775,6 +30771,7 @@
             "wallpaper_color_play",
             "wallpaper_color_rotate",
             "wallpaper_color_swap",
+            "wantsDefaultClipping",
             "wap",
             "wap-wsg",
             "wap-wsg-idm-ecid-wtls1",
@@ -30936,7 +30933,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 69780,
+          "size": 69801,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -33938,6 +33935,7 @@
             "waitingForMessageId",
             "waitingForRequestToComplete",
             "waitingForTokenExport",
+            "wantsDefaultClipping",
             "wasMessageSentOnce:",
             "weekDay:",
             "weekday",
@@ -34304,7 +34302,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 223516,
+          "size": 223512,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34432,7 +34430,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 9120,
+          "size": 9112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34488,7 +34486,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 446720,
+          "size": 446632,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34572,7 +34570,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 260472,
+          "size": 259624,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34585,7 +34583,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 293357,
+          "size": 293309,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34668,7 +34666,7 @@
       "vmaddr": 4321280000,
       "vmsize": 2523136,
       "fileoff": 3688,
-      "filesize": 2519200,
+      "filesize": 2519040,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34689,9 +34687,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27929064,
+      "symoff": 27928912,
       "nsyms": 6345,
-      "stroff": 28051224,
+      "stroff": 28051072,
       "strsize": 147680,
       "fileoff": 3808
     },
@@ -34709,7 +34707,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28030584,
+      "indirectsymoff": 28030432,
       "nindirectsyms": 5159,
       "extreloff": 0,
       "nextrel": 0,
@@ -34738,7 +34736,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21131522,
+      "entryoff": 21131746,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35127,19 +35125,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27767720,
-      "datasize": 148128,
+      "dataoff": 27767576,
+      "datasize": 148120,
       "fileoff": 7480
     },
     {
       "type": "data_in_code",
-      "dataoff": 27915848,
+      "dataoff": 27915696,
       "datasize": 13216,
       "fileoff": 7496
     },
     {
       "type": "code_signature",
-      "dataoff": 28198912,
+      "dataoff": 28198752,
       "datasize": 239776,
       "fileoff": 7512
     }

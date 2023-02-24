@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46189956,
+          "size": 46187780,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 172740,
+          "size": 172716,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 231179,
+          "size": 231214,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -5965,6 +5965,7 @@
             "markdown:",
             "markdownItems",
             "mask",
+            "masksToBounds",
             "masterCardCardImage",
             "matcheFirstByRegex:regex:",
             "matchedStringByRegex:regex:",
@@ -9550,6 +9551,7 @@
             "waitingForMessageId",
             "waitingForRequestToComplete",
             "waitingForTokenExport",
+            "wantsDefaultClipping",
             "was",
             "wasMessageSentOnce:",
             "wasRange",
@@ -10753,7 +10755,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1448162,
+          "size": 1448082,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -30825,7 +30827,6 @@
             "TGUIKit.ImageBarView",
             "TGUIKit.InfiniteProgressView",
             "TGUIKit.InfiniteProgressViewParameters",
-            "TGUIKit.InkContainer",
             "TGUIKit.LinearProgressControl",
             "TGUIKit.MagnifyView",
             "TGUIKit.MajorNavigationController",
@@ -37952,7 +37953,6 @@
             "_TtCC7TGUIKit14TextViewLayout12EmbeddedItem",
             "_TtCC7TGUIKit14TextViewLayout7Spoiler",
             "_TtCC7TGUIKit30AnimatedGradientBackgroundView9CloneView",
-            "_TtCC7TGUIKit8TextViewP33_06A0149783EB96F3AAA2D8C6B5CBD23C12InkContainer",
             "_TtCC7TGUIKit8TextViewP33_06A0149783EB96F3AAA2D8C6B5CBD23C17EmbeddedContainer",
             "_TtCC8Telegram11ChatRowItem10RowCaption",
             "_TtCC8Telegram13GroupCallViewP33_9DA19CF1E610A18A2FA1A01CD803BE537Content",
@@ -47444,7 +47444,6 @@
             "initials",
             "inivitedPeersPromise",
             "injected",
-            "inkContainer",
             "inkMaskView",
             "inkView",
             "inkViews",
@@ -49273,6 +49272,7 @@
             "maskView",
             "masked_card_number",
             "masksProperties",
+            "masksToBounds",
             "mass",
             "master secret",
             "master-notification-secret",
@@ -50269,7 +50269,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230223)",
+            "mozjpeg version 4.0.0 (build 20230224)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58680,6 +58680,7 @@
             "wallpaper_color_rotate",
             "wallpaper_color_swap",
             "wallpapers",
+            "wantsDefaultClipping",
             "wantsView",
             "wap",
             "wap-wsg",
@@ -59253,7 +59254,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 333089,
+          "size": 333083,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59292,7 +59293,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22312,
+          "size": 22308,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59318,7 +59319,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 195812,
+          "size": 195796,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -64808,7 +64809,6 @@
             "initializedHistoryPeerIds",
             "initializer",
             "initiallyZoomed",
-            "inkContainer",
             "inkViews",
             "inlineBotSwitchPM",
             "inlinePlaceholder",
@@ -70794,7 +70794,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 204820,
+          "size": 204792,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70872,7 +70872,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 621364,
+          "size": 621324,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70885,7 +70885,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 419748,
+          "size": 419716,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70946,7 +70946,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1815728,
+          "size": 1815760,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -70972,7 +70972,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 26496,
+          "size": 26488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71065,7 +71065,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1108736,
+          "size": 1108664,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71078,7 +71078,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51192,
+          "size": 51208,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71149,7 +71149,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1466072,
+          "size": 1465280,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71162,7 +71162,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 795344,
+          "size": 795312,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71245,7 +71245,7 @@
       "vmaddr": 4354867200,
       "vmsize": 3358720,
       "fileoff": 4000,
-      "filesize": 3346960,
+      "filesize": 3346816,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71266,9 +71266,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 60758200,
+      "symoff": 60758048,
       "nsyms": 3709,
-      "stroff": 60847664,
+      "stroff": 60847512,
       "strsize": 133744,
       "fileoff": 4120
     },
@@ -71286,7 +71286,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 60817544,
+      "indirectsymoff": 60817392,
       "nindirectsyms": 7529,
       "extreloff": 0,
       "nextrel": 0,
@@ -71312,7 +71312,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40796,
+      "entryoff": 42972,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -72040,19 +72040,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 60463584,
-      "datasize": 294616,
+      "dataoff": 60463440,
+      "datasize": 294608,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 60758200,
+      "dataoff": 60758048,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 60981408,
+      "dataoff": 60981264,
       "datasize": 495984,
       "fileoff": 11616
     }
