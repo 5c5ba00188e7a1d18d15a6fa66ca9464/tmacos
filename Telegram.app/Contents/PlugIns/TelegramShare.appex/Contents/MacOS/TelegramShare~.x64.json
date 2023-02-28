@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21131130,
+          "size": 21131290,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -78,7 +78,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 7848,
+          "size": 7842,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -95,7 +95,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 13096,
+          "size": 13086,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10627,7 +10627,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 588257,
+          "size": 588273,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11200,7 +11200,6 @@
             ".",
             ".%@",
             ".%lu",
-            ".+@([A-Za-z0-9-]+\\.)+[A-Za-z]{2}[A-Za-z]*",
             "..",
             "...",
             ".SFCompactRounded-Semibold",
@@ -19689,6 +19688,7 @@
             "[%@] %d-%d-%d %02d:%02d:%02d.%03d %@",
             "[%d]",
             "[%s] %s=%s\n",
+            "[A-Z0-9a-z._%+-]+@[A-Za-z0-9.-]+\\.[A-Za-z]{2,64}",
             "[Backup address fetch: backup config from %@ validity interval %d ... %d does not include current %d]",
             "[Backup address fetch: updating datacenter %d address set to %@]",
             "[HEX DUMP]:",
@@ -30994,7 +30994,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 69801,
+          "size": 69815,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -32322,7 +32322,6 @@
             "errorContext",
             "errorDescription",
             "errorWithDomain:code:userInfo:",
-            "evaluateWithObject:",
             "event",
             "execute:datacenterId:",
             "execute:masterDatacenterId:destinationDatacenterId:authToken:",
@@ -32360,6 +32359,7 @@
             "fireAndInvalidate",
             "firstAddress",
             "firstIndex",
+            "firstMatchInString:options:range:",
             "firstMessageId",
             "firstResponder",
             "firstValidMessageId",
@@ -34363,7 +34363,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 223624,
+          "size": 223560,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34376,7 +34376,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 122656,
+          "size": 122624,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34439,7 +34439,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10464,
+          "size": 10456,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34588,7 +34588,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 2208,
+          "size": 2200,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34727,7 +34727,7 @@
       "vmaddr": 4321296384,
       "vmsize": 2523136,
       "fileoff": 3688,
-      "filesize": 2522016,
+      "filesize": 2521840,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34748,10 +34748,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 27948088,
-      "nsyms": 6345,
-      "stroff": 28070264,
-      "strsize": 147680,
+      "symoff": 27947976,
+      "nsyms": 6344,
+      "stroff": 28070128,
+      "strsize": 147648,
       "fileoff": 3808
     },
     {
@@ -34761,15 +34761,15 @@
       "iextdefsym": 1,
       "nextdefsym": 5386,
       "iundefsym": 5387,
-      "nundefsym": 958,
+      "nundefsym": 957,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28049608,
-      "nindirectsyms": 5163,
+      "indirectsymoff": 28049480,
+      "nindirectsyms": 5161,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -34797,7 +34797,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21145806,
+      "entryoff": 21145896,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35186,19 +35186,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27786528,
+      "dataoff": 27786416,
       "datasize": 148344,
       "fileoff": 7480
     },
     {
       "type": "data_in_code",
-      "dataoff": 27934872,
+      "dataoff": 27934760,
       "datasize": 13216,
       "fileoff": 7496
     },
     {
       "type": "code_signature",
-      "dataoff": 28217952,
+      "dataoff": 28217776,
       "datasize": 239936,
       "fileoff": 7512
     }
