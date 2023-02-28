@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 52609024,
+      "vmsize": 52625408,
       "fileoff": 104,
-      "filesize": 52609024,
+      "filesize": 52625408,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46208264,
+          "size": 46220360,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -80,7 +80,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 25692,
+          "size": 25716,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -97,7 +97,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 25176,
+          "size": 25200,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 172716,
+          "size": 172724,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1961260,
+          "size": 1961004,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10755,7 +10755,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1449010,
+          "size": 1449282,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -25455,6 +25455,8 @@
             "LiteMode.Key.menu_animations.Title",
             "LiteMode.Key.stickers.Info",
             "LiteMode.Key.stickers.Title",
+            "LiteMode.Key.video.Info",
+            "LiteMode.Key.video.Title",
             "LiteMode.LowPower",
             "LiteMode.LowPower.Info",
             "LiteMode.LowPower.InfoFull",
@@ -26320,6 +26322,11 @@
             "NetworkUsage.ResetConfirm.Info",
             "NetworkUsage.ResetConfirm.Ok",
             "NetworkUsage.Section.Info",
+            "NetworkUsage.Title.Audio",
+            "NetworkUsage.Title.Files",
+            "NetworkUsage.Title.Generic",
+            "NetworkUsage.Title.Images",
+            "NetworkUsage.Title.Videos",
             "New Age",
             "New SSRC=",
             "New Wave",
@@ -38052,6 +38059,7 @@
             "_TtCFFCC12TelegramVoip23OngoingGroupCallContextP33_F7888E5BF2DB9F256A0D9B63AF73F4AE4ImplcFT5queueC14SwiftSignalKit5Queue13inputDeviceIdSS14outputDeviceIdSS18audioSessionActiveGCS2_6SignalSbOS2_7NoError_5videoGSqCS_24OngoingCallVideoCapturer_31requestMediaChannelDescriptionsFTGVs3SetVs6UInt32_FGSaVS0_23MediaChannelDescription_T__PS2_10Disposable_12rejoinNeededFT_T_24outgoingAudioBitrateKbitGSqVs5Int32_16videoContentTypeOS0_16VideoContentType22enableNoiseSuppressionSb17disableAudioInputSb10preferX264Sb7logPathSS_S1_U7_FTGSaCSo8NSNumber_FGSaCSo39OngoingGroupCallMediaChannelDescription_T__PSo43OngoingGroupCallMediaChannelDescriptionTask_L_47OngoingGroupCallMediaChannelDescriptionTaskImpl",
             "_TtCO12TelegramCore18SomeTelegramEngine4Auth",
             "_TtCVC12TelegramCore17SparseMessageList5State4Item",
+            "_ZeroValueHolder",
             "__",
             "__DATA",
             "__DATA_CONST",
@@ -50297,7 +50305,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230227)",
+            "mozjpeg version 4.0.0 (build 20230228)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -59290,7 +59298,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 333113,
+          "size": 333227,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -70906,7 +70914,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 210960,
+          "size": 211036,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70932,7 +70940,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 621368,
+          "size": 621504,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -70945,7 +70953,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 419716,
+          "size": 419792,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -70960,7 +70968,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4347576320,
+      "vmaddr": 4347592704,
       "vmsize": 2064384,
       "fileoff": 2096,
       "filesize": 2064384,
@@ -71006,7 +71014,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1816000,
+          "size": 1816208,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71090,7 +71098,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4349640704,
+      "vmaddr": 4349657088,
       "vmsize": 5242880,
       "fileoff": 2808,
       "filesize": 3473408,
@@ -71112,7 +71120,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 17128,
+          "size": 17144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71222,7 +71230,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 795504,
+          "size": 795952,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71302,10 +71310,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4354883584,
+      "vmaddr": 4354899968,
       "vmsize": 3358720,
       "fileoff": 4000,
-      "filesize": 3349216,
+      "filesize": 3350064,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71326,10 +71334,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 60776704,
-      "nsyms": 3709,
-      "stroff": 60866168,
-      "strsize": 133744,
+      "symoff": 60793656,
+      "nsyms": 3711,
+      "stroff": 60883168,
+      "strsize": 133856,
       "fileoff": 4120
     },
     {
@@ -71339,15 +71347,15 @@
       "iextdefsym": 1,
       "nextdefsym": 46,
       "iundefsym": 47,
-      "nundefsym": 3662,
+      "nundefsym": 3664,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 60836048,
-      "nindirectsyms": 7529,
+      "indirectsymoff": 60853032,
+      "nindirectsyms": 7533,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -71372,7 +71380,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36636,
+      "entryoff": 40604,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -72100,20 +72108,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 60481920,
-      "datasize": 294784,
+      "dataoff": 60498824,
+      "datasize": 294832,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 60776704,
+      "dataoff": 60793656,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 60999920,
-      "datasize": 496112,
+      "dataoff": 61017024,
+      "datasize": 496240,
       "fileoff": 11616
     }
   ],
