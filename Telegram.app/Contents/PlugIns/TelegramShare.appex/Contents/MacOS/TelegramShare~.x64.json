@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 64,
-  "sizeofcmds": 7496,
+  "ncmds": 65,
+  "sizeofcmds": 7592,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 24035328,
+      "vmsize": 24084480,
       "fileoff": 104,
-      "filesize": 24035328,
+      "filesize": 24084480,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21218874,
+          "size": 21253082,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -78,7 +78,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 7842,
+          "size": 8022,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -95,7 +95,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 13086,
+          "size": 13386,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 878535,
+          "size": 878823,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 253237,
+          "size": 253613,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 178255,
+          "size": 178543,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2602,6 +2602,7 @@
             "canBeEmpty",
             "canBeResponder",
             "canBeginTransactionsValue",
+            "canBeginTransactionsValue",
             "canChange",
             "canChangeState",
             "canComplete",
@@ -2996,8 +2997,10 @@
             "config",
             "confirmationCodeEntry",
             "confirming",
+            "connectTimeoutTimer",
             "connecting",
             "connecting",
+            "connection",
             "connection",
             "connection",
             "connectionMode",
@@ -3267,6 +3270,7 @@
             "currentHoles",
             "currentId",
             "currentIndex",
+            "currentInterfaceIsWifi",
             "currentIntervals",
             "currentInvalidateMessageTagSummaries",
             "currentInvalidateMessageTagSummaries",
@@ -3628,6 +3632,8 @@
             "delegate",
             "delegate",
             "delegate",
+            "delegate",
+            "delegateQueue",
             "deletable",
             "delete",
             "deleteAllMessages",
@@ -5089,6 +5095,7 @@
             "immediateThumbnailData",
             "immediatlyPaste",
             "immutableSize",
+            "impl",
             "impl",
             "impl",
             "impl",
@@ -6893,6 +6900,7 @@
             "networkTypeDisposable",
             "networkTypeDisposable",
             "networkTypeValue",
+            "networkUsageManager",
             "never",
             "never",
             "never",
@@ -8050,7 +8058,9 @@
             "queue",
             "queue",
             "queue",
+            "queue",
             "queueMode",
+            "queuedInternalTransactions",
             "queuedInternalTransactions",
             "queuedRequests",
             "queuedSignals",
@@ -8286,6 +8296,7 @@
             "reportCompleteSize",
             "reportLayerSupport",
             "reportLayerSupport",
+            "reportedDisconnection",
             "representation",
             "representation",
             "representations",
@@ -10258,12 +10269,14 @@
             "urlAuthResultDefault",
             "urlAuthResultRequest",
             "urls",
+            "usageCalculationInfo",
             "useCaches",
             "useCaches",
             "useCount",
             "useForCalls",
             "useLargerParts",
             "useMainConnection",
+            "useNetworkFramework",
             "useRequestTimeoutTimers",
             "useRequestTimeoutTimers",
             "useSharedAnimationPhase",
@@ -10615,7 +10628,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192004,
+          "size": 192204,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10654,7 +10667,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12612,
+          "size": 12620,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10667,7 +10680,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 590529,
+          "size": 591585,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11222,7 +11235,7 @@
             "-[MTProto resetTransport]_block_invoke",
             "-[MTProxySecret serializeToString]",
             "-[MTProxySecret serialize]",
-            "-[MTTcpConnection connectionInterface:didReadData:withTag:]",
+            "-[MTTcpConnection connectionInterfaceDidReadData:withTag:]",
             "-[MTTcpConnection processReceivedData:tag:]",
             "-[MTTcpConnection requestReadDataWithLength:tag:]",
             "-[MTTcpConnection requestSocksConnection]",
@@ -11385,6 +11398,7 @@
             "@\"<MTBignumContext>\"16@0:8",
             "@\"<MTDisposable>\"16@?0@\"MTSubscriber\"8",
             "@\"<MTRsaPublicKey>\"24@0:8@\"NSString\"16",
+            "@\"<MTTcpConnectionInterface>\"24@?0@\"<MTTcpConnectionInterfaceDelegate>\"8@\"OS_dispatch_queue\"16",
             "@\"<NSPasteboardWriting>\"32@0:8@\"NSTableView\"16q24",
             "@\"MTApiEnvironment\"16@?0@\"MTApiEnvironment\"8",
             "@\"MTDatacenterAddressListData\"16@?0@\"NSData\"8",
@@ -11922,6 +11936,8 @@
             "B16@?0@\"MTRequestErrorContext\"8",
             "B48@0:8@\"MTProto\"16q24q32@40",
             "B48@0:8@16q24q32@40",
+            "B52@0:8@\"NSString\"16S24@\"NSString\"28d36^@44",
+            "B52@0:8@16S24@28d36^@44",
             "B64_write_ASN1",
             "B:   ",
             "BAD RECURSION DEPTH\n",
@@ -13795,6 +13811,7 @@
             "ConnectingStatus.online",
             "ConnectingStatus.updating",
             "ConnectingStatus.waitingNetwork",
+            "Connection not ready",
             "Connection time: %f ms, interface: %@",
             "ConnectionStatus.Connected",
             "ConnectionStatus.Connecting",
@@ -15761,6 +15778,8 @@
             "MTRequestMessageServiceDelegate",
             "MTSerialization",
             "MTTcpConnection.m",
+            "MTTcpConnectionInterface",
+            "MTTcpConnectionInterfaceDelegate",
             "MULTI-INDEX OR",
             "Mail",
             "Main freelist: ",
@@ -16020,6 +16039,7 @@
             "Netscape SSL server",
             "Netscape Server Gated Crypto",
             "Network context: ",
+            "NetworkFrameworkTcpConnectionInteface",
             "NetworkUsage.BytesReceived",
             "NetworkUsage.BytesSent",
             "NetworkUsage.Header.Audio",
@@ -18766,6 +18786,7 @@
             "TelegramCore.Download",
             "TelegramCore.Keychain",
             "TelegramCore.Network",
+            "TelegramCore.NetworkFrameworkTcpConnectionInterface",
             "TelegramCore.NetworkHelper",
             "TelegramCore.WrappedRequestMetadata",
             "TelegramCore.WrappedRequestShortMetadata",
@@ -19527,7 +19548,6 @@
             "VoiecChat.Settings.Record.Video.Title",
             "Vv16@0:8",
             "W48-6f-4Dl.title",
-            "WAN",
             "WIN32",
             "WSAStartup",
             "WTLS curve over a 112 bit prime field",
@@ -20152,6 +20172,7 @@
             "_TtC12TelegramCore37SendScheduledMessageImmediatelyAction",
             "_TtC12TelegramCore37SynchronizeRecentlyUsedMediaOperation",
             "_TtC12TelegramCore38CloudStickerPackThumbnailMediaResource",
+            "_TtC12TelegramCore38NetworkFrameworkTcpConnectionInterface",
             "_TtC12TelegramCore39SynchronizeLocalizationUpdatesOperation",
             "_TtC12TelegramCore41ConsumablePersonalMentionMessageAttribute",
             "_TtC12TelegramCore41ContentRequiresValidationMessageAttribute",
@@ -20826,6 +20847,7 @@
             "_TtCC12TelegramCore29AutomaticCacheEvictionContextP33_7C9F0FFB68349B34F7A18381DE18BA084Impl",
             "_TtCC12TelegramCore32EngineMessageReactionListContext4Item",
             "_TtCC12TelegramCore32EngineMessageReactionListContextP33_B8ED04A92E6542B600830D7EA52D9AF04Impl",
+            "_TtCC12TelegramCore38NetworkFrameworkTcpConnectionInterfaceP33_B7972A917A7C31D2936F3C88CF9DC9EA4Impl",
             "_TtCC12TelegramCoreP33_0240C1B06C2A8204928C29E637B2170F28AdMessagesHistoryContextImpl13CachedMessage",
             "_TtCC12TelegramCoreP33_4EE3237EAAE4DA909BD2510171AE857B36SynchronizePeerReadStatesContextImpl9Operation",
             "_TtCC12TelegramCoreP33_61B95C63175FC2527038ADE0E026D70022MultipartCdnHashSource14ClusterContext",
@@ -22778,6 +22800,7 @@
             "c48@0:8@16@24^@32^:40",
             "c48@0:8@16@24q32Q40",
             "c48@0:8@16{_NSRange=QQ}24@40",
+            "c52@0:8@16S24@28d36^@44",
             "c56@0:8@\"NSTextView\"16@\"<NSTextAttachmentCell>\"24Q32@\"NSPasteboard\"40@\"NSString\"48",
             "c56@0:8@16@24Q32@40@48",
             "c8a-y6-VQd.title",
@@ -23590,8 +23613,10 @@
             "conn_state",
             "connect",
             "connect error",
+            "connectTimeoutTimer",
             "connected",
             "connecting",
+            "connection",
             "connectionRequired called with NULL reachabilityRef",
             "connectionStatusDelegate",
             "cons: ",
@@ -24054,6 +24079,7 @@
             "currentHoles",
             "currentId",
             "currentIndex",
+            "currentInterfaceIsWifi",
             "currentIntervals",
             "currentInvalidateMessageTagSummaries",
             "currentIsUpdatingValue",
@@ -24280,6 +24306,7 @@
             "delayDisposable",
             "delayNotificatonsUntil",
             "delegate",
+            "delegateQueue",
             "delete",
             "delete-all",
             "deleteControl",
@@ -27379,7 +27406,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230303)",
+            "mozjpeg version 4.0.0 (build 20230307)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -27482,6 +27509,7 @@
             "networkType",
             "networkTypeDisposable",
             "networkTypeValue",
+            "networkUsageManager",
             "new",
             "newEncryptedMessages",
             "newFollowersBySourceGraph",
@@ -28803,6 +28831,7 @@
             "replyKeyboardMarkup",
             "reportChatSpam",
             "reportCompleteSize",
+            "reportedDisconnection",
             "representations",
             "reqCert",
             "reqDh nonce:%@ serverNonce:%@ p:%@ q:%@ fingerprint:%llx dhEncryptedData:%d bytes",
@@ -30628,6 +30657,7 @@
             "urlAuthResultAccepted",
             "urlAuthResultDefault",
             "urlAuthResultRequest",
+            "usageCalculationInfo",
             "use DROP TABLE to delete table %s",
             "use DROP VIEW to delete view %s",
             "use initWithSerialization:apiEnvironment:",
@@ -30635,6 +30665,7 @@
             "useCount",
             "useLargerParts",
             "useMainConnection",
+            "useNetworkFramework",
             "useRequestTimeoutTimers",
             "useSharedAnimationPhase",
             "user",
@@ -30690,13 +30721,17 @@
             "v24@0:8@\"CAAnimation\"16",
             "v24@0:8@\"CALayer\"16",
             "v24@0:8@\"MTContext\"16",
+            "v24@0:8@\"MTNetworkUsageCalculationInfo\"16",
             "v24@0:8@\"MTProto\"16",
             "v24@0:8@\"MTRequestMessageService\"16",
             "v24@0:8@\"NSCoder\"16",
+            "v24@0:8@\"NSData\"16",
+            "v24@0:8@\"NSError\"16",
             "v24@0:8@\"NSMenu\"16",
             "v24@0:8@\"NSNotification\"16",
             "v24@0:8@16",
             "v24@0:8@?16",
+            "v24@0:8@?<@\"NSString\"@?>16",
             "v24@0:8^{CGContext=}16",
             "v24@0:8q16",
             "v24@?0@\"<NSSecureCoding>\"8@\"NSError\"16",
@@ -30734,6 +30769,7 @@
             "v32@0:8@\"MTProto\"16@\"MTProtoConnectionState\"24",
             "v32@0:8@\"MTProto\"16@\"NSArray\"24",
             "v32@0:8@\"MTProto\"16q24",
+            "v32@0:8@\"NSData\"16q24",
             "v32@0:8@\"NSMenu\"16@\"NSMenuItem\"24",
             "v32@0:8@\"NSString\"16@\"NSString\"24",
             "v32@0:8@\"NSTableView\"16@\"<NSDraggingInfo>\"24",
@@ -30742,6 +30778,7 @@
             "v32@0:8@16@24",
             "v32@0:8@16^{CGContext=}24",
             "v32@0:8@16q24",
+            "v32@0:8Q16q24",
             "v32@0:8{CGPoint=dd}16",
             "v32@0:8{CGSize=dd}16",
             "v32@?0@\"MTDatacenterAddress\"8@\"MTTransportSchemeStats\"16^c24",
@@ -30775,6 +30812,7 @@
             "v40@0:8@16@24q32",
             "v40@0:8@16q24@32",
             "v40@0:8@16{CGPoint=dd}24",
+            "v40@0:8Q16d24q32",
             "v40@?0@\"NSDictionary\"8{_NSRange=QQ}16*32",
             "v40@?0@8{_NSRange=QQ}16*32",
             "v44@0:8@\"MTProto\"16@24f32q36",
@@ -31092,7 +31130,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 70274,
+          "size": 70381,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -31270,6 +31308,7 @@
             "T@?,C,N,V_fetchContextDatacenterPublicKeys",
             "T@?,C,N,V_getLogPrefix",
             "T@?,C,N,V_isContextNetworkAccessAllowed",
+            "T@?,C,N,V_makeTcpConnectionInterface",
             "T@?,C,N,V_passwordInputHandler",
             "T@?,C,N,V_prepared",
             "T@?,C,N,V_progressUpdated",
@@ -31660,6 +31699,7 @@
             "_layer",
             "_length",
             "_lock",
+            "_makeTcpConnectionInterface",
             "_manuallyEncryptedMessage:messageId:authKey:",
             "_markTerminatedWithoutDisposal",
             "_media",
@@ -32176,10 +32216,10 @@
             "connectionClosedError",
             "connectionConnected",
             "connectionDidFinishLoading:",
-            "connectionInterface:didConnectToHost:port:",
-            "connectionInterface:didReadData:withTag:",
-            "connectionInterface:didReadPartialDataOfLength:tag:",
-            "connectionInterfaceDidDisconnect:withError:",
+            "connectionInterfaceDidConnect",
+            "connectionInterfaceDidDisconnectWithError:",
+            "connectionInterfaceDidReadData:withTag:",
+            "connectionInterfaceDidReadPartialDataOfLength:tag:",
             "connectionIsInvalid",
             "connectionIsValid",
             "connectionIsValid:",
@@ -32866,6 +32906,7 @@
             "mainWindow",
             "makeFirstResponder:",
             "makeKeyAndOrderFront:",
+            "makeTcpConnectionInterface",
             "makeTouchBar",
             "makeViewWithIdentifier:owner:",
             "managerQueue",
@@ -33573,6 +33614,7 @@
             "setLifetime:",
             "setLocale:",
             "setLock:",
+            "setMakeTcpConnectionInterface:",
             "setMask:",
             "setMasksToBounds:",
             "setMass:",
@@ -34162,7 +34204,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 207816,
+          "size": 208792,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34210,7 +34252,7 @@
             "\u0001R",
             "\u0002",
             "\u0002\u0011",
-            "\u0002!\u00111\u0014\u0013\u0014\u0013\u0017\u0011",
+            "\u0002!\u00111\u0014\u0013\u0014\u0013\u0017\u0012",
             "\u0003",
             "\u0003\u0011",
             "\u0004",
@@ -34239,7 +34281,7 @@
             "!",
             "!\u0012",
             "!.\u0011\u0011\"\u0012",
-            "/\u0003\u0015\u0014",
+            "/\u0003\u0015\u0015",
             "0 0",
             "0 1",
             "1",
@@ -34453,7 +34495,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 10797,
+          "size": 10649,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -34466,7 +34508,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 4112,
+          "size": 4116,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34479,7 +34521,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221272,
+          "size": 221528,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34492,7 +34534,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 123224,
+          "size": 123248,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34507,10 +34549,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4319002624,
-      "vmsize": 2408448,
+      "vmaddr": 4319051776,
+      "vmsize": 2424832,
       "fileoff": 1776,
-      "filesize": 1998848,
+      "filesize": 2015232,
       "maxprot": {
         "read": true,
         "write": true,
@@ -34542,7 +34584,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 20440,
+          "size": 20528,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34555,7 +34597,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10456,
+          "size": 10696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34581,7 +34623,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 910304,
+          "size": 912064,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -34594,7 +34636,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA",
-          "size": 15392,
+          "size": 15360,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34607,7 +34649,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 9128,
+          "size": 9144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34637,7 +34679,7 @@
         {
           "sectname": "__objc_protolist",
           "segname": "__DATA",
-          "size": 496,
+          "size": 512,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34663,7 +34705,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 450904,
+          "size": 452512,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34676,7 +34718,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 14552,
+          "size": 14568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34691,7 +34733,7 @@
         {
           "sectname": "__objc_protorefs",
           "segname": "__DATA",
-          "size": 264,
+          "size": 280,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34734,7 +34776,7 @@
         {
           "sectname": "__objc_ivar",
           "segname": "__DATA",
-          "size": 5376,
+          "size": 5392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34747,7 +34789,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 259904,
+          "size": 261384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34760,7 +34802,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 295437,
+          "size": 295789,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34840,10 +34882,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4321411072,
+      "vmaddr": 4321476608,
       "vmsize": 2539520,
       "fileoff": 3688,
-      "filesize": 2533776,
+      "filesize": 2537840,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34864,9 +34906,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28057056,
+      "symoff": 28125816,
       "nsyms": 6348,
-      "stroff": 28179304,
+      "stroff": 28248352,
       "strsize": 147880,
       "fileoff": 3808
     },
@@ -34884,8 +34926,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28158624,
-      "nindirectsyms": 5170,
+      "indirectsymoff": 28227384,
+      "nindirectsyms": 5241,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -34903,7 +34945,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
@@ -34913,7 +34955,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21234728,
+      "entryoff": 21280124,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -34927,11 +34969,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/PrivateFrameworks/Network.framework/Versions/A/Network",
+      "timestamp": 2,
+      "current_version": 65536,
+      "compatibility_version": 65536,
+      "fileoff": 4072
+    },
+    {
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
       "timestamp": 2,
       "current_version": 121438208,
       "compatibility_version": 19660800,
-      "fileoff": 4072
+      "fileoff": 4168
     },
     {
       "type": "load_dylib",
@@ -34939,7 +34989,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 4168
+      "fileoff": 4264
     },
     {
       "type": "load_dylib",
@@ -34947,7 +34997,7 @@
       "timestamp": 2,
       "current_version": 85917696,
       "compatibility_version": 65536,
-      "fileoff": 4224
+      "fileoff": 4320
     },
     {
       "type": "load_dylib",
@@ -34955,7 +35005,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 4280
+      "fileoff": 4376
     },
     {
       "type": "load_dylib",
@@ -34963,7 +35013,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 4384
+      "fileoff": 4480
     },
     {
       "type": "load_dylib",
@@ -34971,7 +35021,7 @@
       "timestamp": 2,
       "current_version": 137825546,
       "compatibility_version": 2949120,
-      "fileoff": 4480
+      "fileoff": 4576
     },
     {
       "type": "load_dylib",
@@ -34979,7 +35029,7 @@
       "timestamp": 2,
       "current_version": 86704128,
       "compatibility_version": 65536,
-      "fileoff": 4568
+      "fileoff": 4664
     },
     {
       "type": "load_dylib",
@@ -34987,7 +35037,7 @@
       "timestamp": 2,
       "current_version": 121438208,
       "compatibility_version": 9830400,
-      "fileoff": 4664
+      "fileoff": 4760
     },
     {
       "type": "load_dylib",
@@ -34995,7 +35045,7 @@
       "timestamp": 2,
       "current_version": 102039809,
       "compatibility_version": 4194304,
-      "fileoff": 4768
+      "fileoff": 4864
     },
     {
       "type": "load_dylib",
@@ -35003,7 +35053,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65537,
-      "fileoff": 4872
+      "fileoff": 4968
     },
     {
       "type": "load_dylib",
@@ -35011,7 +35061,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 4968
+      "fileoff": 5064
     },
     {
       "type": "load_dylib",
@@ -35019,7 +35069,7 @@
       "timestamp": 2,
       "current_version": 74776832,
       "compatibility_version": 65536,
-      "fileoff": 5064
+      "fileoff": 5160
     },
     {
       "type": "load_dylib",
@@ -35027,7 +35077,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5168
+      "fileoff": 5264
     },
     {
       "type": "load_dylib",
@@ -35035,7 +35085,7 @@
       "timestamp": 2,
       "current_version": 66816,
       "compatibility_version": 66048,
-      "fileoff": 5264
+      "fileoff": 5360
     },
     {
       "type": "load_dylib",
@@ -35043,7 +35093,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 5360
+      "fileoff": 5456
     },
     {
       "type": "load_dylib",
@@ -35051,7 +35101,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5448
+      "fileoff": 5544
     },
     {
       "type": "load_dylib",
@@ -35059,7 +35109,7 @@
       "timestamp": 2,
       "current_version": 68352,
       "compatibility_version": 66048,
-      "fileoff": 5536
+      "fileoff": 5632
     },
     {
       "type": "load_dylib",
@@ -35067,7 +35117,7 @@
       "timestamp": 2,
       "current_version": 3942456845,
       "compatibility_version": 65536,
-      "fileoff": 5632
+      "fileoff": 5728
     },
     {
       "type": "load_dylib",
@@ -35075,7 +35125,7 @@
       "timestamp": 2,
       "current_version": 76226054,
       "compatibility_version": 65536,
-      "fileoff": 5728
+      "fileoff": 5824
     },
     {
       "type": "load_dylib",
@@ -35083,7 +35133,7 @@
       "timestamp": 2,
       "current_version": 66059,
       "compatibility_version": 65536,
-      "fileoff": 5840
+      "fileoff": 5936
     },
     {
       "type": "load_weak_dylib",
@@ -35091,7 +35141,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 5888
+      "fileoff": 5984
     },
     {
       "type": "load_weak_dylib",
@@ -35099,7 +35149,7 @@
       "timestamp": 2,
       "current_version": 47251456,
       "compatibility_version": 65536,
-      "fileoff": 5952
+      "fileoff": 6048
     },
     {
       "type": "load_weak_dylib",
@@ -35107,7 +35157,7 @@
       "timestamp": 2,
       "current_version": 133438977,
       "compatibility_version": 65536,
-      "fileoff": 6032
+      "fileoff": 6128
     },
     {
       "type": "load_weak_dylib",
@@ -35115,7 +35165,7 @@
       "timestamp": 2,
       "current_version": 1769472,
       "compatibility_version": 65536,
-      "fileoff": 6096
+      "fileoff": 6192
     },
     {
       "type": "load_dylib",
@@ -35123,7 +35173,7 @@
       "timestamp": 2,
       "current_version": 7143424,
       "compatibility_version": 65536,
-      "fileoff": 6152
+      "fileoff": 6248
     },
     {
       "type": "load_dylib",
@@ -35131,7 +35181,7 @@
       "timestamp": 2,
       "current_version": 85196829,
       "compatibility_version": 65536,
-      "fileoff": 6208
+      "fileoff": 6304
     },
     {
       "type": "load_weak_dylib",
@@ -35139,7 +35189,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 6264
+      "fileoff": 6360
     },
     {
       "type": "load_weak_dylib",
@@ -35147,7 +35197,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 6320
+      "fileoff": 6416
     },
     {
       "type": "load_dylib",
@@ -35155,7 +35205,7 @@
       "timestamp": 2,
       "current_version": 917504,
       "compatibility_version": 65536,
-      "fileoff": 6376
+      "fileoff": 6472
     },
     {
       "type": "load_dylib",
@@ -35163,7 +35213,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 6440
+      "fileoff": 6536
     },
     {
       "type": "load_weak_dylib",
@@ -35171,7 +35221,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 6504
+      "fileoff": 6600
     },
     {
       "type": "load_weak_dylib",
@@ -35179,7 +35229,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 6560
+      "fileoff": 6656
     },
     {
       "type": "load_dylib",
@@ -35187,7 +35237,7 @@
       "timestamp": 2,
       "current_version": 189799937,
       "compatibility_version": 65536,
-      "fileoff": 6624
+      "fileoff": 6720
     },
     {
       "type": "load_dylib",
@@ -35195,7 +35245,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 6680
+      "fileoff": 6776
     },
     {
       "type": "load_dylib",
@@ -35203,7 +35253,7 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 6736
+      "fileoff": 6832
     },
     {
       "type": "load_dylib",
@@ -35211,7 +35261,7 @@
       "timestamp": 2,
       "current_version": 4521984,
       "compatibility_version": 65536,
-      "fileoff": 6792
+      "fileoff": 6888
     },
     {
       "type": "load_weak_dylib",
@@ -35219,7 +35269,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6848
+      "fileoff": 6944
     },
     {
       "type": "load_weak_dylib",
@@ -35227,7 +35277,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 6904
+      "fileoff": 7000
     },
     {
       "type": "load_weak_dylib",
@@ -35235,7 +35285,7 @@
       "timestamp": 2,
       "current_version": 16848896,
       "compatibility_version": 65536,
-      "fileoff": 6960
+      "fileoff": 7056
     },
     {
       "type": "load_weak_dylib",
@@ -35243,7 +35293,7 @@
       "timestamp": 2,
       "current_version": 179314197,
       "compatibility_version": 65536,
-      "fileoff": 7016
+      "fileoff": 7112
     },
     {
       "type": "load_dylib",
@@ -35251,7 +35301,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 7072
+      "fileoff": 7168
     },
     {
       "type": "load_weak_dylib",
@@ -35259,7 +35309,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 7128
+      "fileoff": 7224
     },
     {
       "type": "load_weak_dylib",
@@ -35267,7 +35317,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 7184
+      "fileoff": 7280
     },
     {
       "type": "load_weak_dylib",
@@ -35275,7 +35325,7 @@
       "timestamp": 2,
       "current_version": 66912256,
       "compatibility_version": 65536,
-      "fileoff": 7240
+      "fileoff": 7336
     },
     {
       "type": "load_weak_dylib",
@@ -35283,40 +35333,40 @@
       "timestamp": 2,
       "current_version": 589824,
       "compatibility_version": 65536,
-      "fileoff": 7288
+      "fileoff": 7384
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 7344
+      "fileoff": 7440
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 7376
+      "fileoff": 7472
     },
     {
       "type": "rpath",
       "name": "@executable_path/../../../../Frameworks",
-      "fileoff": 7424
+      "fileoff": 7520
     },
     {
       "type": "function_starts",
-      "dataoff": 27894720,
-      "datasize": 149088,
-      "fileoff": 7480
+      "dataoff": 27963200,
+      "datasize": 149344,
+      "fileoff": 7576
     },
     {
       "type": "data_in_code",
-      "dataoff": 28043808,
-      "datasize": 13248,
-      "fileoff": 7496
+      "dataoff": 28112544,
+      "datasize": 13272,
+      "fileoff": 7592
     },
     {
       "type": "code_signature",
-      "dataoff": 28327184,
-      "datasize": 240768,
-      "fileoff": 7512
+      "dataoff": 28396240,
+      "datasize": 241312,
+      "fileoff": 7608
     }
   ],
   "hsize": 32
