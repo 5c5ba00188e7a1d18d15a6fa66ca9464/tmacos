@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18331052,
+          "size": 18331164,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 253613,
+          "size": 253621,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -31134,7 +31134,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 70381,
+          "size": 70405,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -32778,6 +32778,7 @@
             "insertNewline:",
             "insertRowsAtIndexes:withAnimation:",
             "insertString:atIndex:",
+            "insertSublayer:atIndex:",
             "instancesRespondToSelector:",
             "intValue",
             "integerValue",
@@ -34718,7 +34719,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 17272,
+          "size": 17280,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34926,7 +34927,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18357072,
+      "entryoff": 18357056,
       "stacksize": 0,
       "fileoff": 3848
     },
