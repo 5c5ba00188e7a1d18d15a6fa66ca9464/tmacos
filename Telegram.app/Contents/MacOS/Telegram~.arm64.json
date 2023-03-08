@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46392776,
+          "size": 46393992,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1965356,
+          "size": 1965100,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -59426,7 +59426,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 335697,
+          "size": 335689,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59452,7 +59452,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 22184,
+          "size": 22176,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71123,7 +71123,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 623548,
+          "size": 623444,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71136,7 +71136,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 421440,
+          "size": 421388,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71197,7 +71197,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1825856,
+          "size": 1825984,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71465,7 +71465,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1113008,
+          "size": 1112752,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71563,7 +71563,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42844,
+      "entryoff": 42140,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -72291,8 +72291,8 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 60725480,
-      "datasize": 296232,
+      "dataoff": 60725472,
+      "datasize": 296240,
       "fileoff": 11584
     },
     {
