@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21253210,
+          "size": 21254618,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 878823,
+          "size": 878839,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 253621,
+          "size": 253645,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 178543,
+          "size": 178575,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -9634,6 +9634,7 @@
             "timestamp",
             "timestamp",
             "timestamp",
+            "timestamp",
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
@@ -10270,6 +10271,7 @@
             "urlAuthResultRequest",
             "urls",
             "usageCalculationInfo",
+            "useBetaFeatures",
             "useCaches",
             "useCaches",
             "useCount",
@@ -10628,7 +10630,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192204,
+          "size": 192240,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10680,7 +10682,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 591585,
+          "size": 591617,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27406,7 +27408,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230307)",
+            "mozjpeg version 4.0.0 (build 20230308)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -30661,11 +30663,12 @@
             "use DROP TABLE to delete table %s",
             "use DROP VIEW to delete view %s",
             "use initWithSerialization:apiEnvironment:",
+            "useBetaFeatures",
             "useCaches",
             "useCount",
             "useLargerParts",
             "useMainConnection",
-            "useNetworkFramework",
+            "useNetworkFramework_v2",
             "useRequestTimeoutTimers",
             "useSharedAnimationPhase",
             "user",
@@ -34205,7 +34208,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 208792,
+          "size": 208752,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34522,7 +34525,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221528,
+          "size": 221544,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34706,7 +34709,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 452512,
+          "size": 452544,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34790,7 +34793,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 261384,
+          "size": 261392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34886,7 +34889,7 @@
       "vmaddr": 4321476608,
       "vmsize": 2539520,
       "fileoff": 3688,
-      "filesize": 2537840,
+      "filesize": 2538112,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34907,9 +34910,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28125816,
+      "symoff": 28126096,
       "nsyms": 6348,
-      "stroff": 28248352,
+      "stroff": 28248632,
       "strsize": 147880,
       "fileoff": 3808
     },
@@ -34927,7 +34930,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28227384,
+      "indirectsymoff": 28227664,
       "nindirectsyms": 5241,
       "extreloff": 0,
       "nextrel": 0,
@@ -34946,7 +34949,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.13.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
@@ -34956,7 +34959,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21280092,
+      "entryoff": 21279964,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35353,19 +35356,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27963200,
-      "datasize": 149344,
+      "dataoff": 27963472,
+      "datasize": 149352,
       "fileoff": 7576
     },
     {
       "type": "data_in_code",
-      "dataoff": 28112544,
+      "dataoff": 28112824,
       "datasize": 13272,
       "fileoff": 7592
     },
     {
       "type": "code_signature",
-      "dataoff": 28396240,
+      "dataoff": 28396512,
       "datasize": 241312,
       "fileoff": 7608
     }

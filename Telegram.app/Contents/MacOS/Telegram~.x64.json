@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54643765,
+          "size": 54644213,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 358864,
+          "size": 358860,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10768,7 +10768,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1454934,
+          "size": 1454966,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -50390,7 +50390,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230307)",
+            "mozjpeg version 4.0.0 (build 20230308)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58074,12 +58074,13 @@
             "use strong deblock filter for damaged MBs",
             "use table of contents",
             "use wallclock as timestamps",
+            "useBetaFeatures",
             "useCaches",
             "useCount",
             "useEmoji",
             "useLargerParts",
             "useMainConnection",
-            "useNetworkFramework",
+            "useNetworkFramework_v2",
             "useRequestTimeoutTimers",
             "useSharedAnimationPhase",
             "useTouchId",
@@ -59393,7 +59394,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 335611,
+          "size": 335661,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59458,7 +59459,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 197460,
+          "size": 197492,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69870,6 +69871,7 @@
             "timestamp",
             "timestamp",
             "timestamp",
+            "timestamp",
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
@@ -70555,6 +70557,7 @@
             "urls",
             "uruguayPesoEnUnidadesIndexadas",
             "usageCalculationInfo",
+            "useBetaFeatures",
             "useCaches",
             "useCaches",
             "useCount",
@@ -71009,7 +71012,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 206352,
+          "size": 206388,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71061,7 +71064,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 212864,
+          "size": 212824,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71087,7 +71090,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 542536,
+          "size": 542568,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71189,7 +71192,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1802224,
+          "size": 1801872,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71271,7 +71274,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1272976,
+          "size": 1273008,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71355,7 +71358,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1629472,
+          "size": 1629480,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71477,7 +71480,7 @@
       "vmaddr": 4363255808,
       "vmsize": 3620864,
       "fileoff": 4088,
-      "filesize": 3617872,
+      "filesize": 3618128,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71498,9 +71501,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 69278512,
+      "symoff": 69278776,
       "nsyms": 4323,
-      "stroff": 69383432,
+      "stroff": 69383696,
       "strsize": 174128,
       "fileoff": 4208
     },
@@ -71518,7 +71521,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69347680,
+      "indirectsymoff": 69347944,
       "nindirectsyms": 8937,
       "extreloff": 0,
       "nextrel": 0,
@@ -71537,7 +71540,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.13.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 4368
     },
@@ -71547,7 +71550,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40816,
+      "entryoff": 40368,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71904,7 +71907,7 @@
       "fileoff": 8304
     },
     {
-      "type": "load_dylib",
+      "type": "load_weak_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -72275,19 +72278,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68949472,
-      "datasize": 303640,
+      "dataoff": 68949744,
+      "datasize": 303632,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 69253112,
+      "dataoff": 69253376,
       "datasize": 25400,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69557568,
+      "dataoff": 69557824,
       "datasize": 562960,
       "fileoff": 11448
     }
