@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 52805632,
+      "vmsize": 52822016,
       "fileoff": 104,
-      "filesize": 52805632,
+      "filesize": 52822016,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46389832,
+          "size": 46392776,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -10777,7 +10777,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1453170,
+          "size": 1453362,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20648,6 +20648,9 @@
             "ChatList.Mute.4Hours",
             "ChatList.Mute.8Hours",
             "ChatList.Mute.Forever",
+            "ChatList.Mute.Until",
+            "ChatList.Mute.Until.OK",
+            "ChatList.Mute.Until.Title",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -40651,6 +40654,7 @@
             "auth.requestFirebaseSms",
             "auth.requestPasswordRecovery",
             "auth.resetAuthorizations",
+            "auth.resetLoginEmail",
             "authContext",
             "authContextValue",
             "authController",
@@ -50739,7 +50743,6 @@
             "nextPeerOperationLogIndex",
             "nextPeerOperationLogIndexUpdated",
             "nextPendingDynamicMessageId",
-            "nextPhoneLoginDate",
             "nextScrollEventIsAnimated",
             "nextSeenLiveLocationDisposableId",
             "nextStableId",
@@ -53686,6 +53689,7 @@
             "reset initial_select_timestamp_ = ",
             "reset: ",
             "resetAllNotifications",
+            "resetAvailablePeriod",
             "resetButton",
             "resetClick",
             "resetDecoder",
@@ -53698,6 +53702,7 @@
             "resetPasswordFailedWait",
             "resetPasswordRequestedWait",
             "resetPeerHoleManagement",
+            "resetPendingDate",
             "resets",
             "residence",
             "residence_country_code",
@@ -56679,6 +56684,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timestampKey",
             "timestampsign",
             "timingControlPoints",
@@ -59420,7 +59426,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 335661,
+          "size": 335697,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59485,7 +59491,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 197492,
+          "size": 197524,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69901,6 +69907,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timingControlPoints",
             "timingFunction",
             "tinted",
@@ -71038,7 +71045,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 206388,
+          "size": 206400,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71116,7 +71123,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 623556,
+          "size": 623548,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71144,7 +71151,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4347772928,
+      "vmaddr": 4347789312,
       "vmsize": 2080768,
       "fileoff": 2096,
       "filesize": 2080768,
@@ -71190,7 +71197,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1825808,
+          "size": 1825856,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71274,7 +71281,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4349853696,
+      "vmaddr": 4349870080,
       "vmsize": 5259264,
       "fileoff": 2808,
       "filesize": 3473408,
@@ -71309,7 +71316,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1114072,
+          "size": 1114104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71486,10 +71493,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4355112960,
+      "vmaddr": 4355129344,
       "vmsize": 3375104,
       "fileoff": 4000,
-      "filesize": 3369408,
+      "filesize": 3369872,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71510,9 +71517,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 61004992,
+      "symoff": 61021712,
       "nsyms": 3748,
-      "stroff": 61095416,
+      "stroff": 61112136,
       "strsize": 135864,
       "fileoff": 4120
     },
@@ -71530,7 +71537,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 61064960,
+      "indirectsymoff": 61081680,
       "nindirectsyms": 7613,
       "extreloff": 0,
       "nextrel": 0,
@@ -71556,7 +71563,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29660,
+      "entryoff": 42844,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -71913,7 +71920,7 @@
       "fileoff": 8232
     },
     {
-      "type": "load_weak_dylib",
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -72284,20 +72291,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 60708776,
-      "datasize": 296216,
+      "dataoff": 60725480,
+      "datasize": 296232,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 61004992,
+      "dataoff": 61021712,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 61231280,
-      "datasize": 497936,
+      "dataoff": 61248000,
+      "datasize": 498064,
       "fileoff": 11616
     }
   ],

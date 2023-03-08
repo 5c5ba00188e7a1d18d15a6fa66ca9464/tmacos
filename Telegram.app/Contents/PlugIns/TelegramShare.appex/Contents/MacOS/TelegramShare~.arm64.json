@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18332572,
+          "size": 18334332,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 780648,
+          "size": 780680,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 253645,
+          "size": 253681,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -164,7 +164,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 178575,
+          "size": 178607,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -9651,6 +9651,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timingControlPoints",
             "timingFunction",
             "tinted",
@@ -10643,7 +10644,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192240,
+          "size": 192252,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10695,7 +10696,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 590859,
+          "size": 591051,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13686,6 +13687,9 @@
             "ChatList.Mute.4Hours",
             "ChatList.Mute.8Hours",
             "ChatList.Mute.Forever",
+            "ChatList.Mute.Until",
+            "ChatList.Mute.Until.OK",
+            "ChatList.Mute.Until.Title",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -22489,6 +22493,7 @@
             "auth.requestFirebaseSms",
             "auth.requestPasswordRecovery",
             "auth.resetAuthorizations",
+            "auth.resetLoginEmail",
             "authAttrs",
             "authKey",
             "authKeyAttributes",
@@ -27543,7 +27548,6 @@
             "nextOffset",
             "nextPeerOperationLogIndex",
             "nextPeerOperationLogIndexUpdated",
-            "nextPhoneLoginDate",
             "nextScrollEventIsAnimated",
             "nextSeenLiveLocationDisposableId",
             "nextStableId",
@@ -28876,10 +28880,12 @@
             "reserved",
             "reserved fts5 column name: %s",
             "reserved fts5 table name: %s",
+            "resetAvailablePeriod",
             "resetInviteLinksDisposable",
             "resetPasswordFailedWait",
             "resetPasswordRequestedWait",
             "resetPeerHoleManagement",
+            "resetPendingDate",
             "residence_country_code",
             "resolveCloudflare",
             "resolveExternal",
@@ -30085,6 +30091,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timestampsign",
             "timingControlPoints",
             "timingFunction",
@@ -34529,7 +34536,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 255356,
+          "size": 255344,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34709,7 +34716,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 408984,
+          "size": 409016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34806,7 +34813,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 294832,
+          "size": 294840,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34863,7 +34870,7 @@
       "vmaddr": 4318494720,
       "vmsize": 2523136,
       "fileoff": 3520,
-      "filesize": 2513184,
+      "filesize": 2513488,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34884,9 +34891,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 25162408,
+      "symoff": 25162712,
       "nsyms": 6329,
-      "stroff": 25282192,
+      "stroff": 25282496,
       "strsize": 147056,
       "fileoff": 3640
     },
@@ -34904,7 +34911,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 25263672,
+      "indirectsymoff": 25263976,
       "nindirectsyms": 4629,
       "extreloff": 0,
       "nextrel": 0,
@@ -34930,7 +34937,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18356960,
+      "entryoff": 18356656,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -35327,19 +35334,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 25014152,
+      "dataoff": 25014456,
       "datasize": 148256,
       "fileoff": 7600
     },
     {
       "type": "data_in_code",
-      "dataoff": 25162408,
+      "dataoff": 25162712,
       "datasize": 0,
       "fileoff": 7616
     },
     {
       "type": "code_signature",
-      "dataoff": 25429248,
+      "dataoff": 25429552,
       "datasize": 218144,
       "fileoff": 7632
     }

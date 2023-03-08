@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21254618,
+          "size": 21257338,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 878839,
+          "size": 878871,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 253645,
+          "size": 253681,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 178575,
+          "size": 178607,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -9638,6 +9638,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timingControlPoints",
             "timingFunction",
             "tinted",
@@ -10630,7 +10631,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192240,
+          "size": 192252,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10682,7 +10683,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 591617,
+          "size": 591809,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13628,6 +13629,9 @@
             "ChatList.Mute.4Hours",
             "ChatList.Mute.8Hours",
             "ChatList.Mute.Forever",
+            "ChatList.Mute.Until",
+            "ChatList.Mute.Until.OK",
+            "ChatList.Mute.Until.Title",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -22433,6 +22437,7 @@
             "auth.requestFirebaseSms",
             "auth.requestPasswordRecovery",
             "auth.resetAuthorizations",
+            "auth.resetLoginEmail",
             "authAttrs",
             "authKey",
             "authKeyAttributes",
@@ -27534,7 +27539,6 @@
             "nextOffset",
             "nextPeerOperationLogIndex",
             "nextPeerOperationLogIndexUpdated",
-            "nextPhoneLoginDate",
             "nextScrollEventIsAnimated",
             "nextSeenLiveLocationDisposableId",
             "nextStableId",
@@ -28868,10 +28872,12 @@
             "reserved",
             "reserved fts5 column name: %s",
             "reserved fts5 table name: %s",
+            "resetAvailablePeriod",
             "resetInviteLinksDisposable",
             "resetPasswordFailedWait",
             "resetPasswordRequestedWait",
             "resetPeerHoleManagement",
+            "resetPendingDate",
             "residence_country_code",
             "resolveCloudflare",
             "resolveExternal",
@@ -30080,6 +30086,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timestampsign",
             "timingControlPoints",
             "timingFunction",
@@ -34525,7 +34532,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221544,
+          "size": 221564,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34709,7 +34716,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 452544,
+          "size": 452576,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34806,7 +34813,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 295789,
+          "size": 295805,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34889,7 +34896,7 @@
       "vmaddr": 4321476608,
       "vmsize": 2539520,
       "fileoff": 3688,
-      "filesize": 2538112,
+      "filesize": 2538416,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34910,9 +34917,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28126096,
+      "symoff": 28126400,
       "nsyms": 6348,
-      "stroff": 28248632,
+      "stroff": 28248936,
       "strsize": 147880,
       "fileoff": 3808
     },
@@ -34930,7 +34937,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28227664,
+      "indirectsymoff": 28227968,
       "nindirectsyms": 5241,
       "extreloff": 0,
       "nextrel": 0,
@@ -34949,7 +34956,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 3968
     },
@@ -34959,7 +34966,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21279964,
+      "entryoff": 21279644,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35356,19 +35363,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27963472,
-      "datasize": 149352,
+      "dataoff": 27963768,
+      "datasize": 149360,
       "fileoff": 7576
     },
     {
       "type": "data_in_code",
-      "dataoff": 28112824,
+      "dataoff": 28113128,
       "datasize": 13272,
       "fileoff": 7592
     },
     {
       "type": "code_signature",
-      "dataoff": 28396512,
+      "dataoff": 28396816,
       "datasize": 241312,
       "fileoff": 7608
     }

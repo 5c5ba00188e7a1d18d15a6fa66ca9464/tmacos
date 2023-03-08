@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54644213,
+          "size": 54647925,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10768,7 +10768,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1454966,
+          "size": 1455158,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20562,6 +20562,9 @@
             "ChatList.Mute.4Hours",
             "ChatList.Mute.8Hours",
             "ChatList.Mute.Forever",
+            "ChatList.Mute.Until",
+            "ChatList.Mute.Until.OK",
+            "ChatList.Mute.Until.Title",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -40557,6 +40560,7 @@
             "auth.requestFirebaseSms",
             "auth.requestPasswordRecovery",
             "auth.resetAuthorizations",
+            "auth.resetLoginEmail",
             "authContext",
             "authContextValue",
             "authController",
@@ -50725,7 +50729,6 @@
             "nextPeerOperationLogIndex",
             "nextPeerOperationLogIndexUpdated",
             "nextPendingDynamicMessageId",
-            "nextPhoneLoginDate",
             "nextScrollEventIsAnimated",
             "nextSeenLiveLocationDisposableId",
             "nextStableId",
@@ -53674,6 +53677,7 @@
             "reset initial_select_timestamp_ = ",
             "reset: ",
             "resetAllNotifications",
+            "resetAvailablePeriod",
             "resetButton",
             "resetClick",
             "resetDecoder",
@@ -53686,6 +53690,7 @@
             "resetPasswordFailedWait",
             "resetPasswordRequestedWait",
             "resetPeerHoleManagement",
+            "resetPendingDate",
             "resets",
             "residence",
             "residence_country_code",
@@ -56672,6 +56677,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timestampKey",
             "timestampsign",
             "timingControlPoints",
@@ -59394,7 +59400,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 335661,
+          "size": 335697,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59459,7 +59465,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 197492,
+          "size": 197524,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -69875,6 +69881,7 @@
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
+            "timestampIsReaction",
             "timingControlPoints",
             "timingFunction",
             "tinted",
@@ -71012,7 +71019,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 206388,
+          "size": 206400,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71090,7 +71097,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 542568,
+          "size": 542608,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71153,7 +71160,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 36448,
+          "size": 36456,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71192,7 +71199,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1801872,
+          "size": 1801904,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71274,7 +71281,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1273008,
+          "size": 1273040,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71480,7 +71487,7 @@
       "vmaddr": 4363255808,
       "vmsize": 3620864,
       "fileoff": 4088,
-      "filesize": 3618128,
+      "filesize": 3618464,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71501,9 +71508,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 69278776,
+      "symoff": 69279104,
       "nsyms": 4323,
-      "stroff": 69383696,
+      "stroff": 69384024,
       "strsize": 174128,
       "fileoff": 4208
     },
@@ -71521,8 +71528,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69347944,
-      "nindirectsyms": 8937,
+      "indirectsymoff": 69348272,
+      "nindirectsyms": 8938,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -71540,7 +71547,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 4368
     },
@@ -71550,7 +71557,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40368,
+      "entryoff": 36144,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71907,7 +71914,7 @@
       "fileoff": 8304
     },
     {
-      "type": "load_weak_dylib",
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -72278,19 +72285,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68949744,
-      "datasize": 303632,
+      "dataoff": 68950056,
+      "datasize": 303648,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 69253376,
+      "dataoff": 69253704,
       "datasize": 25400,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69557824,
+      "dataoff": 69558160,
       "datasize": 562960,
       "fileoff": 11448
     }
