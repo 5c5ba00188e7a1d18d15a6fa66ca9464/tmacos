@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21258298,
+          "size": 21258938,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10691,7 +10691,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 592081,
+          "size": 592561,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12967,6 +12967,9 @@
             "Chat.Context.Message.ContainsEmoji_other",
             "Chat.Context.Message.ContainsEmoji_two",
             "Chat.Context.Message.ContainsEmoji_zero",
+            "Chat.Context.Peer.Mention",
+            "Chat.Context.Peer.OpenInfo",
+            "Chat.Context.Peer.SendMessage",
             "Chat.Context.Pinned.Hide",
             "Chat.Context.Reacted",
             "Chat.Context.ReactedFast_countable",
@@ -13601,6 +13604,7 @@
             "ChatList.Filter.Name.Placeholder",
             "ChatList.Filter.NewTitle",
             "ChatList.Filter.NonContacts",
+            "ChatList.Filter.ReadAll",
             "ChatList.Filter.ReadChats",
             "ChatList.Filter.Recommended.Add",
             "ChatList.Filter.Recommended.Header",
@@ -15501,6 +15505,16 @@
             "Invalid updateEditChannelMessage",
             "Invalidity Date",
             "Invite.ChannelsTooMuch",
+            "InviteFailed.Skip",
+            "InviteFailed.Text.Multiple_countable",
+            "InviteFailed.Text.Multiple_few",
+            "InviteFailed.Text.Multiple_many",
+            "InviteFailed.Text.Multiple_one",
+            "InviteFailed.Text.Multiple_other",
+            "InviteFailed.Text.Multiple_two",
+            "InviteFailed.Text.Multiple_zero",
+            "InviteFailed.Text.Single",
+            "InviteFailed.Title",
             "InviteLink.CanJoin_countable",
             "InviteLink.CanJoin_few",
             "InviteLink.CanJoin_many",
@@ -27425,7 +27439,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230309)",
+            "mozjpeg version 4.0.0 (build 20230310)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -34912,7 +34926,7 @@
       "vmaddr": 4321476608,
       "vmsize": 2539520,
       "fileoff": 3688,
-      "filesize": 2538560,
+      "filesize": 2539072,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34933,9 +34947,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28126536,
+      "symoff": 28127048,
       "nsyms": 6348,
-      "stroff": 28249072,
+      "stroff": 28249584,
       "strsize": 147880,
       "fileoff": 3808
     },
@@ -34953,7 +34967,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28228104,
+      "indirectsymoff": 28228616,
       "nindirectsyms": 5241,
       "extreloff": 0,
       "nextrel": 0,
@@ -34982,7 +34996,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21278940,
+      "entryoff": 21278460,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35379,19 +35393,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27963880,
-      "datasize": 149368,
+      "dataoff": 27964384,
+      "datasize": 149376,
       "fileoff": 7576
     },
     {
       "type": "data_in_code",
-      "dataoff": 28113248,
+      "dataoff": 28113760,
       "datasize": 13288,
       "fileoff": 7592
     },
     {
       "type": "code_signature",
-      "dataoff": 28396960,
+      "dataoff": 28397472,
       "datasize": 241312,
       "fileoff": 7608
     }
