@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21259418,
+          "size": 21260058,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -78,7 +78,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 8022,
+          "size": 8034,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -95,7 +95,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 13386,
+          "size": 13406,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 178703,
+          "size": 178719,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -8267,6 +8267,7 @@
             "removeDatabaseOnError",
             "removePendingMuteStates",
             "removePossiblyDeliveredMessagesUniqueIds",
+            "removeTail",
             "removedCount",
             "removedEntries",
             "removedEntries",
@@ -10639,7 +10640,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192380,
+          "size": 192392,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10691,7 +10692,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 592561,
+          "size": 592929,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15506,6 +15507,14 @@
             "Invalidity Date",
             "Invite.ChannelsTooMuch",
             "InviteFailed.Skip",
+            "InviteFailed.Text.Cant.Multiple_countable",
+            "InviteFailed.Text.Cant.Multiple_few",
+            "InviteFailed.Text.Cant.Multiple_many",
+            "InviteFailed.Text.Cant.Multiple_one",
+            "InviteFailed.Text.Cant.Multiple_other",
+            "InviteFailed.Text.Cant.Multiple_two",
+            "InviteFailed.Text.Cant.Multiple_zero",
+            "InviteFailed.Text.Cant.Single",
             "InviteFailed.Text.Multiple_countable",
             "InviteFailed.Text.Multiple_few",
             "InviteFailed.Text.Multiple_many",
@@ -27439,7 +27448,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230310)",
+            "mozjpeg version 4.0.0 (build 20230313)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -28845,6 +28854,7 @@
             "removeDatabaseOnError",
             "removeFromCRL",
             "removePossiblyDeliveredMessagesUniqueIds",
+            "removeTail",
             "remove_diacritics",
             "removed messages: ",
             "removedCount",
@@ -34638,7 +34648,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10696,
+          "size": 10712,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34746,7 +34756,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 452920,
+          "size": 452952,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34830,7 +34840,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 261392,
+          "size": 261408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34924,9 +34934,9 @@
       "type": "segment_64",
       "name": "__LINKEDIT",
       "vmaddr": 4321476608,
-      "vmsize": 2539520,
+      "vmsize": 2555904,
       "fileoff": 3688,
-      "filesize": 2539104,
+      "filesize": 2539696,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34947,10 +34957,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 28127088,
-      "nsyms": 6348,
-      "stroff": 28249624,
-      "strsize": 147880,
+      "symoff": 28127504,
+      "nsyms": 6350,
+      "stroff": 28250088,
+      "strsize": 147968,
       "fileoff": 3808
     },
     {
@@ -34960,15 +34970,15 @@
       "iextdefsym": 1,
       "nextdefsym": 5390,
       "iundefsym": 5391,
-      "nundefsym": 957,
+      "nundefsym": 959,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28228656,
-      "nindirectsyms": 5241,
+      "indirectsymoff": 28229104,
+      "nindirectsyms": 5245,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -34996,7 +35006,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21278460,
+      "entryoff": 21278024,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35393,20 +35403,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27964416,
-      "datasize": 149384,
+      "dataoff": 27964824,
+      "datasize": 149392,
       "fileoff": 7576
     },
     {
       "type": "data_in_code",
-      "dataoff": 28113800,
+      "dataoff": 28114216,
       "datasize": 13288,
       "fileoff": 7592
     },
     {
       "type": "code_signature",
-      "dataoff": 28397504,
-      "datasize": 241312,
+      "dataoff": 28398064,
+      "datasize": 241344,
       "fileoff": 7608
     }
   ],

@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 60669952,
+      "vmsize": 60686336,
       "fileoff": 104,
-      "filesize": 60669952,
+      "filesize": 60686336,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54680597,
+          "size": 54688661,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80,7 +80,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 13134,
+          "size": 13146,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -97,7 +97,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 21456,
+          "size": 21476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10768,7 +10768,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1456310,
+          "size": 1456726,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -25098,6 +25098,14 @@
             "Invalidity Date",
             "Invite.ChannelsTooMuch",
             "InviteFailed.Skip",
+            "InviteFailed.Text.Cant.Multiple_countable",
+            "InviteFailed.Text.Cant.Multiple_few",
+            "InviteFailed.Text.Cant.Multiple_many",
+            "InviteFailed.Text.Cant.Multiple_one",
+            "InviteFailed.Text.Cant.Multiple_other",
+            "InviteFailed.Text.Cant.Multiple_two",
+            "InviteFailed.Text.Cant.Multiple_zero",
+            "InviteFailed.Text.Cant.Single",
             "InviteFailed.Text.Multiple_countable",
             "InviteFailed.Text.Multiple_few",
             "InviteFailed.Text.Multiple_many",
@@ -45401,6 +45409,7 @@
             "fetchCachedResourceRepresentation",
             "fetchControls",
             "fetchDisposable",
+            "fetchDisposables",
             "fetchEffectDisposable",
             "fetchManager",
             "fetchMessageHistoryHole",
@@ -48322,6 +48331,7 @@
             "isTextSelectable",
             "isThumbnail",
             "isTopHistory",
+            "isTopic",
             "isTranslateLoading",
             "isUniquelyReferencedTemporaryFile",
             "isUnread",
@@ -50418,7 +50428,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230310)",
+            "mozjpeg version 4.0.0 (build 20230313)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -53550,6 +53560,7 @@
             "removeRecentPeerId",
             "removeRenderer called with a renderer that has not been previously added",
             "removeSession",
+            "removeTail",
             "removeTheme",
             "removeTimer",
             "remove_diacritics",
@@ -59494,7 +59505,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 197620,
+          "size": 197636,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -68366,6 +68377,7 @@
             "removeDatabaseOnError",
             "removePendingMuteStates",
             "removePossiblyDeliveredMessagesUniqueIds",
+            "removeTail",
             "removedCount",
             "removedEntries",
             "removedEntries",
@@ -71056,7 +71068,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 206528,
+          "size": 206540,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71134,7 +71146,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 543072,
+          "size": 543148,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71162,7 +71174,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4355637248,
+      "vmaddr": 4355653632,
       "vmsize": 7651328,
       "fileoff": 2016,
       "filesize": 5865472,
@@ -71210,7 +71222,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 17512,
+          "size": 17528,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71236,7 +71248,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1803632,
+          "size": 1804016,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71318,7 +71330,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1273920,
+          "size": 1274080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71402,7 +71414,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1631504,
+          "size": 1631632,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71415,7 +71427,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 803093,
+          "size": 803125,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71521,10 +71533,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4363288576,
+      "vmaddr": 4363304960,
       "vmsize": 3620864,
       "fileoff": 4088,
-      "filesize": 3619648,
+      "filesize": 3620368,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71545,10 +71557,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 69312832,
-      "nsyms": 4322,
-      "stroff": 69417736,
-      "strsize": 174080,
+      "symoff": 69329688,
+      "nsyms": 4324,
+      "stroff": 69434640,
+      "strsize": 174160,
       "fileoff": 4208
     },
     {
@@ -71558,15 +71570,15 @@
       "iextdefsym": 1,
       "nextdefsym": 598,
       "iundefsym": 599,
-      "nundefsym": 3723,
+      "nundefsym": 3725,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69381984,
-      "nindirectsyms": 8937,
+      "indirectsymoff": 69398872,
+      "nindirectsyms": 8941,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -71594,7 +71606,7 @@
     },
     {
       "type": "main",
-      "entryoff": 33456,
+      "entryoff": 41232,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -72322,20 +72334,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68983568,
-      "datasize": 303864,
+      "dataoff": 69000384,
+      "datasize": 303912,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 69287432,
-      "datasize": 25400,
+      "dataoff": 69304296,
+      "datasize": 25392,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69591824,
-      "datasize": 563248,
+      "dataoff": 69608800,
+      "datasize": 563376,
       "fileoff": 11448
     }
   ],
