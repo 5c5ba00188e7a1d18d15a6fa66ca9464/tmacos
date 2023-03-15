@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46440840,
+          "size": 46444872,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -10778,7 +10778,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1455058,
+          "size": 1454978,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32093,7 +32093,6 @@
             "Telegram/ChatInputSendAsView.swift",
             "Telegram/ChatInputView.swift",
             "Telegram/ChatInteractiveContentView.swift",
-            "Telegram/ChatInterfaceInteraction.swift",
             "Telegram/ChatInterfaceState.swift",
             "Telegram/ChatInvoiceItem.swift",
             "Telegram/ChatListEmptyRowItem.swift",
@@ -38276,7 +38275,6 @@
             "_canBeRemoved",
             "_canBecomeKey",
             "_canBecomeMain",
-            "_captionLayouts_",
             "_cc",
             "_changePhoneNumberIntro",
             "_channelArguments",
@@ -50451,7 +50449,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230314)",
+            "mozjpeg version 4.0.0 (build 20230315)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -59472,7 +59470,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 336077,
+          "size": 336085,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -71181,7 +71179,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 624684,
+          "size": 624704,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71255,7 +71253,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1828608,
+          "size": 1828720,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71554,7 +71552,7 @@
       "vmaddr": 4355178496,
       "vmsize": 3375104,
       "fileoff": 4000,
-      "filesize": 3372544,
+      "filesize": 3372560,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71575,9 +71573,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 61089344,
+      "symoff": 61089360,
       "nsyms": 3749,
-      "stroff": 61179792,
+      "stroff": 61179808,
       "strsize": 135896,
       "fileoff": 4120
     },
@@ -71595,7 +71593,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 61149328,
+      "indirectsymoff": 61149344,
       "nindirectsyms": 7616,
       "extreloff": 0,
       "nextrel": 0,
@@ -71621,7 +71619,7 @@
     },
     {
       "type": "main",
-      "entryoff": 39004,
+      "entryoff": 35228,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -72350,18 +72348,18 @@
     {
       "type": "function_starts",
       "dataoff": 60792784,
-      "datasize": 296560,
+      "datasize": 296576,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 61089344,
+      "dataoff": 61089360,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 61315696,
+      "dataoff": 61315712,
       "datasize": 498576,
       "fileoff": 11616
     }
