@@ -1,0 +1,311 @@
+[
+  {
+    "$version": 100000,
+    "$archiver": "NSKeyedArchiver",
+    "$top": {
+      "IB.systemFontUpdateVersion": 1,
+      "IB.objectdata": {
+        "UID": 1
+      }
+    },
+    "$objects": [
+      "$null",
+      {
+        "NSRoot": {
+          "UID": 2
+        },
+        "NSConnections": {
+          "UID": 12
+        },
+        "NSOidsValues": {
+          "UID": 29
+        },
+        "NSObjectsValues": {
+          "UID": 27
+        },
+        "NSObjectsKeys": {
+          "UID": 21
+        },
+        "NSAccessibilityOidsValues": {
+          "UID": 35
+        },
+        "NSVisibleWindows": {
+          "UID": 10
+        },
+        "NSAccessibilityOidsKeys": {
+          "UID": 35
+        },
+        "NSAccessibilityConnectors": {
+          "UID": 34
+        },
+        "$class": {
+          "UID": 36
+        },
+        "NSOidsKeys": {
+          "UID": 28
+        }
+      },
+      {
+        "NSClassName": {
+          "UID": 8
+        },
+        "IBClassReference": {
+          "UID": 3
+        },
+        "$class": {
+          "UID": 9
+        }
+      },
+      {
+        "IBModuleName": {
+          "UID": 5
+        },
+        "IBModuleProvider": {
+          "UID": 6
+        },
+        "IBClassName": {
+          "UID": 4
+        },
+        "$class": {
+          "UID": 7
+        }
+      },
+      "ShareViewController",
+      "TelegramShare",
+      "target",
+      {
+        "$classname": "IBClassReference",
+        "$classes": [
+          "IBClassReference",
+          "NSObject"
+        ]
+      },
+      "_TtC13TelegramShare19ShareViewController",
+      {
+        "$classname": "NSCustomObject",
+        "$classes": [
+          "NSCustomObject",
+          "NSObject"
+        ]
+      },
+      {
+        "NS.objects": [],
+        "$class": {
+          "UID": 11
+        }
+      },
+      {
+        "$classname": "NSMutableSet",
+        "$classes": [
+          "NSMutableSet",
+          "NSSet",
+          "NSObject"
+        ]
+      },
+      {
+        "NS.objects": [
+          {
+            "UID": 13
+          }
+        ],
+        "$class": {
+          "UID": 20
+        }
+      },
+      {
+        "$class": {
+          "UID": 19
+        },
+        "NSSource": {
+          "UID": 2
+        },
+        "NSDestination": {
+          "UID": 14
+        },
+        "NSLabel": {
+          "UID": 18
+        },
+        "NSChildControllerCreationSelectorName": {
+          "UID": 0
+        }
+      },
+      {
+        "IBNSClipsToBounds": 0,
+        "NSViewWantsBestResolutionOpenGLSurface": true,
+        "$class": {
+          "UID": 17
+        },
+        "NSClassName": {
+          "UID": 15
+        },
+        "NSvFlags": 268,
+        "NSNextResponder": {
+          "UID": 0
+        },
+        "NSDoNotTranslateAutoresizingMask": true,
+        "IBNSLayoutMarginsGuide": {
+          "UID": 0
+        },
+        "NSOriginalClassName": {
+          "UID": 15
+        },
+        "NSFrameSize": {
+          "UID": 16
+        },
+        "IBNSSafeAreaLayoutGuide": {
+          "UID": 0
+        },
+        "NSNibTouchBar": {
+          "UID": 0
+        }
+      },
+      "NSView",
+      "{300, 400}",
+      {
+        "$classname": "NSClassSwapper",
+        "$classes": [
+          "NSClassSwapper",
+          "NSObject"
+        ]
+      },
+      "view",
+      {
+        "$classname": "NSNibOutletConnector",
+        "$classes": [
+          "NSNibOutletConnector",
+          "NSNibConnector",
+          "NSObject"
+        ]
+      },
+      {
+        "$classname": "NSMutableArray",
+        "$classes": [
+          "NSMutableArray",
+          "NSArray",
+          "NSObject"
+        ]
+      },
+      {
+        "NS.objects": [
+          {
+            "UID": 22
+          },
+          {
+            "UID": 14
+          }
+        ],
+        "$class": {
+          "UID": 26
+        }
+      },
+      {
+        "NSClassName": {
+          "UID": 25
+        },
+        "IBClassReference": {
+          "UID": 23
+        },
+        "$class": {
+          "UID": 9
+        }
+      },
+      {
+        "IBModuleName": {
+          "UID": 0
+        },
+        "IBModuleProvider": {
+          "UID": 0
+        },
+        "IBClassName": {
+          "UID": 24
+        },
+        "$class": {
+          "UID": 7
+        }
+      },
+      "NSObject",
+      "NSApplication",
+      {
+        "$classname": "NSArray",
+        "$classes": [
+          "NSArray",
+          "NSObject"
+        ]
+      },
+      {
+        "NS.objects": [
+          {
+            "UID": 2
+          },
+          {
+            "UID": 2
+          }
+        ],
+        "$class": {
+          "UID": 26
+        }
+      },
+      {
+        "NS.objects": [
+          {
+            "UID": 2
+          },
+          {
+            "UID": 22
+          },
+          {
+            "UID": 14
+          },
+          {
+            "UID": 13
+          }
+        ],
+        "$class": {
+          "UID": 26
+        }
+      },
+      {
+        "NS.objects": [
+          {
+            "UID": 30
+          },
+          {
+            "UID": 31
+          },
+          {
+            "UID": 32
+          },
+          {
+            "UID": 33
+          }
+        ],
+        "$class": {
+          "UID": 26
+        }
+      },
+      1,
+      2,
+      3,
+      4,
+      {
+        "NS.objects": [],
+        "$class": {
+          "UID": 20
+        }
+      },
+      {
+        "NS.objects": [],
+        "$class": {
+          "UID": 26
+        }
+      },
+      {
+        "$classname": "NSIBObjectData",
+        "$classes": [
+          "NSIBObjectData",
+          "NSObject"
+        ]
+      }
+    ]
+  }
+]

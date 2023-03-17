@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54722357,
+          "size": 54723669,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 358860,
+          "size": 358948,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10770,7 +10770,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1457062,
+          "size": 1457126,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -37710,6 +37710,7 @@
             "_TtC8TelegramP33_BE4B0C554ABD904BCCE84ECEF9C6065E21GeneralLoadingRowView",
             "_TtC8TelegramP33_BE8152C6B239A42C33F9B664CCC098C89Arguments",
             "_TtC8TelegramP33_BE8808C7A5D90FC20AF23E3E718D014D9Arguments",
+            "_TtC8TelegramP33_BF66BA9054C660AD33D3C9996BE8FF789Arguments",
             "_TtC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB19DesktopCapturerView",
             "_TtC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB23UnavailableToStreamView",
             "_TtC8TelegramP33_C047C4E4AB337D5D1F7E0CBBAAF76CE820PaintColorPickerKnob",
@@ -59489,7 +59490,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22460,
+          "size": 22464,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71159,7 +71160,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 543308,
+          "size": 543296,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71287,7 +71288,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 26608,
+          "size": 26616,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71343,7 +71344,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1275064,
+          "size": 1275280,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71427,7 +71428,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1634856,
+          "size": 1634880,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71440,7 +71441,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 803605,
+          "size": 803765,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71549,7 +71550,7 @@
       "vmaddr": 4363337728,
       "vmsize": 3637248,
       "fileoff": 4088,
-      "filesize": 3621472,
+      "filesize": 3621536,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71570,9 +71571,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 69379680,
+      "symoff": 69379752,
       "nsyms": 4322,
-      "stroff": 69484584,
+      "stroff": 69484656,
       "strsize": 174080,
       "fileoff": 4208
     },
@@ -71590,7 +71591,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69448832,
+      "indirectsymoff": 69448904,
       "nindirectsyms": 8937,
       "extreloff": 0,
       "nextrel": 0,
@@ -71609,7 +71610,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.13.0",
+      "version": "10.12.0",
       "sdk": "12.0.0",
       "fileoff": 4368
     },
@@ -71619,7 +71620,7 @@
     },
     {
       "type": "main",
-      "entryoff": 38288,
+      "entryoff": 36880,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71976,7 +71977,7 @@
       "fileoff": 8304
     },
     {
-      "type": "load_dylib",
+      "type": "load_weak_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -72347,19 +72348,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69050216,
+      "dataoff": 69050288,
       "datasize": 304048,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 69354264,
+      "dataoff": 69354336,
       "datasize": 25416,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69658672,
+      "dataoff": 69658736,
       "datasize": 563760,
       "fileoff": 11448
     }

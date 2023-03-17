@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46457928,
+          "size": 46458696,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 173548,
+          "size": 173556,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 363220,
+          "size": 363308,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1966636,
+          "size": 1966892,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10779,7 +10779,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1455266,
+          "size": 1455330,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -37807,6 +37807,7 @@
             "_TtC8TelegramP33_BE4B0C554ABD904BCCE84ECEF9C6065E21GeneralLoadingRowView",
             "_TtC8TelegramP33_BE8152C6B239A42C33F9B664CCC098C89Arguments",
             "_TtC8TelegramP33_BE8808C7A5D90FC20AF23E3E718D014D9Arguments",
+            "_TtC8TelegramP33_BF66BA9054C660AD33D3C9996BE8FF789Arguments",
             "_TtC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB19DesktopCapturerView",
             "_TtC8TelegramP33_BFFB5AD44AEBCD7456EABDA517309BDB23UnavailableToStreamView",
             "_TtC8TelegramP33_C047C4E4AB337D5D1F7E0CBBAAF76CE820PaintColorPickerKnob",
@@ -59515,7 +59516,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22460,
+          "size": 22464,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71185,7 +71186,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 620880,
+          "size": 620884,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71198,7 +71199,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 422256,
+          "size": 422308,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71285,7 +71286,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 26608,
+          "size": 26616,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71378,7 +71379,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1116128,
+          "size": 1116344,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71475,7 +71476,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 799760,
+          "size": 799920,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71558,7 +71559,7 @@
       "vmaddr": 4355211264,
       "vmsize": 3375104,
       "fileoff": 4000,
-      "filesize": 3372704,
+      "filesize": 3372768,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71579,9 +71580,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 61105888,
+      "symoff": 61105960,
       "nsyms": 3747,
-      "stroff": 61196288,
+      "stroff": 61196360,
       "strsize": 135816,
       "fileoff": 4120
     },
@@ -71599,7 +71600,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 61165840,
+      "indirectsymoff": 61165912,
       "nindirectsyms": 7612,
       "extreloff": 0,
       "nextrel": 0,
@@ -71625,7 +71626,7 @@
     },
     {
       "type": "main",
-      "entryoff": 40796,
+      "entryoff": 39708,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -71982,7 +71983,7 @@
       "fileoff": 8232
     },
     {
-      "type": "load_dylib",
+      "type": "load_weak_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -72353,19 +72354,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 60809248,
+      "dataoff": 60809320,
       "datasize": 296640,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 61105888,
+      "dataoff": 61105960,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 61332112,
+      "dataoff": 61332176,
       "datasize": 498704,
       "fileoff": 11616
     }

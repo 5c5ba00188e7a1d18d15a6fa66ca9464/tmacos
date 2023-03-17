@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18346668,
+          "size": 18347004,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 39280,
+          "size": 39288,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34581,7 +34581,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 255564,
+          "size": 255584,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34915,7 +34915,7 @@
       "vmaddr": 4318527488,
       "vmsize": 2523136,
       "fileoff": 3520,
-      "filesize": 2515232,
+      "filesize": 2515280,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34936,9 +34936,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 25180696,
+      "symoff": 25180744,
       "nsyms": 6329,
-      "stroff": 25300496,
+      "stroff": 25300544,
       "strsize": 147056,
       "fileoff": 3640
     },
@@ -34956,7 +34956,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 25281960,
+      "indirectsymoff": 25282008,
       "nindirectsyms": 4633,
       "extreloff": 0,
       "nextrel": 0,
@@ -34982,7 +34982,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18370440,
+      "entryoff": 18370392,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -35371,19 +35371,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 25032344,
+      "dataoff": 25032392,
       "datasize": 148352,
       "fileoff": 7512
     },
     {
       "type": "data_in_code",
-      "dataoff": 25180696,
+      "dataoff": 25180744,
       "datasize": 0,
       "fileoff": 7528
     },
     {
       "type": "code_signature",
-      "dataoff": 25447552,
+      "dataoff": 25447600,
       "datasize": 218272,
       "fileoff": 7544
     }
