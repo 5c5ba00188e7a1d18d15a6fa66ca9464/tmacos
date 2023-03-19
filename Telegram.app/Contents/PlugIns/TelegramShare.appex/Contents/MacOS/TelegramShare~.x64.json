@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21275706,
+          "size": 21276826,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 879271,
+          "size": 879335,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 253867,
+          "size": 253883,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3914,6 +3914,7 @@
             "drawSeparatorBorder",
             "drawSeparatorIgnoringInset",
             "drawable",
+            "drawer",
             "driversLicense",
             "driversLicense",
             "driversLicense",
@@ -10643,7 +10644,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192492,
+          "size": 192520,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10669,7 +10670,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 16464,
+          "size": 16460,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10682,7 +10683,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12632,
+          "size": 12636,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10695,7 +10696,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 592961,
+          "size": 593057,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20799,6 +20800,7 @@
             "_TtC7TGUIKit9SplitView",
             "_TtC7TGUIKit9TableView",
             "_TtC7TGUIKit9ViewLayer",
+            "_TtC7TGUIKitP33_06A0149783EB96F3AAA2D8C6B5CBD23C13TextDrawLayer",
             "_TtC7TGUIKitP33_06A0149783EB96F3AAA2D8C6B5CBD23C20TextViewEmbeddedItem",
             "_TtC7TGUIKitP33_0DC571F9EB35CCB089B0E51260EFF59411ParticleSet",
             "_TtC7TGUIKitP33_0DC571F9EB35CCB089B0E51260EFF59411TooltipView",
@@ -24621,6 +24623,7 @@
             "drawPhotoOuter",
             "drawSeparatorIgnoringInset",
             "drawable",
+            "drawer",
             "drawingTime %fx%f = %f\n",
             "drawingTime = %f\n",
             "drbg already initialized",
@@ -27452,7 +27455,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230317)",
+            "mozjpeg version 4.0.0 (build 20230319)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -34260,7 +34263,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 208796,
+          "size": 208812,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34577,7 +34580,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221636,
+          "size": 221676,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34679,7 +34682,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 912448,
+          "size": 912416,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -34705,7 +34708,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 9152,
+          "size": 9160,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34761,7 +34764,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 452952,
+          "size": 453064,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34845,7 +34848,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 261432,
+          "size": 261840,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34858,7 +34861,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 296045,
+          "size": 296093,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -35011,7 +35014,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21293640,
+      "entryoff": 21293384,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35400,8 +35403,8 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27981712,
-      "datasize": 149448,
+      "dataoff": 27981696,
+      "datasize": 149464,
       "fileoff": 7480
     },
     {
