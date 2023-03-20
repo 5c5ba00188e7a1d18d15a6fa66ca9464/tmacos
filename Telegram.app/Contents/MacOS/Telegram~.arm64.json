@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 46459848,
+          "size": 46464712,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -10779,7 +10779,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1455394,
+          "size": 1455474,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -42630,6 +42630,7 @@
             "com.alamofire.networking.operation.finish",
             "com.alamofire.networking.operation.lock",
             "com.alamofire.networking.operation.start",
+            "com.apple.quarantine",
             "com.apple.screenIsLocked",
             "com.apple.screenIsUnlocked",
             "com.apple.security",
@@ -44268,6 +44269,7 @@
             "documentView",
             "document_no",
             "dod",
+            "does not really matter what is here",
             "doesn't look like mfra (size mismatch)\n",
             "doesn't look like mfra (tag mismatch)\n",
             "doesn't look like mfra (unreasonable size)\n",
@@ -50458,7 +50460,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230319)",
+            "mozjpeg version 4.0.0 (build 20230320)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -59479,7 +59481,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 336119,
+          "size": 336133,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -71466,7 +71468,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1474704,
+          "size": 1474712,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71629,7 +71631,7 @@
     },
     {
       "type": "main",
-      "entryoff": 38236,
+      "entryoff": 33372,
       "stacksize": 0,
       "fileoff": 4328
     },
