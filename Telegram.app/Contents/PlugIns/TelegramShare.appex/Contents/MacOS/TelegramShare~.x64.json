@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21281402,
+          "size": 21281114,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 879351,
+          "size": 879367,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2388,6 +2388,7 @@
             "bitmapInfo",
             "bitsPerComponent",
             "bitsPerPixel",
+            "blobColor",
             "blockId",
             "blockImage",
             "blockMask",
@@ -10644,7 +10645,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192520,
+          "size": 192532,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10670,7 +10671,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 16460,
+          "size": 16464,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10696,7 +10697,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 593057,
+          "size": 593073,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22651,6 +22652,7 @@
             "ble",
             "bli",
             "blob",
+            "blobColor",
             "block",
             "block type is not 01",
             "block type is not 02",
@@ -34580,7 +34582,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 221680,
+          "size": 221708,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34682,7 +34684,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 912416,
+          "size": 912448,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -34764,7 +34766,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 453064,
+          "size": 453096,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34848,7 +34850,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 261848,
+          "size": 261856,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -34861,7 +34863,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 296093,
+          "size": 296109,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34944,7 +34946,7 @@
       "vmaddr": 4321509376,
       "vmsize": 2555904,
       "fileoff": 3688,
-      "filesize": 2540400,
+      "filesize": 2540576,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34965,9 +34967,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28160840,
+      "symoff": 28161016,
       "nsyms": 6348,
-      "stroff": 28283392,
+      "stroff": 28283568,
       "strsize": 147880,
       "fileoff": 3808
     },
@@ -34985,7 +34987,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28262408,
+      "indirectsymoff": 28262584,
       "nindirectsyms": 5245,
       "extreloff": 0,
       "nextrel": 0,
@@ -35014,7 +35016,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21309736,
+      "entryoff": 21309672,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35403,19 +35405,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27998080,
-      "datasize": 149472,
+      "dataoff": 27998248,
+      "datasize": 149480,
       "fileoff": 7480
     },
     {
       "type": "data_in_code",
-      "dataoff": 28147552,
+      "dataoff": 28147728,
       "datasize": 13288,
       "fileoff": 7496
     },
     {
       "type": "code_signature",
-      "dataoff": 28431280,
+      "dataoff": 28431456,
       "datasize": 241600,
       "fileoff": 7512
     }
