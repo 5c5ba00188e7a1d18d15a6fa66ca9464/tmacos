@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18349548,
+          "size": 18350332,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -164,7 +164,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 178799,
+          "size": 178831,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3677,6 +3677,7 @@
             "deltaUpdated",
             "deny",
             "depencyReadyDisposable",
+            "deprecatedNotice",
             "derivation",
             "desc",
             "desc",
@@ -10659,7 +10660,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 192544,
+          "size": 192556,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10711,7 +10712,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 592347,
+          "size": 592539,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14161,6 +14162,10 @@
             "Define Restart Interval %u",
             "Delete",
             "DeleteChat.DeleteGroupForAll",
+            "Deprecated.Alert.Text",
+            "Deprecated.Alert.Third",
+            "Deprecated.Alert.Title",
+            "Deprecated.Title",
             "DesignCycleCount9C",
             "Destroy",
             "Did begin transaction",
@@ -15524,6 +15529,7 @@
             "InputData.Date.Year.Placeholder",
             "InputData.Date.Year.Placeholder1",
             "InputFormatter.Text.Header",
+            "InputFormatter.Text.Placeholder",
             "InputFormatter.URL.Header",
             "InputFormatter.URL.Placeholder",
             "InputPasswordController.Error.WrongPassword",
@@ -24389,6 +24395,7 @@
             "deltaRevocationList",
             "denominator != NULL",
             "depencyReadyDisposable",
+            "deprecatedNotice1",
             "depth exceeded",
             "des",
             "des(int)",
@@ -34589,7 +34596,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 255696,
+          "size": 255688,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -34650,7 +34657,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 897216,
+          "size": 897232,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34923,7 +34930,7 @@
       "vmaddr": 4318527488,
       "vmsize": 2523136,
       "fileoff": 3520,
-      "filesize": 2515648,
+      "filesize": 2515984,
       "maxprot": {
         "read": true,
         "write": false,
@@ -34944,9 +34951,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 25181104,
+      "symoff": 25181448,
       "nsyms": 6329,
-      "stroff": 25300904,
+      "stroff": 25301248,
       "strsize": 147056,
       "fileoff": 3640
     },
@@ -34964,7 +34971,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 25282368,
+      "indirectsymoff": 25282712,
       "nindirectsyms": 4633,
       "extreloff": 0,
       "nextrel": 0,
@@ -34990,7 +34997,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18369832,
+      "entryoff": 18369624,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -35379,19 +35386,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 25032720,
-      "datasize": 148384,
+      "dataoff": 25033056,
+      "datasize": 148392,
       "fileoff": 7512
     },
     {
       "type": "data_in_code",
-      "dataoff": 25181104,
+      "dataoff": 25181448,
       "datasize": 0,
       "fileoff": 7528
     },
     {
       "type": "code_signature",
-      "dataoff": 25447968,
+      "dataoff": 25448304,
       "datasize": 218272,
       "fileoff": 7544
     }

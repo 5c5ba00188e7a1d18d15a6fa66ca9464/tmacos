@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54731701,
+          "size": 54743093,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2080317,
+          "size": 2080829,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 231855,
+          "size": 231875,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -3117,6 +3117,7 @@
             "addLineToPoint:",
             "addLink:",
             "addLink:range:",
+            "addLink:text:range:",
             "addLocalMonitorForEventsMatchingMask:handler:",
             "addMessageService:",
             "addMigrationClasses:",
@@ -10757,7 +10758,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 76818,
+          "size": 76847,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -10770,7 +10771,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1457158,
+          "size": 1457622,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -21578,6 +21579,10 @@
             "Denied",
             "Denormal disabler: ",
             "Dependent coupling is not supported together with LTP\n",
+            "Deprecated.Alert.Text",
+            "Deprecated.Alert.Third",
+            "Deprecated.Alert.Title",
+            "Deprecated.Title",
             "Depth",
             "Depth parameter set",
             "Description contains invalid candidates.",
@@ -24771,6 +24776,7 @@
             "InputDataEquatable(",
             "InputDataTextInsertAnimatedDataKey",
             "InputFormatter.Text.Header",
+            "InputFormatter.Text.Placeholder",
             "InputFormatter.URL.Header",
             "InputFormatter.URL.Placeholder",
             "InputFramesPerSecond",
@@ -31999,6 +32005,7 @@
             "Telegram/ChatListFiltersHeaderItem.swift",
             "Telegram/ChatListRevealItem.swift",
             "Telegram/ChatListRowView.swift",
+            "Telegram/ChatListSystemDeprecatedItem.swift",
             "Telegram/ChatListTouchBar.swift",
             "Telegram/ChatMapContentView.swift",
             "Telegram/ChatMapRowItem.swift",
@@ -37190,6 +37197,7 @@
             "_TtC8Telegram28ChannelPermissionsController",
             "_TtC8Telegram28ChatInputAnimatedEmojiAttach",
             "_TtC8Telegram28ChatListFilterVisibilityItem",
+            "_TtC8Telegram28ChatListSystemDeprecatedItem",
             "_TtC8Telegram28ChatMediaMapLayoutParameters",
             "_TtC8Telegram28ChatWallpaperModalController",
             "_TtC8Telegram28DataAndStorageViewController",
@@ -37804,6 +37812,7 @@
             "_TtC8TelegramP33_E4370C33AD05F74FB58DF1000786F4A424DetailsIntermediateState",
             "_TtC8TelegramP33_E45481A8C0F76EEC63F3C62BC5CE092F31WeakPaymentScriptMessageHandler",
             "_TtC8TelegramP33_E45481A8C0F76EEC63F3C62BC5CE092F9Arguments",
+            "_TtC8TelegramP33_E4A5DE4A5E38B63FD3437B77789EA74F32ChatListSystemDeprecatedItemView",
             "_TtC8TelegramP33_E4CBEB4AABDB41142EA993F5FF3BFF519Arguments",
             "_TtC8TelegramP33_E4D63EDD1149E17291AA88D717BDA22132ChannelAdminsControllerArguments",
             "_TtC8TelegramP33_E557B5DF0CB163AF43049E18189F2F4523ExternalUsernameRowView",
@@ -43815,6 +43824,7 @@
             "dependencies.get()",
             "deprecated, does nothing",
             "deprecated, for compatibility only",
+            "deprecatedNotice1",
             "depth exceeded",
             "derive_secret_key_and_iv",
             "derivedState",
@@ -46635,11 +46645,13 @@
             "hiddenMessage",
             "hiddenStatus",
             "hidden_members_group_size_min",
+            "hideAction",
             "hideAnimated",
             "hideCaptions",
             "hideContent",
             "hideControls",
             "hideControlsDisposable",
+            "hideDeprecatedSystem",
             "hideDisposable",
             "hideDownloads",
             "hideNames",
@@ -52750,6 +52762,7 @@
             "previousInteractionTimestamp",
             "previousIsFullScreen",
             "previousIsMuted",
+            "previousIsSpoiler",
             "previousIsUpChatList",
             "previousItemIds",
             "previousItems",
@@ -59494,7 +59507,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22468,
+          "size": 22476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -59520,7 +59533,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 197716,
+          "size": 197748,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -63183,6 +63196,7 @@
             "denar",
             "deny",
             "depencyReadyDisposable",
+            "deprecatedNotice",
             "derivation",
             "desc",
             "desc",
@@ -71089,7 +71103,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 206692,
+          "size": 206704,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71167,7 +71181,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 543380,
+          "size": 543456,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71269,7 +71283,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1805040,
+          "size": 1805072,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71295,7 +71309,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 26624,
+          "size": 26640,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71351,7 +71365,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1275776,
+          "size": 1276248,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71435,7 +71449,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1635392,
+          "size": 1637392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71448,7 +71462,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 803925,
+          "size": 804085,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71557,7 +71571,7 @@
       "vmaddr": 4363370496,
       "vmsize": 3637248,
       "fileoff": 4088,
-      "filesize": 3622128,
+      "filesize": 3622608,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71578,9 +71592,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 69396560,
+      "symoff": 69397048,
       "nsyms": 4323,
-      "stroff": 69501480,
+      "stroff": 69501968,
       "strsize": 174096,
       "fileoff": 4208
     },
@@ -71598,7 +71612,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69465728,
+      "indirectsymoff": 69466216,
       "nindirectsyms": 8938,
       "extreloff": 0,
       "nextrel": 0,
@@ -71627,7 +71641,7 @@
     },
     {
       "type": "main",
-      "entryoff": 44976,
+      "entryoff": 32560,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -72355,19 +72369,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69067048,
-      "datasize": 304096,
+      "dataoff": 69067488,
+      "datasize": 304152,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 69371144,
-      "datasize": 25416,
+      "dataoff": 69371640,
+      "datasize": 25408,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69675584,
+      "dataoff": 69676064,
       "datasize": 563888,
       "fileoff": 11448
     }
