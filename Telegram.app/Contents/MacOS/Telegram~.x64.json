@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 54743093,
+          "size": 54742101,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -50455,7 +50455,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230321)",
+            "mozjpeg version 4.0.0 (build 20230322)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -71181,7 +71181,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 543456,
+          "size": 543464,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71571,7 +71571,7 @@
       "vmaddr": 4363370496,
       "vmsize": 3637248,
       "fileoff": 4088,
-      "filesize": 3622608,
+      "filesize": 3622624,
       "maxprot": {
         "read": true,
         "write": false,
@@ -71592,9 +71592,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 69397048,
+      "symoff": 69397056,
       "nsyms": 4323,
-      "stroff": 69501968,
+      "stroff": 69501976,
       "strsize": 174096,
       "fileoff": 4208
     },
@@ -71612,7 +71612,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69466216,
+      "indirectsymoff": 69466224,
       "nindirectsyms": 8938,
       "extreloff": 0,
       "nextrel": 0,
@@ -71631,7 +71631,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 4368
     },
@@ -71641,7 +71641,7 @@
     },
     {
       "type": "main",
-      "entryoff": 32560,
+      "entryoff": 33552,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -71998,7 +71998,7 @@
       "fileoff": 8304
     },
     {
-      "type": "load_weak_dylib",
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
       "timestamp": 2,
       "current_version": 65536,
@@ -72369,19 +72369,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69067488,
-      "datasize": 304152,
+      "dataoff": 69067504,
+      "datasize": 304144,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 69371640,
+      "dataoff": 69371648,
       "datasize": 25408,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 69676064,
+      "dataoff": 69676080,
       "datasize": 563888,
       "fileoff": 11448
     }
