@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18597500,
+          "size": 18603116,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 787720,
+          "size": 787736,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 259025,
+          "size": 259061,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10868,7 +10868,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 604123,
+          "size": 604251,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13130,6 +13130,8 @@
             "Chat.ChatTheme.ApplyTheme",
             "Chat.ChatTheme.Cancel",
             "Chat.ChatTheme.NoTheme",
+            "Chat.ChatTheme.ResetToDefault",
+            "Chat.ChatTheme.SelectBackground",
             "Chat.Comments.Kicked",
             "Chat.CommentsHeader.Empty",
             "Chat.CommentsHeader.Full",
@@ -13979,12 +13981,14 @@
             "ChatService.JoinedGroupByRequest",
             "ChatService.Suggest.Success",
             "ChatService.Suggest.View",
+            "ChatService.UpdateBackground",
             "ChatService.UserJoinedChannelByRequest",
             "ChatService.UserJoinedGroupByRequest",
-            "ChatService.Wallpaper.View",
+            "ChatService.ViewBackground",
             "ChatService.YouChangedToSameWallpaper",
             "ChatService.YouChangedWallpaper",
             "ChatTheme.Colorful",
+            "ChatTheme.Theme.Info",
             "ChatTitle.ReportMessages",
             "ChatWallpaper.Empty",
             "Checkout.2FA.Text",
@@ -27909,7 +27913,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230406)",
+            "mozjpeg version 4.0.0 (build 20230407)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -34732,7 +34736,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 214164,
+          "size": 214216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35049,7 +35053,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 257152,
+          "size": 257188,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35110,7 +35114,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 911744,
+          "size": 911824,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -35383,7 +35387,7 @@
       "vmaddr": 4318855168,
       "vmsize": 2555904,
       "fileoff": 3520,
-      "filesize": 2540816,
+      "filesize": 2541264,
       "maxprot": {
         "read": true,
         "write": false,
@@ -35404,9 +35408,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 25514888,
+      "symoff": 25515328,
       "nsyms": 6329,
-      "stroff": 25634752,
+      "stroff": 25635192,
       "strsize": 147056,
       "fileoff": 3640
     },
@@ -35424,7 +35428,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 25616152,
+      "indirectsymoff": 25616592,
       "nindirectsyms": 4650,
       "extreloff": 0,
       "nextrel": 0,
@@ -35450,7 +35454,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18625928,
+      "entryoff": 18625656,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -35839,19 +35843,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 25364336,
-      "datasize": 150552,
+      "dataoff": 25364744,
+      "datasize": 150584,
       "fileoff": 7512
     },
     {
       "type": "data_in_code",
-      "dataoff": 25514888,
+      "dataoff": 25515328,
       "datasize": 0,
       "fileoff": 7528
     },
     {
       "type": "code_signature",
-      "dataoff": 25781808,
+      "dataoff": 25782256,
       "datasize": 220896,
       "fileoff": 7544
     }
