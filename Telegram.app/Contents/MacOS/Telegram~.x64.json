@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 61472768,
+      "vmsize": 61489152,
       "fileoff": 104,
-      "filesize": 61472768,
+      "filesize": 61489152,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 55424693,
+          "size": 55433013,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2091581,
+          "size": 2092093,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10780,7 +10780,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1471798,
+          "size": 1472134,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20377,7 +20377,10 @@
             "Chat.TopicHeader.Full",
             "Chat.Translate.Menu.DoNotTranslate",
             "Chat.Translate.Menu.Hide",
-            "Chat.Translate.Menu.Hide.Tooltip",
+            "Chat.Translate.Menu.Hide.Bot.Tooltip",
+            "Chat.Translate.Menu.Hide.Channel.Tooltip",
+            "Chat.Translate.Menu.Hide.Group.Tooltip",
+            "Chat.Translate.Menu.Hide.User.Tooltip",
             "Chat.Translate.Menu.HidePaywall.Tooltip",
             "Chat.Translate.Menu.To",
             "Chat.Translate.ShowOriginal",
@@ -20697,6 +20700,7 @@
             "ChatService.Suggest.Success",
             "ChatService.Suggest.View",
             "ChatService.UpdateBackground",
+            "ChatService.UploadingWallpaper",
             "ChatService.UserJoinedChannelByRequest",
             "ChatService.UserJoinedGroupByRequest",
             "ChatService.ViewBackground",
@@ -37871,7 +37875,9 @@
             "_TtC8TelegramP33_9AB5ADD85EFA09C3E45D8A64B2AD407519LiveLocationRowView",
             "_TtC8TelegramP33_9CE2A3021574951B7EBBB102896810D026AppAppearanceViewArguments",
             "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A10PhotoCache",
+            "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A14WallpaperCache",
             "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A17PhotoCachedRecord",
+            "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A21WallpaperCachedRecord",
             "_TtC8TelegramP33_9D801AA12C447E6860E955439E3AF13625GalleryTouchBarController",
             "_TtC8TelegramP33_9DA19CF1E610A18A2FA1A01CD803BE5312NoStreamView",
             "_TtC8TelegramP33_9DA84C0CCD06DDCA70CE851BD167446B25SelectBotRequestEmptyItem",
@@ -53293,6 +53299,7 @@
             "progressIndicator",
             "progressRotation",
             "progressStage",
+            "progressText",
             "progressValue",
             "progressView",
             "progress_Animation",
@@ -59876,7 +59883,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22812,
+          "size": 22820,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71746,7 +71753,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 546860,
+          "size": 546880,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71774,7 +71781,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4356440064,
+      "vmaddr": 4356456448,
       "vmsize": 7733248,
       "fileoff": 2016,
       "filesize": 5931008,
@@ -71848,7 +71855,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1833968,
+          "size": 1834000,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71874,7 +71881,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 26904,
+          "size": 26920,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71930,7 +71937,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1288192,
+          "size": 1288688,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -72014,7 +72021,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1641720,
+          "size": 1641752,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -72027,7 +72034,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 812853,
+          "size": 813269,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -72133,10 +72140,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4364173312,
+      "vmaddr": 4364189696,
       "vmsize": 3670016,
       "fileoff": 4088,
-      "filesize": 3657632,
+      "filesize": 3658032,
       "maxprot": {
         "read": true,
         "write": false,
@@ -72157,9 +72164,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70211848,
+      "symoff": 70228512,
       "nsyms": 4325,
-      "stroff": 70317024,
+      "stroff": 70333688,
       "strsize": 174120,
       "fileoff": 4208
     },
@@ -72177,7 +72184,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70281048,
+      "indirectsymoff": 70297712,
       "nindirectsyms": 8994,
       "extreloff": 0,
       "nextrel": 0,
@@ -72206,7 +72213,7 @@
     },
     {
       "type": "main",
-      "entryoff": 34704,
+      "entryoff": 41744,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -72934,20 +72941,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69877760,
-      "datasize": 308280,
+      "dataoff": 69894408,
+      "datasize": 308296,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 70186040,
+      "dataoff": 70202704,
       "datasize": 25808,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 70491152,
-      "datasize": 570256,
+      "dataoff": 70507808,
+      "datasize": 570384,
       "fileoff": 11448
     }
   ],

@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 53510144,
+      "vmsize": 53526528,
       "fileoff": 104,
-      "filesize": 53510144,
+      "filesize": 53526528,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 47030920,
+          "size": 47037448,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1978412,
+          "size": 1978668,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10789,7 +10789,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1469986,
+          "size": 1470322,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20463,7 +20463,10 @@
             "Chat.TopicHeader.Full",
             "Chat.Translate.Menu.DoNotTranslate",
             "Chat.Translate.Menu.Hide",
-            "Chat.Translate.Menu.Hide.Tooltip",
+            "Chat.Translate.Menu.Hide.Bot.Tooltip",
+            "Chat.Translate.Menu.Hide.Channel.Tooltip",
+            "Chat.Translate.Menu.Hide.Group.Tooltip",
+            "Chat.Translate.Menu.Hide.User.Tooltip",
             "Chat.Translate.Menu.HidePaywall.Tooltip",
             "Chat.Translate.Menu.To",
             "Chat.Translate.ShowOriginal",
@@ -20783,6 +20786,7 @@
             "ChatService.Suggest.Success",
             "ChatService.Suggest.View",
             "ChatService.UpdateBackground",
+            "ChatService.UploadingWallpaper",
             "ChatService.UserJoinedChannelByRequest",
             "ChatService.UserJoinedGroupByRequest",
             "ChatService.ViewBackground",
@@ -37968,7 +37972,9 @@
             "_TtC8TelegramP33_9AB5ADD85EFA09C3E45D8A64B2AD407519LiveLocationRowView",
             "_TtC8TelegramP33_9CE2A3021574951B7EBBB102896810D026AppAppearanceViewArguments",
             "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A10PhotoCache",
+            "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A14WallpaperCache",
             "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A17PhotoCachedRecord",
+            "_TtC8TelegramP33_9D6FFE07CB39874825A597C33D044C3A21WallpaperCachedRecord",
             "_TtC8TelegramP33_9D801AA12C447E6860E955439E3AF13625GalleryTouchBarController",
             "_TtC8TelegramP33_9DA19CF1E610A18A2FA1A01CD803BE5312NoStreamView",
             "_TtC8TelegramP33_9DA84C0CCD06DDCA70CE851BD167446B25SelectBotRequestEmptyItem",
@@ -53306,6 +53312,7 @@
             "progressIndicator",
             "progressRotation",
             "progressStage",
+            "progressText",
             "progressValue",
             "progressView",
             "progress_Animation",
@@ -59902,7 +59909,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 22812,
+          "size": 22820,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71772,7 +71779,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 627964,
+          "size": 627988,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71785,7 +71792,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 426080,
+          "size": 426144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71800,7 +71807,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4348477440,
+      "vmaddr": 4348493824,
       "vmsize": 2113536,
       "fileoff": 2096,
       "filesize": 2113536,
@@ -71846,7 +71853,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1858880,
+          "size": 1858928,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71872,7 +71879,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 26904,
+          "size": 26920,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -71930,7 +71937,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4350590976,
+      "vmaddr": 4350607360,
       "vmsize": 5308416,
       "fileoff": 2808,
       "filesize": 3522560,
@@ -71965,7 +71972,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1129000,
+          "size": 1129496,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -72049,7 +72056,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1480816,
+          "size": 1480848,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -72062,7 +72069,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 808912,
+          "size": 809328,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -72142,10 +72149,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4355899392,
-      "vmsize": 3407872,
+      "vmaddr": 4355915776,
+      "vmsize": 3424256,
       "fileoff": 4000,
-      "filesize": 3407792,
+      "filesize": 3408208,
       "maxprot": {
         "read": true,
         "write": false,
@@ -72166,9 +72173,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 61823200,
+      "symoff": 61839872,
       "nsyms": 3750,
-      "stroff": 61913872,
+      "stroff": 61930544,
       "strsize": 135856,
       "fileoff": 4120
     },
@@ -72186,7 +72193,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 61883200,
+      "indirectsymoff": 61899872,
       "nindirectsyms": 7667,
       "extreloff": 0,
       "nextrel": 0,
@@ -72212,7 +72219,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29212,
+      "entryoff": 38300,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -72940,20 +72947,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 61522368,
-      "datasize": 300832,
+      "dataoff": 61539016,
+      "datasize": 300856,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 61823200,
+      "dataoff": 61839872,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 62049728,
-      "datasize": 504304,
+      "dataoff": 62066400,
+      "datasize": 504432,
       "fileoff": 11616
     }
   ],
