@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18652716,
+          "size": 18652748,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10914,7 +10914,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 605979,
+          "size": 606011,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13548,6 +13548,7 @@
             "Chat.SecretChat.Preview.OK",
             "Chat.SecretChat.Preview.Text",
             "Chat.Send.ScheduledMessage",
+            "Chat.Send.SendWhenOnline",
             "Chat.Send.SetReminder",
             "Chat.Send.WithoutSound",
             "Chat.SendAs.Channel_countable",
@@ -35481,7 +35482,7 @@
       "vmaddr": 4318920704,
       "vmsize": 2555904,
       "fileoff": 3520,
-      "filesize": 2546304,
+      "filesize": 2546352,
       "maxprot": {
         "read": true,
         "write": false,
@@ -35502,9 +35503,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 25601376,
+      "symoff": 25601424,
       "nsyms": 6332,
-      "stroff": 25721376,
+      "stroff": 25721424,
       "strsize": 147160,
       "fileoff": 3640
     },
@@ -35522,7 +35523,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 25702688,
+      "indirectsymoff": 25702736,
       "nindirectsyms": 4671,
       "extreloff": 0,
       "nextrel": 0,
@@ -35548,7 +35549,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18678292,
+      "entryoff": 18678260,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -35937,19 +35938,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 25450288,
+      "dataoff": 25450336,
       "datasize": 151088,
       "fileoff": 7512
     },
     {
       "type": "data_in_code",
-      "dataoff": 25601376,
+      "dataoff": 25601424,
       "datasize": 0,
       "fileoff": 7528
     },
     {
       "type": "code_signature",
-      "dataoff": 25868544,
+      "dataoff": 25868592,
       "datasize": 221568,
       "fileoff": 7544
     }

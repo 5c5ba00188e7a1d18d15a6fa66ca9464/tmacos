@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 55436501,
+          "size": 55444533,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10784,7 +10784,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1472358,
+          "size": 1472454,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20221,6 +20221,7 @@
             "Chat.SecretChat.Preview.OK",
             "Chat.SecretChat.Preview.Text",
             "Chat.Send.ScheduledMessage",
+            "Chat.Send.SendWhenOnline",
             "Chat.Send.SetReminder",
             "Chat.Send.WithoutSound",
             "Chat.SendAs.Channel_countable",
@@ -48902,6 +48903,8 @@
             "kCVReturnWouldExceedAllocationThreshold, dropping frame",
             "kDHE",
             "kDHEPSK",
+            "kDefaultScreenShare",
+            "kDefaultVideoShare",
             "kECDHE",
             "kECDHEPSK",
             "kEDH",
@@ -71866,7 +71869,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1834032,
+          "size": 1834064,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -72154,7 +72157,7 @@
       "vmaddr": 4364189696,
       "vmsize": 3670016,
       "fileoff": 4088,
-      "filesize": 3658768,
+      "filesize": 3658832,
       "maxprot": {
         "read": true,
         "write": false,
@@ -72175,9 +72178,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70245320,
+      "symoff": 70245376,
       "nsyms": 4328,
-      "stroff": 70350560,
+      "stroff": 70350616,
       "strsize": 174240,
       "fileoff": 4208
     },
@@ -72195,7 +72198,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70314568,
+      "indirectsymoff": 70314624,
       "nindirectsyms": 8997,
       "extreloff": 0,
       "nextrel": 0,
@@ -72224,7 +72227,7 @@
     },
     {
       "type": "main",
-      "entryoff": 37968,
+      "entryoff": 29936,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -72952,19 +72955,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69911176,
-      "datasize": 308312,
+      "dataoff": 69911224,
+      "datasize": 308320,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 70219488,
+      "dataoff": 70219544,
       "datasize": 25832,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 70524800,
+      "dataoff": 70524864,
       "datasize": 570512,
       "fileoff": 11448
     }
