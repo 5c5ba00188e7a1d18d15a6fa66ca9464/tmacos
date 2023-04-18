@@ -42,9 +42,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 24526848,
+      "vmsize": 24543232,
       "fileoff": 104,
-      "filesize": 24526848,
+      "filesize": 24543232,
       "maxprot": {
         "read": true,
         "write": false,
@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21639834,
+          "size": 21660218,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 888247,
+          "size": 888535,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -125,7 +125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 260747,
+          "size": 260947,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 181983,
+          "size": 182063,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3996,6 +3996,7 @@
             "editExportedInvitation",
             "editMessage",
             "editTopic",
+            "editableBotInfo",
             "effectAnimation",
             "effectView",
             "effectiveProgress",
@@ -4461,6 +4462,8 @@
             "flip",
             "flip",
             "floatingSections",
+            "flood",
+            "flood",
             "flood",
             "flood",
             "flood",
@@ -5793,6 +5796,7 @@
             "isPattern",
             "isPaused",
             "isPaused",
+            "isPeerUpgradeMessage",
             "isPending",
             "isPerfectSized",
             "isPerfectSized",
@@ -8925,6 +8929,7 @@
             "sentEncryptedFile",
             "sentEncryptedMessage",
             "sentMedia",
+            "sentMessageEventPipe",
             "separator",
             "separator",
             "separator",
@@ -10849,7 +10854,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196628,
+          "size": 196732,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10875,7 +10880,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 16700,
+          "size": 16708,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10888,7 +10893,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 12900,
+          "size": 12908,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10901,7 +10906,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 606737,
+          "size": 606897,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20830,6 +20835,7 @@
             "_TtC14SwiftSignalKit5Queue",
             "_TtC14SwiftSignalKit5Timer",
             "_TtC18TelegramIconsTheme18TelegramIconsTheme",
+            "_TtC5EmojiP33_02CD309EFB3F7F4DEF1E9A4AD7589D0F14FrameworkClass",
             "_TtC7Postbox10MappedFile",
             "_TtC7Postbox10ReadBuffer",
             "_TtC7Postbox10StorageBox",
@@ -25265,6 +25271,7 @@
             "editBar",
             "editMessageCurrentPhoto",
             "editMessageMedia",
+            "editableBotInfo",
             "eed",
             "effectAnimation",
             "effectView",
@@ -27011,6 +27018,7 @@
             "isPartOfTransition",
             "isPaused",
             "isPeerForum undefinded for ",
+            "isPeerUpgradeMessage",
             "isPending",
             "isPerfectSized",
             "isPerformingUpdate",
@@ -27973,7 +27981,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230414)",
+            "mozjpeg version 4.0.0 (build 20230418)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -29865,6 +29873,7 @@
             "sentCodeTypeSetUpEmailRequired",
             "sentEncryptedFile",
             "sentEncryptedMessage",
+            "sentMessageEventPipe",
             "separator",
             "separatorItem",
             "separatorView",
@@ -34826,7 +34835,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 215608,
+          "size": 215776,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35144,7 +35153,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 226388,
+          "size": 226636,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35157,7 +35166,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 124688,
+          "size": 124744,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35172,7 +35181,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4319494144,
+      "vmaddr": 4319510528,
       "vmsize": 2457600,
       "fileoff": 1776,
       "filesize": 2048000,
@@ -35207,7 +35216,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 20840,
+          "size": 20848,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35246,7 +35255,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 929792,
+          "size": 930528,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -35272,7 +35281,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 9400,
+          "size": 9408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35328,7 +35337,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 463144,
+          "size": 463312,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35412,7 +35421,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 262800,
+          "size": 263000,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35425,7 +35434,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 303549,
+          "size": 303709,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -35477,7 +35486,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 411240,
+          "size": 411496,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -35505,10 +35514,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4321951744,
-      "vmsize": 2572288,
+      "vmaddr": 4321968128,
+      "vmsize": 2588672,
       "fileoff": 3688,
-      "filesize": 2571856,
+      "filesize": 2573792,
       "maxprot": {
         "read": true,
         "write": false,
@@ -35529,9 +35538,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28630672,
+      "symoff": 28648864,
       "nsyms": 6351,
-      "stroff": 28753432,
+      "stroff": 28771632,
       "strsize": 147984,
       "fileoff": 3808
     },
@@ -35549,8 +35558,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28732288,
-      "nindirectsyms": 5286,
+      "indirectsymoff": 28750480,
+      "nindirectsyms": 5287,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -35578,7 +35587,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21668398,
+      "entryoff": 21683470,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35967,20 +35976,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 28464984,
-      "datasize": 152184,
+      "dataoff": 28483016,
+      "datasize": 152312,
       "fileoff": 7480
     },
     {
       "type": "data_in_code",
-      "dataoff": 28617168,
-      "datasize": 13504,
+      "dataoff": 28635328,
+      "datasize": 13536,
       "fileoff": 7496
     },
     {
       "type": "code_signature",
-      "dataoff": 28901424,
-      "datasize": 245280,
+      "dataoff": 28919616,
+      "datasize": 245408,
       "fileoff": 7512
     }
   ],
