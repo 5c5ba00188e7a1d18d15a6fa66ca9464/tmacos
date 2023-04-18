@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 18669068,
+          "size": 18671148,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -138,7 +138,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 260947,
+          "size": 260991,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -164,7 +164,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 182063,
+          "size": 182111,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -2868,6 +2868,7 @@
             "chatsSlice",
             "checkDarkPattern",
             "checkNextValue",
+            "checkSidebarShouldEnable",
             "checkedHistoryImportPeer",
             "checkedVersion",
             "checking",
@@ -5584,6 +5585,7 @@
             "int64Array",
             "intensity",
             "interPostInterval",
+            "interacted",
             "interactingWithEmoji",
             "interaction",
             "interactionStateForRestore",
@@ -10867,7 +10869,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196732,
+          "size": 196756,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10919,7 +10921,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 606171,
+          "size": 606203,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -23959,6 +23961,7 @@
             "check q not prime",
             "checkDarkPattern",
             "checkNextValue",
+            "checkSidebarShouldEnable",
             "check_bitlen_dsa",
             "check_bitlen_rsa",
             "check_content",
@@ -34839,7 +34842,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 215776,
+          "size": 215828,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35157,7 +35160,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 259572,
+          "size": 259620,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35218,7 +35221,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 915840,
+          "size": 915952,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -35337,7 +35340,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 419600,
+          "size": 419632,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35434,7 +35437,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 302696,
+          "size": 302704,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35491,7 +35494,7 @@
       "vmaddr": 4318937088,
       "vmsize": 2555904,
       "fileoff": 3520,
-      "filesize": 2548224,
+      "filesize": 2548400,
       "maxprot": {
         "read": true,
         "write": false,
@@ -35512,9 +35515,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 25619560,
+      "symoff": 25619704,
       "nsyms": 6332,
-      "stroff": 25739560,
+      "stroff": 25739704,
       "strsize": 147160,
       "fileoff": 3640
     },
@@ -35532,7 +35535,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 25720872,
+      "indirectsymoff": 25721016,
       "nindirectsyms": 4672,
       "extreloff": 0,
       "nextrel": 0,
@@ -35558,7 +35561,7 @@
     },
     {
       "type": "main",
-      "entryoff": 18692436,
+      "entryoff": 18692180,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -35947,20 +35950,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 25468352,
-      "datasize": 151208,
+      "dataoff": 25468472,
+      "datasize": 151232,
       "fileoff": 7512
     },
     {
       "type": "data_in_code",
-      "dataoff": 25619560,
+      "dataoff": 25619704,
       "datasize": 0,
       "fileoff": 7528
     },
     {
       "type": "code_signature",
-      "dataoff": 25886720,
-      "datasize": 221696,
+      "dataoff": 25886864,
+      "datasize": 221728,
       "fileoff": 7544
     }
   ],
