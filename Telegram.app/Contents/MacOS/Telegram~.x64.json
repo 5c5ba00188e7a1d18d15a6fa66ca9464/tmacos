@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 61538304,
+      "vmsize": 61554688,
       "fileoff": 104,
-      "filesize": 61538304,
+      "filesize": 61554688,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 55488597,
+          "size": 55495669,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10784,7 +10784,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1473030,
+          "size": 1473190,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -24377,6 +24377,7 @@
             "Icon_InstantViewCheck",
             "Icon_InstantViewSafari",
             "Icon_InviteViaLink",
+            "Icon_LeftSidebarEditFolders",
             "Icon_Like_MessageButton",
             "Icon_Like_MessageButtonUnlike",
             "Icon_Like_MessageInside",
@@ -38878,6 +38879,8 @@
             "_focusAnimationColor",
             "_folder_invite_link",
             "_folder_invite_link_revoked",
+            "_folders_sidebar_edit",
+            "_folders_sidebar_edit_active",
             "_forwardNameLayout",
             "_frameRect",
             "_galleryFastSave",
@@ -45987,6 +45990,8 @@
             "folders",
             "folders.editPeerFolders",
             "foldersReadyDisposable",
+            "folders_sidebar_edit",
+            "folders_sidebar_edit_active",
             "follow",
             "followGlobal",
             "followers",
@@ -50816,7 +50821,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230420)",
+            "mozjpeg version 4.0.0 (build 20230421)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -57038,6 +57043,7 @@
             "threadData",
             "threadFromChannel(peerId: ",
             "threadId",
+            "threadIds",
             "threadInfo",
             "threadMessageId",
             "threadPool",
@@ -59872,7 +59878,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 344333,
+          "size": 344351,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -59937,7 +59943,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 200948,
+          "size": 201012,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -60986,6 +60992,8 @@
             "_focusAnimationColor",
             "_folder_invite_link",
             "_folder_invite_link_revoked",
+            "_folders_sidebar_edit",
+            "_folders_sidebar_edit_active",
             "_frameRect",
             "_galleryFastSave",
             "_galleryMore",
@@ -71710,7 +71718,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 210752,
+          "size": 210776,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71788,7 +71796,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 547424,
+          "size": 547428,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -71816,7 +71824,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4356505600,
+      "vmaddr": 4356521984,
       "vmsize": 7733248,
       "fileoff": 2016,
       "filesize": 5947392,
@@ -71890,7 +71898,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1835600,
+          "size": 1835664,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -71972,7 +71980,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1289880,
+          "size": 1290008,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -72056,7 +72064,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1648344,
+          "size": 1648352,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -72069,7 +72077,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 817045,
+          "size": 817493,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -72175,10 +72183,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4364238848,
+      "vmaddr": 4364255232,
       "vmsize": 3670016,
       "fileoff": 4088,
-      "filesize": 3661488,
+      "filesize": 3661936,
       "maxprot": {
         "read": true,
         "write": false,
@@ -72199,9 +72207,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70296776,
+      "symoff": 70313472,
       "nsyms": 4328,
-      "stroff": 70402016,
+      "stroff": 70418712,
       "strsize": 174240,
       "fileoff": 4208
     },
@@ -72219,7 +72227,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70366024,
+      "indirectsymoff": 70382720,
       "nindirectsyms": 8997,
       "extreloff": 0,
       "nextrel": 0,
@@ -72248,7 +72256,7 @@
     },
     {
       "type": "main",
-      "entryoff": 31952,
+      "entryoff": 41008,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -72976,20 +72984,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69962360,
-      "datasize": 308544,
+      "dataoff": 69979008,
+      "datasize": 308592,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 70270904,
+      "dataoff": 70287600,
       "datasize": 25872,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 70576256,
-      "datasize": 570928,
+      "dataoff": 70592960,
+      "datasize": 571056,
       "fileoff": 11448
     }
   ],

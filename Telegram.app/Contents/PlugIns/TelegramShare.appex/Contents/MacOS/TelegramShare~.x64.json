@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 21663226,
+          "size": 21664570,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 888535,
+          "size": 888551,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -151,7 +151,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 182111,
+          "size": 182175,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -1205,6 +1205,8 @@
             "_focusAnimationColor",
             "_folder_invite_link",
             "_folder_invite_link_revoked",
+            "_folders_sidebar_edit",
+            "_folders_sidebar_edit_active",
             "_frameRect",
             "_galleryFastSave",
             "_galleryMore",
@@ -10856,7 +10858,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 196756,
+          "size": 196780,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10908,7 +10910,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 606929,
+          "size": 607089,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -15501,6 +15503,7 @@
             "Icon_InstantViewCheck",
             "Icon_InstantViewSafari",
             "Icon_InviteViaLink",
+            "Icon_LeftSidebarEditFolders",
             "Icon_Like_MessageButton",
             "Icon_Like_MessageButtonUnlike",
             "Icon_Like_MessageInside",
@@ -21850,6 +21853,8 @@
             "_focusAnimationColor",
             "_folder_invite_link",
             "_folder_invite_link_revoked",
+            "_folders_sidebar_edit",
+            "_folders_sidebar_edit_active",
             "_frameRect",
             "_galleryFastSave",
             "_galleryMore",
@@ -25702,6 +25707,8 @@
             "folder_invite_link",
             "folder_invite_link_revoked",
             "folders.editPeerFolders",
+            "folders_sidebar_edit",
+            "folders_sidebar_edit_active",
             "followers",
             "followersGraph",
             "font",
@@ -27984,7 +27991,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230420)",
+            "mozjpeg version 4.0.0 (build 20230421)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -35156,7 +35163,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 226688,
+          "size": 226680,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -35340,7 +35347,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 463344,
+          "size": 463408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -35437,7 +35444,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 303597,
+          "size": 303613,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -35520,7 +35527,7 @@
       "vmaddr": 4321968128,
       "vmsize": 2588672,
       "fileoff": 3688,
-      "filesize": 2573920,
+      "filesize": 2574160,
       "maxprot": {
         "read": true,
         "write": false,
@@ -35541,9 +35548,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28648992,
+      "symoff": 28649224,
       "nsyms": 6351,
-      "stroff": 28771760,
+      "stroff": 28771992,
       "strsize": 147984,
       "fileoff": 3808
     },
@@ -35561,7 +35568,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28750608,
+      "indirectsymoff": 28750840,
       "nindirectsyms": 5287,
       "extreloff": 0,
       "nextrel": 0,
@@ -35590,7 +35597,7 @@
     },
     {
       "type": "main",
-      "entryoff": 21683214,
+      "entryoff": 21682958,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -35979,19 +35986,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 28483120,
-      "datasize": 152328,
+      "dataoff": 28483336,
+      "datasize": 152344,
       "fileoff": 7480
     },
     {
       "type": "data_in_code",
-      "dataoff": 28635448,
+      "dataoff": 28635680,
       "datasize": 13544,
       "fileoff": 7496
     },
     {
       "type": "code_signature",
-      "dataoff": 28919744,
+      "dataoff": 28919984,
       "datasize": 245408,
       "fileoff": 7512
     }
