@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 19358652,
+          "size": 19358860,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3243,7 +3243,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 618978,
+          "size": 619170,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11431,10 +11431,16 @@
             "StoryList.MyStory",
             "StoryList.TooltipArchive",
             "StoryList.TooltipUnarchive",
+            "StoryMedia.Archive.Empty.Text",
+            "StoryMedia.Archive.Empty.Title",
             "StoryMedia.ArchiveText",
+            "StoryMedia.Context.Archive",
             "StoryMedia.Empty.Open",
             "StoryMedia.Empty.Text",
             "StoryMedia.Empty.Title",
+            "StoryMedia.Select",
+            "StoryMedia.Title.Archive",
+            "StoryMedia.Title.MyStories",
             "StorySubscriptionsContext",
             "StoryViews.Title_ZeroValueHolder",
             "StoryViews.Title_countable",
@@ -36302,7 +36308,7 @@
       "vmaddr": 4319838208,
       "vmsize": 2637824,
       "fileoff": 3520,
-      "filesize": 2622224,
+      "filesize": 2622480,
       "maxprot": {
         "read": true,
         "write": false,
@@ -36323,9 +36329,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 26553816,
+      "symoff": 26554080,
       "nsyms": 6340,
-      "stroff": 26674224,
+      "stroff": 26674488,
       "strsize": 147512,
       "fileoff": 3640
     },
@@ -36343,7 +36349,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 26655256,
+      "indirectsymoff": 26655520,
       "nindirectsyms": 4741,
       "extreloff": 0,
       "nextrel": 0,
@@ -36369,7 +36375,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19385280,
+      "entryoff": 19385088,
       "stacksize": 0,
       "fileoff": 3848
     },
@@ -36750,19 +36756,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 26397312,
-      "datasize": 156504,
+      "dataoff": 26397568,
+      "datasize": 156512,
       "fileoff": 7416
     },
     {
       "type": "data_in_code",
-      "dataoff": 26553816,
+      "dataoff": 26554080,
       "datasize": 0,
       "fileoff": 7432
     },
     {
       "type": "code_signature",
-      "dataoff": 26821744,
+      "dataoff": 26822000,
       "datasize": 229024,
       "fileoff": 7448
     }
