@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 48625992,
+          "size": 48625736,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 178588,
+          "size": 178604,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73152,7 +73152,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 651808,
+          "size": 651812,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73592,7 +73592,7 @@
     },
     {
       "type": "main",
-      "entryoff": 36040,
+      "entryoff": 36296,
       "stacksize": 0,
       "fileoff": 4328
     },
