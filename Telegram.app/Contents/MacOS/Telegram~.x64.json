@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 57290389,
+          "size": 57292853,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 359780,
+          "size": 359812,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 232539,
+          "size": 232440,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -7868,7 +7868,6 @@
             "setHasActionButton:",
             "setHasAlpha:",
             "setHasHighPriority:",
-            "setHasHorizontalScroller:",
             "setHasReplyButton:",
             "setHasShadow:",
             "setHasVerticalScroller:",
@@ -7878,7 +7877,6 @@
             "setHeightTracksTextView:",
             "setHexString:",
             "setHidden:",
-            "setHorizontalScrollElasticity:",
             "setHorizontallyResizable:",
             "setHost:",
             "setHostAddress:",
@@ -9316,7 +9314,6 @@
             "transformItems",
             "transitionToStatus:error:",
             "translateXBy:yBy:",
-            "translatesAutoresizingMaskIntoConstraints",
             "translationInView:",
             "transliterateRussianMRZString:",
             "transliterateRussianName:",
@@ -10802,7 +10799,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1503234,
+          "size": 1503282,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31311,6 +31308,7 @@
             "TGUIKit.NavigationShadowView",
             "TGUIKit.NavigationViewController",
             "TGUIKit.Node",
+            "TGUIKit.OverlayScroller",
             "TGUIKit.PieChartView",
             "TGUIKit.Popover",
             "TGUIKit.ProgressModalController",
@@ -36747,6 +36745,7 @@
             "_TtC7TGUIKit15LayerBackedView",
             "_TtC7TGUIKit15ModalController",
             "_TtC7TGUIKit15NullActionClass",
+            "_TtC7TGUIKit15OverlayScroller",
             "_TtC7TGUIKit15SPopoverRowItem",
             "_TtC7TGUIKit15SearchTextField",
             "_TtC7TGUIKit15SimpleTextLayer",
@@ -45169,6 +45168,7 @@
             "drawAxisX",
             "drawBorder",
             "drawCustomSeparator",
+            "drawKnowIfNeeded",
             "drawLastSeparator",
             "drawLayer",
             "drawLine",
@@ -45299,7 +45299,6 @@
             "dxtory",
             "dxv",
             "dxva2_vld",
-            "dynamic",
             "dynamicContentStateForRestore",
             "dynamicSizeImpl",
             "dynamicText",
@@ -49130,6 +49129,7 @@
             "isCleaned",
             "isCloseFriends",
             "isClosed",
+            "isCollage",
             "isCompact",
             "isCompactPlayer",
             "isComplete",
@@ -51483,7 +51483,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230815)",
+            "mozjpeg version 4.0.0 (build 20230818)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -58592,7 +58592,6 @@
             "translateChats",
             "translateState",
             "translateTo",
-            "translatesAutoresizingMaskIntoConstraints",
             "translations",
             "transparent",
             "transparentBackground",
@@ -60757,7 +60756,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 356615,
+          "size": 356577,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -60796,7 +60795,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 23908,
+          "size": 23912,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -60822,7 +60821,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 208068,
+          "size": 208100,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -64873,6 +64872,7 @@
             "drawAxisX",
             "drawBorder",
             "drawBorder",
+            "drawKnowIfNeeded",
             "drawLayer",
             "drawPie",
             "drawSeparatorBorder",
@@ -64899,7 +64899,6 @@
             "dutchNetherlands",
             "dutchSintMaarten",
             "dutchSuriname",
-            "dynamic",
             "dynamicContentStateForRestore",
             "dynamicContentStateForRestore",
             "dynamicPackOrder",
@@ -73052,7 +73051,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 220572,
+          "size": 220600,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73258,7 +73257,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 28096,
+          "size": 28104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73314,7 +73313,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1341408,
+          "size": 1341544,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73327,7 +73326,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 42472,
+          "size": 42456,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73398,7 +73397,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1821928,
+          "size": 1820328,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73520,7 +73519,7 @@
       "vmaddr": 4366548992,
       "vmsize": 3784704,
       "fileoff": 4088,
-      "filesize": 3772416,
+      "filesize": 3772160,
       "maxprot": {
         "read": true,
         "write": false,
@@ -73541,9 +73540,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 72666272,
+      "symoff": 72666008,
       "nsyms": 4344,
-      "stroff": 72772200,
+      "stroff": 72771936,
       "strsize": 173832,
       "fileoff": 4208
     },
@@ -73561,7 +73560,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 72735776,
+      "indirectsymoff": 72735512,
       "nindirectsyms": 9106,
       "extreloff": 0,
       "nextrel": 0,
@@ -73590,7 +73589,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42672,
+      "entryoff": 40432,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -74318,19 +74317,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 72319936,
-      "datasize": 319448,
+      "dataoff": 72319688,
+      "datasize": 319432,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 72639384,
+      "dataoff": 72639120,
       "datasize": 26888,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 72946032,
+      "dataoff": 72945776,
       "datasize": 589456,
       "fileoff": 11448
     }
