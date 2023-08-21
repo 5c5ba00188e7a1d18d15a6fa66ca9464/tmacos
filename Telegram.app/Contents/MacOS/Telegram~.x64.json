@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 57298197,
+          "size": 57300821,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10799,7 +10799,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1503314,
+          "size": 1503346,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -24656,6 +24656,7 @@
             "Icon_StoryDelete",
             "Icon_StoryExpired",
             "Icon_StoryLike_Count",
+            "Icon_StoryLike_Holder",
             "Icon_StoryUnmute",
             "Icon_StoryViewReaction",
             "Icon_StoryViewRead",
@@ -51484,7 +51485,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230818)",
+            "mozjpeg version 4.0.0 (build 20230821)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -73130,7 +73131,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 563704,
+          "size": 563716,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73232,7 +73233,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1898608,
+          "size": 1898704,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73590,7 +73591,7 @@
     },
     {
       "type": "main",
-      "entryoff": 50704,
+      "entryoff": 48080,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -74319,13 +74320,13 @@
     {
       "type": "function_starts",
       "dataoff": 72336080,
-      "datasize": 319480,
+      "datasize": 319488,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 72655560,
-      "datasize": 26888,
+      "dataoff": 72655568,
+      "datasize": 26880,
       "fileoff": 11432
     },
     {
