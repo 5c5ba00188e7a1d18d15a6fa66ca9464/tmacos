@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 57300821,
+          "size": 57301493,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10799,7 +10799,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1503346,
+          "size": 1503378,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -43124,7 +43124,6 @@
             "checkbox",
             "checkboxContainer",
             "checkedHistoryImportPeer",
-            "checker",
             "checkerboard",
             "checkerboard_lr",
             "checkerboard_rl",
@@ -56486,6 +56485,7 @@
             "skip loop filtering process for the selected frames",
             "skip motion compensation",
             "skip whole frame, skip left: %d\n",
+            "skipAppearAnimation",
             "skipEmail",
             "skip_alpha",
             "skip_bottom",
@@ -73131,7 +73131,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 563716,
+          "size": 563708,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73399,7 +73399,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1820336,
+          "size": 1820368,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73412,7 +73412,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 851797,
+          "size": 851765,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73521,7 +73521,7 @@
       "vmaddr": 4366565376,
       "vmsize": 3784704,
       "fileoff": 4088,
-      "filesize": 3772352,
+      "filesize": 3772368,
       "maxprot": {
         "read": true,
         "write": false,
@@ -73542,9 +73542,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 72682448,
+      "symoff": 72682472,
       "nsyms": 4344,
-      "stroff": 72788384,
+      "stroff": 72788408,
       "strsize": 173832,
       "fileoff": 4208
     },
@@ -73562,7 +73562,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 72751952,
+      "indirectsymoff": 72751976,
       "nindirectsyms": 9107,
       "extreloff": 0,
       "nextrel": 0,
@@ -73591,7 +73591,7 @@
     },
     {
       "type": "main",
-      "entryoff": 48080,
+      "entryoff": 47408,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -74319,19 +74319,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 72336080,
+      "dataoff": 72336104,
       "datasize": 319488,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 72655568,
+      "dataoff": 72655592,
       "datasize": 26880,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 72962224,
+      "dataoff": 72962240,
       "datasize": 589584,
       "fileoff": 11448
     }
