@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 49117608,
+          "size": 49117544,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -51734,7 +51734,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230919)",
+            "mozjpeg version 4.0.0 (build 20230920)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -73990,7 +73990,7 @@
     },
     {
       "type": "main",
-      "entryoff": 39476,
+      "entryoff": 39540,
       "stacksize": 0,
       "fileoff": 4328
     },
