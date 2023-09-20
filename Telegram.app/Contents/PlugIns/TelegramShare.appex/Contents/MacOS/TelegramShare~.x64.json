@@ -61,7 +61,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 22792890,
+          "size": 22796602,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -112,7 +112,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 920839,
+          "size": 920951,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3232,7 +3232,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 629769,
+          "size": 629929,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11656,6 +11656,7 @@
             "TGUIKit.MajorNavigationController",
             "TGUIKit.MenuView",
             "TGUIKit.Modal",
+            "TGUIKit.ModalContainerView",
             "TGUIKit.ModalController",
             "TGUIKit.ModalHeaderView",
             "TGUIKit.ModalInteractionsContainer",
@@ -11676,6 +11677,7 @@
             "TGUIKit.RadialProgressView",
             "TGUIKit.RevealTableItemController",
             "TGUIKit.SPopoverRowItem",
+            "TGUIKit.SPopoverSeparatorItem",
             "TGUIKit.SPopoverViewController",
             "TGUIKit.ScrollableSegmentView",
             "TGUIKit.SearchTextField",
@@ -11702,6 +11704,7 @@
             "TGUIKit.TableRowItem",
             "TGUIKit.TableScrollListener",
             "TGUIKit.TableSearchView",
+            "TGUIKit.TableStickItem",
             "TGUIKit.TableUpdateTransition",
             "TGUIKit.TextAndLabelModalController",
             "TGUIKit.TextAndLabelModalView",
@@ -14970,6 +14973,7 @@
             "_sliderControlActive",
             "_splitIdx",
             "_stableId",
+            "_stableIdValue",
             "_startSize",
             "_state",
             "_statePromise",
@@ -19386,6 +19390,7 @@
             "init(_:controller:)",
             "init(_:handler:hover:image:dynamicTitle:state:itemMode:itemImage:keyEquivalent:removeTail:overrideWidth:)",
             "init(_:presentation:menuItem:interaction:)",
+            "init(_:stableId:)",
             "init(coder:) has not been implemented",
             "init(colors:search:)",
             "init(controller:text:style:alignment:canBeEmpty:)",
@@ -26215,6 +26220,7 @@
             "_splitIdx",
             "_stableId",
             "_stableId",
+            "_stableIdValue",
             "_startSize",
             "_state",
             "_state",
@@ -36065,7 +36071,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 209552,
+          "size": 209588,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -36448,7 +36454,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 239444,
+          "size": 239488,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -36511,7 +36517,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 21552,
+          "size": 21560,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -36632,7 +36638,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 484640,
+          "size": 484744,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -36716,7 +36722,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 281760,
+          "size": 282296,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -36729,7 +36735,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 322205,
+          "size": 322221,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -36812,7 +36818,7 @@
       "vmaddr": 4323377152,
       "vmsize": 2703360,
       "fileoff": 3688,
-      "filesize": 2690704,
+      "filesize": 2691232,
       "maxprot": {
         "read": true,
         "write": false,
@@ -36833,9 +36839,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30129480,
+      "symoff": 30130008,
       "nsyms": 6361,
-      "stroff": 30252784,
+      "stroff": 30253312,
       "strsize": 148416,
       "fileoff": 3808
     },
@@ -36853,8 +36859,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30231256,
-      "nindirectsyms": 5381,
+      "indirectsymoff": 30231784,
+      "nindirectsyms": 5382,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -36882,7 +36888,7 @@
     },
     {
       "type": "main",
-      "entryoff": 22815578,
+      "entryoff": 22815226,
       "stacksize": 0,
       "fileoff": 4000
     },
@@ -37263,19 +37269,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29954856,
-      "datasize": 160224,
+      "dataoff": 29955368,
+      "datasize": 160240,
       "fileoff": 7384
     },
     {
       "type": "data_in_code",
-      "dataoff": 30115080,
+      "dataoff": 30115608,
       "datasize": 14400,
       "fileoff": 7400
     },
     {
       "type": "code_signature",
-      "dataoff": 30401200,
+      "dataoff": 30401728,
       "datasize": 256992,
       "fileoff": 7416
     }

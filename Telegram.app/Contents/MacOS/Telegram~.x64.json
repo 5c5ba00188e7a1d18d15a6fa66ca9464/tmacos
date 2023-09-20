@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 57864821,
+          "size": 57871669,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2150189,
+          "size": 2150957,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10797,7 +10797,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1513746,
+          "size": 1514066,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31419,6 +31419,7 @@
             "TGUIKit.MajorNavigationController",
             "TGUIKit.MenuView",
             "TGUIKit.Modal",
+            "TGUIKit.ModalContainerView",
             "TGUIKit.ModalController",
             "TGUIKit.ModalHeaderView",
             "TGUIKit.ModalInteractionsContainer",
@@ -31439,6 +31440,7 @@
             "TGUIKit.RadialProgressView",
             "TGUIKit.RevealTableItemController",
             "TGUIKit.SPopoverRowItem",
+            "TGUIKit.SPopoverSeparatorItem",
             "TGUIKit.SPopoverViewController",
             "TGUIKit.ScrollableSegmentView",
             "TGUIKit.SearchTextField",
@@ -31465,6 +31467,7 @@
             "TGUIKit.TableRowItem",
             "TGUIKit.TableScrollListener",
             "TGUIKit.TableSearchView",
+            "TGUIKit.TableStickItem",
             "TGUIKit.TableUpdateTransition",
             "TGUIKit.TextAndLabelModalController",
             "TGUIKit.TextAndLabelModalView",
@@ -32401,6 +32404,7 @@
             "Telegram.ScrubberrightTrim",
             "Telegram.SearchContainerView",
             "Telegram.SearchController",
+            "Telegram.SearchSettingsEmptyItem",
             "Telegram.SearchTitleBarView",
             "Telegram.SecretChatKeyView",
             "Telegram.SecretChatKeyViewController",
@@ -38374,6 +38378,7 @@
             "_TtC8TelegramP33_76B4DFA433864FA989D845AAA950E41B20GroupedLayoutAttempt",
             "_TtC8TelegramP33_76B8F0AD16867E4E198D70CAD750FE8B9Arguments",
             "_TtC8TelegramP33_775B54639288FCBE8FF9E0A6B9D87A4226GroupCallPeerAvatarRowView",
+            "_TtC8TelegramP33_776FE52FC00B4A0C8D6A83E1784C71369TextField",
             "_TtC8TelegramP33_77862148D10F9036C6B079D7BF20415017GallerySupplyment",
             "_TtC8TelegramP33_77862148D10F9036C6B079D7BF2041509Arguments",
             "_TtC8TelegramP33_77CDC71A1884F6779FB965984903A13321ModalOptionsArguments",
@@ -40104,6 +40109,7 @@
             "_song",
             "_splitIdx",
             "_stableId",
+            "_stableIdValue",
             "_startSize",
             "_state",
             "_statePromise",
@@ -45093,6 +45099,7 @@
             "didStartConnectingOnce",
             "didSuggestAutoarchive",
             "didUpdateLocked",
+            "didUpdateResponder",
             "didUpdateValue",
             "diff_cu_qp_delta_depth %d is invalid\n",
             "diff_time >= 0.0",
@@ -48688,6 +48695,7 @@
             "init(_:handler:hover:image:dynamicTitle:state:itemMode:itemImage:keyEquivalent:removeTail:overrideWidth:)",
             "init(_:item:interaction:presentation:)",
             "init(_:presentation:menuItem:interaction:)",
+            "init(_:stableId:)",
             "init(coder:) has not been implemented",
             "init(coder :) has not been implemented",
             "init(colors:search:)",
@@ -49406,6 +49414,7 @@
             "isFile",
             "isFinished",
             "isFirst",
+            "isFirstResponder",
             "isFirstTime",
             "isFocused",
             "isForceRightLine",
@@ -61066,7 +61075,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 24240,
+          "size": 24244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -62559,6 +62568,7 @@
             "_sliderControlActive",
             "_splitIdx",
             "_stableId",
+            "_stableIdValue",
             "_startSize",
             "_state",
             "_state",
@@ -73447,7 +73457,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 222876,
+          "size": 222912,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73525,7 +73535,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 568388,
+          "size": 568480,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73554,9 +73564,9 @@
       "type": "segment_64",
       "name": "__DATA",
       "vmaddr": 4359077888,
-      "vmsize": 8175616,
+      "vmsize": 8192000,
       "fileoff": 2016,
-      "filesize": 6340608,
+      "filesize": 6356992,
       "maxprot": {
         "read": true,
         "write": true,
@@ -73588,7 +73598,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 37888,
+          "size": 37904,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73653,7 +73663,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 28440,
+          "size": 28448,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73709,7 +73719,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1352872,
+          "size": 1353144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73793,7 +73803,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1860104,
+          "size": 1869744,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73806,7 +73816,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 860021,
+          "size": 860117,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73912,10 +73922,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4367253504,
+      "vmaddr": 4367269888,
       "vmsize": 3817472,
       "fileoff": 4088,
-      "filesize": 3808128,
+      "filesize": 3809104,
       "maxprot": {
         "read": true,
         "write": false,
@@ -73936,9 +73946,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 73384480,
+      "symoff": 73401704,
       "nsyms": 4343,
-      "stroff": 73490488,
+      "stroff": 73507720,
       "strsize": 173784,
       "fileoff": 4208
     },
@@ -73956,8 +73966,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 73453968,
-      "nindirectsyms": 9129,
+      "indirectsymoff": 73471192,
+      "nindirectsyms": 9131,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -73985,7 +73995,7 @@
     },
     {
       "type": "main",
-      "entryoff": 50656,
+      "entryoff": 42528,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -74713,20 +74723,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 73034992,
-      "datasize": 322344,
+      "dataoff": 73052128,
+      "datasize": 322432,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 73357336,
+      "dataoff": 73374560,
       "datasize": 27144,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 73664272,
-      "datasize": 595056,
+      "dataoff": 73681504,
+      "datasize": 595184,
       "fileoff": 11448
     }
   ],

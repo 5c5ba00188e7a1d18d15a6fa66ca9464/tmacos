@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 55820288,
+      "vmsize": 55836672,
       "fileoff": 104,
-      "filesize": 55820288,
+      "filesize": 55836672,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 49117544,
+          "size": 49124008,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 180292,
+          "size": 180428,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2038044,
+          "size": 2038812,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10806,7 +10806,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1511906,
+          "size": 1512226,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31519,6 +31519,7 @@
             "TGUIKit.MajorNavigationController",
             "TGUIKit.MenuView",
             "TGUIKit.Modal",
+            "TGUIKit.ModalContainerView",
             "TGUIKit.ModalController",
             "TGUIKit.ModalHeaderView",
             "TGUIKit.ModalInteractionsContainer",
@@ -31539,6 +31540,7 @@
             "TGUIKit.RadialProgressView",
             "TGUIKit.RevealTableItemController",
             "TGUIKit.SPopoverRowItem",
+            "TGUIKit.SPopoverSeparatorItem",
             "TGUIKit.SPopoverViewController",
             "TGUIKit.ScrollableSegmentView",
             "TGUIKit.SearchTextField",
@@ -31565,6 +31567,7 @@
             "TGUIKit.TableRowItem",
             "TGUIKit.TableScrollListener",
             "TGUIKit.TableSearchView",
+            "TGUIKit.TableStickItem",
             "TGUIKit.TableUpdateTransition",
             "TGUIKit.TextAndLabelModalController",
             "TGUIKit.TextAndLabelModalView",
@@ -32499,6 +32502,7 @@
             "Telegram.ScrubberrightTrim",
             "Telegram.SearchContainerView",
             "Telegram.SearchController",
+            "Telegram.SearchSettingsEmptyItem",
             "Telegram.SearchTitleBarView",
             "Telegram.SecretChatKeyView",
             "Telegram.SecretChatKeyViewController",
@@ -38471,6 +38475,7 @@
             "_TtC8TelegramP33_76B4DFA433864FA989D845AAA950E41B20GroupedLayoutAttempt",
             "_TtC8TelegramP33_76B8F0AD16867E4E198D70CAD750FE8B9Arguments",
             "_TtC8TelegramP33_775B54639288FCBE8FF9E0A6B9D87A4226GroupCallPeerAvatarRowView",
+            "_TtC8TelegramP33_776FE52FC00B4A0C8D6A83E1784C71369TextField",
             "_TtC8TelegramP33_77862148D10F9036C6B079D7BF20415017GallerySupplyment",
             "_TtC8TelegramP33_77862148D10F9036C6B079D7BF2041509Arguments",
             "_TtC8TelegramP33_77CDC71A1884F6779FB965984903A13321ModalOptionsArguments",
@@ -40199,6 +40204,7 @@
             "_song",
             "_splitIdx",
             "_stableId",
+            "_stableIdValue",
             "_startSize",
             "_state",
             "_statePromise",
@@ -45118,6 +45124,7 @@
             "didStartConnectingOnce",
             "didSuggestAutoarchive",
             "didUpdateLocked",
+            "didUpdateResponder",
             "didUpdateValue",
             "diff_cu_qp_delta_depth %d is invalid\n",
             "diff_time >= 0.0",
@@ -48703,6 +48710,7 @@
             "init(_:handler:hover:image:dynamicTitle:state:itemMode:itemImage:keyEquivalent:removeTail:overrideWidth:)",
             "init(_:item:interaction:presentation:)",
             "init(_:presentation:menuItem:interaction:)",
+            "init(_:stableId:)",
             "init(coder:) has not been implemented",
             "init(coder :) has not been implemented",
             "init(colors:search:)",
@@ -49421,6 +49429,7 @@
             "isFile",
             "isFinished",
             "isFirst",
+            "isFirstResponder",
             "isFirstTime",
             "isFocused",
             "isForceRightLine",
@@ -61091,7 +61100,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 24240,
+          "size": 24244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -62584,6 +62593,7 @@
             "_sliderControlActive",
             "_splitIdx",
             "_stableId",
+            "_stableIdValue",
             "_startSize",
             "_state",
             "_state",
@@ -73472,7 +73482,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 222876,
+          "size": 222912,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73550,7 +73560,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 656912,
+          "size": 657028,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73563,7 +73573,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 449548,
+          "size": 449580,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73578,7 +73588,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4350787584,
+      "vmaddr": 4350803968,
       "vmsize": 2195456,
       "fileoff": 2096,
       "filesize": 2195456,
@@ -73624,7 +73634,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1941536,
+          "size": 1941904,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -73650,7 +73660,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 28440,
+          "size": 28448,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73708,10 +73718,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4352983040,
-      "vmsize": 5668864,
+      "vmaddr": 4352999424,
+      "vmsize": 5685248,
       "fileoff": 2808,
-      "filesize": 3833856,
+      "filesize": 3850240,
       "maxprot": {
         "read": true,
         "write": true,
@@ -73743,7 +73753,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1193472,
+          "size": 1193744,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73827,7 +73837,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1688072,
+          "size": 1697440,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73840,7 +73850,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 855536,
+          "size": 855632,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73920,10 +73930,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4358651904,
-      "vmsize": 3555328,
+      "vmaddr": 4358684672,
+      "vmsize": 3571712,
       "fileoff": 4000,
-      "filesize": 3554368,
+      "filesize": 3555392,
       "maxprot": {
         "read": true,
         "write": false,
@@ -73944,9 +73954,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 64650072,
+      "symoff": 64683608,
       "nsyms": 3759,
-      "stroff": 64741392,
+      "stroff": 64774928,
       "strsize": 136160,
       "fileoff": 4120
     },
@@ -73964,7 +73974,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 64710216,
+      "indirectsymoff": 64743752,
       "nindirectsyms": 7793,
       "extreloff": 0,
       "nextrel": 0,
@@ -73990,7 +74000,7 @@
     },
     {
       "type": "main",
-      "entryoff": 39540,
+      "entryoff": 48052,
       "stacksize": 0,
       "fileoff": 4328
     },
@@ -74718,20 +74728,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 64335104,
-      "datasize": 314968,
+      "dataoff": 64368560,
+      "datasize": 315048,
       "fileoff": 11584
     },
     {
       "type": "data_in_code",
-      "dataoff": 64650072,
+      "dataoff": 64683608,
       "datasize": 0,
       "fileoff": 11600
     },
     {
       "type": "code_signature",
-      "dataoff": 64877552,
-      "datasize": 526416,
+      "dataoff": 64911088,
+      "datasize": 526672,
       "fileoff": 11616
     }
   ],
