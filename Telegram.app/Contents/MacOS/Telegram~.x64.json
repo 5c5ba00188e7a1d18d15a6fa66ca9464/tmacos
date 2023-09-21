@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 57871669,
+          "size": 57866741,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10797,7 +10797,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1514066,
+          "size": 1514402,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14596,6 +14596,8 @@
             "/Users/telegram/build/submodules/AppCenter-sdk/AppCenterCrashes/AppCenterCrashes/Internals/Util/MSACErrorLogFormatter.m",
             "/Users/telegram/build/submodules/AppCenter-sdk/AppCenterCrashes/AppCenterCrashes/MSACCrashes.mm",
             "/Users/telegram/build/submodules/AppCenter-sdk/AppCenterCrashes/AppCenterCrashes/Model/MSACErrorAttachmentLog.m",
+            "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/MediaBox.swift",
+            "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/MediaBoxFileContextV2Impl.swift",
             "/Users/telegram/build/submodules/tgcalls/tgcalls/AudioDeviceHelper.cpp",
             "/Users/telegram/build/submodules/tgcalls/tgcalls/CodecSelectHelper.cpp",
             "/Users/telegram/build/submodules/tgcalls/tgcalls/EncryptedConnection.cpp",
@@ -36571,6 +36573,7 @@
             "_TtC14SwiftSignalKit16StrictDisposable",
             "_TtC14SwiftSignalKit16_EmptyDisposable",
             "_TtC14SwiftSignalKit19ThreadPoolTaskState",
+            "_TtC14SwiftSignalKit27WrappedSubscriberDisposable",
             "_TtC14SwiftSignalKit4Lock",
             "_TtC14SwiftSignalKit5Queue",
             "_TtC14SwiftSignalKit5Timer",
@@ -49851,6 +49854,7 @@
             "kea",
             "kea_CV",
             "keepAliveDisposable",
+            "keepAliveObjects",
             "keepArchivedFolders",
             "keepArchivedUnmuted",
             "keepAudioSessionWhilePaused",
@@ -51727,7 +51731,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.0.0 (build 20230920)",
+            "mozjpeg version 4.0.0 (build 20230921)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -60641,6 +60645,7 @@
             "wrap error",
             "wrap mode not allowed",
             "wrapped",
+            "wrappedDisposable",
             "wrappedFetchCachedResourceRepresentation",
             "wrappedFetchResource",
             "wrappedView",
@@ -61036,7 +61041,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 360929,
+          "size": 360987,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -61062,7 +61067,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 24240,
+          "size": 24244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -61075,7 +61080,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 24244,
+          "size": 24248,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -61101,7 +61106,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 209732,
+          "size": 209780,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -65759,6 +65764,7 @@
             "file",
             "file",
             "file",
+            "file",
             "fileCdnRedirect",
             "fileContexts",
             "fileGif",
@@ -67659,6 +67665,7 @@
             "kazakh",
             "kazakhKazakhstan",
             "keep",
+            "keepAliveObjects",
             "keepAliveSignal",
             "keepArchivedFolders",
             "keepArchivedUnmuted",
@@ -67932,6 +67939,7 @@
             "limitExceeded",
             "limitReached",
             "limited",
+            "line",
             "line",
             "line",
             "line",
@@ -73396,6 +73404,7 @@
             "won",
             "worker",
             "wrapped",
+            "wrappedDisposable",
             "wrappedFetchCachedResourceRepresentation",
             "wrappedFetchResource",
             "wrappedView",
@@ -73457,7 +73466,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 222912,
+          "size": 223000,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73509,7 +73518,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 235500,
+          "size": 235564,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73535,7 +73544,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 568480,
+          "size": 568436,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73637,7 +73646,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1912272,
+          "size": 1912432,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73663,7 +73672,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 28448,
+          "size": 28456,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73719,7 +73728,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1353144,
+          "size": 1353488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -73816,7 +73825,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 860117,
+          "size": 859861,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73907,7 +73916,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 664480,
+          "size": 663904,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -73925,7 +73934,7 @@
       "vmaddr": 4367269888,
       "vmsize": 3817472,
       "fileoff": 4088,
-      "filesize": 3809104,
+      "filesize": 3809664,
       "maxprot": {
         "read": true,
         "write": false,
@@ -73946,9 +73955,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 73401704,
+      "symoff": 73402264,
       "nsyms": 4343,
-      "stroff": 73507720,
+      "stroff": 73508280,
       "strsize": 173784,
       "fileoff": 4208
     },
@@ -73966,7 +73975,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 73471192,
+      "indirectsymoff": 73471752,
       "nindirectsyms": 9131,
       "extreloff": 0,
       "nextrel": 0,
@@ -73995,7 +74004,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42528,
+      "entryoff": 46944,
       "stacksize": 0,
       "fileoff": 4400
     },
@@ -74723,19 +74732,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 73052128,
-      "datasize": 322432,
+      "dataoff": 73052712,
+      "datasize": 322408,
       "fileoff": 11416
     },
     {
       "type": "data_in_code",
-      "dataoff": 73374560,
+      "dataoff": 73375120,
       "datasize": 27144,
       "fileoff": 11432
     },
     {
       "type": "code_signature",
-      "dataoff": 73681504,
+      "dataoff": 73682064,
       "datasize": 595184,
       "fileoff": 11448
     }
