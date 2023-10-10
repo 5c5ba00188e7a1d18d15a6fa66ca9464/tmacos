@@ -39,7 +39,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 189432,
+          "size": 189520,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -56,7 +56,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 1644,
+          "size": 1656,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -73,7 +73,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 1668,
+          "size": 1680,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -2142,7 +2142,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 1096,
+          "size": 1104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -2270,7 +2270,7 @@
       "vmaddr": 344064,
       "vmsize": 131072,
       "fileoff": 2568,
-      "filesize": 125488,
+      "filesize": 125584,
       "maxprot": {
         "read": true,
         "write": false,
@@ -2299,28 +2299,28 @@
     },
     {
       "type": "symtab",
-      "symoff": 354704,
-      "nsyms": 1767,
-      "stroff": 384256,
-      "strsize": 63304,
+      "symoff": 354736,
+      "nsyms": 1769,
+      "stroff": 384328,
+      "strsize": 63336,
       "fileoff": 2760
     },
     {
       "type": "dysymtab",
       "ilocalsym": 0,
-      "nlocalsym": 1497,
-      "iextdefsym": 1497,
+      "nlocalsym": 1498,
+      "iextdefsym": 1498,
       "nextdefsym": 29,
-      "iundefsym": 1526,
-      "nundefsym": 241,
+      "iundefsym": 1527,
+      "nundefsym": 242,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 382976,
-      "nindirectsyms": 320,
+      "indirectsymoff": 383040,
+      "nindirectsyms": 322,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -2462,19 +2462,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 353600,
+      "dataoff": 353632,
       "datasize": 1104,
       "fileoff": 4152
     },
     {
       "type": "data_in_code",
-      "dataoff": 354704,
+      "dataoff": 354736,
       "datasize": 0,
       "fileoff": 4168
     },
     {
       "type": "code_signature",
-      "dataoff": 447568,
+      "dataoff": 447664,
       "datasize": 21984,
       "fileoff": 4184
     }

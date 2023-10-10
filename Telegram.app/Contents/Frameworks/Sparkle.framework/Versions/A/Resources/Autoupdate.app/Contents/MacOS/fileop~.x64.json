@@ -594,7 +594,7 @@
       "vmaddr": 4295032832,
       "vmsize": 32768,
       "fileoff": 2168,
-      "filesize": 24768,
+      "filesize": 24240,
       "maxprot": {
         "read": true,
         "write": false,
@@ -654,7 +654,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.11.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 2448
     },
@@ -739,7 +739,7 @@
     {
       "type": "code_signature",
       "dataoff": 70816,
-      "datasize": 19488,
+      "datasize": 18960,
       "fileoff": 3136
     }
   ],

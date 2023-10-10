@@ -616,7 +616,7 @@
       "vmaddr": 4295049216,
       "vmsize": 32768,
       "fileoff": 2240,
-      "filesize": 24864,
+      "filesize": 24256,
       "maxprot": {
         "read": true,
         "write": false,
@@ -758,7 +758,7 @@
     {
       "type": "code_signature",
       "dataoff": 87088,
-      "datasize": 19696,
+      "datasize": 19088,
       "fileoff": 3224
     }
   ],

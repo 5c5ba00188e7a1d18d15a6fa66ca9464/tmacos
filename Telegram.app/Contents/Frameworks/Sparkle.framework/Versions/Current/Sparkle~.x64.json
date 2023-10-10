@@ -39,7 +39,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 201201,
+          "size": 201263,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -56,7 +56,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 810,
+          "size": 816,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -73,7 +73,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 1366,
+          "size": 1376,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -2025,7 +2025,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 1080,
+          "size": 1088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -2235,7 +2235,7 @@
       "vmaddr": 344064,
       "vmsize": 131072,
       "fileoff": 2416,
-      "filesize": 125840,
+      "filesize": 125952,
       "maxprot": {
         "read": true,
         "write": false,
@@ -2264,28 +2264,28 @@
     },
     {
       "type": "symtab",
-      "symoff": 354952,
-      "nsyms": 1768,
-      "stroff": 384520,
-      "strsize": 63400,
+      "symoff": 354984,
+      "nsyms": 1770,
+      "stroff": 384592,
+      "strsize": 63440,
       "fileoff": 2608
     },
     {
       "type": "dysymtab",
       "ilocalsym": 0,
-      "nlocalsym": 1497,
-      "iextdefsym": 1497,
+      "nlocalsym": 1498,
+      "iextdefsym": 1498,
       "nextdefsym": 29,
-      "iundefsym": 1526,
-      "nundefsym": 242,
+      "iundefsym": 1527,
+      "nundefsym": 243,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 383240,
-      "nindirectsyms": 320,
+      "indirectsymoff": 383304,
+      "nindirectsyms": 322,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -2298,7 +2298,7 @@
     },
     {
       "type": "version_min_macosx",
-      "version": "10.12.0",
+      "version": "10.13.0",
       "sdk": "12.0.0",
       "fileoff": 2736
     },
@@ -2430,19 +2430,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 353848,
+      "dataoff": 353880,
       "datasize": 1096,
       "fileoff": 3984
     },
     {
       "type": "data_in_code",
-      "dataoff": 354944,
+      "dataoff": 354976,
       "datasize": 8,
       "fileoff": 4000
     },
     {
       "type": "code_signature",
-      "dataoff": 447920,
+      "dataoff": 448032,
       "datasize": 21984,
       "fileoff": 4016
     }

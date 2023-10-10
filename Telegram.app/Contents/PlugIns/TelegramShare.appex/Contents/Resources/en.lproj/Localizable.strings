@@ -118,6 +118,7 @@
 "PeerInfo.Action.AddMembers" = "Add";
 "PeerInfo.Action.Discussion" = "Discuss";
 "PeerInfo.Action.GiftPremium" = "Gift Premium";
+"PeerInfo.Action.JoinChannel" = "Join";
 
 "PeerInfo.Action.VoiceChat" = "Voice Chat";
 "PeerInfo.Action.LiveStream" = "Live Stream";
@@ -6368,6 +6369,9 @@
 "RequestJoin.List.ListHeader_other" = "%d REQUESTED TO JOIN";
 
 
+"RequestJoin.List.Status.Approved" = "Approved";
+"RequestJoin.List.Status.Dismissed" = "Dismissed";
+
 
 "RequestJoin.List.Tooltip.Approved.Channel" = "**%@** has been added to the channel.";
 "RequestJoin.List.Tooltip.Approved.Group" = "**%@** has been added to the group.";
@@ -8043,7 +8047,7 @@
 "Story.Input.Attach" = "Photo or Video";
 "Story.Input.File" = "File";
 
-
+"StoryList.Context.OpenChannel" = "Open Channel";
 "StoryList.Context.SendMessage" = "Send Message";
 "StoryList.Context.ViewProfile" = "View Profile";
 "StoryList.Context.Unarchive" = "Unhide Stories";
