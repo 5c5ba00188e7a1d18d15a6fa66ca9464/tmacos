@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 49769652,
+          "size": 49777716,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 232819,
+          "size": 232829,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -170,6 +170,7 @@
             "CAPTURING_DIGIT_PATTERN",
             "CCode2CNMap",
             "CGColor",
+            "CGContext",
             "CGImageForProposedRect:context:hints:",
             "CGLContextObj",
             "CGLPixelFormatObj",
@@ -10838,7 +10839,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1533376,
+          "size": 1533408,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -43329,6 +43330,7 @@
             "channelParticipantsNotModified",
             "channelParticipantsRecent",
             "channelParticipantsSearch",
+            "channelPeerId",
             "channelPeerIds",
             "channelPhoto",
             "channelPollingContexts",
@@ -47716,6 +47718,7 @@
             "gigagroup",
             "giveaway",
             "giveawayInfoResults",
+            "giveawayMessageId",
             "giveaway_add_peers_max",
             "giveaway_countries_max",
             "giveaway_gifts_purchase_available",
@@ -52195,7 +52198,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231025)",
+            "mozjpeg version 4.1.4 (build 20231026)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -61611,7 +61614,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 368845,
+          "size": 368857,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -61676,7 +61679,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 213588,
+          "size": 213636,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -64529,6 +64532,7 @@
             "channelParticipantsNotModified",
             "channelParticipantsRecent",
             "channelParticipantsSearch",
+            "channelPeerId",
             "channelPeerIds",
             "channelPollingContexts",
             "channelResults",
@@ -66901,6 +66905,7 @@
             "giveawayInfo",
             "giveawayInfoResults",
             "giveawayLaunched",
+            "giveawayMessageId",
             "global",
             "global",
             "globalContext",
@@ -74290,7 +74295,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 227876,
+          "size": 227936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74316,7 +74321,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 238176,
+          "size": 238180,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74368,7 +74373,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 663424,
+          "size": 663440,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74442,7 +74447,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1969920,
+          "size": 1969856,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -74574,7 +74579,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51808,
+          "size": 51816,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -74658,7 +74663,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 868704,
+          "size": 868768,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -74754,7 +74759,7 @@
       "vmaddr": 4359520256,
       "vmsize": 3620864,
       "fileoff": 4080,
-      "filesize": 3616256,
+      "filesize": 3616384,
       "maxprot": {
         "read": true,
         "write": false,
@@ -74775,9 +74780,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 65571992,
+      "symoff": 65572120,
       "nsyms": 3776,
-      "stroff": 65663872,
+      "stroff": 65664000,
       "strsize": 136712,
       "fileoff": 4200
     },
@@ -74795,7 +74800,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65632408,
+      "indirectsymoff": 65632536,
       "nindirectsyms": 7865,
       "extreloff": 0,
       "nextrel": 0,
@@ -74821,7 +74826,7 @@
     },
     {
       "type": "main",
-      "entryoff": 46324,
+      "entryoff": 38004,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -75549,19 +75554,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 65252040,
-      "datasize": 319952,
+      "dataoff": 65252160,
+      "datasize": 319960,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 65571992,
+      "dataoff": 65572120,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 65800592,
+      "dataoff": 65800720,
       "datasize": 533616,
       "fileoff": 11696
     }
