@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 56688640,
+      "vmsize": 56705024,
       "fileoff": 104,
-      "filesize": 56688640,
+      "filesize": 56705024,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 49891796,
+          "size": 49892948,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 369404,
+          "size": 369416,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10868,7 +10868,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1542670,
+          "size": 1542745,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -30642,6 +30642,8 @@
             "SelectColor.Message2.Preview.Title",
             "SelectColor.Premium",
             "SelectColor.Preview",
+            "SelectColor.Success.Channel",
+            "SelectColor.Success.User",
             "SelectColor.Title.Channel",
             "SelectColor.Title.User",
             "SelectCountries.OK",
@@ -37664,7 +37666,7 @@
             "_TtC8Telegram10APSongItem",
             "_TtC8Telegram10Appearance",
             "_TtC8Telegram10CCTaskData",
-            "_TtC8Telegram10CodeSyntex",
+            "_TtC8Telegram10CodeSyntax",
             "_TtC8Telegram10CornerView",
             "_TtC8Telegram10CurveLayer",
             "_TtC8Telegram10EBlockItem",
@@ -47764,7 +47766,7 @@
             "fullscreen",
             "fullscreenBackgroundView",
             "func(%lu)",
-            "function",
+            "function-definition",
             "functionDescription",
             "function_list",
             "functionality not supported",
@@ -74739,7 +74741,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 665584,
+          "size": 665580,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74767,7 +74769,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4351655936,
+      "vmaddr": 4351672320,
       "vmsize": 2228224,
       "fileoff": 2096,
       "filesize": 2228224,
@@ -74813,7 +74815,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1974320,
+          "size": 1974400,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -74897,7 +74899,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4353884160,
+      "vmaddr": 4353900544,
       "vmsize": 5783552,
       "fileoff": 2808,
       "filesize": 3932160,
@@ -75122,10 +75124,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4359667712,
+      "vmaddr": 4359684096,
       "vmsize": 3670016,
       "fileoff": 4080,
-      "filesize": 3654704,
+      "filesize": 3654912,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75146,9 +75148,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 65726240,
+      "symoff": 65742704,
       "nsyms": 3879,
-      "stroff": 65820128,
+      "stroff": 65836592,
       "strsize": 148672,
       "fileoff": 4200
     },
@@ -75166,7 +75168,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 65788304,
+      "indirectsymoff": 65804768,
       "nindirectsyms": 7955,
       "extreloff": 0,
       "nextrel": 0,
@@ -75192,7 +75194,7 @@
     },
     {
       "type": "main",
-      "entryoff": 33780,
+      "entryoff": 48692,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -75920,20 +75922,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 65405440,
-      "datasize": 320800,
+      "dataoff": 65421896,
+      "datasize": 320808,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 65726240,
+      "dataoff": 65742704,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 65968800,
-      "datasize": 534928,
+      "dataoff": 65985264,
+      "datasize": 535056,
       "fileoff": 11696
     }
   ],

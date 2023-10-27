@@ -62,7 +62,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 23036170,
+          "size": 23036266,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -3225,7 +3225,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 643817,
+          "size": 643881,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11115,6 +11115,8 @@
             "SelectColor.Message2.Preview.Title",
             "SelectColor.Premium",
             "SelectColor.Preview",
+            "SelectColor.Success.Channel",
+            "SelectColor.Success.User",
             "SelectColor.Title.Channel",
             "SelectColor.Title.User",
             "SelectCountries.OK",
@@ -37363,7 +37365,7 @@
       "vmaddr": 4323721216,
       "vmsize": 2736128,
       "fileoff": 3928,
-      "filesize": 2731648,
+      "filesize": 2731728,
       "maxprot": {
         "read": true,
         "write": false,
@@ -37384,9 +37386,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30494400,
+      "symoff": 30494472,
       "nsyms": 6375,
-      "stroff": 30618064,
+      "stroff": 30618136,
       "strsize": 148912,
       "fileoff": 4048
     },
@@ -37404,7 +37406,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30596400,
+      "indirectsymoff": 30596472,
       "nindirectsyms": 5416,
       "extreloff": 0,
       "nextrel": 0,
@@ -37433,7 +37435,7 @@
     },
     {
       "type": "main",
-      "entryoff": 23058152,
+      "entryoff": 23058088,
       "stacksize": 0,
       "fileoff": 4240
     },
@@ -37814,19 +37816,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30317616,
+      "dataoff": 30317688,
       "datasize": 162208,
       "fileoff": 7624
     },
     {
       "type": "data_in_code",
-      "dataoff": 30479824,
+      "dataoff": 30479896,
       "datasize": 14576,
       "fileoff": 7640
     },
     {
       "type": "code_signature",
-      "dataoff": 30766976,
+      "dataoff": 30767056,
       "datasize": 259840,
       "fileoff": 7656
     }

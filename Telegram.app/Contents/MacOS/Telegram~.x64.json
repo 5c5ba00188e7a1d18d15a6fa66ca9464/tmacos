@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 58709109,
+          "size": 58710133,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 365256,
+          "size": 365268,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -10859,7 +10859,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1544418,
+          "size": 1544498,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -30540,6 +30540,8 @@
             "SelectColor.Message2.Preview.Title",
             "SelectColor.Premium",
             "SelectColor.Preview",
+            "SelectColor.Success.Channel",
+            "SelectColor.Success.User",
             "SelectColor.Title.Channel",
             "SelectColor.Title.User",
             "SelectCountries.OK",
@@ -37563,7 +37565,7 @@
             "_TtC8Telegram10APSongItem",
             "_TtC8Telegram10Appearance",
             "_TtC8Telegram10CCTaskData",
-            "_TtC8Telegram10CodeSyntex",
+            "_TtC8Telegram10CodeSyntax",
             "_TtC8Telegram10CornerView",
             "_TtC8Telegram10CurveLayer",
             "_TtC8Telegram10EBlockItem",
@@ -47746,7 +47748,7 @@
             "fullscreen",
             "fullscreenBackgroundView",
             "func(%lu)",
-            "function",
+            "function-definition",
             "functionDescription",
             "function_list",
             "functionality not supported",
@@ -74811,7 +74813,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1974928,
+          "size": 1975024,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75112,7 +75114,7 @@
       "vmaddr": 4368367616,
       "vmsize": 3932160,
       "fileoff": 4168,
-      "filesize": 3920048,
+      "filesize": 3920128,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75133,9 +75135,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 74566200,
+      "symoff": 74566280,
       "nsyms": 4494,
-      "stroff": 74675304,
+      "stroff": 74675384,
       "strsize": 189240,
       "fileoff": 4288
     },
@@ -75153,7 +75155,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 74638104,
+      "indirectsymoff": 74638184,
       "nindirectsyms": 9299,
       "extreloff": 0,
       "nextrel": 0,
@@ -75182,7 +75184,7 @@
     },
     {
       "type": "main",
-      "entryoff": 44768,
+      "entryoff": 43456,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -75910,19 +75912,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 74210608,
-      "datasize": 328104,
+      "dataoff": 74210680,
+      "datasize": 328112,
       "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 74538712,
+      "dataoff": 74538792,
       "datasize": 27488,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 74864544,
+      "dataoff": 74864624,
       "datasize": 604432,
       "fileoff": 11528
     }
