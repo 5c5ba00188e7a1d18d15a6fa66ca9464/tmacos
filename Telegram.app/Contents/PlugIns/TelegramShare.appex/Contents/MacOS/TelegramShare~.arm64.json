@@ -62,7 +62,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 19844388,
+          "size": 19844716,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -21182,7 +21182,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231101)",
+            "mozjpeg version 4.1.4 (build 20231102)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
