@@ -62,7 +62,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 19870696,
+          "size": 19875456,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79,7 +79,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 15984,
+          "size": 15996,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -96,7 +96,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 16008,
+          "size": 16020,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -126,7 +126,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 834440,
+          "size": 834472,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3243,7 +3243,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 645176,
+          "size": 645192,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -16272,6 +16272,7 @@
             "block",
             "block type is not 01",
             "block type is not 02",
+            "blockHeaderRects",
             "blockImage",
             "blockMask",
             "blockQuotes",
@@ -25127,7 +25128,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 278929,
+          "size": 278999,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -25140,7 +25141,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 194239,
+          "size": 194271,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27494,6 +27495,7 @@
             "bitsPerComponent",
             "bitsPerPixel",
             "blobColor",
+            "blockHeaderRects",
             "blockId",
             "blockImage",
             "blockMask",
@@ -36637,7 +36639,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 212972,
+          "size": 212996,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -36663,7 +36665,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 233248,
+          "size": 233280,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37023,7 +37025,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 273708,
+          "size": 273760,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37084,7 +37086,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 973112,
+          "size": 973232,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37190,7 +37192,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10656,
+          "size": 10664,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37203,7 +37205,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 445032,
+          "size": 445096,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37287,7 +37289,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 250968,
+          "size": 251000,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37300,7 +37302,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 325104,
+          "size": 325128,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37396,7 +37398,7 @@
       "vmaddr": 4320509952,
       "vmsize": 2719744,
       "fileoff": 3760,
-      "filesize": 2713872,
+      "filesize": 2714144,
       "maxprot": {
         "read": true,
         "write": false,
@@ -37417,9 +37419,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27291208,
+      "symoff": 27291472,
       "nsyms": 6414,
-      "stroff": 27413016,
+      "stroff": 27413288,
       "strsize": 149944,
       "fileoff": 3880
     },
@@ -37437,8 +37439,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27393832,
-      "nindirectsyms": 4795,
+      "indirectsymoff": 27394096,
+      "nindirectsyms": 4797,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -37463,7 +37465,7 @@
     },
     {
       "type": "main",
-      "entryoff": 19901076,
+      "entryoff": 19900824,
       "stacksize": 0,
       "fileoff": 4088
     },
@@ -37844,19 +37846,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27129840,
-      "datasize": 161368,
+      "dataoff": 27130080,
+      "datasize": 161392,
       "fileoff": 7656
     },
     {
       "type": "data_in_code",
-      "dataoff": 27291208,
+      "dataoff": 27291472,
       "datasize": 0,
       "fileoff": 7672
     },
     {
       "type": "code_signature",
-      "dataoff": 27562960,
+      "dataoff": 27563232,
       "datasize": 234816,
       "fileoff": 7688
     }
