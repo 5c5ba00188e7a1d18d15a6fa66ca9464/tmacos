@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 65110016,
+      "vmsize": 65126400,
       "fileoff": 104,
-      "filesize": 65110016,
+      "filesize": 65126400,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 58777717,
+          "size": 58780501,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -67537,6 +67537,7 @@
             "header",
             "header",
             "header",
+            "header",
             "headerLabel",
             "headerPartState",
             "headerStableId",
@@ -74710,7 +74711,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 228104,
+          "size": 228128,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74788,7 +74789,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 578244,
+          "size": 578248,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -74816,7 +74817,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4360077312,
+      "vmaddr": 4360093696,
       "vmsize": 8355840,
       "fileoff": 2016,
       "filesize": 6504448,
@@ -74972,7 +74973,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1371344,
+          "size": 1371408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75056,7 +75057,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1925680,
+          "size": 1925688,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75069,7 +75070,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 875717,
+          "size": 875749,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75188,10 +75189,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4368433152,
+      "vmaddr": 4368449536,
       "vmsize": 3932160,
       "fileoff": 4168,
-      "filesize": 3925200,
+      "filesize": 3925600,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75212,9 +75213,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 74636440,
+      "symoff": 74653088,
       "nsyms": 4492,
-      "stroff": 74745504,
+      "stroff": 74762152,
       "strsize": 189184,
       "fileoff": 4288
     },
@@ -75232,7 +75233,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 74708312,
+      "indirectsymoff": 74724960,
       "nindirectsyms": 9297,
       "extreloff": 0,
       "nextrel": 0,
@@ -75261,7 +75262,7 @@
     },
     {
       "type": "main",
-      "entryoff": 37344,
+      "entryoff": 50944,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -75989,20 +75990,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 74280496,
-      "datasize": 328424,
+      "dataoff": 74297136,
+      "datasize": 328432,
       "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 74608920,
+      "dataoff": 74625568,
       "datasize": 27520,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 74934688,
-      "datasize": 604976,
+      "dataoff": 74951344,
+      "datasize": 605104,
       "fileoff": 11528
     }
   ],
