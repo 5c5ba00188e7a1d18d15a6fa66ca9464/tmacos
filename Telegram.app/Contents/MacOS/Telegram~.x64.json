@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 59780565,
+          "size": 59782709,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2189293,
+          "size": 2189549,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10855,7 +10855,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1559753,
+          "size": 1559865,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -38211,6 +38211,7 @@
             "_TtC8Telegram19SPPreviewController",
             "_TtC8Telegram19SaveModalController",
             "_TtC8Telegram19SelectChatsBehavior",
+            "_TtC8Telegram19SelectColorCallback",
             "_TtC8Telegram19SelectPeersBehavior",
             "_TtC8Telegram19ServiceEventLogItem",
             "_TtC8Telegram19ShareCallbackObject",
@@ -52973,6 +52974,7 @@
             "namePoint",
             "nameSelectedLayout",
             "nameSeparator",
+            "nameState",
             "nameStyle",
             "nameText",
             "nameTextView",
@@ -55404,6 +55406,7 @@
             "profileDisplayOrder",
             "profilePaletteColors",
             "profilePaletteDarkColors",
+            "profileState",
             "profileStoryColors",
             "profileStoryDarkColors",
             "profile_add_member",
@@ -60084,6 +60087,7 @@
             "transcribe_audio_trial_duration_max",
             "transcribe_audio_trial_weekly_number",
             "transcribedAudio",
+            "transcription_locked",
             "transferOwnership",
             "transform",
             "transform.rotation.z",
@@ -62326,7 +62330,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 374747,
+          "size": 374765,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -62365,7 +62369,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 25180,
+          "size": 25184,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75334,7 +75338,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1995792,
+          "size": 1995824,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75360,7 +75364,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 29296,
+          "size": 29304,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75416,7 +75420,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1382032,
+          "size": 1382280,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75500,7 +75504,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1956720,
+          "size": 1956696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75513,7 +75517,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 888709,
+          "size": 888901,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75635,7 +75639,7 @@
       "vmaddr": 4369596416,
       "vmsize": 3981312,
       "fileoff": 4168,
-      "filesize": 3972480,
+      "filesize": 3972496,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75656,9 +75660,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 75821128,
+      "symoff": 75821136,
       "nsyms": 4492,
-      "stroff": 75930360,
+      "stroff": 75930368,
       "strsize": 189240,
       "fileoff": 4288
     },
@@ -75676,7 +75680,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 75893000,
+      "indirectsymoff": 75893008,
       "nindirectsyms": 9339,
       "extreloff": 0,
       "nextrel": 0,
@@ -75705,7 +75709,7 @@
     },
     {
       "type": "main",
-      "entryoff": 51152,
+      "entryoff": 48496,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -76440,12 +76444,12 @@
     {
       "type": "data_in_code",
       "dataoff": 75793176,
-      "datasize": 27952,
+      "datasize": 27960,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 76119600,
+      "dataoff": 76119616,
       "datasize": 614224,
       "fileoff": 11528
     }

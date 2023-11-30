@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 50735316,
+          "size": 50737108,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 184468,
+          "size": 184460,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -140,7 +140,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 2077756,
+          "size": 2078012,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10864,7 +10864,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1558001,
+          "size": 1558113,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -38312,6 +38312,7 @@
             "_TtC8Telegram19SPPreviewController",
             "_TtC8Telegram19SaveModalController",
             "_TtC8Telegram19SelectChatsBehavior",
+            "_TtC8Telegram19SelectColorCallback",
             "_TtC8Telegram19SelectPeersBehavior",
             "_TtC8Telegram19ServiceEventLogItem",
             "_TtC8Telegram19ShareCallbackObject",
@@ -52990,6 +52991,7 @@
             "namePoint",
             "nameSelectedLayout",
             "nameSeparator",
+            "nameState",
             "nameStyle",
             "nameText",
             "nameTextView",
@@ -55419,6 +55421,7 @@
             "profileDisplayOrder",
             "profilePaletteColors",
             "profilePaletteDarkColors",
+            "profileState",
             "profileStoryColors",
             "profileStoryDarkColors",
             "profile_add_member",
@@ -60095,6 +60098,7 @@
             "transcribe_audio_trial_duration_max",
             "transcribe_audio_trial_weekly_number",
             "transcribedAudio",
+            "transcription_locked",
             "transferOwnership",
             "transform",
             "transform.rotation.z",
@@ -62356,7 +62360,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 374747,
+          "size": 374765,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -62395,7 +62399,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 25180,
+          "size": 25184,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75262,7 +75266,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 673728,
+          "size": 673792,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75275,7 +75279,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 463924,
+          "size": 463956,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75336,7 +75340,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1996608,
+          "size": 1996656,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -75362,7 +75366,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 29296,
+          "size": 29304,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75455,7 +75459,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1221536,
+          "size": 1221784,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75552,7 +75556,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 884128,
+          "size": 884320,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75648,7 +75652,7 @@
       "vmaddr": 4360683520,
       "vmsize": 3719168,
       "fileoff": 4080,
-      "filesize": 3704912,
+      "filesize": 3704944,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75669,9 +75673,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 66767656,
+      "symoff": 66767680,
       "nsyms": 3877,
-      "stroff": 66861632,
+      "stroff": 66861656,
       "strsize": 148672,
       "fileoff": 4200
     },
@@ -75689,7 +75693,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66829688,
+      "indirectsymoff": 66829712,
       "nindirectsyms": 7986,
       "extreloff": 0,
       "nextrel": 0,
@@ -75715,7 +75719,7 @@
     },
     {
       "type": "main",
-      "entryoff": 42696,
+      "entryoff": 40392,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -76443,19 +76447,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66442480,
+      "dataoff": 66442504,
       "datasize": 325176,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 66767656,
+      "dataoff": 66767680,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 67010304,
+      "dataoff": 67010336,
       "datasize": 543056,
       "fileoff": 11696
     }
