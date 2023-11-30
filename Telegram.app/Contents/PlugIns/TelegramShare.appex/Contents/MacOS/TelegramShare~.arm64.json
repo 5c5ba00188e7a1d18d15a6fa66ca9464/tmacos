@@ -43,9 +43,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 23461888,
+      "vmsize": 23478272,
       "fileoff": 104,
-      "filesize": 23461888,
+      "filesize": 23478272,
       "maxprot": {
         "read": true,
         "write": false,
@@ -62,7 +62,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20311048,
+          "size": 20314316,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79,7 +79,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 15984,
+          "size": 16008,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -96,7 +96,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 16008,
+          "size": 16032,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3235,7 +3235,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 652440,
+          "size": 653400,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3829,6 +3829,7 @@
             "//Parameter only affects bubble chat mode. Available values: none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%\n",
             "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAAAAADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwA=",
             "/9k=",
+            "/Users/telegram/build/Telegram-Mac/AccountContext.swift",
             "/Users/telegram/build/Telegram-Mac/Appearance.swift",
             "/Users/telegram/build/Telegram-Mac/MimeTypes.swift",
             "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/MediaBox.swift",
@@ -6832,6 +6833,21 @@
             "Context.ShowInFinder",
             "Context.ViewEmojiSet",
             "Context.ViewStickerSet",
+            "Conversation.FreeTranscriptionCooldownTooltip_countable",
+            "Conversation.FreeTranscriptionCooldownTooltip_few",
+            "Conversation.FreeTranscriptionCooldownTooltip_many",
+            "Conversation.FreeTranscriptionCooldownTooltip_one",
+            "Conversation.FreeTranscriptionCooldownTooltip_other",
+            "Conversation.FreeTranscriptionCooldownTooltip_two",
+            "Conversation.FreeTranscriptionCooldownTooltip_zero",
+            "Conversation.FreeTranscriptionLimitTooltip_countable",
+            "Conversation.FreeTranscriptionLimitTooltip_few",
+            "Conversation.FreeTranscriptionLimitTooltip_many",
+            "Conversation.FreeTranscriptionLimitTooltip_one",
+            "Conversation.FreeTranscriptionLimitTooltip_other",
+            "Conversation.FreeTranscriptionLimitTooltip_two",
+            "Conversation.FreeTranscriptionLimitTooltip_zero",
+            "Conversation.FreeTranscriptionWaitOrSubscribe",
             "Conversation.PinnedGiveaway",
             "Conversation.PinnedGiveaway.Finished",
             "Conversation.PinnedGiveaway.Finished.Winners_countable",
@@ -16192,6 +16208,7 @@
             "attributes",
             "attributesData",
             "audio",
+            "audioTranscriptionTrial",
             "audioplayer_dismiss",
             "audioplayer_locked_next",
             "audioplayer_locked_prev",
@@ -21376,7 +21393,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231129)",
+            "mozjpeg version 4.1.4 (build 20231130)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -25303,7 +25320,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 283377,
+          "size": 283483,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -25316,7 +25333,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 196303,
+          "size": 196335,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27469,6 +27486,7 @@
             "audioInputDeviceId",
             "audioOutputDeviceId",
             "audioSsrc",
+            "audioTranscriptionTrial",
             "audioVideoMessage",
             "authSessionTooFresh",
             "authSessionTooFresh",
@@ -36955,7 +36973,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 216204,
+          "size": 216216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -36981,7 +36999,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 236644,
+          "size": 236692,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37341,7 +37359,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 279124,
+          "size": 279204,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37354,7 +37372,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 210184,
+          "size": 210232,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37369,7 +37387,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4318429184,
+      "vmaddr": 4318445568,
       "vmsize": 1032192,
       "fileoff": 1856,
       "filesize": 1032192,
@@ -37402,7 +37420,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 987232,
+          "size": 987312,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37486,7 +37504,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4319461376,
+      "vmaddr": 4319477760,
       "vmsize": 1540096,
       "fileoff": 2488,
       "filesize": 1064960,
@@ -37508,7 +37526,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10656,
+          "size": 10672,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37521,7 +37539,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 447712,
+          "size": 447744,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37618,7 +37636,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 329544,
+          "size": 329592,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37711,10 +37729,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4321001472,
+      "vmaddr": 4321017856,
       "vmsize": 2752512,
       "fileoff": 3760,
-      "filesize": 2745904,
+      "filesize": 2747024,
       "maxprot": {
         "read": true,
         "write": false,
@@ -37735,9 +37753,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27794464,
+      "symoff": 27811824,
       "nsyms": 6412,
-      "stroff": 27916280,
+      "stroff": 27933656,
       "strsize": 149904,
       "fileoff": 3880
     },
@@ -37755,8 +37773,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27897056,
-      "nindirectsyms": 4806,
+      "indirectsymoff": 27914416,
+      "nindirectsyms": 4810,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -37781,7 +37799,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20334220,
+      "entryoff": 20349284,
       "stacksize": 0,
       "fileoff": 4088
     },
@@ -38162,20 +38180,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27630648,
-      "datasize": 163816,
+      "dataoff": 27647968,
+      "datasize": 163856,
       "fileoff": 7656
     },
     {
       "type": "data_in_code",
-      "dataoff": 27794464,
+      "dataoff": 27811824,
       "datasize": 0,
       "fileoff": 7672
     },
     {
       "type": "code_signature",
-      "dataoff": 28066192,
-      "datasize": 238752,
+      "dataoff": 28083568,
+      "datasize": 238880,
       "fileoff": 7688
     }
   ],

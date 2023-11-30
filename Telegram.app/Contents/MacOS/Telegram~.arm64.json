@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 57589760,
+      "vmsize": 57606144,
       "fileoff": 104,
-      "filesize": 57589760,
+      "filesize": 57606144,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 50727636,
+          "size": 50731412,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -80,7 +80,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 26508,
+          "size": 26520,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -97,7 +97,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 25932,
+          "size": 25944,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 184500,
+          "size": 184468,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -153,7 +153,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 233192,
+          "size": 233119,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -4257,8 +4257,6 @@
             "destroyCompressionSession",
             "destroyDecompressionSession",
             "detachNewThreadSelector:toTarget:withObject:",
-            "detectBoldColorInStringWithFont:",
-            "detectBoldColorInStringWithFont:string:",
             "devMake",
             "devModel",
             "device",
@@ -10866,7 +10864,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1557041,
+          "size": 1558001,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -14606,6 +14604,7 @@
             "/T/TemporaryItems/",
             "/Users/",
             "/Users/USER/",
+            "/Users/telegram/build/Telegram-Mac/AccountContext.swift",
             "/Users/telegram/build/Telegram-Mac/Appearance.swift",
             "/Users/telegram/build/Telegram-Mac/CallWindowController.swift",
             "/Users/telegram/build/Telegram-Mac/ChatAccessoryModel.swift",
@@ -21490,6 +21489,21 @@
             "ContinueSSL -- error ",
             "ContinuousSpellCheckingEnabled%@",
             "ContinuousSpellCheckingEnabledTGGrowingTextView",
+            "Conversation.FreeTranscriptionCooldownTooltip_countable",
+            "Conversation.FreeTranscriptionCooldownTooltip_few",
+            "Conversation.FreeTranscriptionCooldownTooltip_many",
+            "Conversation.FreeTranscriptionCooldownTooltip_one",
+            "Conversation.FreeTranscriptionCooldownTooltip_other",
+            "Conversation.FreeTranscriptionCooldownTooltip_two",
+            "Conversation.FreeTranscriptionCooldownTooltip_zero",
+            "Conversation.FreeTranscriptionLimitTooltip_countable",
+            "Conversation.FreeTranscriptionLimitTooltip_few",
+            "Conversation.FreeTranscriptionLimitTooltip_many",
+            "Conversation.FreeTranscriptionLimitTooltip_one",
+            "Conversation.FreeTranscriptionLimitTooltip_other",
+            "Conversation.FreeTranscriptionLimitTooltip_two",
+            "Conversation.FreeTranscriptionLimitTooltip_zero",
+            "Conversation.FreeTranscriptionWaitOrSubscribe",
             "Conversation.PinnedGiveaway",
             "Conversation.PinnedGiveaway.Finished",
             "Conversation.PinnedGiveaway.Finished.Winners_countable",
@@ -42461,6 +42475,7 @@
             "audioStream",
             "audioStreamDescription",
             "audioTimebase",
+            "audioTranscriptionTrial",
             "audioUnit",
             "audioWrapper",
             "audio_bitrate_step_decr",
@@ -52797,7 +52812,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231129)",
+            "mozjpeg version 4.1.4 (build 20231130)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -62341,7 +62356,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 374733,
+          "size": 374761,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -75246,7 +75261,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 673712,
+          "size": 673728,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75259,7 +75274,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 463788,
+          "size": 463836,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75274,7 +75289,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4352557056,
+      "vmaddr": 4352573440,
       "vmsize": 2260992,
       "fileoff": 2096,
       "filesize": 2260992,
@@ -75320,7 +75335,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1996528,
+          "size": 1996608,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -75333,7 +75348,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA_CONST",
-          "size": 193696,
+          "size": 193664,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75404,7 +75419,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4354818048,
+      "vmaddr": 4354834432,
       "vmsize": 5849088,
       "fileoff": 2808,
       "filesize": 3981312,
@@ -75426,7 +75441,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 17672,
+          "size": 17680,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75439,7 +75454,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1221504,
+          "size": 1221536,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75452,7 +75467,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51864,
+          "size": 51848,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75536,7 +75551,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 884096,
+          "size": 884128,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75629,10 +75644,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4360667136,
+      "vmaddr": 4360683520,
       "vmsize": 3719168,
       "fileoff": 4080,
-      "filesize": 3703712,
+      "filesize": 3704816,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75653,10 +75668,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 66750264,
-      "nsyms": 3876,
-      "stroff": 66844216,
-      "strsize": 148632,
+      "symoff": 66767560,
+      "nsyms": 3877,
+      "stroff": 66861536,
+      "strsize": 148672,
       "fileoff": 4200
     },
     {
@@ -75666,15 +75681,15 @@
       "iextdefsym": 1,
       "nextdefsym": 124,
       "iundefsym": 125,
-      "nundefsym": 3751,
+      "nundefsym": 3752,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66812280,
-      "nindirectsyms": 7984,
+      "indirectsymoff": 66829592,
+      "nindirectsyms": 7986,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -75699,7 +75714,7 @@
     },
     {
       "type": "main",
-      "entryoff": 35016,
+      "entryoff": 46600,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -76427,20 +76442,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66425120,
-      "datasize": 325144,
+      "dataoff": 66442384,
+      "datasize": 325176,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 66750264,
+      "dataoff": 66767560,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 66992848,
-      "datasize": 542928,
+      "dataoff": 67010208,
+      "datasize": 543056,
       "fileoff": 11696
     }
   ],

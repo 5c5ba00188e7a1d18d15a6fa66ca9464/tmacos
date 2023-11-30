@@ -62,7 +62,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 23677322,
+          "size": 23680842,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79,7 +79,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 8082,
+          "size": 8094,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -96,7 +96,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 13486,
+          "size": 13506,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3222,7 +3222,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 653193,
+          "size": 654153,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3817,6 +3817,7 @@
             "//Parameter only affects bubble chat mode. Available values: none, builtin, hexColor or url to cloud backgound like a t.me/bg/%slug%\n",
             "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAAAAADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwA=",
             "/9k=",
+            "/Users/telegram/build/Telegram-Mac/AccountContext.swift",
             "/Users/telegram/build/Telegram-Mac/Appearance.swift",
             "/Users/telegram/build/Telegram-Mac/MimeTypes.swift",
             "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/MediaBox.swift",
@@ -6775,6 +6776,21 @@
             "Context.ShowInFinder",
             "Context.ViewEmojiSet",
             "Context.ViewStickerSet",
+            "Conversation.FreeTranscriptionCooldownTooltip_countable",
+            "Conversation.FreeTranscriptionCooldownTooltip_few",
+            "Conversation.FreeTranscriptionCooldownTooltip_many",
+            "Conversation.FreeTranscriptionCooldownTooltip_one",
+            "Conversation.FreeTranscriptionCooldownTooltip_other",
+            "Conversation.FreeTranscriptionCooldownTooltip_two",
+            "Conversation.FreeTranscriptionCooldownTooltip_zero",
+            "Conversation.FreeTranscriptionLimitTooltip_countable",
+            "Conversation.FreeTranscriptionLimitTooltip_few",
+            "Conversation.FreeTranscriptionLimitTooltip_many",
+            "Conversation.FreeTranscriptionLimitTooltip_one",
+            "Conversation.FreeTranscriptionLimitTooltip_other",
+            "Conversation.FreeTranscriptionLimitTooltip_two",
+            "Conversation.FreeTranscriptionLimitTooltip_zero",
+            "Conversation.FreeTranscriptionWaitOrSubscribe",
             "Conversation.PinnedGiveaway",
             "Conversation.PinnedGiveaway.Finished",
             "Conversation.PinnedGiveaway.Finished.Winners_countable",
@@ -16137,6 +16153,7 @@
             "attributes",
             "attributesData",
             "audio",
+            "audioTranscriptionTrial",
             "audioplayer_dismiss",
             "audioplayer_locked_next",
             "audioplayer_locked_prev",
@@ -21367,7 +21384,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231129)",
+            "mozjpeg version 4.1.4 (build 20231130)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -25300,7 +25317,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 283377,
+          "size": 283483,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -25313,7 +25330,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 196303,
+          "size": 196335,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27466,6 +27483,7 @@
             "audioInputDeviceId",
             "audioOutputDeviceId",
             "audioSsrc",
+            "audioTranscriptionTrial",
             "audioVideoMessage",
             "authSessionTooFresh",
             "authSessionTooFresh",
@@ -36952,7 +36970,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 216204,
+          "size": 216216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -36978,7 +36996,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 236644,
+          "size": 236692,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37338,7 +37356,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 245736,
+          "size": 245820,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37351,7 +37369,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 134432,
+          "size": 134464,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37414,7 +37432,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10776,
+          "size": 10792,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37440,7 +37458,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1030816,
+          "size": 1030880,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -37522,7 +37540,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 491744,
+          "size": 491776,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37619,7 +37637,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 330637,
+          "size": 330701,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -37741,7 +37759,7 @@
       "vmaddr": 4324442112,
       "vmsize": 2785280,
       "fileoff": 3928,
-      "filesize": 2769792,
+      "filesize": 2770752,
       "maxprot": {
         "read": true,
         "write": false,
@@ -37762,9 +37780,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 31231240,
+      "symoff": 31232176,
       "nsyms": 6374,
-      "stroff": 31354944,
+      "stroff": 31355896,
       "strsize": 148928,
       "fileoff": 4048
     },
@@ -37782,8 +37800,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 31333224,
-      "nindirectsyms": 5429,
+      "indirectsymoff": 31334160,
+      "nindirectsyms": 5433,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -37811,7 +37829,7 @@
     },
     {
       "type": "main",
-      "entryoff": 23703496,
+      "entryoff": 23702196,
       "stacksize": 0,
       "fileoff": 4240
     },
@@ -38192,19 +38210,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 31051584,
-      "datasize": 164800,
+      "dataoff": 31052488,
+      "datasize": 164832,
       "fileoff": 7624
     },
     {
       "type": "data_in_code",
-      "dataoff": 31216384,
+      "dataoff": 31217320,
       "datasize": 14856,
       "fileoff": 7640
     },
     {
       "type": "code_signature",
-      "dataoff": 31503872,
+      "dataoff": 31504832,
       "datasize": 265600,
       "fileoff": 7656
     }
