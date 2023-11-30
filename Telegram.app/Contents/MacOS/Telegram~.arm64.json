@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 50731412,
+          "size": 50735316,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -37679,6 +37679,7 @@
             "_TtC7TGUIKit10SwitchView",
             "_TtC7TGUIKit10TGClipView",
             "_TtC7TGUIKit10TabBarView",
+            "_TtC7TGUIKit10TextButton",
             "_TtC7TGUIKit10TimePicker",
             "_TtC7TGUIKit11ContextMenu",
             "_TtC7TGUIKit11ImageButton",
@@ -37687,7 +37688,6 @@
             "_TtC7TGUIKit11SImageLayer",
             "_TtC7TGUIKit11ShimmerView",
             "_TtC7TGUIKit11SimpleLayer",
-            "_TtC7TGUIKit11TitleButton",
             "_TtC7TGUIKit11WindowSaver",
             "_TtC7TGUIKit12DraggingView",
             "_TtC7TGUIKit12GestureUtils",
@@ -62356,7 +62356,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 374761,
+          "size": 374747,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -62421,7 +62421,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 215700,
+          "size": 215716,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -67724,6 +67724,7 @@
             "grayBackground",
             "grayForeground",
             "grayText",
+            "grayTextColor",
             "grayTextColor",
             "grayTextColor",
             "greek",
@@ -75183,7 +75184,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 231196,
+          "size": 231208,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75274,7 +75275,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 463836,
+          "size": 463924,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75647,7 +75648,7 @@
       "vmaddr": 4360683520,
       "vmsize": 3719168,
       "fileoff": 4080,
-      "filesize": 3704816,
+      "filesize": 3704912,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75668,9 +75669,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 66767560,
+      "symoff": 66767656,
       "nsyms": 3877,
-      "stroff": 66861536,
+      "stroff": 66861632,
       "strsize": 148672,
       "fileoff": 4200
     },
@@ -75688,7 +75689,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66829592,
+      "indirectsymoff": 66829688,
       "nindirectsyms": 7986,
       "extreloff": 0,
       "nextrel": 0,
@@ -75714,7 +75715,7 @@
     },
     {
       "type": "main",
-      "entryoff": 46600,
+      "entryoff": 42696,
       "stacksize": 0,
       "fileoff": 4408
     },
@@ -76442,19 +76443,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 66442384,
+      "dataoff": 66442480,
       "datasize": 325176,
       "fileoff": 11664
     },
     {
       "type": "data_in_code",
-      "dataoff": 66767560,
+      "dataoff": 66767656,
       "datasize": 0,
       "fileoff": 11680
     },
     {
       "type": "code_signature",
-      "dataoff": 67010208,
+      "dataoff": 67010304,
       "datasize": 543056,
       "fileoff": 11696
     }
