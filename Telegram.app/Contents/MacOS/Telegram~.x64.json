@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 59782549,
+          "size": 59780629,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -10855,7 +10855,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1559865,
+          "size": 1559737,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -18526,9 +18526,13 @@
             "AutomaticCacheEviction",
             "AutomaticCacheEviction-Processing",
             "AutomaticDashSubstitutionEnabled%@",
+            "AutomaticDashSubstitutionEnabledTGGrowingTextView",
             "AutomaticDataDetectionEnabled%@",
+            "AutomaticDataDetectionEnabledTGGrowingTextView",
             "AutomaticLinkDetectionEnabled%@",
+            "AutomaticLinkDetectionEnabledTGGrowingTextView",
             "AutomaticQuoteSubstitutionEnabled%@",
+            "AutomaticQuoteSubstitutionEnabledTGGrowingTextView",
             "AutomaticSpellingCorrectionEnabled%@",
             "AutomaticSpellingCorrectionEnabledTGGrowingTextView",
             "Automatically inserted bitstream filter '%s'; args='%s'\n",
@@ -27145,6 +27149,8 @@
             "NewPoll.QuizTooltip",
             "NewPoll.Title.Quiz",
             "NewRowid",
+            "NewSession.IsntMe",
+            "NewSession.ItsMe",
             "NewSessionReview.Accept.Text",
             "NewSessionReview.Accept.Title",
             "NewSessionReview.Item.Text",
@@ -27227,7 +27233,6 @@
             "No streams to mux were specified\n",
             "No transient suppressor created (probably disabled)",
             "No video codecs supported.",
-            "No, it's not me!",
             "NoConflict",
             "NoDisplaySleepAssertion",
             "NoRenegotiation",
@@ -32018,13 +32023,6 @@
             "TGCustomLinkAttributeName",
             "TGEmojiHolderAttributeName",
             "TGGifConverter.m",
-            "TGGrowingTextViewAutomaticDashSubstitutionEnabled",
-            "TGGrowingTextViewAutomaticDataDetectionEnabled",
-            "TGGrowingTextViewAutomaticLinkDetectionEnabled",
-            "TGGrowingTextViewAutomaticQuoteSubstitutionEnabled",
-            "TGGrowingTextViewAutomaticSpellingCorrectionEnabled",
-            "TGGrowingTextViewContinuousSpellCheckingEnabled",
-            "TGGrowingTextViewGrammarCheckingEnabled",
             "TGModernGrowingDelegate",
             "TGPreformattedCodeAttributeName",
             "TGPreformattedPreAttributeName",
@@ -52794,7 +52792,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231201)",
+            "mozjpeg version 4.1.4 (build 20231204)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -62330,7 +62328,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 374765,
+          "size": 374729,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -75236,7 +75234,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 582436,
+          "size": 582424,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75338,7 +75336,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1995824,
+          "size": 1995728,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75420,7 +75418,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1382312,
+          "size": 1382344,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75504,7 +75502,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1956704,
+          "size": 1956736,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75639,7 +75637,7 @@
       "vmaddr": 4369596416,
       "vmsize": 3981312,
       "fileoff": 4168,
-      "filesize": 3972528,
+      "filesize": 3972576,
       "maxprot": {
         "read": true,
         "write": false,
@@ -75660,9 +75658,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 75821176,
+      "symoff": 75821224,
       "nsyms": 4492,
-      "stroff": 75930408,
+      "stroff": 75930456,
       "strsize": 189240,
       "fileoff": 4288
     },
@@ -75680,7 +75678,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 75893048,
+      "indirectsymoff": 75893096,
       "nindirectsyms": 9340,
       "extreloff": 0,
       "nextrel": 0,
@@ -75709,7 +75707,7 @@
     },
     {
       "type": "main",
-      "entryoff": 48656,
+      "entryoff": 50832,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -76437,19 +76435,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 75460752,
-      "datasize": 332464,
+      "dataoff": 75460816,
+      "datasize": 332448,
       "fileoff": 11496
     },
     {
       "type": "data_in_code",
-      "dataoff": 75793216,
+      "dataoff": 75793264,
       "datasize": 27960,
       "fileoff": 11512
     },
     {
       "type": "code_signature",
-      "dataoff": 76119648,
+      "dataoff": 76119696,
       "datasize": 614224,
       "fileoff": 11528
     }
