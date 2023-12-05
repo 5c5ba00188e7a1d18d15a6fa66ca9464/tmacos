@@ -7,12 +7,13 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 64,
-  "sizeofcmds": 7672,
+  "ncmds": 65,
+  "sizeofcmds": 8064,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
     "twolevel": true,
+    "binds_to_weak": true,
     "pie": true,
     "has_tlv_descriptors": true,
     "undefined": true
@@ -43,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 23478272,
+      "vmsize": 22904832,
       "fileoff": 104,
-      "filesize": 23478272,
+      "filesize": 22904832,
       "maxprot": {
         "read": true,
         "write": false,
@@ -56,13 +57,18 @@
         "write": false,
         "exec": true
       },
-      "nsects": 21,
-      "flags": {},
+      "nsects": 24,
+      "flags": {
+        "highvm": true,
+        "fvmlib": true,
+        "protected_version_1": true,
+        "undefined": true
+      },
       "sections": [
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20316264,
+          "size": 19893552,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79,7 +85,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 16008,
+          "size": 16128,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -96,7 +102,24 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 16032,
+          "size": 16152,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__objc_stubs",
+          "segname": "__TEXT",
+          "size": 39328,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -126,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 844744,
+          "size": 661651,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -139,7 +162,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 70966,
+          "size": 71025,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -479,7 +502,6 @@
             "Tq,R,N,V_sessionId",
             "Tq,R,N,V_size",
             "Tq,R,N,V_uniqueId",
-            "Tr^v,N,V_impl",
             "URL",
             "URLWithString:",
             "UTF8String",
@@ -2064,7 +2086,6 @@
             "numberWithLongLong:",
             "numberWithUnsignedInt:",
             "numberWithUnsignedInteger:",
-            "numberWithUnsignedLong:",
             "numberWithUnsignedShort:",
             "objectAtIndex:",
             "objectAtIndexedSubscript:",
@@ -2980,6 +3001,8 @@
             "tableView:toolTipForCell:rect:tableColumn:row:mouseLocation:",
             "tableView:typeSelectStringForTableColumn:row:",
             "tableView:updateDraggingItemsForDrag:",
+            "tableView:userCanChangeVisibilityOfTableColumn:",
+            "tableView:userDidChangeVisibilityOfTableColumns:",
             "tableView:validateDrop:proposedRow:proposedDropOperation:",
             "tableView:viewForTableColumn:row:",
             "tableView:willDisplayCell:forTableColumn:row:",
@@ -3235,7 +3258,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 653464,
+          "size": 657190,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3246,6 +3269,7 @@
           },
           "data": [
             "",
+            "\b\u0002\u0004\u0006\u0007\u0003\u0005\t",
             "\n",
             "\n\tIPSec/IKE/Oakley curve #3 over a 155 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!",
             "\n\tIPSec/IKE/Oakley curve #4 over a 185 bit binary field.\n\tNot suitable for ECDSA.\n\tQuestionable extension field!",
@@ -3651,6 +3675,7 @@
             "' AS encrypted KEY \"x'",
             "' is out of range",
             "'%.*q'",
+            "'%s' failed with error '%s'(%d)\n",
             "'%s' is not a function",
             "')",
             "','",
@@ -3660,12 +3685,26 @@
             "(\"%s\"",
             "(%(((\\d+)\\$)?)([0-9])%(((\\d+)\\$)?)([@df]))|(%(((\\d+)\\$)?)([@df]))",
             "((size_t)inBytes | (size_t)outBytes | (size_t)aesIv | (size_t)ccIv) % sizeof(long) == 0",
+            "(AccountStateManagerOperation in _F9C1DE9DEFC28A402A6F53CCE17A9BE3)",
+            "(CachedMediaResourceRepresentationSubscriber in _74DF378459E89D55D555FD1A1A5F6A27)",
+            "(ContactSyncOperation in _F2FE07CDB7F0394D8B9B1566C9B05586)",
+            "(ExecutingRequestData in _7CDC4CBF662BA4BCDCB9F57A1E2B728B)",
+            "(HistoryPreloadEntry in _D97AAADDC96DB943D0097EDA6256B508)",
             "(INVALID PSS PARAMETERS)\n",
+            "(MediaBoxFileMissingRange in _50E67E5285590F8B9E86842DC86D6E13)",
+            "(MediaBoxPartialFileDataRequest in _50E67E5285590F8B9E86842DC86D6E13)",
             "(NULL)",
             "(PHONE_|USER_|NETWORK_)MIGRATE_(\\d+)",
             "(PeerReadState maxIncomingReadId: ",
             "(PeerReadState maxIncomingReadIndex: ",
             "(Postbox initialization took ",
+            "(RangeRequest in _8D6EFBA17D6770DACD4454B1F9C2C2F2)",
+            "(RequestData in _7CDC4CBF662BA4BCDCB9F57A1E2B728B)",
+            "(RequestTargetContext in _7CDC4CBF662BA4BCDCB9F57A1E2B728B)",
+            "(TextNodeLine in _49E5EE053704098DC6C39AE86B531C54)",
+            "(TextViewBlockQuote in _06A0149783EB96F3AAA2D8C6B5CBD23C)",
+            "(TextViewEmbeddedItem in _06A0149783EB96F3AAA2D8C6B5CBD23C)",
+            "(WeakNotifable in _B111066B90002ABF867496FC3305251E)",
             "(blob)",
             "(key BLOB PRIMARY KEY",
             "(null)",
@@ -3830,8 +3869,6 @@
             "/9j/4AAQSkZJRgABAQAAAQABAAD/2wBDACgcHiMeGSgjISMtKygwPGRBPDc3PHtYXUlkkYCZlo+AjIqgtObDoKrarYqMyP/L2u71////m8H////6/+b9//j/2wBDASstLTw1PHZBQXb4pYyl+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj4+Pj/wAARCAAAAAADASIAAhEBAxEB/8QAHwAAAQUBAQEBAQEAAAAAAAAAAAECAwQFBgcICQoL/8QAtRAAAgEDAwIEAwUFBAQAAAF9AQIDAAQRBRIhMUEGE1FhByJxFDKBkaEII0KxwRVS0fAkM2JyggkKFhcYGRolJicoKSo0NTY3ODk6Q0RFRkdISUpTVFVWV1hZWmNkZWZnaGlqc3R1dnd4eXqDhIWGh4iJipKTlJWWl5iZmqKjpKWmp6ipqrKztLW2t7i5usLDxMXGx8jJytLT1NXW19jZ2uHi4+Tl5ufo6erx8vP09fb3+Pn6/8QAHwEAAwEBAQEBAQEBAQAAAAAAAAECAwQFBgcICQoL/8QAtREAAgECBAQDBAcFBAQAAQJ3AAECAxEEBSExBhJBUQdhcRMiMoEIFEKRobHBCSMzUvAVYnLRChYkNOEl8RcYGRomJygpKjU2Nzg5OkNERUZHSElKU1RVVldYWVpjZGVmZ2hpanN0dXZ3eHl6goOEhYaHiImKkpOUlZaXmJmaoqOkpaanqKmqsrO0tba3uLm6wsPExcbHyMnK0tPU1dbX2Nna4uPk5ebn6Onq8vP09fb3+Pn6/9oADAMBAAIRAxEAPwA=",
             "/9k=",
             "/Users/telegram/build/Telegram-Mac/AccountContext.swift",
-            "/Users/telegram/build/Telegram-Mac/Appearance.swift",
-            "/Users/telegram/build/Telegram-Mac/MimeTypes.swift",
             "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/MediaBox.swift",
             "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/MediaBoxFileContextV2Impl.swift",
             "/Users/telegram/build/submodules/telegram-ios/submodules/Postbox/Sources/Postbox.swift",
@@ -3868,7 +3905,7 @@
             "0123456789abcdef",
             "0x",
             "1",
-            "1.2.11",
+            "1.2.12",
             "14 (default)",
             "16BE",
             "16LE",
@@ -3957,6 +3994,7 @@
             "<NULL>",
             "<expr>",
             "<invalid>",
+            "<unknown>",
             "<unsupported>",
             "=",
             "=%Q",
@@ -4262,6 +4300,7 @@
             "AccountIntermediateState",
             "AccountManager initialization took ",
             "AccountManager: currentAccountId = ",
+            "AccountRecord<TelegramAccountRecordAttribute>",
             "AccountSettings.About",
             "AccountSettings.AddAccount",
             "AccountSettings.AskQuestion",
@@ -4946,7 +4985,7 @@
             "CO-ROUTINE %u",
             "CODE_HASH_EXPIRED",
             "COMMIT",
-            "COMPILER=clang-13.0.0",
+            "COMPILER=clang-15.0.0",
             "COMPOUND QUERY",
             "CONF_dump_fp",
             "CONF_load",
@@ -5001,6 +5040,7 @@
             "CTLOG_new",
             "CTLOG_new_from_base64",
             "CT_POLICY_EVAL_CTX_new",
+            "CachedPeerBotInfo",
             "Cag-YX-WT6.title",
             "Calendar.WeekDays.Friday",
             "Calendar.WeekDays.Monday",
@@ -5094,6 +5134,7 @@
             "Cannot quantize to more than %d colors",
             "Cannot transcode due to multiple use of quantization table %d",
             "Cast",
+            "CatalinaSegmentedItem",
             "Caution: quantization tables are too coarse for baseline JPEG",
             "Certificate Hold",
             "Certificate Sign",
@@ -6370,6 +6411,7 @@
             "ChatGift.Title.Claimed",
             "ChatGift.Title.Unclaimed",
             "ChatHeader.RestartTopic",
+            "ChatHistoryPreloadMediaItem",
             "ChatInput.BotMenu",
             "ChatInput.EditLink.AboveTheMessage",
             "ChatInput.EditLink.BelowTheMessage",
@@ -6610,6 +6652,7 @@
             "ChatList.TitleFeed",
             "ChatList.UnhideMuted",
             "ChatList.UnsupportedMessage",
+            "ChatListGroupReferencePeer",
             "ChatMessage.BoostChannel",
             "ChatMessage.Folder.Expired",
             "ChatMessage.OpenApp",
@@ -6759,6 +6802,7 @@
             "Clear",
             "Close",
             "Closed temporary file %s",
+            "CloudDocumentMediaResource",
             "Co",
             "Code Signing",
             "Code=",
@@ -7102,6 +7146,7 @@
             "Deprecated.Title",
             "DesignCycleCount9C",
             "Destroy",
+            "DeviceContactPhoneNumber",
             "Did begin transaction",
             "Did commit final",
             "Did set up checkpoint_fullfsync",
@@ -7156,6 +7201,7 @@
             "Divide",
             "Domain",
             "Don't have write access to database folder",
+            "Down-casted Array element failed to match the target type\nExpected ",
             "DownloadsManager.Control.Navigate",
             "DownloadsManager.Control.Title_countable",
             "DownloadsManager.Control.Title_few",
@@ -7170,9 +7216,10 @@
             "DropIndex",
             "DropTable",
             "DropTrigger",
-            "Duplicate values for key: '",
             "Dv1-io-Yv7.title",
             "E-mail Protection",
+            "EAGAIN",
+            "EBUSY",
             "EC",
             "EC PARAMETERS",
             "EC PRIVATE KEY",
@@ -7256,8 +7303,10 @@
             "EC_PRIVATEKEY",
             "ED25519",
             "ED448",
+            "EDEADLK",
             "EDIPARTYNAME",
             "EEE',' dd' 'MMM' 'yyyy HH':'mm':'ss zzz",
+            "EINVAL",
             "EMAIL_ADDRESS_INVALID",
             "EMAIL_CODE_INVALID",
             "EMAIL_HASH_EXPIRED",
@@ -7272,10 +7321,12 @@
             "ENCRYPTED PRIVATE KEY",
             "ENCRYPTION_DECLINED",
             "ENGINE lib",
+            "ENOMEM",
             "ENUM",
             "ENUMERATED",
             "ENV",
             "EOC",
+            "EPERM",
             "ERROR: selector [%d] invalid\n",
             "ESCAPE expression must be a single character",
             "EVP lib",
@@ -7411,6 +7462,8 @@
             "Emoji.Search.Emoji",
             "Emoji.SmilesAndPeople",
             "Emoji.TravelAndPlaces",
+            "EmojiKeywordCollectionInfo",
+            "EmojiKeywordItem",
             "EmojiPack.Add_countable",
             "EmojiPack.Add_few",
             "EmojiPack.Add_many",
@@ -7672,6 +7725,7 @@
             "ForwardModalAction.description_zero",
             "Found",
             "Found holes in incoming operation sequence",
+            "FoundStickerItem",
             "Fractional sampling not implemented yet",
             "Fragmentation of %d bytes reported as %d on page %u",
             "Freed EMS handle %u",
@@ -7826,6 +7880,7 @@
             "GeneralSettings.Spelling.Title",
             "GeneralSettings.StatusBarItem",
             "GeneralString",
+            "GeneralViewItemCorners",
             "Generator (compressed):",
             "Generator (hybrid):",
             "Generator (uncompressed):",
@@ -8583,11 +8638,16 @@
             "InstalledStickers.Tranding",
             "InstantPage.AuthorAndDateTitle",
             "InstantPage.RelatedArticleAuthorAndDateTitle",
+            "InstantPageRelatedArticle",
+            "InstantPageTableCell",
+            "InstantPageTableRow",
             "Insufficient memory (case %d)",
             "Int64",
             "IntCopy",
             "Integer",
             "IntegrityCk",
+            "IntermediateMessage",
+            "InternalStoreMessage",
             "International Organizations",
             "Invalid JPEG file structure: SOS before SOF",
             "Invalid JPEG file structure: missing SOS marker",
@@ -8609,6 +8669,7 @@
             "Invalid scan script at entry %d",
             "Invalid updateEditChannelMessage",
             "Invalidity Date",
+            "InvisibleInkDustView",
             "Invite.ChannelsTooMuch",
             "InviteFailed.Skip",
             "InviteFailed.Text.Cant.Multiple_countable",
@@ -8675,6 +8736,7 @@
             "Invoked with empty pre buffer!",
             "IsNull",
             "IsTrue",
+            "ItemCollectionInfoEntry",
             "JFIF APP0 marker: version %d.%02d, density %dx%d  %d",
             "JFIF extension marker: JPEG-compressed thumbnail image, length %u",
             "JFIF extension marker: RGB thumbnail image, length %u",
@@ -9119,6 +9181,7 @@
             "Multiply",
             "Must be dispatched on socketQueue",
             "MustBeInt",
+            "MutableOrderedItemListView",
             "MutableTimestampBasedMessageAttributesView: tag: ",
             "MyAesCbcDecrypt",
             "MyAesIgeDecrypt",
@@ -9166,6 +9229,7 @@
             "NOT",
             "NOT NULL",
             "NOTICEREF",
+            "NSArray element failed to match the Swift Array Element type\nExpected ",
             "NSCoding",
             "NSControlTextEditingDelegate",
             "NSCopying",
@@ -9342,6 +9406,7 @@
             "NotificationSettings.TurnOn.Text.Text",
             "NotificationSettings.TurnOn.Text.Title",
             "NotificationSettingsToneNone",
+            "NotificationSound",
             "NotificationSound.Title",
             "NotificationSound.Tone.Voice",
             "NotificationSound.Tones.Info",
@@ -10809,6 +10874,7 @@
             "Remove From CRL",
             "Removing discarded entry ",
             "Removing value box at ",
+            "RenderedRecentDownloadItem",
             "ReopenIdx",
             "Report.AdditionText",
             "Report.AdditionText.Button",
@@ -10860,6 +10926,7 @@
             "Require Explicit Policy",
             "ResetCount",
             "ResetSorter",
+            "ResponderObserver",
             "ResultRow",
             "Resume network connection",
             "Resume worker network connection",
@@ -11049,6 +11116,7 @@
             "ScheduleController.Title",
             "ScheduleController.at",
             "Scheduling autoremove for ",
+            "ScrollableSegmentItem",
             "Search.Confirm.ClearHistory",
             "Search.Filter.ClearFilter",
             "Search.Filter.Files",
@@ -11085,6 +11153,7 @@
             "Secret chat corrupted",
             "SecretChatEncryption",
             "SecretChatEncryptionConfig",
+            "SectionControllerItem",
             "Secure Electronic Transactions",
             "SecureId.Accept.Help",
             "SecureId.Accept.Policy",
@@ -11333,6 +11402,7 @@
             "SelectPeers.Title.SelectGroupOrChannel",
             "Selected %d colors for quantization",
             "Selected Attribute Types",
+            "SelectivePrivacyPeer",
             "Send Owner",
             "Send Proxied Owner",
             "Send Proxied Router",
@@ -11777,6 +11847,7 @@
             "StickerPack.Sets.Add1_two",
             "StickerPack.Sets.Add1_zero",
             "StickerPack.Stickers",
+            "StickerPackCollectionInfo",
             "StickerSet.DontExist",
             "StickerSet.Remove",
             "Stickers.Confirm.ClearRecentHeader",
@@ -11984,6 +12055,7 @@
             "StoryFeed.TooltipArchive",
             "StoryFeed.TooltipUnarchive",
             "StoryItem.Text.ShowMore",
+            "StoryItemsTableEntry",
             "StoryList.Context.Archive",
             "StoryList.Context.ArchivedStories",
             "StoryList.Context.OpenChannel",
@@ -12095,8 +12167,9 @@
             "Supergroup.DeleteRestriction.Title",
             "Superseded",
             "Suspension not allowed here",
-            "Swift/arm64e-apple-macos.swiftinterface",
             "SwiftSignalKit.ThreadPool",
+            "SynchronizeAppLogEventsOperation",
+            "SynchronizeGroupedPeersOperation",
             "SynchronizePeerReadStates",
             "System.MemoryWarning.DataAndStorage",
             "System.MemoryWarning.FreeSpace",
@@ -12346,6 +12419,7 @@
             "TS_VERIFY_CTX_new",
             "TYPE=",
             "TableLock",
+            "TableScrollListener",
             "Taking discarded entry ",
             "Td7-aD-5lo.title",
             "Telegram Notifications",
@@ -12410,6 +12484,9 @@
             "TelegramCore/SyncCore_TelegramMediaInvoice.swift",
             "TelegramCore/SyncCore_WallapersState.swift",
             "TelegramCore/TelegramEngineMessages.swift",
+            "TelegramMediaFile",
+            "TelegramMediaImageRepresentation",
+            "TelegramPeerNotificationSettings",
             "TelegramShare.AvatarNodeParameters",
             "TelegramShare.AvatarStoryControl",
             "TelegramShare.ChatListNothingItem",
@@ -12439,6 +12516,7 @@
             "TelegramShare/SearchEmptyRowItem.swift",
             "TelegramShare/ShortPeerRowView.swift",
             "TelegramTextPboardType",
+            "TelegramThemeSettings",
             "TermsOfService.Accept",
             "TermsOfService.Accept.ConfirmAge",
             "TermsOfService.ConfirmAge",
@@ -12937,6 +13015,11 @@
             "VRename",
             "VUpdate",
             "Vacuum",
+            "ValuePipe<ChatListHolesView>",
+            "ValuePipe<ForumTopicListHolesView>",
+            "ValuePipe<MessageHistoryHolesView>",
+            "ValuePipe<SynchronizePeerReadStatesView>",
+            "ValuePipe<UnsentMessageIdsView>",
             "Variable",
             "Vdr-fp-XzO.title",
             "Verify failure\n",
@@ -12946,6 +13029,7 @@
             "VideoAvatar.ChooseDesc.Channel",
             "VideoAvatar.ChooseDesc.Group",
             "VideoAvatar.ChooseDesc.Profile",
+            "VideoRepresentation",
             "ViewChagedEffectiveAppearanceNotification",
             "Virtual array controller messed up",
             "VoiceChat.Alert.Recording",
@@ -13189,6 +13273,8 @@
             "Warning: thumbnail image size does not match data length %u",
             "Warning: unknown JFIF revision number %d.%02d",
             "WeT-3V-zwk.title",
+            "WeakReference<Modal>",
+            "WeakReference<ViewController>",
             "WebApp.Access.Allow",
             "WebApp.Access.Audio",
             "WebApp.Access.AudioVideo",
@@ -14018,6 +14104,7 @@
             "_TtC13TelegramShareP33_9E69DDB0CC1ABFF811AD221E5C1FE37C20AvatarNodeParameters",
             "_TtC13TelegramShareP33_9EBFE64538DD48FC4B72544976959C5521InlineFileDataContext",
             "_TtC13TelegramShareP33_B111066B90002ABF867496FC3305251E13WeakNotifable",
+            "_TtC13TelegramShareP33_B59C210B416297FA972B05B81A2310DB19ResourceBundleClass",
             "_TtC13TelegramShareP33_BD390AFE3D0B7A3F5CE4FF05FBF16E1516PasscodeLockView",
             "_TtC13TelegramShareP33_E8B93CCF50F85A74CE9A3A6A3FB5E8A529ChatLocationContextHolderImpl",
             "_TtC13ThemeSettings25ColorPaletteNativeCodable",
@@ -14645,7 +14732,10 @@
             "_TtCO12TelegramCore7Stories4Item",
             "_TtCO12TelegramCore7Stories9PeerState",
             "_TtCVC12TelegramCore17SparseMessageList5State4Item",
+            "_Z19voucher_needs_adoptP9voucher_s",
             "_ZeroValueHolder",
+            "__tsan_acquire",
+            "__tsan_release",
             "_accent",
             "_accentColorSelect",
             "_accentIcon",
@@ -19115,6 +19205,7 @@
             "functionDescription",
             "function_list",
             "functionality not supported",
+            "future reported an error, but wait cannot throw",
             "futureContextSubscribers",
             "fx",
             "fy",
@@ -21395,7 +21486,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231204)",
+            "mozjpeg version 4.1.4 (build 20231205)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -22645,6 +22736,26 @@
             "psow",
             "pss",
             "pss saltlen too small",
+            "pthread_cond_broadcast(&condition)",
+            "pthread_cond_destroy(&condition)",
+            "pthread_cond_init(&condition, nullptr)",
+            "pthread_cond_signal(&condition)",
+            "pthread_cond_wait(&condition, &mutex)",
+            "pthread_mutex_destroy(&mutex)",
+            "pthread_mutex_init(&mutex, &attr)",
+            "pthread_mutex_lock(&mutex)",
+            "pthread_mutex_trylock(&mutex)",
+            "pthread_mutex_unlock(&mutex)",
+            "pthread_mutexattr_destroy(&attr)",
+            "pthread_mutexattr_init(&attr)",
+            "pthread_mutexattr_settype(&attr, kind)",
+            "pthread_rwlock_destroy(&rwlock)",
+            "pthread_rwlock_init(&rwlock, nullptr)",
+            "pthread_rwlock_rdlock(&rwlock)",
+            "pthread_rwlock_tryrdlock(&rwlock)",
+            "pthread_rwlock_trywrlock(&rwlock)",
+            "pthread_rwlock_unlock(&rwlock)",
+            "pthread_rwlock_wrlock(&rwlock)",
             "pts",
             "pub: ",
             "pub_key",
@@ -24065,6 +24176,11 @@
             "supportsSecureCoding",
             "surname",
             "svg",
+            "swift_getFunctionTypeMetadataGlobalActor",
+            "swift_getFunctionTypeMetadataGlobalActorStandalone",
+            "swift_task_enterThreadLocalContext",
+            "swift_task_escalate",
+            "swift_task_exitThreadLocalContext",
             "swipeHandlers",
             "swipePoints",
             "swipeState",
@@ -24884,7 +25000,6 @@
             "v1 (0x0)",
             "v12@?0B8",
             "v16@0:8",
-            "v16@?0@\"LegacyReachability\"8",
             "v16@?0@\"MTNetworkUsageManagerImpl\"8",
             "v16@?0@\"MTTcpConnectionData\"8",
             "v16@?0@\"MTTransportScheme\"8",
@@ -25320,9 +25435,22 @@
           ]
         },
         {
+          "sectname": "__constg_swiftt",
+          "segname": "__TEXT",
+          "size": 186728,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 283483,
+          "size": 223745,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -25335,7 +25463,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 196351,
+          "size": 196319,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -29092,8 +29220,6 @@
             "desc",
             "desc",
             "desc",
-            "descendants",
-            "descendants",
             "description",
             "description",
             "description",
@@ -30017,7 +30143,6 @@
             "generalPaths",
             "generator",
             "generator",
-            "generic",
             "generic",
             "generic",
             "generic",
@@ -36107,8 +36232,6 @@
             "totalUnreadCountIncludeTags",
             "totalUnreadState",
             "totalVoters",
-            "total_size",
-            "total_size",
             "trackIndex",
             "trackingArea",
             "trackingArea",
@@ -36976,7 +37099,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 216228,
+          "size": 216152,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -36989,7 +37112,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 9620,
+          "size": 9580,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37002,7 +37125,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 236692,
+          "size": 209252,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37028,7 +37151,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 19080,
+          "size": 19072,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37041,7 +37164,20 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 14132,
+          "size": 14124,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_mpenum",
+          "segname": "__TEXT",
+          "size": 12988,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37054,7 +37190,7 @@
         {
           "sectname": "__swift5_protos",
           "segname": "__TEXT",
-          "size": 304,
+          "size": 308,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37067,7 +37203,7 @@
         {
           "sectname": "__objc_classname",
           "segname": "__TEXT",
-          "size": 4389,
+          "size": 4363,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -37111,19 +37247,12 @@
             "\u0015!",
             "\u0017\u0018",
             "\u001f\u0001",
-            " 0",
-            " 0A",
-            " 1",
             "!",
             "!\u0012",
             "!.\u0011\u0011\"\u0012",
             "-",
             "/\u0003\u0015\u0015",
-            "0 0",
-            "0 1",
             "1",
-            "1 0",
-            "3 1",
             "A",
             "AFHTTPRequestOperation",
             "AFURLConnectionOperation",
@@ -37336,7 +37465,7 @@
         {
           "sectname": "__objc_methtype",
           "segname": "__TEXT",
-          "size": 10864,
+          "size": 10837,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -37349,7 +37478,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 4168,
+          "size": 3220,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37362,7 +37491,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 279248,
+          "size": 264240,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37375,13 +37504,17 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 210320,
+          "size": 109972,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
-          "type": "regular",
+          "type": "coalesced",
           "attributes": {
-            "usr": {},
+            "usr": {
+              "live_support": true,
+              "strip_static_syms": true,
+              "no_toc": true
+            },
             "sys": {}
           }
         }
@@ -37390,10 +37523,10 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4318445568,
-      "vmsize": 1032192,
-      "fileoff": 1856,
-      "filesize": 1032192,
+      "vmaddr": 4317872128,
+      "vmsize": 983040,
+      "fileoff": 2096,
+      "filesize": 983040,
       "maxprot": {
         "read": true,
         "write": true,
@@ -37410,7 +37543,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 17136,
+          "size": 17016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37423,7 +37556,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 987320,
+          "size": 931072,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37449,7 +37582,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 10120,
+          "size": 10128,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37507,10 +37640,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4319477760,
-      "vmsize": 1540096,
-      "fileoff": 2488,
-      "filesize": 1064960,
+      "vmaddr": 4318855168,
+      "vmsize": 1523712,
+      "fileoff": 2728,
+      "filesize": 1048576,
       "maxprot": {
         "read": true,
         "write": true,
@@ -37521,7 +37654,7 @@
         "write": true,
         "exec": false
       },
-      "nsects": 15,
+      "nsects": 16,
       "flags": {
         "highvm": true
       },
@@ -37529,7 +37662,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 10672,
+          "size": 10752,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37542,7 +37675,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 447744,
+          "size": 439168,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37555,7 +37688,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 17416,
+          "size": 17408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37574,9 +37707,11 @@
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
-          "type": "regular",
+          "type": "coalesced",
           "attributes": {
-            "usr": {},
+            "usr": {
+              "no_dead_strip": true
+            },
             "sys": {}
           }
         },
@@ -37626,7 +37761,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 251368,
+          "size": 238760,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37639,7 +37774,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 329576,
+          "size": 323754,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37653,6 +37788,34 @@
           "sectname": "__objc_stublist",
           "segname": "__DATA",
           "size": 48,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "no_dead_strip": true
+            },
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__s_async_hook",
+          "segname": "__DATA",
+          "size": 400,
+          "align": 3,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift56_hooks",
+          "segname": "__DATA",
+          "size": 176,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -37678,7 +37841,7 @@
         {
           "sectname": "__thread_data",
           "segname": "__DATA",
-          "size": 8,
+          "size": 12,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37689,22 +37852,9 @@
           }
         },
         {
-          "sectname": "__thread_bss",
-          "segname": "__DATA",
-          "size": 1,
-          "align": 2,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "thread_local_zerofill",
-          "attributes": {
-            "usr": {},
-            "sys": {}
-          }
-        },
-        {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 473760,
+          "size": 473472,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -37717,7 +37867,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 2744,
+          "size": 2712,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -37732,10 +37882,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4321017856,
-      "vmsize": 2752512,
-      "fileoff": 3760,
-      "filesize": 2747168,
+      "vmaddr": 4320378880,
+      "vmsize": 2736128,
+      "fileoff": 4080,
+      "filesize": 2727712,
       "maxprot": {
         "read": true,
         "write": false,
@@ -37752,15 +37902,15 @@
     },
     {
       "type": "dyld_info",
-      "fileoff": 3832
+      "fileoff": 4152
     },
     {
       "type": "symtab",
-      "symoff": 27811968,
-      "nsyms": 6412,
-      "stroff": 27933800,
-      "strsize": 149904,
-      "fileoff": 3880
+      "symoff": 27158056,
+      "nsyms": 6428,
+      "stroff": 27280168,
+      "strsize": 150232,
+      "fileoff": 4200
     },
     {
       "type": "dysymtab",
@@ -37769,58 +37919,58 @@
       "iextdefsym": 1,
       "nextdefsym": 5458,
       "iundefsym": 5459,
-      "nundefsym": 953,
+      "nundefsym": 969,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27914560,
-      "nindirectsyms": 4810,
+      "indirectsymoff": 27260904,
+      "nindirectsyms": 4815,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 3904
+      "fileoff": 4224
     },
     {
       "type": "load_dylinker",
       "cmd": "/usr/lib/dyld",
-      "fileoff": 3984
+      "fileoff": 4304
     },
     {
       "type": "uuid",
-      "fileoff": 4016
+      "fileoff": 4336
     },
     {
-      "fileoff": 4040
+      "fileoff": 4360
     },
     {
       "type": "source_version",
-      "fileoff": 4072
+      "fileoff": 4392
     },
     {
       "type": "main",
-      "entryoff": 20349060,
+      "entryoff": 19919248,
       "stacksize": 0,
-      "fileoff": 4088
+      "fileoff": 4408
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/libc++.1.dylib",
       "timestamp": 2,
-      "current_version": 78643968,
+      "current_version": 104896256,
       "compatibility_version": 65536,
-      "fileoff": 4112
+      "fileoff": 4432
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
       "timestamp": 2,
-      "current_version": 121438208,
+      "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 4160
+      "fileoff": 4480
     },
     {
       "type": "load_dylib",
@@ -37828,15 +37978,15 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 4256
+      "fileoff": 4576
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/libSystem.B.dylib",
       "timestamp": 2,
-      "current_version": 85917696,
+      "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 4312
+      "fileoff": 4632
     },
     {
       "type": "load_dylib",
@@ -37844,7 +37994,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 4368
+      "fileoff": 4688
     },
     {
       "type": "load_dylib",
@@ -37852,47 +38002,47 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 4472
+      "fileoff": 4792
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
       "timestamp": 2,
-      "current_version": 137825546,
+      "current_version": 162725888,
       "compatibility_version": 2949120,
-      "fileoff": 4568
+      "fileoff": 4888
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CFNetwork.framework/Versions/A/CFNetwork",
       "timestamp": 2,
-      "current_version": 86704128,
+      "current_version": 96600064,
       "compatibility_version": 65536,
-      "fileoff": 4656
+      "fileoff": 4976
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
       "timestamp": 2,
-      "current_version": 121438208,
+      "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 4752
+      "fileoff": 5072
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreGraphics.framework/Versions/A/CoreGraphics",
       "timestamp": 2,
-      "current_version": 102039809,
+      "current_version": 116260868,
       "compatibility_version": 4194304,
-      "fileoff": 4856
+      "fileoff": 5176
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreImage.framework/Versions/A/CoreImage",
       "timestamp": 2,
-      "current_version": 327680,
+      "current_version": 393216,
       "compatibility_version": 65537,
-      "fileoff": 4960
+      "fileoff": 5280
     },
     {
       "type": "load_dylib",
@@ -37900,15 +38050,15 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5056
+      "fileoff": 5376
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
       "timestamp": 2,
-      "current_version": 74776832,
+      "current_version": 80347136,
       "compatibility_version": 65536,
-      "fileoff": 5152
+      "fileoff": 5472
     },
     {
       "type": "load_dylib",
@@ -37916,7 +38066,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5256
+      "fileoff": 5576
     },
     {
       "type": "load_dylib",
@@ -37924,7 +38074,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 5352
+      "fileoff": 5672
     },
     {
       "type": "load_dylib",
@@ -37932,7 +38082,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5440
+      "fileoff": 5760
     },
     {
       "type": "load_dylib",
@@ -37940,95 +38090,79 @@
       "timestamp": 2,
       "current_version": 68352,
       "compatibility_version": 66048,
-      "fileoff": 5528
+      "fileoff": 5848
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
       "timestamp": 2,
-      "current_version": 3942456845,
+      "current_version": 4000317699,
       "compatibility_version": 65536,
-      "fileoff": 5624
+      "fileoff": 5944
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/SystemConfiguration.framework/Versions/A/SystemConfiguration",
       "timestamp": 2,
-      "current_version": 76226054,
+      "current_version": 84934657,
       "compatibility_version": 65536,
-      "fileoff": 5720
+      "fileoff": 6040
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/libz.1.dylib",
       "timestamp": 2,
-      "current_version": 66059,
+      "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 5832
+      "fileoff": 6152
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftAVFoundation.dylib",
       "timestamp": 2,
-      "current_version": 133438977,
+      "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 5880
+      "fileoff": 6200
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftAccelerate.dylib",
       "timestamp": 2,
-      "current_version": 1769472,
-      "compatibility_version": 65536,
-      "fileoff": 5952
-    },
-    {
-      "type": "load_dylib",
-      "name": "/usr/lib/swift/libswiftAppKit.dylib",
-      "timestamp": 2,
-      "current_version": 7143424,
-      "compatibility_version": 65536,
-      "fileoff": 6016
-    },
-    {
-      "type": "load_dylib",
-      "name": "/usr/lib/swift/libswiftCore.dylib",
-      "timestamp": 2,
-      "current_version": 85196829,
-      "compatibility_version": 65536,
-      "fileoff": 6080
-    },
-    {
-      "type": "load_weak_dylib",
-      "name": "/usr/lib/swift/libswiftCoreAudio.dylib",
-      "timestamp": 2,
-      "current_version": 65792,
-      "compatibility_version": 65536,
-      "fileoff": 6144
-    },
-    {
-      "type": "load_weak_dylib",
-      "name": "/usr/lib/swift/libswiftCoreData.dylib",
-      "timestamp": 2,
-      "current_version": 1179648,
-      "compatibility_version": 65536,
-      "fileoff": 6208
-    },
-    {
-      "type": "load_dylib",
-      "name": "/usr/lib/swift/libswiftCoreFoundation.dylib",
-      "timestamp": 2,
-      "current_version": 917504,
+      "current_version": 2949120,
       "compatibility_version": 65536,
       "fileoff": 6272
     },
     {
       "type": "load_dylib",
+      "name": "/usr/lib/swift/libswiftCore.dylib",
+      "timestamp": 2,
+      "current_version": 329984,
+      "compatibility_version": 65536,
+      "fileoff": 6336
+    },
+    {
+      "type": "load_weak_dylib",
+      "name": "/usr/lib/swift/libswiftCoreAudio.dylib",
+      "timestamp": 2,
+      "current_version": 327680,
+      "compatibility_version": 65536,
+      "fileoff": 6400
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/swift/libswiftCoreFoundation.dylib",
+      "timestamp": 2,
+      "current_version": 7889920,
+      "compatibility_version": 65536,
+      "fileoff": 6464
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/swift/libswiftCoreGraphics.dylib",
       "timestamp": 2,
-      "current_version": 131072,
+      "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 6344
+      "fileoff": 6536
     },
     {
       "type": "load_weak_dylib",
@@ -38036,31 +38170,39 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 6416
+      "fileoff": 6608
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftCoreLocation.dylib",
       "timestamp": 2,
-      "current_version": 393216,
+      "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 6480
+      "fileoff": 6672
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftCoreMIDI.dylib",
       "timestamp": 2,
-      "current_version": 327680,
+      "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 6552
+      "fileoff": 6744
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/swift/libswiftCoreMedia.dylib",
       "timestamp": 2,
-      "current_version": 189799937,
+      "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 6616
+      "fileoff": 6808
+    },
+    {
+      "type": "load_weak_dylib",
+      "name": "/usr/lib/swift/libswiftCoreMediaIO.dylib",
+      "timestamp": 2,
+      "current_version": 361103619,
+      "compatibility_version": 65536,
+      "fileoff": 6872
     },
     {
       "type": "load_dylib",
@@ -38068,23 +38210,15 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 6680
+      "fileoff": 6944
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/swift/libswiftDispatch.dylib",
       "timestamp": 2,
-      "current_version": 589824,
+      "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 6744
-    },
-    {
-      "type": "load_dylib",
-      "name": "/usr/lib/swift/libswiftFoundation.dylib",
-      "timestamp": 2,
-      "current_version": 4521984,
-      "compatibility_version": 65536,
-      "fileoff": 6808
+      "fileoff": 7008
     },
     {
       "type": "load_weak_dylib",
@@ -38092,7 +38226,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6872
+      "fileoff": 7072
     },
     {
       "type": "load_weak_dylib",
@@ -38100,31 +38234,31 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 6936
+      "fileoff": 7136
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftMetal.dylib",
       "timestamp": 2,
-      "current_version": 16848896,
+      "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 7000
+      "fileoff": 7200
     },
     {
       "type": "load_weak_dylib",
-      "name": "/usr/lib/swift/libswiftNetwork.dylib",
+      "name": "/usr/lib/swift/libswiftOSLog.dylib",
       "timestamp": 2,
-      "current_version": 179314197,
+      "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 7064
+      "fileoff": 7264
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/swift/libswiftObjectiveC.dylib",
       "timestamp": 2,
-      "current_version": 196608,
+      "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 7128
+      "fileoff": 7328
     },
     {
       "type": "load_weak_dylib",
@@ -38132,72 +38266,96 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 7192
+      "fileoff": 7392
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftUniformTypeIdentifiers.dylib",
       "timestamp": 2,
-      "current_version": 47251456,
+      "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 7256
+      "fileoff": 7456
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftXPC.dylib",
       "timestamp": 2,
-      "current_version": 65792,
+      "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 7336
+      "fileoff": 7536
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftos.dylib",
       "timestamp": 2,
-      "current_version": 66912256,
+      "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 7400
+      "fileoff": 7600
     },
     {
       "type": "load_weak_dylib",
       "name": "/usr/lib/swift/libswiftsimd.dylib",
       "timestamp": 2,
-      "current_version": 589824,
+      "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 7456
+      "fileoff": 7656
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/swift/libswiftFoundation.dylib",
+      "timestamp": 2,
+      "current_version": 65536,
+      "compatibility_version": 65536,
+      "fileoff": 7720
+    },
+    {
+      "type": "load_dylib",
+      "name": "/usr/lib/swift/libswiftAppKit.dylib",
+      "timestamp": 2,
+      "current_version": 162725888,
+      "compatibility_version": 2949120,
+      "fileoff": 7784
+    },
+    {
+      "type": "load_weak_dylib",
+      "name": "/usr/lib/swift/libswiftNetwork.dylib",
+      "timestamp": 2,
+      "current_version": 65536,
+      "compatibility_version": 65536,
+      "fileoff": 7848
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 7520
+      "fileoff": 7912
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 7552
+      "fileoff": 7944
     },
     {
       "type": "rpath",
       "name": "@executable_path/../../../../Frameworks",
-      "fileoff": 7600
+      "fileoff": 7992
     },
     {
       "type": "function_starts",
-      "dataoff": 27648112,
-      "datasize": 163856,
-      "fileoff": 7656
+      "dataoff": 27004696,
+      "datasize": 153360,
+      "fileoff": 8048
     },
     {
       "type": "data_in_code",
-      "dataoff": 27811968,
+      "dataoff": 27158056,
       "datasize": 0,
-      "fileoff": 7672
+      "fileoff": 8064
     },
     {
       "type": "code_signature",
-      "dataoff": 28083712,
-      "datasize": 238880,
-      "fileoff": 7688
+      "dataoff": 27430400,
+      "datasize": 233760,
+      "fileoff": 8080
     }
   ],
   "hsize": 32
