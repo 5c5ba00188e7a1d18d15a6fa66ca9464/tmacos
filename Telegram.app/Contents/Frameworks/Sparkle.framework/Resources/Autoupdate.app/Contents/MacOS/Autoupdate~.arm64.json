@@ -8,7 +8,7 @@
   },
   "filetype": "execute",
   "ncmds": 24,
-  "sizeofcmds": 3560,
+  "sizeofcmds": 3480,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -54,13 +54,13 @@
         "write": false,
         "exec": true
       },
-      "nsects": 12,
+      "nsects": 11,
       "flags": {},
       "sections": [
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52100,
+          "size": 60472,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -77,7 +77,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 1092,
+          "size": 1104,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -94,24 +94,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 1116,
-          "align": 2,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "regular",
-          "attributes": {
-            "usr": {
-              "pure_instructions": true
-            },
-            "sys": {
-              "some_instructions": true
-            }
-          }
-        },
-        {
-          "sectname": "__objc_stubs",
-          "segname": "__TEXT",
-          "size": 9280,
+          "size": 1128,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -936,7 +919,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 64,
+          "size": 84,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -949,7 +932,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 656,
+          "size": 640,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -966,7 +949,7 @@
       "name": "__DATA_CONST",
       "vmaddr": 4295065600,
       "vmsize": 16384,
-      "fileoff": 1136,
+      "fileoff": 1056,
       "filesize": 16384,
       "maxprot": {
         "read": true,
@@ -984,7 +967,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 224,
+          "size": 216,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -1067,9 +1050,9 @@
       "type": "segment_64",
       "name": "__DATA",
       "vmaddr": 4295081984,
-      "vmsize": 16384,
-      "fileoff": 1688,
-      "filesize": 16384,
+      "vmsize": 32768,
+      "fileoff": 1608,
+      "filesize": 32768,
       "maxprot": {
         "read": true,
         "write": true,
@@ -1088,7 +1071,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 728,
+          "size": 736,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -1101,7 +1084,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 7816,
+          "size": 11048,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -1213,10 +1196,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4295098368,
-      "vmsize": 32768,
-      "fileoff": 2480,
-      "filesize": 32576,
+      "vmaddr": 4295114752,
+      "vmsize": 49152,
+      "fileoff": 2400,
+      "filesize": 33008,
       "maxprot": {
         "read": true,
         "write": false,
@@ -1233,15 +1216,15 @@
     },
     {
       "type": "dyld_info",
-      "fileoff": 2552
+      "fileoff": 2472
     },
     {
       "type": "symtab",
-      "symoff": 136408,
+      "symoff": 153000,
       "nsyms": 159,
-      "stroff": 139792,
+      "stroff": 156392,
       "strsize": 3344,
-      "fileoff": 2600
+      "fileoff": 2520
     },
     {
       "type": "dysymtab",
@@ -1257,59 +1240,59 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 138952,
-      "nindirectsyms": 210,
+      "indirectsymoff": 155544,
+      "nindirectsyms": 211,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 2624
+      "fileoff": 2544
     },
     {
       "type": "load_dylinker",
       "cmd": "/usr/lib/dyld",
-      "fileoff": 2704
+      "fileoff": 2624
     },
     {
       "type": "uuid",
-      "fileoff": 2736
+      "fileoff": 2656
     },
     {
-      "fileoff": 2760
+      "fileoff": 2680
     },
     {
       "type": "source_version",
-      "fileoff": 2792
+      "fileoff": 2712
     },
     {
       "type": "main",
-      "entryoff": 15544,
+      "entryoff": 17068,
       "stacksize": 0,
-      "fileoff": 2808
+      "fileoff": 2728
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
       "timestamp": 2,
-      "current_version": 162725888,
+      "current_version": 137825546,
       "compatibility_version": 2949120,
-      "fileoff": 2832
+      "fileoff": 2752
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
       "timestamp": 2,
-      "current_version": 134218239,
+      "current_version": 121438208,
       "compatibility_version": 19660800,
-      "fileoff": 2920
+      "fileoff": 2840
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
       "timestamp": 2,
-      "current_version": 4000317699,
+      "current_version": 3942456845,
       "compatibility_version": 65536,
-      "fileoff": 3016
+      "fileoff": 2936
     },
     {
       "type": "load_dylib",
@@ -1317,57 +1300,57 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 3112
+      "fileoff": 3032
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/libSystem.B.dylib",
       "timestamp": 2,
-      "current_version": 87556096,
+      "current_version": 85917696,
       "compatibility_version": 65536,
-      "fileoff": 3168
+      "fileoff": 3088
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/ApplicationServices.framework/Versions/A/ApplicationServices",
       "timestamp": 2,
-      "current_version": 4194304,
+      "current_version": 3670016,
       "compatibility_version": 65536,
-      "fileoff": 3224
+      "fileoff": 3144
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
       "timestamp": 2,
-      "current_version": 134218239,
+      "current_version": 121438208,
       "compatibility_version": 9830400,
-      "fileoff": 3336
+      "fileoff": 3256
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
       "timestamp": 2,
-      "current_version": 80347136,
+      "current_version": 74776832,
       "compatibility_version": 65536,
-      "fileoff": 3440
+      "fileoff": 3360
     },
     {
       "type": "function_starts",
-      "dataoff": 136088,
+      "dataoff": 152680,
       "datasize": 320,
-      "fileoff": 3544
+      "fileoff": 3464
     },
     {
       "type": "data_in_code",
-      "dataoff": 136408,
+      "dataoff": 153000,
       "datasize": 0,
-      "fileoff": 3560
+      "fileoff": 3480
     },
     {
       "type": "code_signature",
-      "dataoff": 143136,
-      "datasize": 20512,
-      "fileoff": 3576
+      "dataoff": 159744,
+      "datasize": 20720,
+      "fileoff": 3496
     }
   ],
   "hsize": 32

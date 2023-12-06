@@ -2750,7 +2750,7 @@
       "type": "segment_64",
       "name": "__LINKEDIT",
       "vmaddr": 3940352,
-      "vmsize": 2686976,
+      "vmsize": 2715824,
       "fileoff": 3616,
       "filesize": 2683792,
       "maxprot": {

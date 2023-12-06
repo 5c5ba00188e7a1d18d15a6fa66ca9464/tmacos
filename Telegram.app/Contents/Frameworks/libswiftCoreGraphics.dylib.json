@@ -414,7 +414,7 @@
       "type": "segment_64",
       "name": "__LINKEDIT",
       "vmaddr": 77824,
-      "vmsize": 131072,
+      "vmsize": 122880,
       "fileoff": 2016,
       "filesize": 120816,
       "maxprot": {

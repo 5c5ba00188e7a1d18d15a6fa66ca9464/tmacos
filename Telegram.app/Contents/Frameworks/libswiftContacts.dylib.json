@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "dylib",
-  "ncmds": 40,
-  "sizeofcmds": 4256,
+  "ncmds": 29,
+  "sizeofcmds": 3320,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -21,9 +21,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 0,
-      "vmsize": 36864,
+      "vmsize": 28672,
       "fileoff": 32,
-      "filesize": 36864,
+      "filesize": 28672,
       "maxprot": {
         "read": true,
         "write": true,
@@ -40,7 +40,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 1233,
+          "size": 3643,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -57,7 +57,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 54,
+          "size": 126,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -74,7 +74,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 106,
+          "size": 226,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -89,29 +89,10 @@
           }
         },
         {
-          "sectname": "__objc_methname",
+          "sectname": "__const",
           "segname": "__TEXT",
-          "size": 58,
-          "align": 0,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "cstring_literals",
-          "attributes": {
-            "usr": {},
-            "sys": {}
-          },
-          "data": [
-            "",
-            "MKCoordinateSpanValue",
-            "objCType",
-            "valueWithMKCoordinateSpan:"
-          ]
-        },
-        {
-          "sectname": "__swift5_typeref",
-          "segname": "__TEXT",
-          "size": 65,
-          "align": 1,
+          "size": 768,
+          "align": 4,
           "reloff": 0,
           "nreloc": 0,
           "type": "regular",
@@ -121,10 +102,10 @@
           }
         },
         {
-          "sectname": "__const",
+          "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 152,
-          "align": 4,
+          "size": 242,
+          "align": 1,
           "reloff": 0,
           "nreloc": 0,
           "type": "regular",
@@ -136,7 +117,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 45,
+          "size": 34,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -147,15 +128,16 @@
           },
           "data": [
             "",
-            "_ObjectiveCType",
-            "latitudeDelta",
-            "longitudeDelta"
+            "Code",
+            "RawValue",
+            "_ErrorType",
+            "_nsError"
           ]
         },
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 24,
+          "size": 72,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -168,7 +150,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 4,
+          "size": 36,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -181,7 +163,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 4,
+          "size": 8,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -194,7 +176,20 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 40,
+          "size": 28,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
+          "sectname": "__swift5_builtin",
+          "segname": "__TEXT",
+          "size": 20,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -207,7 +202,7 @@
         {
           "sectname": "__info_plist",
           "segname": "__TEXT",
-          "size": 580,
+          "size": 584,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -220,7 +215,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 140,
+          "size": 192,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -233,7 +228,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 120,
+          "size": 88,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -248,7 +243,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 36864,
+      "vmaddr": 28672,
       "vmsize": 4096,
       "fileoff": 1224,
       "filesize": 4096,
@@ -262,7 +257,7 @@
         "write": true,
         "exec": false
       },
-      "nsects": 9,
+      "nsects": 7,
       "flags": {
         "highvm": true
       },
@@ -283,7 +278,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 48,
+          "size": 408,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -296,7 +291,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 72,
+          "size": 168,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -309,7 +304,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 232,
+          "size": 112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -333,39 +328,9 @@
           }
         },
         {
-          "sectname": "__objc_selrefs",
-          "segname": "__DATA",
-          "size": 24,
-          "align": 3,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "literal_pointers",
-          "attributes": {
-            "usr": {
-              "no_dead_strip": true
-            },
-            "sys": {}
-          }
-        },
-        {
-          "sectname": "__objc_classrefs",
-          "segname": "__DATA",
-          "size": 8,
-          "align": 3,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "regular",
-          "attributes": {
-            "usr": {
-              "no_dead_strip": true
-            },
-            "sys": {}
-          }
-        },
-        {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 8,
+          "size": 112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -378,7 +343,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 152,
+          "size": 1152,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -393,10 +358,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 40960,
-      "vmsize": 28672,
-      "fileoff": 2016,
-      "filesize": 26304,
+      "vmaddr": 32768,
+      "vmsize": 36864,
+      "fileoff": 1856,
+      "filesize": 35696,
       "maxprot": {
         "read": true,
         "write": true,
@@ -413,139 +378,67 @@
     },
     {
       "type": "id_dylib",
-      "name": "@rpath/libswiftMapKit.dylib",
+      "name": "@rpath/libswiftContacts.dylib",
       "timestamp": 1,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 2088
+      "fileoff": 1928
     },
     {
       "type": "dyld_info",
-      "fileoff": 2144
+      "fileoff": 1984
     },
     {
       "type": "symtab",
-      "symoff": 42984,
-      "nsyms": 83,
-      "stroff": 44416,
-      "strsize": 3704,
-      "fileoff": 2192
+      "symoff": 36808,
+      "nsyms": 202,
+      "stroff": 40420,
+      "strsize": 8840,
+      "fileoff": 2032
     },
     {
       "type": "dysymtab",
       "ilocalsym": 0,
-      "nlocalsym": 40,
-      "iextdefsym": 40,
-      "nextdefsym": 12,
-      "iundefsym": 52,
-      "nundefsym": 31,
+      "nlocalsym": 107,
+      "iextdefsym": 107,
+      "nextdefsym": 13,
+      "iundefsym": 120,
+      "nundefsym": 82,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 44312,
-      "nindirectsyms": 26,
+      "indirectsymoff": 40040,
+      "nindirectsyms": 95,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 2216
+      "fileoff": 2056
     },
     {
       "type": "uuid",
-      "fileoff": 2296
+      "fileoff": 2136
     },
     {
       "type": "version_min_macosx",
       "version": "10.9.0",
       "sdk": "10.14.0",
-      "fileoff": 2320
+      "fileoff": 2160
     },
     {
       "type": "source_version",
-      "fileoff": 2336
+      "fileoff": 2176
     },
     {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/MapKit.framework/Versions/A/MapKit",
+      "type": "load_weak_dylib",
+      "name": "/System/Library/Frameworks/Contacts.framework/Versions/A/Contacts",
       "timestamp": 2,
       "current_version": 0,
-      "compatibility_version": 65536,
-      "fileoff": 2352
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftAppKit.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 2440
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftCoreData.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 2496
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftCoreLocation.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 2552
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftQuartzCore.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 2616
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/CoreData.framework/Versions/A/CoreData",
-      "timestamp": 2,
-      "current_version": 56755456,
-      "compatibility_version": 65536,
-      "fileoff": 2672
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftCoreImage.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 2768
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/QuartzCore.framework/Versions/A/QuartzCore",
-      "timestamp": 2,
-      "current_version": 68352,
-      "compatibility_version": 66048,
-      "fileoff": 2824
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftXPC.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 2920
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
-      "timestamp": 2,
-      "current_version": 109521013,
-      "compatibility_version": 2949120,
-      "fileoff": 2976
+      "compatibility_version": 0,
+      "fileoff": 2192
     },
     {
       "type": "load_dylib",
@@ -553,7 +446,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3064
+      "fileoff": 2288
     },
     {
       "type": "load_dylib",
@@ -561,7 +454,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3120
+      "fileoff": 2344
     },
     {
       "type": "load_dylib",
@@ -569,7 +462,7 @@
       "timestamp": 2,
       "current_version": 81988608,
       "compatibility_version": 4194304,
-      "fileoff": 3184
+      "fileoff": 2408
     },
     {
       "type": "load_dylib",
@@ -577,7 +470,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3288
+      "fileoff": 2512
     },
     {
       "type": "load_dylib",
@@ -585,7 +478,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3344
+      "fileoff": 2568
     },
     {
       "type": "load_dylib",
@@ -593,15 +486,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3408
-    },
-    {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
-      "timestamp": 2,
-      "current_version": 102895360,
-      "compatibility_version": 19660800,
-      "fileoff": 3464
+      "fileoff": 2632
     },
     {
       "type": "load_dylib",
@@ -609,7 +494,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3560
+      "fileoff": 2688
     },
     {
       "type": "load_dylib",
@@ -617,7 +502,7 @@
       "timestamp": 2,
       "current_version": 102895360,
       "compatibility_version": 9830400,
-      "fileoff": 3616
+      "fileoff": 2744
     },
     {
       "type": "load_dylib",
@@ -625,7 +510,7 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3720
+      "fileoff": 2848
     },
     {
       "type": "load_dylib",
@@ -633,7 +518,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 3776
+      "fileoff": 2904
     },
     {
       "type": "load_dylib",
@@ -641,15 +526,15 @@
       "timestamp": 2,
       "current_version": 65601618,
       "compatibility_version": 65536,
-      "fileoff": 3864
+      "fileoff": 2992
     },
     {
       "type": "load_dylib",
-      "name": "/System/Library/Frameworks/CoreLocation.framework/Versions/A/CoreLocation",
+      "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
       "timestamp": 2,
-      "current_version": 147131422,
-      "compatibility_version": 65536,
-      "fileoff": 3920
+      "current_version": 102895360,
+      "compatibility_version": 19660800,
+      "fileoff": 3048
     },
     {
       "type": "load_dylib",
@@ -657,7 +542,7 @@
       "timestamp": 2,
       "current_version": 26216708,
       "compatibility_version": 65536,
-      "fileoff": 4024
+      "fileoff": 3144
     },
     {
       "type": "load_dylib",
@@ -665,7 +550,7 @@
       "timestamp": 2,
       "current_version": 82115073,
       "compatibility_version": 65536,
-      "fileoff": 4072
+      "fileoff": 3192
     },
     {
       "type": "load_dylib",
@@ -673,33 +558,25 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 4128
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftMetal.dylib",
-      "timestamp": 2,
-      "current_version": 65601618,
-      "compatibility_version": 65536,
-      "fileoff": 4184
+      "fileoff": 3248
     },
     {
       "type": "function_starts",
-      "dataoff": 42960,
-      "datasize": 24,
-      "fileoff": 4240
+      "dataoff": 36752,
+      "datasize": 56,
+      "fileoff": 3304
     },
     {
       "type": "data_in_code",
-      "dataoff": 42984,
+      "dataoff": 36808,
       "datasize": 0,
-      "fileoff": 4256
+      "fileoff": 3320
     },
     {
       "type": "code_signature",
-      "dataoff": 48128,
-      "datasize": 19136,
-      "fileoff": 4272
+      "dataoff": 49264,
+      "datasize": 19200,
+      "fileoff": 3336
     }
   ],
   "hsize": 32
