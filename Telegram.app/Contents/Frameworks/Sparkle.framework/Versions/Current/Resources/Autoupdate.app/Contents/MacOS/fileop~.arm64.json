@@ -8,7 +8,7 @@
   },
   "filetype": "execute",
   "ncmds": 23,
-  "sizeofcmds": 3208,
+  "sizeofcmds": 3288,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -54,13 +54,13 @@
         "write": false,
         "exec": true
       },
-      "nsects": 11,
+      "nsects": 12,
       "flags": {},
       "sections": [
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 25484,
+          "size": 22132,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -77,7 +77,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 528,
+          "size": 516,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -94,7 +94,24 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 552,
+          "size": 540,
+          "align": 2,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "regular",
+          "attributes": {
+            "usr": {
+              "pure_instructions": true
+            },
+            "sys": {
+              "some_instructions": true
+            }
+          }
+        },
+        {
+          "sectname": "__objc_stubs",
+          "segname": "__TEXT",
+          "size": 2272,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -133,104 +150,6 @@
             "usr": {},
             "sys": {}
           }
-        },
-        {
-          "sectname": "__objc_methname",
-          "segname": "__TEXT",
-          "size": 2201,
-          "align": 0,
-          "reloff": 0,
-          "nreloc": 0,
-          "type": "cstring_literals",
-          "attributes": {
-            "usr": {},
-            "sys": {}
-          },
-          "data": [
-            "",
-            ".cxx_destruct",
-            "URLByAppendingPathComponent:",
-            "URLByDeletingLastPathComponent",
-            "URLForDirectory:inDomain:appropriateForURL:create:error:",
-            "_acquireAuthorizationWithError:",
-            "_auth",
-            "_authorizationToolPath",
-            "_authorizeAndExecuteCommand:sourcePath:destinationPath:error:",
-            "_authorizeAndExecuteCommand:sourcePath:destinationPath:lineCallback:error:",
-            "_changeOwnerAndGroupOfItemAtURL:ownerID:groupID:needsAuth:error:",
-            "_fileManager",
-            "_getVolumeID:ofItemAtURL:",
-            "_getXAttr:fromFile:options:",
-            "_itemExistsAtURL:",
-            "_itemExistsAtURL:isDirectory:",
-            "_releaseItemFromQuarantineAtRootURL:withQuarantineRetrieval:quarantineRemoval:isAccessError:error:",
-            "_removeQuarantineWithAuthenticationAtRootURL:error:",
-            "_removeXAttr:fromFile:options:",
-            "appendData:",
-            "arrayWithObjects:count:",
-            "attributesOfItemAtPath:error:",
-            "availableData",
-            "bytes",
-            "changeOwnerAndGroupOfItemAtRootURL:toMatchURL:error:",
-            "code",
-            "copy",
-            "copyItemAtURL:toURL:error:",
-            "countByEnumeratingWithState:objects:count:",
-            "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
-            "dealloc",
-            "defaultManager",
-            "dictionaryWithObjects:forKeys:count:",
-            "doubleValue",
-            "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:",
-            "errorWithDomain:code:userInfo:",
-            "executePackageAtURL:progressBlock:error:",
-            "fileExistsAtPath:",
-            "fileHandleWithStandardOutput",
-            "fileManagerByPreservingAuthorizationRights",
-            "fileManagerWithAuthorizationToolPath:",
-            "fileURLWithPath:",
-            "getFileSystemRepresentation:maxLength:",
-            "hasPrefix:",
-            "init",
-            "initWithAuthorizationToolPath:",
-            "initWithData:encoding:",
-            "initWithFileDescriptor:closeOnDealloc:",
-            "initWithUTF8String:",
-            "isEqualToNumber:",
-            "isEqualToString:",
-            "isOperatingSystemAtLeastVersion:",
-            "lastPathComponent",
-            "launch",
-            "length",
-            "makeDirectoryAtURL:error:",
-            "makeTemporaryDirectoryWithPreferredName:appropriateForDirectoryURL:error:",
-            "moveItemAtURL:toURL:error:",
-            "mutableCopy",
-            "new",
-            "objectForKey:",
-            "operatingSystemVersion",
-            "parseLines:lineCallback:",
-            "path",
-            "pipe",
-            "processInfo",
-            "releaseItemFromQuarantineAtRootURL:error:",
-            "removeItemAtURL:error:",
-            "setArguments:",
-            "setLaunchPath:",
-            "setReadabilityHandler:",
-            "setStandardError:",
-            "setStandardOutput:",
-            "stringByAppendingFormat:",
-            "stringWithFormat:",
-            "stringWithUTF8String:",
-            "subdataWithRange:",
-            "substringFromIndex:",
-            "systemVersionString",
-            "terminationStatus",
-            "unsignedIntValue",
-            "updateModificationAndAccessTimeOfItemAtURL:error:",
-            "waitUntilExit"
-          ]
         },
         {
           "sectname": "__cstring",
@@ -343,6 +262,104 @@
           }
         },
         {
+          "sectname": "__objc_methname",
+          "segname": "__TEXT",
+          "size": 2201,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "cstring_literals",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          },
+          "data": [
+            "",
+            ".cxx_destruct",
+            "URLByAppendingPathComponent:",
+            "URLByDeletingLastPathComponent",
+            "URLForDirectory:inDomain:appropriateForURL:create:error:",
+            "_acquireAuthorizationWithError:",
+            "_auth",
+            "_authorizationToolPath",
+            "_authorizeAndExecuteCommand:sourcePath:destinationPath:error:",
+            "_authorizeAndExecuteCommand:sourcePath:destinationPath:lineCallback:error:",
+            "_changeOwnerAndGroupOfItemAtURL:ownerID:groupID:needsAuth:error:",
+            "_fileManager",
+            "_getVolumeID:ofItemAtURL:",
+            "_getXAttr:fromFile:options:",
+            "_itemExistsAtURL:",
+            "_itemExistsAtURL:isDirectory:",
+            "_releaseItemFromQuarantineAtRootURL:withQuarantineRetrieval:quarantineRemoval:isAccessError:error:",
+            "_removeQuarantineWithAuthenticationAtRootURL:error:",
+            "_removeXAttr:fromFile:options:",
+            "appendData:",
+            "arrayWithObjects:count:",
+            "attributesOfItemAtPath:error:",
+            "availableData",
+            "bytes",
+            "changeOwnerAndGroupOfItemAtRootURL:toMatchURL:error:",
+            "code",
+            "copy",
+            "copyItemAtURL:toURL:error:",
+            "countByEnumeratingWithState:objects:count:",
+            "createDirectoryAtURL:withIntermediateDirectories:attributes:error:",
+            "dealloc",
+            "defaultManager",
+            "dictionaryWithObjects:forKeys:count:",
+            "doubleValue",
+            "enumeratorAtURL:includingPropertiesForKeys:options:errorHandler:",
+            "errorWithDomain:code:userInfo:",
+            "executePackageAtURL:progressBlock:error:",
+            "fileExistsAtPath:",
+            "fileHandleWithStandardOutput",
+            "fileManagerByPreservingAuthorizationRights",
+            "fileManagerWithAuthorizationToolPath:",
+            "fileURLWithPath:",
+            "getFileSystemRepresentation:maxLength:",
+            "hasPrefix:",
+            "init",
+            "initWithAuthorizationToolPath:",
+            "initWithData:encoding:",
+            "initWithFileDescriptor:closeOnDealloc:",
+            "initWithUTF8String:",
+            "isEqualToNumber:",
+            "isEqualToString:",
+            "isOperatingSystemAtLeastVersion:",
+            "lastPathComponent",
+            "launch",
+            "length",
+            "makeDirectoryAtURL:error:",
+            "makeTemporaryDirectoryWithPreferredName:appropriateForDirectoryURL:error:",
+            "moveItemAtURL:toURL:error:",
+            "mutableCopy",
+            "new",
+            "objectForKey:",
+            "operatingSystemVersion",
+            "parseLines:lineCallback:",
+            "path",
+            "pipe",
+            "processInfo",
+            "releaseItemFromQuarantineAtRootURL:error:",
+            "removeItemAtURL:error:",
+            "setArguments:",
+            "setLaunchPath:",
+            "setReadabilityHandler:",
+            "setStandardError:",
+            "setStandardOutput:",
+            "stringByAppendingFormat:",
+            "stringWithFormat:",
+            "stringWithUTF8String:",
+            "subdataWithRange:",
+            "substringFromIndex:",
+            "systemVersionString",
+            "terminationStatus",
+            "unsignedIntValue",
+            "updateModificationAndAccessTimeOfItemAtURL:error:",
+            "waitUntilExit"
+          ]
+        },
+        {
           "sectname": "__objc_classname",
           "segname": "__TEXT",
           "size": 34,
@@ -377,7 +394,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 232,
+          "size": 248,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -394,7 +411,7 @@
       "name": "__DATA_CONST",
       "vmaddr": 4295016448,
       "vmsize": 16384,
-      "fileoff": 1056,
+      "fileoff": 1136,
       "filesize": 16384,
       "maxprot": {
         "read": true,
@@ -412,7 +429,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 120,
+          "size": 128,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -483,7 +500,7 @@
       "name": "__DATA",
       "vmaddr": 4295032832,
       "vmsize": 16384,
-      "fileoff": 1528,
+      "fileoff": 1608,
       "filesize": 16384,
       "maxprot": {
         "read": true,
@@ -501,7 +518,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 352,
+          "size": 344,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -615,7 +632,7 @@
       "name": "__LINKEDIT",
       "vmaddr": 4295049216,
       "vmsize": 32768,
-      "fileoff": 2240,
+      "fileoff": 2320,
       "filesize": 24256,
       "maxprot": {
         "read": true,
@@ -633,15 +650,15 @@
     },
     {
       "type": "dyld_info",
-      "fileoff": 2312
+      "fileoff": 2392
     },
     {
       "type": "symtab",
-      "symoff": 83984,
+      "symoff": 83992,
       "nsyms": 77,
       "stroff": 85632,
       "strsize": 1456,
-      "fileoff": 2360
+      "fileoff": 2440
     },
     {
       "type": "dysymtab",
@@ -657,59 +674,59 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 85216,
-      "nindirectsyms": 103,
+      "indirectsymoff": 85224,
+      "nindirectsyms": 102,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 2384
+      "fileoff": 2464
     },
     {
       "type": "load_dylinker",
       "cmd": "/usr/lib/dyld",
-      "fileoff": 2464
+      "fileoff": 2544
     },
     {
       "type": "uuid",
-      "fileoff": 2496
+      "fileoff": 2576
     },
     {
-      "fileoff": 2520
+      "fileoff": 2600
     },
     {
       "type": "source_version",
-      "fileoff": 2552
+      "fileoff": 2632
     },
     {
       "type": "main",
-      "entryoff": 15740,
+      "entryoff": 16828,
       "stacksize": 0,
-      "fileoff": 2568
+      "fileoff": 2648
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/AppKit.framework/Versions/C/AppKit",
       "timestamp": 2,
-      "current_version": 137825546,
+      "current_version": 162725888,
       "compatibility_version": 2949120,
-      "fileoff": 2592
+      "fileoff": 2672
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/Foundation.framework/Versions/C/Foundation",
       "timestamp": 2,
-      "current_version": 121438208,
+      "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 2680
+      "fileoff": 2760
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/Security.framework/Versions/A/Security",
       "timestamp": 2,
-      "current_version": 3942456845,
+      "current_version": 4000317699,
       "compatibility_version": 65536,
-      "fileoff": 2776
+      "fileoff": 2856
     },
     {
       "type": "load_dylib",
@@ -717,49 +734,49 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 2872
+      "fileoff": 2952
     },
     {
       "type": "load_dylib",
       "name": "/usr/lib/libSystem.B.dylib",
       "timestamp": 2,
-      "current_version": 85917696,
+      "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 2928
+      "fileoff": 3008
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreFoundation.framework/Versions/A/CoreFoundation",
       "timestamp": 2,
-      "current_version": 121438208,
+      "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 2984
+      "fileoff": 3064
     },
     {
       "type": "load_dylib",
       "name": "/System/Library/Frameworks/CoreServices.framework/Versions/A/CoreServices",
       "timestamp": 2,
-      "current_version": 74776832,
+      "current_version": 80347136,
       "compatibility_version": 65536,
-      "fileoff": 3088
+      "fileoff": 3168
     },
     {
       "type": "function_starts",
-      "dataoff": 83904,
+      "dataoff": 83912,
       "datasize": 80,
-      "fileoff": 3192
+      "fileoff": 3272
     },
     {
       "type": "data_in_code",
-      "dataoff": 83984,
+      "dataoff": 83992,
       "datasize": 0,
-      "fileoff": 3208
+      "fileoff": 3288
     },
     {
       "type": "code_signature",
       "dataoff": 87088,
       "datasize": 19088,
-      "fileoff": 3224
+      "fileoff": 3304
     }
   ],
   "hsize": 32
