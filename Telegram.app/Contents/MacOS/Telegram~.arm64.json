@@ -10154,7 +10154,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1551739,
+          "size": 1551803,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -39671,6 +39671,7 @@
             "_id_privacy_my_contacts",
             "_id_privacy_post_to_profile",
             "_id_privacy_select_users",
+            "_id_prize_description",
             "_id_receiver_all",
             "_id_receiver_new",
             "_id_recent_separator",
@@ -58962,6 +58963,7 @@
             "toggleSelected",
             "toggleSendAs",
             "toggleSensitiveContent",
+            "toggleShowWinners",
             "toggleSidebar",
             "toggleSignaturesDisposable",
             "toggleSpeaker",
@@ -75597,7 +75599,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 659376,
+          "size": 659396,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75671,7 +75673,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1914264,
+          "size": 1914344,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -75790,7 +75792,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1158824,
+          "size": 1158856,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75887,7 +75889,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 876738,
+          "size": 876770,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76030,9 +76032,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 65998984,
+      "symoff": 65998992,
       "nsyms": 3873,
-      "stroff": 66092376,
+      "stroff": 66092384,
       "strsize": 147984,
       "fileoff": 4600
     },
@@ -76050,7 +76052,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 66060952,
+      "indirectsymoff": 66060960,
       "nindirectsyms": 7856,
       "extreloff": 0,
       "nextrel": 0,
@@ -76813,12 +76815,12 @@
     {
       "type": "function_starts",
       "dataoff": 65682936,
-      "datasize": 316048,
+      "datasize": 316056,
       "fileoff": 12184
     },
     {
       "type": "data_in_code",
-      "dataoff": 65998984,
+      "dataoff": 65998992,
       "datasize": 0,
       "fileoff": 12200
     },
