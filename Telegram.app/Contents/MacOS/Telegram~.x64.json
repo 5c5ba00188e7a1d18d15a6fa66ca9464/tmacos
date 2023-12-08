@@ -75553,7 +75553,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 564608,
+          "size": 564624,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75655,7 +75655,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1908224,
+          "size": 1908320,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -75982,7 +75982,7 @@
       "vmaddr": 4369498112,
       "vmsize": 3932160,
       "fileoff": 4488,
-      "filesize": 3930352,
+      "filesize": 3930368,
       "maxprot": {
         "read": true,
         "write": false,
@@ -76003,9 +76003,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 75687304,
+      "symoff": 75687312,
       "nsyms": 4427,
-      "stroff": 75795152,
+      "stroff": 75795160,
       "strsize": 185104,
       "fileoff": 4608
     },
@@ -76023,7 +76023,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 75758136,
+      "indirectsymoff": 75758144,
       "nindirectsyms": 9253,
       "extreloff": 0,
       "nextrel": 0,
@@ -76052,7 +76052,7 @@
     },
     {
       "type": "main",
-      "entryoff": 13446048,
+      "entryoff": 13447344,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -76789,18 +76789,18 @@
     {
       "type": "function_starts",
       "dataoff": 75333048,
-      "datasize": 324760,
+      "datasize": 324768,
       "fileoff": 11984
     },
     {
       "type": "data_in_code",
-      "dataoff": 75657808,
+      "dataoff": 75657816,
       "datasize": 29496,
       "fileoff": 12000
     },
     {
       "type": "code_signature",
-      "dataoff": 75980256,
+      "dataoff": 75980272,
       "datasize": 613136,
       "fileoff": 12016
     }
