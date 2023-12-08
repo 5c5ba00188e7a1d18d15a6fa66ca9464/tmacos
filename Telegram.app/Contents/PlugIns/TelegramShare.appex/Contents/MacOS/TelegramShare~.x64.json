@@ -3232,7 +3232,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 661105,
+          "size": 661185,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11966,6 +11966,7 @@
             "StorageUsage.TelegramUsage.Empty.Peer",
             "StorageUsage.TelegramUsage.Text",
             "StorageUsage.TelegramUsage.Text.Peer",
+            "Story.Alert.NoReactions.Channels",
             "Story.Alert.NoViews",
             "Story.Alert.ViewsExpired",
             "Story.AvatarContext.OpenChannel",
@@ -12132,6 +12133,7 @@
             "StoryViewers.ReactionsFirst",
             "StoryViewers.RecentFirst",
             "StoryViewers.Viewers",
+            "StoryViews.Title.Channel",
             "StoryViews.Title_ZeroValueHolder",
             "StoryViews.Title_countable",
             "StoryViews.Title_few",
@@ -21597,7 +21599,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231207)",
+            "mozjpeg version 4.1.4 (build 20231208)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -38047,7 +38049,7 @@
       "vmaddr": 4324245504,
       "vmsize": 2768896,
       "fileoff": 4088,
-      "filesize": 2757968,
+      "filesize": 2758048,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38068,9 +38070,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 31012672,
+      "symoff": 31012760,
       "nsyms": 6671,
-      "stroff": 31141304,
+      "stroff": 31141392,
       "strsize": 155760,
       "fileoff": 4208
     },
@@ -38088,7 +38090,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 31119408,
+      "indirectsymoff": 31119496,
       "nindirectsyms": 5474,
       "extreloff": 0,
       "nextrel": 0,
@@ -38514,19 +38516,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30858560,
-      "datasize": 154112,
+      "dataoff": 30858640,
+      "datasize": 154120,
       "fileoff": 8008
     },
     {
       "type": "data_in_code",
-      "dataoff": 31012672,
+      "dataoff": 31012760,
       "datasize": 0,
       "fileoff": 8024
     },
     {
       "type": "code_signature",
-      "dataoff": 31297072,
+      "dataoff": 31297152,
       "datasize": 263968,
       "fileoff": 8040
     }
