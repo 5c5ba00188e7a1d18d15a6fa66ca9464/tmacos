@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20287284,
+          "size": 20291380,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 661339,
+          "size": 661355,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3262,7 +3262,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 667294,
+          "size": 667518,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -8324,6 +8324,7 @@
             "Icon_ChannelFeature_Background",
             "Icon_ChannelFeature_BackgroundPhoto",
             "Icon_ChannelFeature_CoverColor",
+            "Icon_ChannelFeature_CoverIcon",
             "Icon_ChannelFeature_LinkColor",
             "Icon_ChannelFeature_LinkIcon",
             "Icon_ChannelFeature_NameColor",
@@ -10499,6 +10500,7 @@
             "Premium.Boarding.NoAds.Title",
             "Premium.Boarding.Payment.NotAvailalbe",
             "Premium.Boarding.Peer.Gift.Info",
+            "Premium.Boarding.Peer.Gift.LinkInfo",
             "Premium.Boarding.Peer.Gift.Title",
             "Premium.Boarding.Peer.Gift.You.Info",
             "Premium.Boarding.Peer.Gift.You.Title",
@@ -10585,6 +10587,8 @@
             "Premium.Restore.ErrorUnknown",
             "Premium.Restore.Success",
             "Premium.WhatsIncluded",
+            "PremiumBoarding.ActivateForFree",
+            "PremiumBoarding.ActivateForFree.Already",
             "PremiumBoarding.Stories.ExpirationDuration.Info",
             "PremiumBoarding.Stories.ExpirationDuration.Title",
             "PremiumBoarding.Stories.LinkFormatting.Info",
@@ -15000,6 +15004,7 @@
             "_channel_feature_background",
             "_channel_feature_background_photo",
             "_channel_feature_cover_color",
+            "_channel_feature_cover_icon",
             "_channel_feature_link_color",
             "_channel_feature_link_icon",
             "_channel_feature_name_color",
@@ -17212,6 +17217,7 @@
             "channel_feature_background",
             "channel_feature_background_photo",
             "channel_feature_cover_color",
+            "channel_feature_cover_icon",
             "channel_feature_link_color",
             "channel_feature_link_icon",
             "channel_feature_name_color",
@@ -21778,7 +21784,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231221)",
+            "mozjpeg version 4.1.4 (build 20231222)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -25803,7 +25809,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 198335,
+          "size": 198399,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -26512,6 +26518,7 @@
             "_channel_feature_background",
             "_channel_feature_background_photo",
             "_channel_feature_cover_color",
+            "_channel_feature_cover_icon",
             "_channel_feature_link_color",
             "_channel_feature_link_icon",
             "_channel_feature_name_color",
@@ -30996,6 +31003,7 @@
             "icon",
             "icon",
             "icon",
+            "iconChannelStatusEmoji",
             "iconColor",
             "iconColor",
             "iconColor",
@@ -37525,7 +37533,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 217508,
+          "size": 217532,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37551,7 +37559,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 210636,
+          "size": 210984,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37917,7 +37925,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 265448,
+          "size": 265456,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37995,7 +38003,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 936824,
+          "size": 937464,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38114,7 +38122,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 440776,
+          "size": 440808,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38213,7 +38221,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 324986,
+          "size": 325002,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38324,7 +38332,7 @@
       "vmaddr": 4320804864,
       "vmsize": 2768896,
       "fileoff": 4160,
-      "filesize": 2762288,
+      "filesize": 2762832,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38345,9 +38353,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27605584,
+      "symoff": 27606128,
       "nsyms": 6665,
-      "stroff": 27731584,
+      "stroff": 27732128,
       "strsize": 155792,
       "fileoff": 4280
     },
@@ -38365,7 +38373,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27712224,
+      "indirectsymoff": 27712768,
       "nindirectsyms": 4839,
       "extreloff": 0,
       "nextrel": 0,
@@ -38788,19 +38796,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27451352,
-      "datasize": 154232,
+      "dataoff": 27451832,
+      "datasize": 154296,
       "fileoff": 8240
     },
     {
       "type": "data_in_code",
-      "dataoff": 27605584,
+      "dataoff": 27606128,
       "datasize": 0,
       "fileoff": 8256
     },
     {
       "type": "code_signature",
-      "dataoff": 27887376,
+      "dataoff": 27887920,
       "datasize": 237344,
       "fileoff": 8272
     }

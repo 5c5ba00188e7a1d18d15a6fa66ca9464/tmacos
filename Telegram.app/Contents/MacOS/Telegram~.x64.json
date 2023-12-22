@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 66666496,
+      "vmsize": 66699264,
       "fileoff": 104,
-      "filesize": 66666496,
+      "filesize": 66699264,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 60395600,
+          "size": 60416080,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10131,7 +10131,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1562071,
+          "size": 1562295,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -23325,7 +23325,6 @@
             "GhostWhite",
             "GifsPane.Reactions",
             "GifsPane.Trending",
-            "Gift Telegram Premium",
             "GiftLink.Info.NotUsed",
             "GiftLink.Info.NotUsed.Info",
             "GiftLink.Info.Used",
@@ -23899,6 +23898,7 @@
             "Icon_ChannelFeature_Background",
             "Icon_ChannelFeature_BackgroundPhoto",
             "Icon_ChannelFeature_CoverColor",
+            "Icon_ChannelFeature_CoverIcon",
             "Icon_ChannelFeature_LinkColor",
             "Icon_ChannelFeature_LinkIcon",
             "Icon_ChannelFeature_NameColor",
@@ -27913,6 +27913,7 @@
             "Premium.Boarding.NoAds.Title",
             "Premium.Boarding.Payment.NotAvailalbe",
             "Premium.Boarding.Peer.Gift.Info",
+            "Premium.Boarding.Peer.Gift.LinkInfo",
             "Premium.Boarding.Peer.Gift.Title",
             "Premium.Boarding.Peer.Gift.You.Info",
             "Premium.Boarding.Peer.Gift.You.Title",
@@ -27999,6 +28000,8 @@
             "Premium.Restore.ErrorUnknown",
             "Premium.Restore.Success",
             "Premium.WhatsIncluded",
+            "PremiumBoarding.ActivateForFree",
+            "PremiumBoarding.ActivateForFree.Already",
             "PremiumBoarding.Stories.ExpirationDuration.Info",
             "PremiumBoarding.Stories.ExpirationDuration.Title",
             "PremiumBoarding.Stories.LinkFormatting.Info",
@@ -39098,6 +39101,7 @@
             "_channel_feature_background",
             "_channel_feature_background_photo",
             "_channel_feature_cover_color",
+            "_channel_feature_cover_icon",
             "_channel_feature_link_color",
             "_channel_feature_link_icon",
             "_channel_feature_name_color",
@@ -43031,6 +43035,7 @@
             "channel_feature_background",
             "channel_feature_background_photo",
             "channel_feature_cover_color",
+            "channel_feature_cover_icon",
             "channel_feature_link_color",
             "channel_feature_link_icon",
             "channel_feature_name_color",
@@ -52050,7 +52055,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231221)",
+            "mozjpeg version 4.1.4 (build 20231222)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -54389,6 +54394,7 @@
             "premium_gift_text_field_icon",
             "premium_invoice_slug",
             "premium_lock_gray",
+            "premium_multigift",
             "premium_promo_order",
             "premium_purchase_blocked",
             "premium_reaction_lock",
@@ -61746,7 +61752,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 450028,
+          "size": 450036,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -61811,7 +61817,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 217860,
+          "size": 217924,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -62538,6 +62544,7 @@
             "_channel_feature_background",
             "_channel_feature_background_photo",
             "_channel_feature_cover_color",
+            "_channel_feature_cover_icon",
             "_channel_feature_link_color",
             "_channel_feature_link_icon",
             "_channel_feature_name_color",
@@ -67480,6 +67487,7 @@
             "icon",
             "icon",
             "icon",
+            "iconChannelStatusEmoji",
             "iconColor",
             "iconColor",
             "iconColor",
@@ -74683,7 +74691,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 233480,
+          "size": 233504,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75752,7 +75760,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 216272,
+          "size": 216620,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75830,7 +75838,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 566804,
+          "size": 566856,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75858,7 +75866,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4361633792,
+      "vmaddr": 4361666560,
       "vmsize": 8306688,
       "fileoff": 2176,
       "filesize": 6438912,
@@ -75932,7 +75940,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1916096,
+          "size": 1916960,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76014,7 +76022,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1323784,
+          "size": 1323880,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76098,7 +76106,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1947232,
+          "size": 1947240,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76111,7 +76119,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 885413,
+          "size": 885573,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76256,10 +76264,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4369940480,
+      "vmaddr": 4369973248,
       "vmsize": 3964928,
       "fileoff": 4488,
-      "filesize": 3953088,
+      "filesize": 3953952,
       "maxprot": {
         "read": true,
         "write": false,
@@ -76280,9 +76288,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 76148728,
+      "symoff": 76182104,
       "nsyms": 4427,
-      "stroff": 76256640,
+      "stroff": 76290016,
       "strsize": 185104,
       "fileoff": 4608
     },
@@ -76300,7 +76308,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 76219560,
+      "indirectsymoff": 76252936,
       "nindirectsyms": 9270,
       "extreloff": 0,
       "nextrel": 0,
@@ -76329,7 +76337,7 @@
     },
     {
       "type": "main",
-      "entryoff": 13594976,
+      "entryoff": 13615968,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -77065,20 +77073,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 75792976,
-      "datasize": 326008,
+      "dataoff": 75826256,
+      "datasize": 326104,
       "fileoff": 11984
     },
     {
       "type": "data_in_code",
-      "dataoff": 76118984,
+      "dataoff": 76152360,
       "datasize": 29744,
       "fileoff": 12000
     },
     {
       "type": "code_signature",
-      "dataoff": 76441744,
-      "datasize": 616752,
+      "dataoff": 76475120,
+      "datasize": 617008,
       "fileoff": 12016
     }
   ],
