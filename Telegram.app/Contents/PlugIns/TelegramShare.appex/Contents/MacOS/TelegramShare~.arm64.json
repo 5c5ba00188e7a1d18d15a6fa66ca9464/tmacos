@@ -3262,7 +3262,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 669022,
+          "size": 669134,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -4781,6 +4781,8 @@
             "Bogus parameter value",
             "Bogus sampling factors",
             "Bogus virtual array access",
+            "Boost.Badge.Level",
+            "Boost.Badge.LevelPLus",
             "Boost.GiftToGetMore.Info",
             "Boost.GiftToGetMore.Title",
             "BoostGift.AdditionalPrizes",
@@ -5363,6 +5365,7 @@
             "Channel.EventLog.MessageChangedNameColorSet.New",
             "Channel.EventLog.MessageChangedUnlinkedChannel",
             "Channel.EventLog.MessageChangedUnlinkedGroup",
+            "Channel.EventLog.MessageChangedWallpaper",
             "Channel.EventLog.MessageRankName",
             "Channel.EventLog.MessageToggleNoForwardsOff",
             "Channel.EventLog.MessageToggleNoForwardsOn",
@@ -21813,7 +21816,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231222)",
+            "mozjpeg version 4.1.4 (build 20231223)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -38360,7 +38363,7 @@
       "vmaddr": 4320821248,
       "vmsize": 2768896,
       "fileoff": 4160,
-      "filesize": 2764304,
+      "filesize": 2764432,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38381,9 +38384,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27623856,
+      "symoff": 27623976,
       "nsyms": 6665,
-      "stroff": 27749856,
+      "stroff": 27749976,
       "strsize": 155792,
       "fileoff": 4280
     },
@@ -38401,7 +38404,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27730496,
+      "indirectsymoff": 27730616,
       "nindirectsyms": 4840,
       "extreloff": 0,
       "nextrel": 0,
@@ -38824,19 +38827,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27469520,
+      "dataoff": 27469640,
       "datasize": 154336,
       "fileoff": 8240
     },
     {
       "type": "data_in_code",
-      "dataoff": 27623856,
+      "dataoff": 27623976,
       "datasize": 0,
       "fileoff": 8256
     },
     {
       "type": "code_signature",
-      "dataoff": 27905648,
+      "dataoff": 27905776,
       "datasize": 237472,
       "fileoff": 8272
     }
