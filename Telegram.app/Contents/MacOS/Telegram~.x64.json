@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 66715648,
+      "vmsize": 66764800,
       "fileoff": 104,
-      "filesize": 66715648,
+      "filesize": 66764800,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 60440656,
+          "size": 60477520,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 296179,
+          "size": 296221,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10128,7 +10128,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1564151,
+          "size": 1564183,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -48222,6 +48222,7 @@
             "https://t.me/addstickers/",
             "https://t.me/addtheme/",
             "https://t.me/bg/",
+            "https://t.me/stickers",
             "https://telegram.org",
             "https://telegram.org/faq#general-questions",
             "https://telegram.org/faq/",
@@ -52089,7 +52090,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20231223)",
+            "mozjpeg version 4.1.4 (build 20231225)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -61784,7 +61785,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 450148,
+          "size": 450184,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -61797,7 +61798,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 25608,
+          "size": 25612,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -61810,7 +61811,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 25456,
+          "size": 25460,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75870,7 +75871,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 566856,
+          "size": 568652,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -75883,7 +75884,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 165048,
+          "size": 165104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -75898,8 +75899,8 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4361682944,
-      "vmsize": 8306688,
+      "vmaddr": 4361732096,
+      "vmsize": 8323072,
       "fileoff": 2176,
       "filesize": 6438912,
       "maxprot": {
@@ -75972,7 +75973,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1916864,
+          "size": 1918368,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76151,7 +76152,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 886053,
+          "size": 886149,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76268,7 +76269,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1210704,
+          "size": 1210832,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76296,10 +76297,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4369989632,
+      "vmaddr": 4370055168,
       "vmsize": 3964928,
       "fileoff": 4488,
-      "filesize": 3955808,
+      "filesize": 3956400,
       "maxprot": {
         "read": true,
         "write": false,
@@ -76320,9 +76321,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 76200176,
+      "symoff": 76249536,
       "nsyms": 4427,
-      "stroff": 76308088,
+      "stroff": 76357448,
       "strsize": 185104,
       "fileoff": 4608
     },
@@ -76340,7 +76341,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 76271008,
+      "indirectsymoff": 76320368,
       "nindirectsyms": 9270,
       "extreloff": 0,
       "nextrel": 0,
@@ -76369,7 +76370,7 @@
     },
     {
       "type": "main",
-      "entryoff": 13614816,
+      "entryoff": 13664560,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -76383,11 +76384,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "@rpath/libswiftAppKit.dylib",
+      "timestamp": 2,
+      "current_version": 65601618,
+      "compatibility_version": 65536,
+      "fileoff": 4872
+    },
+    {
+      "type": "load_dylib",
       "name": "/System/Library/Frameworks/SceneKit.framework/Versions/A/SceneKit",
       "timestamp": 2,
       "current_version": 39256064,
       "compatibility_version": 65536,
-      "fileoff": 4872
+      "fileoff": 4928
     },
     {
       "type": "load_dylib",
@@ -76395,7 +76404,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 0,
-      "fileoff": 4968
+      "fileoff": 5024
     },
     {
       "type": "load_dylib",
@@ -76403,7 +76412,7 @@
       "timestamp": 2,
       "current_version": 11141120,
       "compatibility_version": 131072,
-      "fileoff": 5064
+      "fileoff": 5120
     },
     {
       "type": "load_dylib",
@@ -76411,7 +76420,7 @@
       "timestamp": 2,
       "current_version": 40370459,
       "compatibility_version": 65536,
-      "fileoff": 5152
+      "fileoff": 5208
     },
     {
       "type": "load_dylib",
@@ -76419,7 +76428,7 @@
       "timestamp": 2,
       "current_version": 65544,
       "compatibility_version": 65536,
-      "fileoff": 5240
+      "fileoff": 5296
     },
     {
       "type": "load_dylib",
@@ -76427,7 +76436,7 @@
       "timestamp": 2,
       "current_version": 10420224,
       "compatibility_version": 65536,
-      "fileoff": 5296
+      "fileoff": 5352
     },
     {
       "type": "load_dylib",
@@ -76435,7 +76444,7 @@
       "timestamp": 2,
       "current_version": 22351872,
       "compatibility_version": 65536,
-      "fileoff": 5392
+      "fileoff": 5448
     },
     {
       "type": "load_weak_dylib",
@@ -76443,7 +76452,7 @@
       "timestamp": 2,
       "current_version": 148638208,
       "compatibility_version": 65536,
-      "fileoff": 5480
+      "fileoff": 5536
     },
     {
       "type": "load_weak_dylib",
@@ -76451,7 +76460,7 @@
       "timestamp": 2,
       "current_version": 70912,
       "compatibility_version": 67072,
-      "fileoff": 5584
+      "fileoff": 5640
     },
     {
       "type": "load_dylib",
@@ -76459,7 +76468,7 @@
       "timestamp": 2,
       "current_version": 236847360,
       "compatibility_version": 0,
-      "fileoff": 5656
+      "fileoff": 5712
     },
     {
       "type": "load_dylib",
@@ -76467,7 +76476,7 @@
       "timestamp": 2,
       "current_version": 68352,
       "compatibility_version": 66048,
-      "fileoff": 5752
+      "fileoff": 5808
     },
     {
       "type": "load_dylib",
@@ -76475,7 +76484,7 @@
       "timestamp": 2,
       "current_version": 4000317699,
       "compatibility_version": 65536,
-      "fileoff": 5848
+      "fileoff": 5904
     },
     {
       "type": "load_dylib",
@@ -76483,7 +76492,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 5944
+      "fileoff": 6000
     },
     {
       "type": "load_dylib",
@@ -76491,7 +76500,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 6048
+      "fileoff": 6104
     },
     {
       "type": "load_dylib",
@@ -76499,7 +76508,7 @@
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 6144
+      "fileoff": 6200
     },
     {
       "type": "load_dylib",
@@ -76507,7 +76516,7 @@
       "timestamp": 2,
       "current_version": 458752,
       "compatibility_version": 458752,
-      "fileoff": 6192
+      "fileoff": 6248
     },
     {
       "type": "load_dylib",
@@ -76515,7 +76524,7 @@
       "timestamp": 2,
       "current_version": 162725888,
       "compatibility_version": 2949120,
-      "fileoff": 6248
+      "fileoff": 6304
     },
     {
       "type": "load_dylib",
@@ -76523,7 +76532,7 @@
       "timestamp": 2,
       "current_version": 91160580,
       "compatibility_version": 65536,
-      "fileoff": 6336
+      "fileoff": 6392
     },
     {
       "type": "load_dylib",
@@ -76531,7 +76540,7 @@
       "timestamp": 2,
       "current_version": 80347136,
       "compatibility_version": 65536,
-      "fileoff": 6448
+      "fileoff": 6504
     },
     {
       "type": "load_dylib",
@@ -76539,7 +76548,7 @@
       "timestamp": 2,
       "current_version": 66816,
       "compatibility_version": 66048,
-      "fileoff": 6552
+      "fileoff": 6608
     },
     {
       "type": "load_dylib",
@@ -76547,7 +76556,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6648
+      "fileoff": 6704
     },
     {
       "type": "load_dylib",
@@ -76555,7 +76564,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 6744
+      "fileoff": 6800
     },
     {
       "type": "load_dylib",
@@ -76563,7 +76572,7 @@
       "timestamp": 2,
       "current_version": 18022400,
       "compatibility_version": 65536,
-      "fileoff": 6832
+      "fileoff": 6888
     },
     {
       "type": "load_dylib",
@@ -76571,7 +76580,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 6920
+      "fileoff": 6976
     },
     {
       "type": "load_dylib",
@@ -76579,7 +76588,7 @@
       "timestamp": 2,
       "current_version": 40370459,
       "compatibility_version": 65536,
-      "fileoff": 7016
+      "fileoff": 7072
     },
     {
       "type": "load_dylib",
@@ -76587,7 +76596,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 7120
+      "fileoff": 7176
     },
     {
       "type": "load_dylib",
@@ -76595,7 +76604,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7208
+      "fileoff": 7264
     },
     {
       "type": "load_dylib",
@@ -76603,7 +76612,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 7296
+      "fileoff": 7352
     },
     {
       "type": "load_dylib",
@@ -76611,7 +76620,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 7392
+      "fileoff": 7448
     },
     {
       "type": "load_dylib",
@@ -76619,7 +76628,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 7496
+      "fileoff": 7552
     },
     {
       "type": "load_dylib",
@@ -76627,7 +76636,7 @@
       "timestamp": 2,
       "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 7552
+      "fileoff": 7608
     },
     {
       "type": "load_dylib",
@@ -76635,7 +76644,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7608
+      "fileoff": 7664
     },
     {
       "type": "load_dylib",
@@ -76643,7 +76652,7 @@
       "timestamp": 2,
       "current_version": 4194304,
       "compatibility_version": 65536,
-      "fileoff": 7696
+      "fileoff": 7752
     },
     {
       "type": "load_dylib",
@@ -76651,7 +76660,7 @@
       "timestamp": 2,
       "current_version": 65536000,
       "compatibility_version": 65536,
-      "fileoff": 7808
+      "fileoff": 7864
     },
     {
       "type": "load_dylib",
@@ -76659,7 +76668,7 @@
       "timestamp": 2,
       "current_version": 96600064,
       "compatibility_version": 65536,
-      "fileoff": 7912
+      "fileoff": 7968
     },
     {
       "type": "load_dylib",
@@ -76667,7 +76676,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8008
+      "fileoff": 8064
     },
     {
       "type": "load_dylib",
@@ -76675,7 +76684,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 8104
+      "fileoff": 8160
     },
     {
       "type": "load_dylib",
@@ -76683,7 +76692,7 @@
       "timestamp": 2,
       "current_version": 116260868,
       "compatibility_version": 4194304,
-      "fileoff": 8208
+      "fileoff": 8264
     },
     {
       "type": "load_dylib",
@@ -76691,7 +76700,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65537,
-      "fileoff": 8312
+      "fileoff": 8368
     },
     {
       "type": "load_dylib",
@@ -76699,7 +76708,7 @@
       "timestamp": 2,
       "current_version": 189137667,
       "compatibility_version": 65536,
-      "fileoff": 8408
+      "fileoff": 8464
     },
     {
       "type": "load_dylib",
@@ -76707,7 +76716,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8512
+      "fileoff": 8568
     },
     {
       "type": "load_dylib",
@@ -76715,7 +76724,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8608
+      "fileoff": 8664
     },
     {
       "type": "load_dylib",
@@ -76723,7 +76732,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8704
+      "fileoff": 8760
     },
     {
       "type": "load_weak_dylib",
@@ -76731,7 +76740,7 @@
       "timestamp": 2,
       "current_version": 15401472,
       "compatibility_version": 65536,
-      "fileoff": 8792
+      "fileoff": 8848
     },
     {
       "type": "load_dylib",
@@ -76739,7 +76748,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8904
+      "fileoff": 8960
     },
     {
       "type": "load_weak_dylib",
@@ -76747,7 +76756,7 @@
       "timestamp": 2,
       "current_version": 7471104,
       "compatibility_version": 65536,
-      "fileoff": 9000
+      "fileoff": 9056
     },
     {
       "type": "load_weak_dylib",
@@ -76755,7 +76764,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9104
+      "fileoff": 9160
     },
     {
       "type": "load_weak_dylib",
@@ -76763,7 +76772,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9192
+      "fileoff": 9248
     },
     {
       "type": "load_dylib",
@@ -76771,7 +76780,7 @@
       "timestamp": 2,
       "current_version": 24838144,
       "compatibility_version": 65536,
-      "fileoff": 9280
+      "fileoff": 9336
     },
     {
       "type": "load_dylib",
@@ -76779,7 +76788,7 @@
       "timestamp": 2,
       "current_version": 84934657,
       "compatibility_version": 65536,
-      "fileoff": 9376
+      "fileoff": 9432
     },
     {
       "type": "load_weak_dylib",
@@ -76787,7 +76796,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9488
+      "fileoff": 9544
     },
     {
       "type": "load_dylib",
@@ -76795,7 +76804,7 @@
       "timestamp": 2,
       "current_version": 458797,
       "compatibility_version": 65536,
-      "fileoff": 9600
+      "fileoff": 9656
     },
     {
       "type": "load_dylib",
@@ -76803,7 +76812,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9688
+      "fileoff": 9744
     },
     {
       "type": "load_weak_dylib",
@@ -76811,7 +76820,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 9744
+      "fileoff": 9800
     },
     {
       "type": "load_weak_dylib",
@@ -76819,7 +76828,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 9816
+      "fileoff": 9872
     },
     {
       "type": "load_weak_dylib",
@@ -76827,7 +76836,7 @@
       "timestamp": 2,
       "current_version": 123011140,
       "compatibility_version": 65536,
-      "fileoff": 9880
+      "fileoff": 9936
     },
     {
       "type": "load_weak_dylib",
@@ -76835,7 +76844,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 9944
+      "fileoff": 10000
     },
     {
       "type": "load_weak_dylib",
@@ -76843,7 +76852,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 10016
+      "fileoff": 10072
     },
     {
       "type": "load_weak_dylib",
@@ -76851,7 +76860,7 @@
       "timestamp": 2,
       "current_version": 101057536,
       "compatibility_version": 65536,
-      "fileoff": 10080
+      "fileoff": 10136
     },
     {
       "type": "load_weak_dylib",
@@ -76859,7 +76868,7 @@
       "timestamp": 2,
       "current_version": 64618496,
       "compatibility_version": 65536,
-      "fileoff": 10144
+      "fileoff": 10200
     },
     {
       "type": "load_weak_dylib",
@@ -76867,7 +76876,7 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 10216
+      "fileoff": 10272
     },
     {
       "type": "load_weak_dylib",
@@ -76875,7 +76884,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10296
+      "fileoff": 10352
     },
     {
       "type": "load_weak_dylib",
@@ -76883,7 +76892,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 10360
+      "fileoff": 10416
     },
     {
       "type": "load_weak_dylib",
@@ -76891,7 +76900,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 10424
+      "fileoff": 10480
     },
     {
       "type": "load_dylib",
@@ -76899,7 +76908,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 10480
+      "fileoff": 10536
     },
     {
       "type": "load_dylib",
@@ -76907,7 +76916,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 10536
+      "fileoff": 10592
     },
     {
       "type": "load_dylib",
@@ -76915,7 +76924,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 10592
+      "fileoff": 10648
     },
     {
       "type": "load_dylib",
@@ -76923,7 +76932,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 10656
+      "fileoff": 10712
     },
     {
       "type": "load_weak_dylib",
@@ -76931,7 +76940,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 10720
+      "fileoff": 10776
     },
     {
       "type": "load_weak_dylib",
@@ -76939,7 +76948,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 10776
+      "fileoff": 10832
     },
     {
       "type": "load_dylib",
@@ -76947,7 +76956,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 10840
+      "fileoff": 10896
     },
     {
       "type": "load_dylib",
@@ -76955,7 +76964,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10896
+      "fileoff": 10952
     },
     {
       "type": "load_dylib",
@@ -76963,7 +76972,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 10952
+      "fileoff": 11008
     },
     {
       "type": "load_weak_dylib",
@@ -76971,7 +76980,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 11008
+      "fileoff": 11064
     },
     {
       "type": "load_weak_dylib",
@@ -76979,7 +76988,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11064
+      "fileoff": 11120
     },
     {
       "type": "load_weak_dylib",
@@ -76987,7 +76996,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11120
+      "fileoff": 11176
     },
     {
       "type": "load_weak_dylib",
@@ -76995,7 +77004,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 11176
+      "fileoff": 11232
     },
     {
       "type": "load_weak_dylib",
@@ -77003,7 +77012,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11232
+      "fileoff": 11288
     },
     {
       "type": "load_weak_dylib",
@@ -77011,7 +77020,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11288
+      "fileoff": 11344
     },
     {
       "type": "load_weak_dylib",
@@ -77019,7 +77028,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11344
+      "fileoff": 11400
     },
     {
       "type": "load_dylib",
@@ -77027,7 +77036,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 11408
+      "fileoff": 11464
     },
     {
       "type": "load_dylib",
@@ -77035,7 +77044,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11464
+      "fileoff": 11520
     },
     {
       "type": "load_dylib",
@@ -77043,7 +77052,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11520
+      "fileoff": 11576
     },
     {
       "type": "load_weak_dylib",
@@ -77051,7 +77060,7 @@
       "timestamp": 2,
       "current_version": 196611,
       "compatibility_version": 65536,
-      "fileoff": 11576
+      "fileoff": 11632
     },
     {
       "type": "load_weak_dylib",
@@ -77059,7 +77068,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 11632
+      "fileoff": 11688
     },
     {
       "type": "load_weak_dylib",
@@ -77067,7 +77076,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 11688
+      "fileoff": 11744
     },
     {
       "type": "load_weak_dylib",
@@ -77075,14 +77084,6 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 11736
-    },
-    {
-      "type": "load_dylib",
-      "name": "@rpath/libswiftAppKit.dylib",
-      "timestamp": 2,
-      "current_version": 162725888,
-      "compatibility_version": 2949120,
       "fileoff": 11792
     },
     {
@@ -77105,20 +77106,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 75844248,
-      "datasize": 326176,
+      "dataoff": 75893424,
+      "datasize": 326360,
       "fileoff": 11984
     },
     {
       "type": "data_in_code",
-      "dataoff": 76170424,
+      "dataoff": 76219784,
       "datasize": 29752,
       "fileoff": 12000
     },
     {
       "type": "code_signature",
-      "dataoff": 76493200,
-      "datasize": 617168,
+      "dataoff": 76542560,
+      "datasize": 617552,
       "fileoff": 12016
     }
   ],
