@@ -43,7 +43,7 @@
 		</dict>
 	</array>
 	<key>CFBundleVersion</key>
-	<string>257123</string>
+	<string>257769</string>
 	<key>DTCompiler</key>
 	<string>com.apple.compilers.llvm.clang.1_0</string>
 	<key>DTPlatformBuild</key>
@@ -75,6 +75,8 @@
 	</dict>
 	<key>NSCameraUsageDescription</key>
 	<string>We need access to your camera so that you can record video messages.</string>
+	<key>NSDownloadsFolderUsageDescription</key>
+	<string>We need access to your Downloads folder so that you can save files from chats.</string>
 	<key>NSHumanReadableCopyright</key>
 	<string>Copyright © 2016 Telegram. All rights reserved.</string>
 	<key>NSLocationAlwaysUsageDescription</key>
