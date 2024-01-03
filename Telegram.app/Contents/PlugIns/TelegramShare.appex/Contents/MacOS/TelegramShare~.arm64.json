@@ -136,7 +136,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 40312,
+          "size": 40232,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 663163,
+          "size": 663275,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3262,7 +3262,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 671662,
+          "size": 671638,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12479,7 +12479,6 @@
             "TGUIKit.Popover",
             "TGUIKit.ProgressModalController",
             "TGUIKit.RadialProgressContainerView",
-            "TGUIKit.RadialProgressOverlayLayer",
             "TGUIKit.RadialProgressParameters",
             "TGUIKit.RadialProgressView",
             "TGUIKit.RevealTableItemController",
@@ -16720,6 +16719,7 @@
             "bad type",
             "bad version number",
             "bad x509 filetype",
+            "badge",
             "badgeBackgroundColor",
             "badgeColor",
             "badgeMutedBackgroundColor",
@@ -23570,6 +23570,8 @@
             "rootPath",
             "rootViewController",
             "rotate",
+            "rotation",
+            "rotator",
             "round",
             "roundCorners",
             "row",
@@ -25882,7 +25884,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 188632,
+          "size": 188736,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -25895,7 +25897,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 227143,
+          "size": 227133,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -25908,7 +25910,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 199455,
+          "size": 199503,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -28231,6 +28233,7 @@
             "backward",
             "badge",
             "badge",
+            "badge",
             "badgeBackgroundColor",
             "badgeColor",
             "badgeEnabled",
@@ -28310,6 +28313,7 @@
             "bitmapInfo",
             "bitsPerComponent",
             "bitsPerPixel",
+            "blendMode",
             "blobColor",
             "blockHeaderRects",
             "blockId",
@@ -29808,6 +29812,7 @@
             "dismissed",
             "dispatchRange",
             "dispatchWhenVisibleRangeUpdated",
+            "display",
             "displayAlerts",
             "displayAlertsPipe",
             "displayAnimator",
@@ -35254,6 +35259,8 @@
             "rootViewController",
             "rotation",
             "rotation",
+            "rotation",
+            "rotator",
             "roundCorners",
             "roundingBehavior",
             "rowAlignment",
@@ -37689,7 +37696,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 218864,
+          "size": 218924,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37715,7 +37722,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 211716,
+          "size": 211748,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37728,7 +37735,7 @@
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 13952,
+          "size": 13976,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -37741,7 +37748,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 19224,
+          "size": 19228,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38081,7 +38088,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 266600,
+          "size": 266584,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38133,7 +38140,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 17160,
+          "size": 17152,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38159,7 +38166,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 940040,
+          "size": 940032,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38278,7 +38285,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 444904,
+          "size": 445104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38364,7 +38371,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 240048,
+          "size": 239568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38377,7 +38384,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 327818,
+          "size": 328202,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38457,7 +38464,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 476472,
+          "size": 476600,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -38488,7 +38495,7 @@
       "vmaddr": 4320985088,
       "vmsize": 2785280,
       "fileoff": 4160,
-      "filesize": 2778240,
+      "filesize": 2778528,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38509,9 +38516,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27783472,
+      "symoff": 27783728,
       "nsyms": 6674,
-      "stroff": 27909744,
+      "stroff": 27909992,
       "strsize": 156048,
       "fileoff": 4280
     },
@@ -38529,8 +38536,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27890256,
-      "nindirectsyms": 4871,
+      "indirectsymoff": 27890512,
+      "nindirectsyms": 4870,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -38960,20 +38967,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27628432,
+      "dataoff": 27628688,
       "datasize": 155040,
       "fileoff": 8336
     },
     {
       "type": "data_in_code",
-      "dataoff": 27783472,
+      "dataoff": 27783728,
       "datasize": 0,
       "fileoff": 8352
     },
     {
       "type": "code_signature",
-      "dataoff": 28065792,
-      "datasize": 238720,
+      "dataoff": 28066048,
+      "datasize": 238752,
       "fileoff": 8368
     }
   ],
