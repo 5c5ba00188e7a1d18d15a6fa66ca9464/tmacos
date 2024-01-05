@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 108,
-  "sizeofcmds": 12200,
+  "ncmds": 107,
+  "sizeofcmds": 12104,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 51148884,
+          "size": 51144788,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 185468,
+          "size": 185420,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -157,7 +157,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 298379,
+          "size": 298371,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -170,7 +170,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 245620,
+          "size": 245330,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3204,7 +3204,6 @@
             "addSubscriber:",
             "addSubview:",
             "addSubview:positioned:relativeTo:",
-            "addTargetWithHandler:",
             "addTextContainer:",
             "addTimer:forMode:",
             "addToolTipRect:owner:userData:",
@@ -3702,7 +3701,6 @@
             "change:",
             "changeFontMarkdown:makeBold:makeItalic:",
             "changeLayoutOrientation:",
-            "changePlaybackPositionCommand",
             "channel:didCompleteEnqueueingLog:internalId:",
             "channel:didFailSendingLog:withError:",
             "channel:didPauseWithIdentifyingObject:",
@@ -5200,7 +5198,6 @@
             "initWithBitmapDataPlanes:pixelsWide:pixelsHigh:bitsPerSample:samplesPerPixel:hasAlpha:isPlanar:colorSpaceName:bytesPerRow:bitsPerPixel:",
             "initWithBlock:",
             "initWithBool:",
-            "initWithBoundsSize:requestHandler:",
             "initWithBuffer:",
             "initWithBuffer:frame:mirrorHorizontally:mirrorVertically:",
             "initWithBuffer:frame:mirrorHorizontally:mirrorVertically:hasDeviceRelativeVideoRotation:deviceRelativeVideoRotation:",
@@ -6516,7 +6513,6 @@
             "nextSequenceNumber",
             "nextSequenceNumberHasWrapped",
             "nextServerSalt",
-            "nextTrackCommand",
             "nilSymbol",
             "noInternationalDialling",
             "noStreamVideo",
@@ -6543,7 +6539,6 @@
             "notify_next",
             "now",
             "nowInMilliseconds",
-            "nowPlayingInfo",
             "ntpTimeMs",
             "null",
             "num",
@@ -6743,7 +6738,6 @@
             "pathForResource:ofType:",
             "pattern",
             "pause",
-            "pauseCommand",
             "pauseSendingLogsWithToken:",
             "pauseTransmissionTargetForToken:",
             "pauseWithIdentifyingObject:",
@@ -6850,7 +6844,6 @@
             "platform",
             "platformString",
             "play",
-            "playCommand",
             "playOrPauseAction",
             "player",
             "playerConfiguration",
@@ -6867,7 +6860,6 @@
             "portFromSockaddr4:",
             "portFromSockaddr6:",
             "position",
-            "positionTime",
             "positionToRemember_",
             "possibleBrandsForNumber:",
             "possibleFormats_",
@@ -6935,7 +6927,6 @@
             "previewPanel:transitionImageForPreviewItem:contentRect:",
             "previewRepresentableActivityItemsForWindow:",
             "previousFailureCount",
-            "previousTrackCommand",
             "price",
             "priceLocale",
             "primaryArchitectureId",
@@ -7206,7 +7197,6 @@
             "removeStatusItem:",
             "removeStream:",
             "removeSubscriber:",
-            "removeTarget:",
             "removeTimeObserver:",
             "removeTokenForDatacenterWithId:",
             "removeTrack:",
@@ -8442,7 +8432,6 @@
             "setNormalizedCoordinates:",
             "setNotificationCategories:",
             "setNotify_next:",
-            "setNowPlayingInfo:",
             "setNtpTimeMs:",
             "setNumTemporalLayers:",
             "setNumber:",
@@ -8537,7 +8526,6 @@
             "setPlaceholder:",
             "setPlaceholderAttributedString:",
             "setPlaceholderAttributedString:update:",
-            "setPlaybackState:",
             "setPlayer:",
             "setPlayerScript:",
             "setPopSample:",
@@ -9040,7 +9028,6 @@
             "sharedAppleEventManager",
             "sharedApplication",
             "sharedClient",
-            "sharedCommandCenter",
             "sharedConfiguration",
             "sharedCost",
             "sharedCredentialStorage",
@@ -9242,7 +9229,6 @@
             "stopActualizationPingResendTimer",
             "stopAecDump",
             "stopCaptureWithCompletionHandler:",
-            "stopCommand",
             "stopConnectionWatchdogTimer",
             "stopHostResolution",
             "stopInternal",
@@ -9679,7 +9665,6 @@
             "toString",
             "toUTC:",
             "toggleFullScreen:",
-            "togglePlayPauseCommand",
             "token",
             "tokenId",
             "tollFree",
@@ -10169,7 +10154,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1568757,
+          "size": 1568716,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -16577,7 +16562,6 @@
             "@\"NSError\"16@0:8",
             "@\"NSError\"32@0:8@\"NSApplication\"16@\"NSError\"24",
             "@\"NSEvent\"16@?0@\"NSEvent\"8",
-            "@\"NSImage\"24@?0{CGSize=dd}8",
             "@\"NSIndexSet\"32@0:8@\"NSTableView\"16@\"NSIndexSet\"24",
             "@\"NSMenu\"24@0:8@\"NSApplication\"16",
             "@\"NSMenu\"48@0:8@\"NSTextView\"16@\"NSMenu\"24@\"NSEvent\"32Q40",
@@ -20127,6 +20111,8 @@
             "Chat.VideoCall.Outgoing",
             "Chat.ViewBackground",
             "Chat.ViewContact",
+            "Chat.Voice.Single.Close",
+            "Chat.Voice.Single.DeleteAndClose",
             "Chat.Voice.Transribe.Error",
             "Chat.VoiceChat.JoinLink.OK",
             "Chat.VoiceChat.JoinLink.Participants_ZeroValueHolder",
@@ -20349,6 +20335,7 @@
             "ChatList.Mute.Until",
             "ChatList.Mute.Until.OK",
             "ChatList.Mute.Until.Title",
+            "ChatList.MyNotes",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -31923,7 +31910,6 @@
             "Telegram.AppearanceViewController",
             "Telegram.ApplicationContainerView",
             "Telegram.ArchivedStickerPacksController",
-            "Telegram.AudioCommandCenter",
             "Telegram.AudioWaveformContainerView",
             "Telegram.AudioWaveformView",
             "Telegram.AuthController",
@@ -37436,7 +37422,6 @@
             "_TtC8Telegram18AccentColorRowItem",
             "_TtC8Telegram18AccentColorRowView",
             "_TtC8Telegram18AppearanceMoreItem",
-            "_TtC8Telegram18AudioCommandCenter",
             "_TtC8Telegram18Auth_CodeEntryView",
             "_TtC8Telegram18AvatarContentLayer",
             "_TtC8Telegram18AvatarStoryControl",
@@ -39584,6 +39569,7 @@
             "_chat_like_message",
             "_chat_like_message_unlike",
             "_chat_list_thumb_play",
+            "_chat_my_notes",
             "_chat_pinned_list",
             "_chat_pinned_message",
             "_chat_pinned_message_bubble_incoming",
@@ -43970,7 +43956,6 @@
             "command takes input",
             "command takes no input",
             "commandQueue",
-            "commandor",
             "commands",
             "comment",
             "commentsPeerId",
@@ -52268,7 +52253,7 @@
             "mover",
             "movflags",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20240103)",
+            "mozjpeg version 4.1.4 (build 20240105)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -55049,7 +55034,6 @@
             "q",
             "q not prime",
             "q16@0:8",
-            "q16@?0@\"MPRemoteCommandEvent\"8",
             "q24@0:8@\"NSMenu\"16",
             "q24@0:8@\"NSScrubber\"16",
             "q24@0:8@\"NSTableView\"16",
@@ -57579,7 +57563,6 @@
             "solutionEntities",
             "someActionsDisposable",
             "someFlagsAsNotice",
-            "song",
             "songName",
             "songStateDisposable",
             "sonic",
@@ -62014,7 +61997,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 454152,
+          "size": 454084,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -62027,7 +62010,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 25768,
+          "size": 25764,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -62040,7 +62023,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 25692,
+          "size": 25688,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -62079,7 +62062,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 219374,
+          "size": 219390,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -63034,6 +63017,7 @@
             "_chat_like_message",
             "_chat_like_message_unlike",
             "_chat_list_thumb_play",
+            "_chat_my_notes",
             "_chat_pinned_list",
             "_chat_pinned_message",
             "_chat_pinned_message_bubble_incoming",
@@ -75041,7 +75025,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 235376,
+          "size": 235388,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -76186,7 +76170,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 666052,
+          "size": 665928,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -76234,7 +76218,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 27752,
+          "size": 27712,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76260,7 +76244,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1934280,
+          "size": 1933656,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -76286,7 +76270,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 29896,
+          "size": 29888,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76379,7 +76363,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1177488,
+          "size": 1177216,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76392,7 +76376,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51976,
+          "size": 51856,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76420,7 +76404,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 5792,
+          "size": 5760,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76463,7 +76447,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1788568,
+          "size": 1788288,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -76476,7 +76460,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 889122,
+          "size": 889026,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -76598,7 +76582,7 @@
       "vmaddr": 4360896512,
       "vmsize": 3719168,
       "fileoff": 4480,
-      "filesize": 3713792,
+      "filesize": 3712944,
       "maxprot": {
         "read": true,
         "write": false,
@@ -76619,10 +76603,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 66971896,
-      "nsyms": 3885,
-      "stroff": 67065664,
-      "strsize": 148528,
+      "symoff": 66971536,
+      "nsyms": 3876,
+      "stroff": 67065136,
+      "strsize": 148208,
       "fileoff": 4600
     },
     {
@@ -76632,15 +76616,15 @@
       "iextdefsym": 1,
       "nextdefsym": 124,
       "iundefsym": 125,
-      "nundefsym": 3760,
+      "nundefsym": 3751,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 67034056,
-      "nindirectsyms": 7901,
+      "indirectsymoff": 67033552,
+      "nindirectsyms": 7896,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -76665,7 +76649,7 @@
     },
     {
       "type": "main",
-      "entryoff": 11679504,
+      "entryoff": 11673776,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -77030,20 +77014,12 @@
       "fileoff": 8800
     },
     {
-      "type": "load_dylib",
-      "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
-      "timestamp": 2,
-      "current_version": 65536,
-      "compatibility_version": 65536,
-      "fileoff": 8912
-    },
-    {
       "type": "load_weak_dylib",
       "name": "/System/Library/Frameworks/NaturalLanguage.framework/Versions/A/NaturalLanguage",
       "timestamp": 2,
       "current_version": 7471104,
       "compatibility_version": 65536,
-      "fileoff": 9008
+      "fileoff": 8912
     },
     {
       "type": "load_weak_dylib",
@@ -77051,7 +77027,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9112
+      "fileoff": 9016
     },
     {
       "type": "load_dylib",
@@ -77059,7 +77035,7 @@
       "timestamp": 2,
       "current_version": 24838144,
       "compatibility_version": 65536,
-      "fileoff": 9200
+      "fileoff": 9104
     },
     {
       "type": "load_dylib",
@@ -77067,7 +77043,7 @@
       "timestamp": 2,
       "current_version": 84934657,
       "compatibility_version": 65536,
-      "fileoff": 9296
+      "fileoff": 9200
     },
     {
       "type": "load_weak_dylib",
@@ -77075,7 +77051,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9408
+      "fileoff": 9312
     },
     {
       "type": "load_dylib",
@@ -77083,7 +77059,7 @@
       "timestamp": 2,
       "current_version": 458797,
       "compatibility_version": 65536,
-      "fileoff": 9520
+      "fileoff": 9424
     },
     {
       "type": "load_dylib",
@@ -77091,7 +77067,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9608
+      "fileoff": 9512
     },
     {
       "type": "load_weak_dylib",
@@ -77099,7 +77075,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 9664
+      "fileoff": 9568
     },
     {
       "type": "load_weak_dylib",
@@ -77107,7 +77083,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 9736
+      "fileoff": 9640
     },
     {
       "type": "load_weak_dylib",
@@ -77115,7 +77091,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 9800
+      "fileoff": 9704
     },
     {
       "type": "load_dylib",
@@ -77123,7 +77099,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 9872
+      "fileoff": 9776
     },
     {
       "type": "load_dylib",
@@ -77131,7 +77107,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 9936
+      "fileoff": 9840
     },
     {
       "type": "load_dylib",
@@ -77139,7 +77115,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 10000
+      "fileoff": 9904
     },
     {
       "type": "load_dylib",
@@ -77147,7 +77123,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 10072
+      "fileoff": 9976
     },
     {
       "type": "load_weak_dylib",
@@ -77155,7 +77131,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 10144
+      "fileoff": 10048
     },
     {
       "type": "load_weak_dylib",
@@ -77163,7 +77139,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 10208
+      "fileoff": 10112
     },
     {
       "type": "load_weak_dylib",
@@ -77171,7 +77147,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 10280
+      "fileoff": 10184
     },
     {
       "type": "load_weak_dylib",
@@ -77179,7 +77155,7 @@
       "timestamp": 2,
       "current_version": 123011140,
       "compatibility_version": 65536,
-      "fileoff": 10344
+      "fileoff": 10248
     },
     {
       "type": "load_dylib",
@@ -77187,7 +77163,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 10408
+      "fileoff": 10312
     },
     {
       "type": "load_weak_dylib",
@@ -77195,7 +77171,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 10472
+      "fileoff": 10376
     },
     {
       "type": "load_dylib",
@@ -77203,7 +77179,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10544
+      "fileoff": 10448
     },
     {
       "type": "load_dylib",
@@ -77211,7 +77187,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 10608
+      "fileoff": 10512
     },
     {
       "type": "load_weak_dylib",
@@ -77219,7 +77195,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 10672
+      "fileoff": 10576
     },
     {
       "type": "load_weak_dylib",
@@ -77227,7 +77203,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10736
+      "fileoff": 10640
     },
     {
       "type": "load_weak_dylib",
@@ -77235,7 +77211,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 10800
+      "fileoff": 10704
     },
     {
       "type": "load_weak_dylib",
@@ -77243,7 +77219,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 10864
+      "fileoff": 10768
     },
     {
       "type": "load_weak_dylib",
@@ -77251,7 +77227,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 10928
+      "fileoff": 10832
     },
     {
       "type": "load_weak_dylib",
@@ -77259,7 +77235,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 10992
+      "fileoff": 10896
     },
     {
       "type": "load_weak_dylib",
@@ -77267,7 +77243,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11056
+      "fileoff": 10960
     },
     {
       "type": "load_weak_dylib",
@@ -77275,7 +77251,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11128
+      "fileoff": 11032
     },
     {
       "type": "load_dylib",
@@ -77283,7 +77259,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 11192
+      "fileoff": 11096
     },
     {
       "type": "load_weak_dylib",
@@ -77291,7 +77267,7 @@
       "timestamp": 2,
       "current_version": 101057536,
       "compatibility_version": 65536,
-      "fileoff": 11256
+      "fileoff": 11160
     },
     {
       "type": "load_dylib",
@@ -77299,7 +77275,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11320
+      "fileoff": 11224
     },
     {
       "type": "load_weak_dylib",
@@ -77307,7 +77283,7 @@
       "timestamp": 2,
       "current_version": 64618496,
       "compatibility_version": 65536,
-      "fileoff": 11384
+      "fileoff": 11288
     },
     {
       "type": "load_dylib",
@@ -77315,7 +77291,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11456
+      "fileoff": 11360
     },
     {
       "type": "load_weak_dylib",
@@ -77323,7 +77299,7 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 11520
+      "fileoff": 11424
     },
     {
       "type": "load_weak_dylib",
@@ -77331,7 +77307,7 @@
       "timestamp": 2,
       "current_version": 196611,
       "compatibility_version": 65536,
-      "fileoff": 11600
+      "fileoff": 11504
     },
     {
       "type": "load_weak_dylib",
@@ -77339,7 +77315,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 11664
+      "fileoff": 11568
     },
     {
       "type": "load_weak_dylib",
@@ -77347,7 +77323,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 11728
+      "fileoff": 11632
     },
     {
       "type": "load_weak_dylib",
@@ -77355,7 +77331,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 11792
+      "fileoff": 11696
     },
     {
       "type": "load_weak_dylib",
@@ -77363,7 +77339,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 11848
+      "fileoff": 11752
     },
     {
       "type": "load_dylib",
@@ -77371,7 +77347,7 @@
       "timestamp": 2,
       "current_version": 162725888,
       "compatibility_version": 2949120,
-      "fileoff": 11912
+      "fileoff": 11816
     },
     {
       "type": "load_dylib",
@@ -77379,7 +77355,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11976
+      "fileoff": 11880
     },
     {
       "type": "load_weak_dylib",
@@ -77387,35 +77363,35 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 12040
+      "fileoff": 11944
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 12104
+      "fileoff": 12008
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 12136
+      "fileoff": 12040
     },
     {
       "type": "function_starts",
-      "dataoff": 66652232,
-      "datasize": 319664,
-      "fileoff": 12184
+      "dataoff": 66651936,
+      "datasize": 319600,
+      "fileoff": 12088
     },
     {
       "type": "data_in_code",
-      "dataoff": 66971896,
+      "dataoff": 66971536,
       "datasize": 0,
-      "fileoff": 12200
+      "fileoff": 12104
     },
     {
       "type": "code_signature",
-      "dataoff": 67214192,
+      "dataoff": 67213344,
       "datasize": 544656,
-      "fileoff": 12216
+      "fileoff": 12120
     }
   ],
   "hsize": 32

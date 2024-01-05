@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 23478272,
+      "vmsize": 23494656,
       "fileoff": 104,
-      "filesize": 23478272,
+      "filesize": 23494656,
       "maxprot": {
         "read": true,
         "write": false,
@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 20430644,
+          "size": 20434740,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 663275,
+          "size": 663291,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3262,7 +3262,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 671638,
+          "size": 671766,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -6506,6 +6506,8 @@
             "Chat.VideoCall.Outgoing",
             "Chat.ViewBackground",
             "Chat.ViewContact",
+            "Chat.Voice.Single.Close",
+            "Chat.Voice.Single.DeleteAndClose",
             "Chat.Voice.Transribe.Error",
             "Chat.VoiceChat.JoinLink.OK",
             "Chat.VoiceChat.JoinLink.Participants_ZeroValueHolder",
@@ -6728,6 +6730,7 @@
             "ChatList.Mute.Until",
             "ChatList.Mute.Until.OK",
             "ChatList.Mute.Until.Title",
+            "ChatList.MyNotes",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -15303,6 +15306,7 @@
             "_chat_like_message",
             "_chat_like_message_unlike",
             "_chat_list_thumb_play",
+            "_chat_my_notes",
             "_chat_pinned_list",
             "_chat_pinned_message",
             "_chat_pinned_message_bubble_incoming",
@@ -21872,7 +21876,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20240103)",
+            "mozjpeg version 4.1.4 (build 20240105)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -25910,7 +25914,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 199503,
+          "size": 199519,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -26854,6 +26858,7 @@
             "_chat_like_message",
             "_chat_like_message_unlike",
             "_chat_list_thumb_play",
+            "_chat_my_notes",
             "_chat_pinned_list",
             "_chat_pinned_message",
             "_chat_pinned_message_bubble_incoming",
@@ -37696,7 +37701,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 218924,
+          "size": 218936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38088,7 +38093,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 266584,
+          "size": 266592,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38120,7 +38125,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4318445568,
+      "vmaddr": 4318461952,
       "vmsize": 999424,
       "fileoff": 2096,
       "filesize": 999424,
@@ -38250,7 +38255,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4319444992,
+      "vmaddr": 4319461376,
       "vmsize": 1540096,
       "fileoff": 2808,
       "filesize": 1048576,
@@ -38285,7 +38290,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 445104,
+          "size": 445136,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38384,7 +38389,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 328202,
+          "size": 328210,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38492,10 +38497,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4320985088,
+      "vmaddr": 4321001472,
       "vmsize": 2785280,
       "fileoff": 4160,
-      "filesize": 2778528,
+      "filesize": 2778816,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38516,9 +38521,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 27783728,
+      "symoff": 27800272,
       "nsyms": 6674,
-      "stroff": 27909992,
+      "stroff": 27926536,
       "strsize": 156048,
       "fileoff": 4280
     },
@@ -38536,7 +38541,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 27890512,
+      "indirectsymoff": 27907056,
       "nindirectsyms": 4870,
       "extreloff": 0,
       "nextrel": 0,
@@ -38562,7 +38567,7 @@
     },
     {
       "type": "main",
-      "entryoff": 20458056,
+      "entryoff": 20470344,
       "stacksize": 0,
       "fileoff": 4488
     },
@@ -38967,20 +38972,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27628688,
-      "datasize": 155040,
+      "dataoff": 27645224,
+      "datasize": 155048,
       "fileoff": 8336
     },
     {
       "type": "data_in_code",
-      "dataoff": 27783728,
+      "dataoff": 27800272,
       "datasize": 0,
       "fileoff": 8352
     },
     {
       "type": "code_signature",
-      "dataoff": 28066048,
-      "datasize": 238752,
+      "dataoff": 28082592,
+      "datasize": 238880,
       "fileoff": 8368
     }
   ],

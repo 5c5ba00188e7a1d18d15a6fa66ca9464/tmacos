@@ -119,7 +119,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 748183,
+          "size": 748247,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -3232,7 +3232,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 672385,
+          "size": 672513,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -6431,6 +6431,8 @@
             "Chat.VideoCall.Outgoing",
             "Chat.ViewBackground",
             "Chat.ViewContact",
+            "Chat.Voice.Single.Close",
+            "Chat.Voice.Single.DeleteAndClose",
             "Chat.Voice.Transribe.Error",
             "Chat.VoiceChat.JoinLink.OK",
             "Chat.VoiceChat.JoinLink.Participants_ZeroValueHolder",
@@ -6653,6 +6655,7 @@
             "ChatList.Mute.Until",
             "ChatList.Mute.Until.OK",
             "ChatList.Mute.Until.Title",
+            "ChatList.MyNotes",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -15231,6 +15234,7 @@
             "_chat_like_message",
             "_chat_like_message_unlike",
             "_chat_list_thumb_play",
+            "_chat_my_notes",
             "_chat_pinned_list",
             "_chat_pinned_message",
             "_chat_pinned_message_bubble_incoming",
@@ -21846,7 +21850,7 @@
             "moveSelectedRect",
             "moveStatements",
             "mozilla.cloudflare-dns.com",
-            "mozjpeg version 4.1.4 (build 20240103)",
+            "mozjpeg version 4.1.4 (build 20240105)",
             "mp coefficient not inverse of r",
             "mp exponent not congruent to d",
             "mp r not prime",
@@ -25890,7 +25894,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 199503,
+          "size": 199519,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -26834,6 +26838,7 @@
             "_chat_like_message",
             "_chat_like_message_unlike",
             "_chat_list_thumb_play",
+            "_chat_my_notes",
             "_chat_pinned_list",
             "_chat_pinned_message",
             "_chat_pinned_message_bubble_incoming",
@@ -37676,7 +37681,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 218924,
+          "size": 218936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38068,7 +38073,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 225800,
+          "size": 225816,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38243,7 +38248,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 489136,
+          "size": 489168,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38479,7 +38484,7 @@
       "vmaddr": 4324622336,
       "vmsize": 2801664,
       "fileoff": 4088,
-      "filesize": 2791392,
+      "filesize": 2791536,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38500,9 +38505,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 31402896,
+      "symoff": 31403048,
       "nsyms": 6680,
-      "stroff": 31531848,
+      "stroff": 31532000,
       "strsize": 156016,
       "fileoff": 4208
     },
@@ -38520,7 +38525,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 31509776,
+      "indirectsymoff": 31509928,
       "nindirectsyms": 5517,
       "extreloff": 0,
       "nextrel": 0,
@@ -38954,19 +38959,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 31247432,
-      "datasize": 155464,
+      "dataoff": 31247576,
+      "datasize": 155472,
       "fileoff": 8104
     },
     {
       "type": "data_in_code",
-      "dataoff": 31402896,
+      "dataoff": 31403048,
       "datasize": 0,
       "fileoff": 8120
     },
     {
       "type": "code_signature",
-      "dataoff": 31687872,
+      "dataoff": 31688016,
       "datasize": 267040,
       "fileoff": 8136
     }
