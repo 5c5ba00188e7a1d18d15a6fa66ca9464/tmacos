@@ -179,7 +179,7 @@
         },
         "NSControlSize": 0,
         "NSViewWantsBestResolutionOpenGLSurface": true,
-        "NSControlTextAlignment": 2,
+        "NSControlTextAlignment": 1,
         "NSControlLineBreakMode": 0,
         "NSFrame": {
           "UID": 13
