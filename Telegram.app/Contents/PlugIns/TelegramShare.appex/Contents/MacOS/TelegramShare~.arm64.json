@@ -3337,7 +3337,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 675476,
+          "size": 675540,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10961,6 +10961,7 @@
             "PrivacySettingsController.UserCount_two",
             "PrivacySettingsController.UserCount_zero",
             "PrivacySettingsController.VoiceMessagesDescription",
+            "PrivacySettingsController.VoiceMessagesDescription.NonPremium",
             "PrivacySettingsController.VoiceMessagesHeader",
             "Private",
             "Private Key",
@@ -38773,7 +38774,7 @@
       "vmaddr": 4321230848,
       "vmsize": 2801664,
       "fileoff": 4240,
-      "filesize": 2801168,
+      "filesize": 2801248,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38794,9 +38795,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28046840,
+      "symoff": 28046928,
       "nsyms": 6740,
-      "stroff": 28174520,
+      "stroff": 28174608,
       "strsize": 157840,
       "fileoff": 4360
     },
@@ -38814,7 +38815,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28154680,
+      "indirectsymoff": 28154768,
       "nindirectsyms": 4959,
       "extreloff": 0,
       "nextrel": 0,
@@ -39253,19 +39254,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27890464,
-      "datasize": 156376,
+      "dataoff": 27890544,
+      "datasize": 156384,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 28046840,
+      "dataoff": 28046928,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 28332368,
+      "dataoff": 28332448,
       "datasize": 240832,
       "fileoff": 8536
     }

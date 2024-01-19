@@ -3307,7 +3307,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 676225,
+          "size": 676289,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10886,6 +10886,7 @@
             "PrivacySettingsController.UserCount_two",
             "PrivacySettingsController.UserCount_zero",
             "PrivacySettingsController.VoiceMessagesDescription",
+            "PrivacySettingsController.VoiceMessagesDescription.NonPremium",
             "PrivacySettingsController.VoiceMessagesHeader",
             "Private",
             "Private Key",
@@ -38346,7 +38347,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 227760,
+          "size": 227752,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38757,7 +38758,7 @@
       "vmaddr": 4324900864,
       "vmsize": 2818048,
       "fileoff": 4168,
-      "filesize": 2814192,
+      "filesize": 2814272,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38778,9 +38779,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 31698672,
+      "symoff": 31698760,
       "nsyms": 6746,
-      "stroff": 31829040,
+      "stroff": 31829128,
       "strsize": 157816,
       "fileoff": 4288
     },
@@ -38798,7 +38799,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 31806608,
+      "indirectsymoff": 31806696,
       "nindirectsyms": 5607,
       "extreloff": 0,
       "nextrel": 0,
@@ -39240,19 +39241,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 31541864,
-      "datasize": 156808,
+      "dataoff": 31541944,
+      "datasize": 156816,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 31698672,
+      "dataoff": 31698760,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 31986864,
+      "dataoff": 31986944,
       "datasize": 269376,
       "fileoff": 8304
     }
