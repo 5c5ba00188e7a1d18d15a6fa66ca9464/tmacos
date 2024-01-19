@@ -38367,7 +38367,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 269040,
+          "size": 269048,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
