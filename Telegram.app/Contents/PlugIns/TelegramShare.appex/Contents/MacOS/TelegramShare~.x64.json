@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 24233587,
+          "size": 24237683,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -26063,7 +26063,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 190120,
+          "size": 190128,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -26076,7 +26076,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 228521,
+          "size": 228527,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -37964,7 +37964,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 213268,
+          "size": 213248,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38440,7 +38440,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 990160,
+          "size": 990128,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -38608,7 +38608,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 271464,
+          "size": 271472,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38779,9 +38779,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 31698904,
+      "symoff": 31698896,
       "nsyms": 6746,
-      "stroff": 31829272,
+      "stroff": 31829264,
       "strsize": 157816,
       "fileoff": 4288
     },
@@ -38799,7 +38799,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 31806840,
+      "indirectsymoff": 31806832,
       "nindirectsyms": 5607,
       "extreloff": 0,
       "nextrel": 0,
@@ -39242,12 +39242,12 @@
     {
       "type": "function_starts",
       "dataoff": 31542080,
-      "datasize": 156824,
+      "datasize": 156816,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 31698904,
+      "dataoff": 31698896,
       "datasize": 0,
       "fileoff": 8288
     },
