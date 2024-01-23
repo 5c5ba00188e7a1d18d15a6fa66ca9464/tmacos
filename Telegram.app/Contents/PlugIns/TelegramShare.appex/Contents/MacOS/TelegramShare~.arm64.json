@@ -26083,7 +26083,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 190128,
+          "size": 190136,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -38650,7 +38650,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 239688,
+          "size": 240008,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -38774,7 +38774,7 @@
       "vmaddr": 4321247232,
       "vmsize": 2801664,
       "fileoff": 4240,
-      "filesize": 2801616,
+      "filesize": 2801648,
       "maxprot": {
         "read": true,
         "write": false,
@@ -38795,9 +38795,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28063544,
+      "symoff": 28063584,
       "nsyms": 6740,
-      "stroff": 28191224,
+      "stroff": 28191264,
       "strsize": 157840,
       "fileoff": 4360
     },
@@ -38815,7 +38815,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28171384,
+      "indirectsymoff": 28171424,
       "nindirectsyms": 4959,
       "extreloff": 0,
       "nextrel": 0,
@@ -39254,19 +39254,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 27907152,
+      "dataoff": 27907192,
       "datasize": 156392,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 28063544,
+      "dataoff": 28063584,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 28349072,
+      "dataoff": 28349104,
       "datasize": 240960,
       "fileoff": 8536
     }
