@@ -3389,7 +3389,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 205199,
+          "size": 205247,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -4888,6 +4888,7 @@
             "_settingsAskQuestion",
             "_settingsAskQuestionActive",
             "_settingsBusiness",
+            "_settingsBusinessActive",
             "_settingsFaq",
             "_settingsFaqActive",
             "_settingsFilters",
@@ -15493,7 +15494,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 225784,
+          "size": 225796,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -15545,7 +15546,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 726827,
+          "size": 726955,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -16861,6 +16862,7 @@
             "AccountSettings.SetUsername",
             "AccountSettings.Stickers",
             "AccountSettings.StickersAndEmoji",
+            "AccountSettings.TelegramBusiness",
             "AccountSettings.Theme",
             "AccountSettings.UpdateStatus",
             "AccountSettings.Username",
@@ -28758,6 +28760,7 @@
             "_settingsAskQuestion",
             "_settingsAskQuestionActive",
             "_settingsBusiness",
+            "_settingsBusinessActive",
             "_settingsFaq",
             "_settingsFaqActive",
             "_settingsFilters",
@@ -37145,6 +37148,7 @@
             "settingsAskQuestion",
             "settingsAskQuestionActive",
             "settingsBusiness",
+            "settingsBusinessActive",
             "settingsDisposable",
             "settingsFaqActive",
             "settingsFiltersActive",
@@ -39355,7 +39359,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 275808,
+          "size": 275832,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -39552,7 +39556,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 456456,
+          "size": 456488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -39651,7 +39655,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 339450,
+          "size": 339458,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -39762,7 +39766,7 @@
       "vmaddr": 4322000896,
       "vmsize": 2883584,
       "fileoff": 4240,
-      "filesize": 2876192,
+      "filesize": 2876320,
       "maxprot": {
         "read": true,
         "write": false,
@@ -39783,9 +39787,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28867752,
+      "symoff": 28867888,
       "nsyms": 6762,
-      "stroff": 28996080,
+      "stroff": 28996216,
       "strsize": 158568,
       "fileoff": 4360
     },
@@ -39803,7 +39807,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28975944,
+      "indirectsymoff": 28976080,
       "nindirectsyms": 5034,
       "extreloff": 0,
       "nextrel": 0,
@@ -40242,19 +40246,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 28707488,
-      "datasize": 160264,
+      "dataoff": 28707616,
+      "datasize": 160272,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 28867752,
+      "dataoff": 28867888,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 29154656,
+      "dataoff": 29154784,
       "datasize": 247232,
       "fileoff": 8536
     }

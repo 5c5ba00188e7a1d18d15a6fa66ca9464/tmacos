@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 52672876,
+          "size": 52676972,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10085,7 +10085,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1667659,
+          "size": 1667755,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17292,6 +17292,7 @@
             "AccountSettings.SetUsername",
             "AccountSettings.Stickers",
             "AccountSettings.StickersAndEmoji",
+            "AccountSettings.TelegramBusiness",
             "AccountSettings.Theme",
             "AccountSettings.UpdateStatus",
             "AccountSettings.Username",
@@ -32482,7 +32483,6 @@
             "Telegram",
             "Telegram ",
             "Telegram Archive",
-            "Telegram Business",
             "Telegram Notifications",
             "Telegram was updated to ",
             "Telegram.APController",
@@ -41036,6 +41036,7 @@
             "_settingsAskQuestion",
             "_settingsAskQuestionActive",
             "_settingsBusiness",
+            "_settingsBusinessActive",
             "_settingsFaq",
             "_settingsFaqActive",
             "_settingsFilters",
@@ -58063,6 +58064,7 @@
             "settingsAskQuestion",
             "settingsAskQuestionActive",
             "settingsBusiness",
+            "settingsBusinessActive",
             "settingsDisposable",
             "settingsFaqActive",
             "settingsFiltersActive",
@@ -63111,7 +63113,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 256964,
+          "size": 256976,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63124,7 +63126,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 235582,
+          "size": 235630,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -64648,6 +64650,7 @@
             "_settingsAskQuestion",
             "_settingsAskQuestionActive",
             "_settingsBusiness",
+            "_settingsBusinessActive",
             "_settingsFaq",
             "_settingsFaqActive",
             "_settingsFilters",
@@ -78360,7 +78363,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 684160,
+          "size": 684168,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -78434,7 +78437,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1981976,
+          "size": 1982056,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -78553,7 +78556,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1213424,
+          "size": 1213456,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -78772,7 +78775,7 @@
       "vmaddr": 4362878976,
       "vmsize": 3866624,
       "fileoff": 4480,
-      "filesize": 3861504,
+      "filesize": 3861648,
       "maxprot": {
         "read": true,
         "write": false,
@@ -78793,9 +78796,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 69052856,
+      "symoff": 69053008,
       "nsyms": 3874,
-      "stroff": 69147040,
+      "stroff": 69147192,
       "strsize": 148296,
       "fileoff": 4600
     },
@@ -78813,7 +78816,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 69114840,
+      "indirectsymoff": 69114992,
       "nindirectsyms": 8050,
       "extreloff": 0,
       "nextrel": 0,
@@ -78839,7 +78842,7 @@
     },
     {
       "type": "main",
-      "entryoff": 11868104,
+      "entryoff": 11865696,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -79575,19 +79578,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 68723480,
-      "datasize": 329376,
+      "dataoff": 68723616,
+      "datasize": 329392,
       "fileoff": 12208
     },
     {
       "type": "data_in_code",
-      "dataoff": 69052856,
+      "dataoff": 69053008,
       "datasize": 0,
       "fileoff": 12224
     },
     {
       "type": "code_signature",
-      "dataoff": 69295344,
+      "dataoff": 69295488,
       "datasize": 560912,
       "fileoff": 12240
     }
