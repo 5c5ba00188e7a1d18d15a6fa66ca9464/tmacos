@@ -39767,9 +39767,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 32650368,
+      "symoff": 32650376,
       "nsyms": 6768,
-      "stroff": 32781576,
+      "stroff": 32781584,
       "strsize": 158544,
       "fileoff": 4288
     },
@@ -39787,7 +39787,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 32758656,
+      "indirectsymoff": 32758664,
       "nindirectsyms": 5730,
       "extreloff": 0,
       "nextrel": 0,
@@ -40229,13 +40229,13 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 32489584,
+      "dataoff": 32489592,
       "datasize": 160784,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 32650368,
+      "dataoff": 32650376,
       "datasize": 0,
       "fileoff": 8288
     },
