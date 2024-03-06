@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 69304320,
+      "vmsize": 69320704,
       "fileoff": 104,
-      "filesize": 69304320,
+      "filesize": 69320704,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 62763520,
+          "size": 62784000,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1770413,
+          "size": 1770669,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10044,7 +10044,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 314267,
+          "size": 314359,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10057,7 +10057,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1670014,
+          "size": 1670462,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33479,6 +33479,7 @@
             "Telegram/ThemeListRowItem.swift",
             "Telegram/ThemePreviewModalController.swift",
             "Telegram/ThemePreviewRowItem.swift",
+            "Telegram/TimeRangeSelectorController.swift",
             "Telegram/TitleAndInfoAlertItem.swift",
             "Telegram/TopicReplyItemView.swift",
             "Telegram/TranscribeAudioTextView.swift",
@@ -38904,6 +38905,7 @@
             "_TtC8TelegramP33_36AAD8CE9543DC5CB889A1A2F5FB0A6F30FeaturedAnimatedHorizontalView",
             "_TtC8TelegramP33_36F87C879ED2426CAE9086BF35CA7C0721SmartThemeListRowView",
             "_TtC8TelegramP33_38049C67892B1F13920A945584F1AE5916ChatThemeRowView",
+            "_TtC8TelegramP33_392B2F738FB76FD0B8E7BCEC77E035969Arguments",
             "_TtC8TelegramP33_392CCA3366DE8B5564EAB68AC05686D518PremiumGiftRowView",
             "_TtC8TelegramP33_3A31975E4A8100E645FCC5E8A48E52E817WidgetStickerView",
             "_TtC8TelegramP33_3AAEADC7369C76E05676C57075A4E0BC9Arguments",
@@ -39208,6 +39210,9 @@
             "_TtC8TelegramP33_A33C3FE77C73379247A106650193CD7619HorizontalThemeView",
             "_TtC8TelegramP33_A33C3FE77C73379247A106650193CD7624HorizontalThemeFirstItem",
             "_TtC8TelegramP33_A5A761CB45C72CEC91AB90E437CAC2349TermsView",
+            "_TtC8TelegramP33_A5C23084FA1E18A3D503D958E5E3986D21TimeRangeSelectorItem",
+            "_TtC8TelegramP33_A5C23084FA1E18A3D503D958E5E3986D21TimeRangeSelectorView",
+            "_TtC8TelegramP33_A5C23084FA1E18A3D503D958E5E3986D9Arguments",
             "_TtC8TelegramP33_A627ED0FEFC6667E1591192B64B957AC11ShareButton",
             "_TtC8TelegramP33_A627ED0FEFC6667E1591192B64B957AC14ShareModalView",
             "_TtC8TelegramP33_A69B17914A9E08ECFFF1622D9C8767FE19UserLocationRequest",
@@ -48212,9 +48217,11 @@
             "from the matching local media section",
             "from the matching previous remote media section",
             "fromBoostsApplied",
+            "fromLabel",
             "fromLang",
             "fromLines",
             "fromPoints",
+            "fromString",
             "fromTheme",
             "fromValue",
             "fromVersion",
@@ -54162,6 +54169,7 @@
             "openStories",
             "openStory",
             "openSuggestionOptions",
+            "openTimezones",
             "openTopPeer",
             "openTwoStepVerification",
             "openUpdateApp",
@@ -57561,6 +57569,7 @@
             "selectScheduleEnd",
             "selectScheduleStart",
             "selectSound",
+            "selectSpecific",
             "selectTab",
             "selectText",
             "selectTextBubble_incoming",
@@ -60238,9 +60247,11 @@
             "to",
             "to ",
             "to match pre-existing behavior",
+            "toLabel",
             "toLang",
             "toLines",
             "toPoints",
+            "toString",
             "toValue",
             "toView",
             "to_TO",
@@ -61306,6 +61317,7 @@
             "updateSavedRingtones",
             "updateScheduleDate",
             "updateScrollPoint",
+            "updateSearch",
             "updateSearchMessageTags",
             "updateSearchRequest",
             "updateSentStoryReaction",
@@ -63007,7 +63019,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 468632,
+          "size": 469076,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63020,7 +63032,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 27468,
+          "size": 27476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63033,7 +63045,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 26840,
+          "size": 26864,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -78339,7 +78351,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 585676,
+          "size": 586124,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -78352,7 +78364,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 173040,
+          "size": 173152,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -78367,7 +78379,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4364271616,
+      "vmaddr": 4364288000,
       "vmsize": 8601600,
       "fileoff": 2176,
       "filesize": 6684672,
@@ -78441,7 +78453,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1972896,
+          "size": 1974080,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -78467,7 +78479,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 30664,
+          "size": 30696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -78523,7 +78535,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1373296,
+          "size": 1374336,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -78607,7 +78619,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2052376,
+          "size": 2054584,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -78620,7 +78632,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 915493,
+          "size": 916069,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -78737,7 +78749,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1254160,
+          "size": 1254416,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -78765,10 +78777,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4372873216,
+      "vmaddr": 4372889600,
       "vmsize": 4145152,
       "fileoff": 4488,
-      "filesize": 4130512,
+      "filesize": 4131120,
       "maxprot": {
         "read": true,
         "write": false,
@@ -78789,9 +78801,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 79184912,
+      "symoff": 79201776,
       "nsyms": 4424,
-      "stroff": 79293760,
+      "stroff": 79310624,
       "strsize": 185240,
       "fileoff": 4608
     },
@@ -78809,7 +78821,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 79255696,
+      "indirectsymoff": 79272560,
       "nindirectsyms": 9516,
       "extreloff": 0,
       "nextrel": 0,
@@ -78838,7 +78850,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14097744,
+      "entryoff": 14101856,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -79574,20 +79586,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 78815440,
-      "datasize": 338696,
+      "dataoff": 78832136,
+      "datasize": 338864,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 79154136,
+      "dataoff": 79171000,
       "datasize": 30776,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 79479008,
-      "datasize": 640496,
+      "dataoff": 79495872,
+      "datasize": 640624,
       "fileoff": 12040
     }
   ],
