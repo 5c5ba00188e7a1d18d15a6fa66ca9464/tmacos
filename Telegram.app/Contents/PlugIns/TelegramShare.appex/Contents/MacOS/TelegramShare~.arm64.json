@@ -15548,7 +15548,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 727595,
+          "size": 727627,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17753,6 +17753,7 @@
             "Call.Toast.LowBattery",
             "Call.Toast.MicroOff",
             "Call.Toast.MicroOff.Your",
+            "Call.Toast.WeakNetwork",
             "Call.UndefinedError",
             "Call.VideoPaused",
             "CallFeedback.AddComment",
@@ -39784,7 +39785,7 @@
       "vmaddr": 4322017280,
       "vmsize": 2883584,
       "fileoff": 4240,
-      "filesize": 2877936,
+      "filesize": 2878000,
       "maxprot": {
         "read": true,
         "write": false,
@@ -39805,9 +39806,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 28885712,
+      "symoff": 28885776,
       "nsyms": 6762,
-      "stroff": 29014048,
+      "stroff": 29014112,
       "strsize": 158568,
       "fileoff": 4360
     },
@@ -39825,7 +39826,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 28993904,
+      "indirectsymoff": 28993968,
       "nindirectsyms": 5036,
       "extreloff": 0,
       "nextrel": 0,
@@ -40264,19 +40265,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 28725368,
+      "dataoff": 28725432,
       "datasize": 160344,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 28885712,
+      "dataoff": 28885776,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 29172624,
+      "dataoff": 29172688,
       "datasize": 247392,
       "fileoff": 8536
     }
