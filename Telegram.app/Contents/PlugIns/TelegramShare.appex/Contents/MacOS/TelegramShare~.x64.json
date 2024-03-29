@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 25433715,
+          "size": 25437811,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -3310,7 +3310,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 776007,
+          "size": 775943,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
