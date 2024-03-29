@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1784461,
+          "size": 1784445,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10083,7 +10083,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1690910,
+          "size": 1690878,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12295,7 +12295,6 @@
             "), encoded as PlusInfinity.",
             "), failed to increase size.",
             ").",
-            ").\n\n[Copy Link]()",
             "). ",
             "). Encoder bitrate limits not used.",
             "). The app bitrate limits will be used.",
@@ -12320,9 +12319,7 @@
             "*(const AVClass **)avctx->priv_data == codec->priv_class",
             "*(s_data.cont.back().second) == k",
             "**",
-            "** phone number was acquired on\nFragment on ",
             "** screen are the same, this call is 100% secure.",
-            "** username was acquired on\nFragment on ",
             "** winners of the [Giveaway]() were randomly selected by Telegram.",
             "*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n",
             "*** Terminating app due to uncaught exception '%@', reason: '%@'\n",
@@ -19731,6 +19728,8 @@
             "Chat.Alert.Forward.Text.Inner_other",
             "Chat.Alert.Forward.Text.Inner_two",
             "Chat.Alert.Forward.Text.Inner_zero",
+            "Chat.Alert.Unsaved",
+            "Chat.Alert.Unsaved.Reset",
             "Chat.AutoremoveTimerSetUserGlobal",
             "Chat.AutoremoveTimerSetUserGlobalYou",
             "Chat.BotManager.Context.Manage",
@@ -21050,6 +21049,11 @@
             "Coded slice of a non-IDR picture",
             "Cofactor: ",
             "CollSeq",
+            "CollectibleItemInfo.ButtonOpenInfo",
+            "CollectibleItemInfo.PhoneText",
+            "CollectibleItemInfo.PhoneTitle",
+            "CollectibleItemInfo.UsernameText",
+            "CollectibleItemInfo.UsernameTitle",
             "Column",
             "ColumnsUsed",
             "Com 2.Com 2.Заливка 1",
@@ -36889,8 +36893,6 @@
             "] receive failed with error ",
             "] successfully assigned",
             "] to TURN server [",
-            "]() is a collectible\nphone number that belongs to",
-            "]() is a collectible\nusername that belongs to",
             "](abortVerification)",
             "](https://t.me/+",
             "], mid: '",
@@ -49630,8 +49632,6 @@
             "https://%@/dns-query?name=%@&type=16&random_padding=%@",
             "https://%@/resolve?name=%@&type=16&random_padding=%@",
             "https://fragment.com",
-            "https://fragment.com/number/",
-            "https://fragment.com/username/",
             "https://google.com/resolve?name=%@",
             "https://in.appcenter.ms",
             "https://instagram.com/",
@@ -63570,7 +63570,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 478396,
+          "size": 478428,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79083,7 +79083,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 594352,
+          "size": 594392,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79146,7 +79146,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 40688,
+          "size": 40696,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79185,7 +79185,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2007008,
+          "size": 2007136,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79267,7 +79267,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1393472,
+          "size": 1393632,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79351,7 +79351,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2100728,
+          "size": 2100792,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79364,7 +79364,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 929637,
+          "size": 929669,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79512,7 +79512,7 @@
       "vmaddr": 4374036480,
       "vmsize": 4210688,
       "fileoff": 4488,
-      "filesize": 4195536,
+      "filesize": 4196128,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79533,9 +79533,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 80386568,
+      "symoff": 80387168,
       "nsyms": 4433,
-      "stroff": 80495848,
+      "stroff": 80496448,
       "strsize": 185680,
       "fileoff": 4608
     },
@@ -79553,8 +79553,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 80457496,
-      "nindirectsyms": 9587,
+      "indirectsymoff": 80458096,
+      "nindirectsyms": 9588,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -79582,7 +79582,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14337952,
+      "entryoff": 14338112,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -80318,19 +80318,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 80011032,
-      "datasize": 344416,
+      "dataoff": 80011608,
+      "datasize": 344440,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 80355448,
+      "dataoff": 80356048,
       "datasize": 31120,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 80681536,
+      "dataoff": 80682128,
       "datasize": 649872,
       "fileoff": 12040
     }
