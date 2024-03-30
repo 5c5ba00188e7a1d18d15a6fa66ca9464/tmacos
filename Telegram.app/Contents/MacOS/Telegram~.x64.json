@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 70336512,
+      "vmsize": 70352896,
       "fileoff": 104,
-      "filesize": 70336512,
+      "filesize": 70352896,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 63716256,
+          "size": 63720352,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10070,7 +10070,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 320745,
+          "size": 320753,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10083,7 +10083,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1691070,
+          "size": 1691614,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13131,6 +13131,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/AppDelegate.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/AutomaticBusinessMessageSetupChatContents.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/BusinessChatbotController.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/BusinessLinksController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/BusinessMessageController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/BusinessQuickReplyController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/CachedChannelAdmins.swift",
@@ -26742,6 +26743,13 @@
             "Monetization.Transaction.Pending",
             "Monetization.Transaction.Proceeds",
             "Monetization.Transaction.Refund",
+            "Monetization.Transaction.ShowMoreTransactions_countable",
+            "Monetization.Transaction.ShowMoreTransactions_few",
+            "Monetization.Transaction.ShowMoreTransactions_many",
+            "Monetization.Transaction.ShowMoreTransactions_one",
+            "Monetization.Transaction.ShowMoreTransactions_other",
+            "Monetization.Transaction.ShowMoreTransactions_two",
+            "Monetization.Transaction.ShowMoreTransactions_zero",
             "Monetization.Transaction.Withdrawal",
             "Monetization.TransactionInfo.Failed",
             "Monetization.TransactionInfo.Pending",
@@ -60954,6 +60962,7 @@
             "tonBalanceContainer",
             "tonBalanceView",
             "tonView",
+            "ton_logo",
             "tone",
             "too big INFO subchunk\n",
             "too large",
@@ -79089,7 +79098,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 594364,
+          "size": 594360,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79117,7 +79126,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4365303808,
+      "vmaddr": 4365320192,
       "vmsize": 8732672,
       "fileoff": 2176,
       "filesize": 6799360,
@@ -79152,7 +79161,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 40696,
+          "size": 40704,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79273,7 +79282,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1393696,
+          "size": 1393760,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79357,7 +79366,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2100808,
+          "size": 2100816,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79370,7 +79379,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 929733,
+          "size": 929765,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79515,10 +79524,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4374036480,
+      "vmaddr": 4374052864,
       "vmsize": 4210688,
       "fileoff": 4488,
-      "filesize": 4196192,
+      "filesize": 4196720,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79539,9 +79548,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 80387232,
+      "symoff": 80404000,
       "nsyms": 4433,
-      "stroff": 80496512,
+      "stroff": 80513288,
       "strsize": 185680,
       "fileoff": 4608
     },
@@ -79559,8 +79568,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 80458160,
-      "nindirectsyms": 9588,
+      "indirectsymoff": 80474928,
+      "nindirectsyms": 9589,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -79588,7 +79597,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14333808,
+      "entryoff": 14343904,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -80324,20 +80333,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 80011656,
-      "datasize": 344456,
+      "dataoff": 80028416,
+      "datasize": 344472,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 80356112,
-      "datasize": 31120,
+      "dataoff": 80372888,
+      "datasize": 31112,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 80682192,
-      "datasize": 649872,
+      "dataoff": 80698976,
+      "datasize": 650000,
       "fileoff": 12040
     }
   ],
