@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 60555264,
+      "vmsize": 60571648,
       "fileoff": 104,
-      "filesize": 60555264,
+      "filesize": 60571648,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 53458204,
+          "size": 53474588,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10097,7 +10097,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 320757,
+          "size": 320823,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10110,7 +10110,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1690191,
+          "size": 1690351,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22543,6 +22543,7 @@
             "EditAccount.Birthday.Add",
             "EditAccount.Birthday.Date",
             "EditAccount.Birthday.Info.Everyone",
+            "EditAccount.Birthday.Info.Nobody",
             "EditAccount.Birthday.Info.OnlyContacts",
             "EditAccount.Birthday.Remove",
             "EditAccount.ChangeNumber",
@@ -24043,6 +24044,7 @@
             "GeneralSettings.ShortcutsHeader",
             "GeneralSettings.ShowArticlesInSearch",
             "GeneralSettings.ShowCallsTab",
+            "GeneralSettings.ShowProfileId.Text",
             "GeneralSettings.Spelling.CheckGrammarSpelling",
             "GeneralSettings.Spelling.CheckSpellingAutomatically",
             "GeneralSettings.Spelling.CheckWhileTyping",
@@ -31372,6 +31374,7 @@
             "ShortcutsController.VideoChat.ToggleScreencast",
             "Shorten",
             "Should always be able to extract a packet here",
+            "Show Peer Id on Profile Page",
             "Show all frames before the first keyframe",
             "Showtunes",
             "Sidebar.Avalability",
@@ -58826,6 +58829,7 @@
             "showPremium",
             "showPreviewSender",
             "showPrivacy",
+            "showProfileId",
             "showReactionsPanel",
             "showRects",
             "showSendAs",
@@ -60861,6 +60865,7 @@
             "toggleBubbles",
             "toggleCallsTab",
             "toggleCamera",
+            "toggleCanViewPeerId",
             "toggleCategory",
             "toggleChatReactions",
             "toggleChats",
@@ -63648,7 +63653,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 478372,
+          "size": 478380,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63661,7 +63666,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 28320,
+          "size": 28312,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63713,7 +63718,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 261552,
+          "size": 261564,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63739,7 +63744,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 238910,
+          "size": 238926,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -73961,6 +73966,7 @@
             "premiumPromo",
             "premiumRequired",
             "premiumRequired",
+            "premiumRequired",
             "premiumRequiredPeerIds",
             "premiumRequiredToContact",
             "premiumStickersCount",
@@ -78052,7 +78058,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 237356,
+          "size": 237376,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79159,7 +79165,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 694000,
+          "size": 694084,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79187,7 +79193,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4355522560,
+      "vmaddr": 4355538944,
       "vmsize": 2277376,
       "fileoff": 2336,
       "filesize": 2277376,
@@ -79207,7 +79213,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 29072,
+          "size": 29080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79233,7 +79239,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2017912,
+          "size": 2018248,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -79317,7 +79323,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4357799936,
+      "vmaddr": 4357816320,
       "vmsize": 6111232,
       "fileoff": 3048,
       "filesize": 4177920,
@@ -79352,7 +79358,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1233912,
+          "size": 1233976,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79449,7 +79455,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 924482,
+          "size": 924514,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79540,7 +79546,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1268352,
+          "size": 1268096,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79568,10 +79574,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4363911168,
+      "vmaddr": 4363927552,
       "vmsize": 3932160,
       "fileoff": 4480,
-      "filesize": 3928464,
+      "filesize": 3928976,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79592,9 +79598,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70126368,
+      "symoff": 70143120,
       "nsyms": 3883,
-      "stroff": 70220968,
+      "stroff": 70237728,
       "strsize": 148728,
       "fileoff": 4600
     },
@@ -79612,8 +79618,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70188496,
-      "nindirectsyms": 8118,
+      "indirectsymoff": 70205248,
+      "nindirectsyms": 8119,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -79638,7 +79644,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12044576,
+      "entryoff": 12051484,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -80374,20 +80380,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 69791272,
-      "datasize": 335096,
+      "dataoff": 69807928,
+      "datasize": 335192,
       "fileoff": 12208
     },
     {
       "type": "data_in_code",
-      "dataoff": 70126368,
+      "dataoff": 70143120,
       "datasize": 0,
       "fileoff": 12224
     },
     {
       "type": "code_signature",
-      "dataoff": 70369696,
-      "datasize": 569328,
+      "dataoff": 70386464,
+      "datasize": 569456,
       "fileoff": 12240
     }
   ],

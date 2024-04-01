@@ -3340,7 +3340,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 692939,
+          "size": 692827,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3366,7 +3366,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 238859,
+          "size": 238851,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3392,7 +3392,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 208015,
+          "size": 208031,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12287,6 +12287,7 @@
             "premiumRequired",
             "premiumRequired",
             "premiumRequired",
+            "premiumRequired",
             "premiumRequiredAction",
             "premiumRequiredPeerIds",
             "premiumRequiredToContact",
@@ -15662,7 +15663,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 229920,
+          "size": 229932,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -15688,7 +15689,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 21148,
+          "size": 21140,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -15714,7 +15715,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 740971,
+          "size": 741067,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20590,6 +20591,7 @@
             "EditAccount.Birthday.Add",
             "EditAccount.Birthday.Date",
             "EditAccount.Birthday.Info.Everyone",
+            "EditAccount.Birthday.Info.Nobody",
             "EditAccount.Birthday.Info.OnlyContacts",
             "EditAccount.Birthday.Remove",
             "EditAccount.ChangeNumber",
@@ -21075,6 +21077,7 @@
             "GeneralSettings.ShortcutsHeader",
             "GeneralSettings.ShowArticlesInSearch",
             "GeneralSettings.ShowCallsTab",
+            "GeneralSettings.ShowProfileId.Text",
             "GeneralSettings.Spelling.CheckGrammarSpelling",
             "GeneralSettings.Spelling.CheckSpellingAutomatically",
             "GeneralSettings.Spelling.CheckWhileTyping",
@@ -39539,7 +39542,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 225604,
+          "size": 225624,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -39884,7 +39887,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 280864,
+          "size": 280936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -39962,7 +39965,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 986096,
+          "size": 986080,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -40180,7 +40183,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 345594,
+          "size": 345586,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -40260,7 +40263,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 519784,
+          "size": 519528,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -40291,7 +40294,7 @@
       "vmaddr": 4322476032,
       "vmsize": 2932736,
       "fileoff": 4240,
-      "filesize": 2927120,
+      "filesize": 2927408,
       "maxprot": {
         "read": true,
         "write": false,
@@ -40312,9 +40315,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 29373312,
+      "symoff": 29373600,
       "nsyms": 6762,
-      "stroff": 29501792,
+      "stroff": 29502080,
       "strsize": 158568,
       "fileoff": 4360
     },
@@ -40332,7 +40335,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 29481504,
+      "indirectsymoff": 29481792,
       "nindirectsyms": 5071,
       "extreloff": 0,
       "nextrel": 0,
@@ -40771,19 +40774,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29209904,
-      "datasize": 163408,
+      "dataoff": 29210152,
+      "datasize": 163448,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 29373312,
+      "dataoff": 29373600,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 29660368,
+      "dataoff": 29660656,
       "datasize": 251200,
       "fileoff": 8536
     }
