@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 63740832,
+          "size": 63744928,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1784445,
+          "size": 1784461,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10083,7 +10083,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1691774,
+          "size": 1691838,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -39995,6 +39995,7 @@
             "_TtCC7TGUIKit30AnimatedGradientBackgroundView9CloneView",
             "_TtCC7TGUIKit8TextViewP33_06A0149783EB96F3AAA2D8C6B5CBD23C17EmbeddedContainer",
             "_TtCC8Telegram11ChatRowItem10RowCaption",
+            "_TtCC8Telegram11ChatRowView11CaptionView",
             "_TtCC8Telegram13GroupCallViewP33_9DA19CF1E610A18A2FA1A01CD803BE537Content",
             "_TtCC8Telegram13StoryListViewP33_0BB6062CBBF0E51854A0853C92DEB7414Text",
             "_TtCC8Telegram14DevicesContextP33_E8C6677043B676933B52B7A8BD49E56614UpdaterContext",
@@ -58704,6 +58705,7 @@
             "shift timestamps so they are non negative",
             "shift timestamps so they start at 0",
             "shiftSelectedDisposable",
+            "shim",
             "shimmer",
             "shimmerBorderView",
             "shimmerColor",
@@ -63590,7 +63592,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 478436,
+          "size": 478476,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79104,7 +79106,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 594528,
+          "size": 594488,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79117,7 +79119,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 177080,
+          "size": 177048,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79206,7 +79208,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2007872,
+          "size": 2007808,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79232,7 +79234,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 31240,
+          "size": 31248,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79288,7 +79290,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1393824,
+          "size": 1394072,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79385,7 +79387,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 929861,
+          "size": 930053,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79533,7 +79535,7 @@
       "vmaddr": 4374069248,
       "vmsize": 4210688,
       "fileoff": 4488,
-      "filesize": 4197648,
+      "filesize": 4197680,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79554,9 +79556,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 80421152,
+      "symoff": 80421184,
       "nsyms": 4433,
-      "stroff": 80530440,
+      "stroff": 80530472,
       "strsize": 185680,
       "fileoff": 4608
     },
@@ -79574,7 +79576,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 80492080,
+      "indirectsymoff": 80492112,
       "nindirectsyms": 9590,
       "extreloff": 0,
       "nextrel": 0,
@@ -79603,7 +79605,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14349712,
+      "entryoff": 14346560,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -80339,19 +80341,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 80045432,
-      "datasize": 344584,
+      "dataoff": 80045472,
+      "datasize": 344576,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 80390016,
+      "dataoff": 80390048,
       "datasize": 31136,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 80716128,
+      "dataoff": 80716160,
       "datasize": 650160,
       "fileoff": 12040
     }
