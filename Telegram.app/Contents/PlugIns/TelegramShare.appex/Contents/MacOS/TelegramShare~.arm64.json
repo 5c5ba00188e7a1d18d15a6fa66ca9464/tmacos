@@ -15737,7 +15737,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 748667,
+          "size": 749195,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17722,6 +17722,9 @@
             "Business.ScheduleEnd",
             "Business.ScheduleStart",
             "Business.SelectPeers.Limit",
+            "Business.SwitchAd",
+            "Business.SwitchAd.Info",
+            "Business.SwitchAd.Title",
             "Business.Updated",
             "C",
             "C1x",
@@ -19599,6 +19602,8 @@
             "ChatList.BirthdayMultipleTitle_two",
             "ChatList.BirthdayMultipleTitle_zero",
             "ChatList.BirthdaySingleTitle",
+            "ChatList.ChannelSearch.Empty.Info",
+            "ChatList.ChannelSearch.Empty.Title",
             "ChatList.ChannelsTag",
             "ChatList.CloseFilter",
             "ChatList.CloseFilterShort",
@@ -24217,6 +24222,13 @@
             "Quantizing to %d = %d*%d*%d colors",
             "Quantizing to %d colors",
             "QuickLook.Preview",
+            "QuickReply.ChatRemoveAwayMessage.Text",
+            "QuickReply.ChatRemoveAwayMessage.Title",
+            "QuickReply.ChatRemoveGeneric.DeleteAction",
+            "QuickReply.ChatRemoveGeneric.Text",
+            "QuickReply.ChatRemoveGeneric.Title",
+            "QuickReply.ChatRemoveGreetingMessage.Text",
+            "QuickReply.ChatRemoveGreetingMessage.Title",
             "QuickReplyMessageShortcut",
             "QuickSwitcher.Description",
             "QuickSwitcher.Popular",
@@ -40510,7 +40522,7 @@
       "vmaddr": 4322623488,
       "vmsize": 2949120,
       "fileoff": 4240,
-      "filesize": 2944512,
+      "filesize": 2945040,
       "maxprot": {
         "read": true,
         "write": false,
@@ -40531,9 +40543,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 29536872,
+      "symoff": 29537408,
       "nsyms": 6762,
-      "stroff": 29665360,
+      "stroff": 29665896,
       "strsize": 158568,
       "fileoff": 4360
     },
@@ -40551,7 +40563,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 29645064,
+      "indirectsymoff": 29645600,
       "nindirectsyms": 5074,
       "extreloff": 0,
       "nextrel": 0,
@@ -40990,19 +41002,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29372672,
-      "datasize": 164200,
+      "dataoff": 29373192,
+      "datasize": 164216,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 29536872,
+      "dataoff": 29537408,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 29823936,
+      "dataoff": 29824464,
       "datasize": 252480,
       "fileoff": 8536
     }
