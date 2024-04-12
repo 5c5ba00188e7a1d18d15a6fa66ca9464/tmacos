@@ -15737,7 +15737,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 749195,
+          "size": 749547,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -19223,6 +19223,13 @@
             "Chat.ProxySponsored.AlertText",
             "Chat.ProxySponsored.CapDesc",
             "Chat.ProxySponsored.CapTitle",
+            "Chat.QuickReplyMessageLimitReachedText_countable",
+            "Chat.QuickReplyMessageLimitReachedText_few",
+            "Chat.QuickReplyMessageLimitReachedText_many",
+            "Chat.QuickReplyMessageLimitReachedText_one",
+            "Chat.QuickReplyMessageLimitReachedText_other",
+            "Chat.QuickReplyMessageLimitReachedText_two",
+            "Chat.QuickReplyMessageLimitReachedText_zero",
             "Chat.Quiz.Stop.Confirm.Header",
             "Chat.Quiz.Stop.Confirm.Text",
             "Chat.Quiz.TextType",
@@ -40522,7 +40529,7 @@
       "vmaddr": 4322623488,
       "vmsize": 2949120,
       "fileoff": 4240,
-      "filesize": 2945040,
+      "filesize": 2945392,
       "maxprot": {
         "read": true,
         "write": false,
@@ -40543,9 +40550,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 29537408,
+      "symoff": 29537760,
       "nsyms": 6762,
-      "stroff": 29665896,
+      "stroff": 29666248,
       "strsize": 158568,
       "fileoff": 4360
     },
@@ -40563,7 +40570,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 29645600,
+      "indirectsymoff": 29645952,
       "nindirectsyms": 5074,
       "extreloff": 0,
       "nextrel": 0,
@@ -41002,19 +41009,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29373192,
-      "datasize": 164216,
+      "dataoff": 29373536,
+      "datasize": 164224,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 29537408,
+      "dataoff": 29537760,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 29824464,
+      "dataoff": 29824816,
       "datasize": 252480,
       "fileoff": 8536
     }

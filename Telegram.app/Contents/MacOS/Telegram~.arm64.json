@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 60866560,
+      "vmsize": 60882944,
       "fileoff": 104,
-      "filesize": 60866560,
+      "filesize": 60882944,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 53744924,
+          "size": 53765404,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 189396,
+          "size": 189484,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -10098,7 +10098,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 322001,
+          "size": 322061,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10111,7 +10111,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1700815,
+          "size": 1701423,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -10600,7 +10600,6 @@
             " max_qp: ",
             " media packets per frame. Max is ",
             " message",
-            " messages reached",
             " messages) took ",
             " milliseconds",
             " milliseconds.",
@@ -20354,6 +20353,13 @@
             "Chat.ProxySponsored.AlertText",
             "Chat.ProxySponsored.CapDesc",
             "Chat.ProxySponsored.CapTitle",
+            "Chat.QuickReplyMessageLimitReachedText_countable",
+            "Chat.QuickReplyMessageLimitReachedText_few",
+            "Chat.QuickReplyMessageLimitReachedText_many",
+            "Chat.QuickReplyMessageLimitReachedText_one",
+            "Chat.QuickReplyMessageLimitReachedText_other",
+            "Chat.QuickReplyMessageLimitReachedText_two",
+            "Chat.QuickReplyMessageLimitReachedText_zero",
             "Chat.Quiz.Stop.Confirm.Header",
             "Chat.Quiz.Stop.Confirm.Text",
             "Chat.Quiz.TextType",
@@ -22822,6 +22828,7 @@
             "Ended",
             "Enqueue SEND:type",
             "Enter PEM pass phrase:",
+            "Enter Word from SMS",
             "Enter your TON address",
             "Enterprises",
             "Entertainment.Emoji",
@@ -24800,6 +24807,7 @@
             "Icon_ContactPhoto_Chevron",
             "Icon_CreateChannel",
             "Icon_CreateGroup",
+            "Icon_CustomEmoji_Small",
             "Icon_DataUsage_Audio",
             "Icon_DataUsage_Files",
             "Icon_DataUsage_Messages",
@@ -33032,6 +33040,7 @@
             "Telegram.Auth_TokenController",
             "Telegram.Auth_TokenView",
             "Telegram.Auth_WordHeaderView",
+            "Telegram.Auth_WordInputView",
             "Telegram.Auth_WordView",
             "Telegram.AuthorView",
             "Telegram.AuthorizedApplicationContext",
@@ -35671,6 +35680,7 @@
             "Warning: unknown JFIF revision number %d.%02d",
             "WavPack",
             "Wave synthesis pseudo-codec",
+            "We've sent you an SMS with a secret word to your phone **+971 12 345 6789**.",
             "WeT-3V-zwk.title",
             "WeakReference<Modal>",
             "WeakReference<ViewController>",
@@ -39627,6 +39637,7 @@
             "_TtC8TelegramP33_42D1D7F0CF642F439CD05FD5492B1A3E20AvatarNodeParameters",
             "_TtC8TelegramP33_43327CF052F2ED1473E1A877DAEA0A3422UserInfoResetPhotoView",
             "_TtC8TelegramP33_438EF217418C53846A26896E3587C32333ChannelMembersControllerArguments",
+            "_TtC8TelegramP33_445BB23FACED98E211C8A1B241E9FD7A18Auth_WordInputView",
             "_TtC8TelegramP33_445BB23FACED98E211C8A1B241E9FD7A19Auth_WordHeaderView",
             "_TtC8TelegramP33_449712A14A893E2E9FE25C95D4F784F212GMagnifyView",
             "_TtC8TelegramP33_449712A14A893E2E9FE25C95D4F784F214PageController",
@@ -45645,6 +45656,7 @@
             "contentOffset",
             "contentRect",
             "contentScale",
+            "contentSettings",
             "contentSize",
             "contentTile",
             "contentTileView",
@@ -62122,6 +62134,7 @@
             "updateNewStoryReaction",
             "updateNotifySettings",
             "updateOffset",
+            "updateOptionState",
             "updateParentLayout",
             "updatePeerBlocked",
             "updatePeerDisposable",
@@ -63922,7 +63935,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 480736,
+          "size": 480876,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63935,7 +63948,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 28488,
+          "size": 28496,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63948,7 +63961,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 27676,
+          "size": 27688,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79457,7 +79470,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 696572,
+          "size": 696740,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79485,7 +79498,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4355833856,
+      "vmaddr": 4355850240,
       "vmsize": 2293760,
       "fileoff": 2336,
       "filesize": 2293760,
@@ -79505,7 +79518,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 29160,
+          "size": 29168,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79531,7 +79544,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2027080,
+          "size": 2027928,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -79557,7 +79570,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 31384,
+          "size": 31392,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79615,7 +79628,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4358127616,
+      "vmaddr": 4358144000,
       "vmsize": 6127616,
       "fileoff": 3048,
       "filesize": 4194304,
@@ -79650,7 +79663,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1239304,
+          "size": 1239448,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79734,7 +79747,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1926224,
+          "size": 1927112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79747,7 +79760,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 928930,
+          "size": 929058,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79838,7 +79851,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1272192,
+          "size": 1272448,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79851,7 +79864,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 667488,
+          "size": 667520,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79866,10 +79879,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4364255232,
+      "vmaddr": 4364271616,
       "vmsize": 3964928,
       "fileoff": 4480,
-      "filesize": 3950704,
+      "filesize": 3951392,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79890,9 +79903,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70489736,
+      "symoff": 70506672,
       "nsyms": 3885,
-      "stroff": 70584416,
+      "stroff": 70601352,
       "strsize": 148768,
       "fileoff": 4600
     },
@@ -79910,8 +79923,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70551896,
-      "nindirectsyms": 8129,
+      "indirectsymoff": 70568832,
+      "nindirectsyms": 8130,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -79936,7 +79949,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12157504,
+      "entryoff": 12169640,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -80672,20 +80685,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 70153072,
-      "datasize": 336664,
+      "dataoff": 70169888,
+      "datasize": 336784,
       "fileoff": 12208
     },
     {
       "type": "data_in_code",
-      "dataoff": 70489736,
+      "dataoff": 70506672,
       "datasize": 0,
       "fileoff": 12224
     },
     {
       "type": "code_signature",
-      "dataoff": 70733184,
-      "datasize": 572144,
+      "dataoff": 70750128,
+      "datasize": 572272,
       "fileoff": 12240
     }
   ],
