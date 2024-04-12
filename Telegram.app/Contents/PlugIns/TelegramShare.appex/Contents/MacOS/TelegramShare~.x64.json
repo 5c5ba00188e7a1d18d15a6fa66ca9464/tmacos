@@ -15707,7 +15707,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 750321,
+          "size": 750385,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -23329,6 +23329,8 @@
             "Peer.Status.online",
             "Peer.Status.recently",
             "Peer.Status.show",
+            "PeerCall.Screen.E2E",
+            "PeerCall.Screen.E2E.Info",
             "PeerInfo.About.Placeholder",
             "PeerInfo.Action.AcrhivedStories",
             "PeerInfo.Action.AddMembers",
@@ -40513,7 +40515,7 @@
       "vmaddr": 4326440960,
       "vmsize": 2965504,
       "fileoff": 4168,
-      "filesize": 2959120,
+      "filesize": 2959184,
       "maxprot": {
         "read": true,
         "write": false,
@@ -40534,9 +40536,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 33336392,
+      "symoff": 33336456,
       "nsyms": 6768,
-      "stroff": 33467776,
+      "stroff": 33467840,
       "strsize": 158544,
       "fileoff": 4288
     },
@@ -40554,7 +40556,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 33444680,
+      "indirectsymoff": 33444744,
       "nindirectsyms": 5773,
       "extreloff": 0,
       "nextrel": 0,
@@ -40996,19 +40998,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 33171648,
+      "dataoff": 33171712,
       "datasize": 164744,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 33336392,
+      "dataoff": 33336456,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 33626320,
+      "dataoff": 33626384,
       "datasize": 282176,
       "fileoff": 8304
     }

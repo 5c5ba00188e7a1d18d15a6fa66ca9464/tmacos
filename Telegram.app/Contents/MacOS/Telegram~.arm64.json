@@ -10111,7 +10111,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1701423,
+          "size": 1701375,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12346,7 +12346,6 @@
             "*(const AVClass **)avctx->priv_data == codec->priv_class",
             "*(s_data.cont.back().second) == k",
             "**",
-            "** screen are the same, this call is 100% secure.",
             "** winners of the [Giveaway]() were randomly selected by Telegram.",
             "*** BUG ***\nIn %s: %s\nSet a breakpoint on '_pixman_log_error' to debug\n\n",
             "*** Terminating app due to uncaught exception '%@', reason: '%@'\n",
@@ -28422,6 +28421,8 @@
             "Peer.Status.online",
             "Peer.Status.recently",
             "Peer.Status.show",
+            "PeerCall.Screen.E2E",
+            "PeerCall.Screen.E2E.Info",
             "PeerCallActionView",
             "PeerCallTooltipStatusView",
             "PeerConnection cannot create an answer in a state other than have-remote-offer or have-local-pranswer.",
@@ -34371,7 +34372,6 @@
             "There was an error within the Stripe client library when trying to generate the proper validation error. Contact support@stripe.com if you see this.",
             "These should always be created by VideoBroadcaster!",
             "This AVCodecContext was allocated for %s, but %s passed to avcodec_open2()\n",
-            "This call is end-to-end encrypted",
             "This decoder does not support parameter changes, but PARAM_CHANGE side data was sent to it.\n",
             "This encoder requires using the avcodec_send_frame() API.\n",
             "This method does not apply to non-term reads",
@@ -79470,7 +79470,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 696740,
+          "size": 696756,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79882,7 +79882,7 @@
       "vmaddr": 4364271616,
       "vmsize": 3964928,
       "fileoff": 4480,
-      "filesize": 3951392,
+      "filesize": 3951456,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79903,9 +79903,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70506672,
+      "symoff": 70506736,
       "nsyms": 3885,
-      "stroff": 70601352,
+      "stroff": 70601416,
       "strsize": 148768,
       "fileoff": 4600
     },
@@ -79923,7 +79923,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70568832,
+      "indirectsymoff": 70568896,
       "nindirectsyms": 8130,
       "extreloff": 0,
       "nextrel": 0,
@@ -79949,7 +79949,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12169640,
+      "entryoff": 12171764,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -80685,19 +80685,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 70169888,
+      "dataoff": 70169952,
       "datasize": 336784,
       "fileoff": 12208
     },
     {
       "type": "data_in_code",
-      "dataoff": 70506672,
+      "dataoff": 70506736,
       "datasize": 0,
       "fileoff": 12224
     },
     {
       "type": "code_signature",
-      "dataoff": 70750128,
+      "dataoff": 70750192,
       "datasize": 572272,
       "fileoff": 12240
     }
