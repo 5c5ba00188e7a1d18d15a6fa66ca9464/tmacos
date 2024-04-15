@@ -10084,7 +10084,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1702990,
+          "size": 1702382,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -32183,21 +32183,9 @@
             "Supergroup.Convert.Description",
             "Supergroup.Convert.Undone",
             "Supergroup.DeleteRestriction.BanUser",
-            "Supergroup.DeleteRestriction.BanUser.Multi_countable",
-            "Supergroup.DeleteRestriction.BanUser.Multi_few",
-            "Supergroup.DeleteRestriction.BanUser.Multi_many",
-            "Supergroup.DeleteRestriction.BanUser.Multi_one",
-            "Supergroup.DeleteRestriction.BanUser.Multi_other",
-            "Supergroup.DeleteRestriction.BanUser.Multi_two",
-            "Supergroup.DeleteRestriction.BanUser.Multi_zero",
+            "Supergroup.DeleteRestriction.BanUser.Multi",
             "Supergroup.DeleteRestriction.DeleteAllMessages",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_countable",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_few",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_many",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_one",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_other",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_two",
-            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi_zero",
+            "Supergroup.DeleteRestriction.DeleteAllMessages.Multi",
             "Supergroup.DeleteRestriction.DeleteMessage",
             "Supergroup.DeleteRestriction.Header",
             "Supergroup.DeleteRestriction.MultiTitle_countable",
@@ -32209,6 +32197,8 @@
             "Supergroup.DeleteRestriction.MultiTitle_zero",
             "Supergroup.DeleteRestriction.Proceed",
             "Supergroup.DeleteRestriction.ReportSpam",
+            "Supergroup.DeleteRestriction.RestrictUser",
+            "Supergroup.DeleteRestriction.RestrictUser.Multi",
             "Supergroup.DeleteRestriction.Title",
             "Superseded",
             "Support for mvhd.timescale = 0 with editlists",
@@ -79415,7 +79405,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 596912,
+          "size": 596928,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79517,7 +79507,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2016736,
+          "size": 2016864,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79844,7 +79834,7 @@
       "vmaddr": 4374396928,
       "vmsize": 4227072,
       "fileoff": 4488,
-      "filesize": 4220192,
+      "filesize": 4219808,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79865,9 +79855,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 80752320,
+      "symoff": 80751936,
       "nsyms": 4435,
-      "stroff": 80861688,
+      "stroff": 80861304,
       "strsize": 185720,
       "fileoff": 4608
     },
@@ -79885,7 +79875,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 80823280,
+      "indirectsymoff": 80822896,
       "nindirectsyms": 9602,
       "extreloff": 0,
       "nextrel": 0,
@@ -79914,7 +79904,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14510784,
+      "entryoff": 14510976,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -80650,19 +80640,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 80374824,
+      "dataoff": 80374440,
       "datasize": 346208,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 80721032,
+      "dataoff": 80720648,
       "datasize": 31288,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 81047408,
+      "dataoff": 81047024,
       "datasize": 652720,
       "fileoff": 12040
     }
