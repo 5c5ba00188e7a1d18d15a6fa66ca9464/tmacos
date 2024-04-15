@@ -3362,7 +3362,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 208575,
+          "size": 208591,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -12297,6 +12297,7 @@
             "prevHoleIndex",
             "preventsCapture",
             "preview",
+            "previewChats",
             "previewRepresentations",
             "previous",
             "previous",
@@ -15655,7 +15656,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 230504,
+          "size": 230516,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -15707,7 +15708,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 750385,
+          "size": 750513,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -18797,6 +18798,7 @@
             "Chat.Date.ScheduledFor",
             "Chat.Date.ScheduledForToday",
             "Chat.Date.ScheduledUntilOnline",
+            "Chat.DisableAd.Tooltip",
             "Chat.Discussion.MessageDeleted",
             "Chat.DownloadLimit.Text_countable",
             "Chat.DownloadLimit.Text_few",
@@ -21060,6 +21062,8 @@
             "GeneralSettings.LiteMode",
             "GeneralSettings.MediaKeysForInAppPlayer",
             "GeneralSettings.OpenLatestChatOnLaunch",
+            "GeneralSettings.PreviewChats.Info",
+            "GeneralSettings.PreviewChats.Text",
             "GeneralSettings.SendByCmdEnter",
             "GeneralSettings.SendByEnter",
             "GeneralSettings.Shortcuts",
@@ -40515,7 +40519,7 @@
       "vmaddr": 4326440960,
       "vmsize": 2965504,
       "fileoff": 4168,
-      "filesize": 2959184,
+      "filesize": 2959408,
       "maxprot": {
         "read": true,
         "write": false,
@@ -40536,9 +40540,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 33336456,
+      "symoff": 33336672,
       "nsyms": 6768,
-      "stroff": 33467840,
+      "stroff": 33468056,
       "strsize": 158544,
       "fileoff": 4288
     },
@@ -40556,7 +40560,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 33444744,
+      "indirectsymoff": 33444960,
       "nindirectsyms": 5773,
       "extreloff": 0,
       "nextrel": 0,
@@ -40998,19 +41002,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 33171712,
-      "datasize": 164744,
+      "dataoff": 33171920,
+      "datasize": 164752,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 33336456,
+      "dataoff": 33336672,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 33626384,
+      "dataoff": 33626608,
       "datasize": 282176,
       "fileoff": 8304
     }

@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 53765404,
+          "size": 53773596,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10098,7 +10098,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 322061,
+          "size": 322069,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10111,7 +10111,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1701375,
+          "size": 1701567,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20001,6 +20001,7 @@
             "Chat.Date.ScheduledFor",
             "Chat.Date.ScheduledForToday",
             "Chat.Date.ScheduledUntilOnline",
+            "Chat.DisableAd.Tooltip",
             "Chat.Discussion.MessageDeleted",
             "Chat.DownloadLimit.Text_countable",
             "Chat.DownloadLimit.Text_few",
@@ -24080,6 +24081,8 @@
             "GeneralSettings.LiteMode",
             "GeneralSettings.MediaKeysForInAppPlayer",
             "GeneralSettings.OpenLatestChatOnLaunch",
+            "GeneralSettings.PreviewChats.Info",
+            "GeneralSettings.PreviewChats.Text",
             "GeneralSettings.SendByCmdEnter",
             "GeneralSettings.SendByEnter",
             "GeneralSettings.Shortcuts",
@@ -44343,6 +44346,7 @@
             "canPinMessages",
             "canPreloadHistoryDisposable",
             "canPreloadHistoryValue",
+            "canPreviewChat",
             "canRedirectScroll",
             "canRemoveFromRecent",
             "canRemoveIncomingMessagesInPrivateChats",
@@ -61211,6 +61215,7 @@
             "togglePinned",
             "togglePip",
             "togglePreloadLargeVideos",
+            "togglePreviewChat",
             "toggleRTFEnabled",
             "toggleRaiseHand",
             "toggleReaction",
@@ -63935,7 +63940,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 480876,
+          "size": 480884,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64000,7 +64005,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 262148,
+          "size": 262160,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64026,7 +64031,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 239486,
+          "size": 239502,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -74289,6 +74294,7 @@
             "previewBarChartRenderer",
             "previewBarsChartRenderer",
             "previewBarsRenderer",
+            "previewChats",
             "previewLinesChartRenderer",
             "previewLinesRenderer",
             "previewLinesRenderer",
@@ -79470,7 +79476,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 696756,
+          "size": 696800,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79483,7 +79489,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 308908,
+          "size": 308916,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79544,7 +79550,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2027928,
+          "size": 2027976,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -79629,7 +79635,7 @@
       "type": "segment_64",
       "name": "__DATA",
       "vmaddr": 4358144000,
-      "vmsize": 6127616,
+      "vmsize": 6144000,
       "fileoff": 3048,
       "filesize": 4194304,
       "maxprot": {
@@ -79663,7 +79669,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1239448,
+          "size": 1239512,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79747,7 +79753,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 1927112,
+          "size": 1927144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79879,10 +79885,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4364271616,
+      "vmaddr": 4364288000,
       "vmsize": 3964928,
       "fileoff": 4480,
-      "filesize": 3951456,
+      "filesize": 3951728,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79903,9 +79909,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70506736,
+      "symoff": 70506976,
       "nsyms": 3885,
-      "stroff": 70601416,
+      "stroff": 70601656,
       "strsize": 148768,
       "fileoff": 4600
     },
@@ -79923,7 +79929,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70568896,
+      "indirectsymoff": 70569136,
       "nindirectsyms": 8130,
       "extreloff": 0,
       "nextrel": 0,
@@ -79949,7 +79955,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12171764,
+      "entryoff": 12165516,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -80685,20 +80691,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 70169952,
-      "datasize": 336784,
+      "dataoff": 70170168,
+      "datasize": 336808,
       "fileoff": 12208
     },
     {
       "type": "data_in_code",
-      "dataoff": 70506736,
+      "dataoff": 70506976,
       "datasize": 0,
       "fileoff": 12224
     },
     {
       "type": "code_signature",
-      "dataoff": 70750192,
-      "datasize": 572272,
+      "dataoff": 70750432,
+      "datasize": 572304,
       "fileoff": 12240
     }
   ],

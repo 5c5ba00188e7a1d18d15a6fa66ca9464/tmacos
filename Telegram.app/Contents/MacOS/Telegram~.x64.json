@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 70631424,
+      "vmsize": 70647808,
       "fileoff": 104,
-      "filesize": 70631424,
+      "filesize": 70647808,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 63986592,
+          "size": 63990688,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10071,7 +10071,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 322111,
+          "size": 322119,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10084,7 +10084,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1702798,
+          "size": 1702990,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -19891,6 +19891,7 @@
             "Chat.Date.ScheduledFor",
             "Chat.Date.ScheduledForToday",
             "Chat.Date.ScheduledUntilOnline",
+            "Chat.DisableAd.Tooltip",
             "Chat.Discussion.MessageDeleted",
             "Chat.DownloadLimit.Text_countable",
             "Chat.DownloadLimit.Text_few",
@@ -23962,6 +23963,8 @@
             "GeneralSettings.LiteMode",
             "GeneralSettings.MediaKeysForInAppPlayer",
             "GeneralSettings.OpenLatestChatOnLaunch",
+            "GeneralSettings.PreviewChats.Info",
+            "GeneralSettings.PreviewChats.Text",
             "GeneralSettings.SendByCmdEnter",
             "GeneralSettings.SendByEnter",
             "GeneralSettings.Shortcuts",
@@ -44295,6 +44298,7 @@
             "canPinMessages",
             "canPreloadHistoryDisposable",
             "canPreloadHistoryValue",
+            "canPreviewChat",
             "canRedirectScroll",
             "canRemoveFromRecent",
             "canRemoveIncomingMessagesInPrivateChats",
@@ -61171,6 +61175,7 @@
             "togglePinned",
             "togglePip",
             "togglePreloadLargeVideos",
+            "togglePreviewChat",
             "toggleRTFEnabled",
             "toggleRaiseHand",
             "toggleReaction",
@@ -63872,7 +63877,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 480932,
+          "size": 480940,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63937,7 +63942,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 262148,
+          "size": 262160,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -63963,7 +63968,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 239486,
+          "size": 239502,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -74226,6 +74231,7 @@
             "previewBarChartRenderer",
             "previewBarsChartRenderer",
             "previewBarsRenderer",
+            "previewChats",
             "previewLinesChartRenderer",
             "previewLinesRenderer",
             "previewLinesRenderer",
@@ -79409,7 +79415,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 596860,
+          "size": 596912,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79437,7 +79443,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4365598720,
+      "vmaddr": 4365615104,
       "vmsize": 8781824,
       "fileoff": 2176,
       "filesize": 6832128,
@@ -79511,7 +79517,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2016704,
+          "size": 2016736,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -79593,7 +79599,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1399320,
+          "size": 1399384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79677,7 +79683,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2114784,
+          "size": 2114816,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -79835,10 +79841,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4374380544,
+      "vmaddr": 4374396928,
       "vmsize": 4227072,
       "fileoff": 4488,
-      "filesize": 4219840,
+      "filesize": 4220192,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79859,9 +79865,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 80735704,
+      "symoff": 80752320,
       "nsyms": 4435,
-      "stroff": 80845072,
+      "stroff": 80861688,
       "strsize": 185720,
       "fileoff": 4608
     },
@@ -79879,7 +79885,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 80806664,
+      "indirectsymoff": 80823280,
       "nindirectsyms": 9602,
       "extreloff": 0,
       "nextrel": 0,
@@ -79908,7 +79914,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14496400,
+      "entryoff": 14510784,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -80644,20 +80650,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 80358232,
-      "datasize": 346184,
+      "dataoff": 80374824,
+      "datasize": 346208,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 80704416,
+      "dataoff": 80721032,
       "datasize": 31288,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 81030800,
-      "datasize": 652592,
+      "dataoff": 81047408,
+      "datasize": 652720,
       "fileoff": 12040
     }
   ],
