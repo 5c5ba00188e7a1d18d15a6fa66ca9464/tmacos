@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 53904668,
+          "size": 53900572,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -79563,7 +79563,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 698648,
+          "size": 698660,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79637,7 +79637,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2032920,
+          "size": 2032760,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -79975,7 +79975,7 @@
       "vmaddr": 4364435456,
       "vmsize": 3964928,
       "fileoff": 4480,
-      "filesize": 3959632,
+      "filesize": 3959616,
       "maxprot": {
         "read": true,
         "write": false,
@@ -79996,9 +79996,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 70661160,
+      "symoff": 70661152,
       "nsyms": 3884,
-      "stroff": 70755848,
+      "stroff": 70755840,
       "strsize": 148752,
       "fileoff": 4600
     },
@@ -80016,7 +80016,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 70723304,
+      "indirectsymoff": 70723296,
       "nindirectsyms": 8135,
       "extreloff": 0,
       "nextrel": 0,
@@ -80042,7 +80042,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12189160,
+      "entryoff": 12192096,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -80778,19 +80778,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 70323672,
+      "dataoff": 70323664,
       "datasize": 337488,
       "fileoff": 12208
     },
     {
       "type": "data_in_code",
-      "dataoff": 70661160,
+      "dataoff": 70661152,
       "datasize": 0,
       "fileoff": 12224
     },
     {
       "type": "code_signature",
-      "dataoff": 70904608,
+      "dataoff": 70904592,
       "datasize": 573488,
       "fileoff": 12240
     }
