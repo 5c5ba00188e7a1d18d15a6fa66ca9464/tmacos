@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 53916956,
+          "size": 53925148,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -79570,7 +79570,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 698744,
+          "size": 698772,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80049,7 +80049,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12203012,
+      "entryoff": 12203412,
       "stacksize": 0,
       "fileoff": 4808
     },
