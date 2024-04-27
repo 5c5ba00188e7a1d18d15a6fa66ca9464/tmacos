@@ -157,7 +157,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 245550,
+          "size": 245502,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -7134,7 +7134,6 @@
             "removeChangeListener:",
             "removeCharactersInString:",
             "removeChildWindow:",
-            "removeDataStoreForIdentifier:completionHandler:",
             "removeDelegate:",
             "removeDeliveredNotification:",
             "removeDeliveredNotificationsWithIdentifiers:",
@@ -79571,7 +79570,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 698784,
+          "size": 698780,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79645,7 +79644,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2033016,
+          "size": 2032968,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -79777,7 +79776,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51472,
+          "size": 51464,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80050,7 +80049,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12215884,
+      "entryoff": 12216056,
       "stacksize": 0,
       "fileoff": 4808
     },
