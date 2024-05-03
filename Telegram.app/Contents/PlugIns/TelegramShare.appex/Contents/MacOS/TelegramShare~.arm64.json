@@ -149,7 +149,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 73091,
+          "size": 73111,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -1426,6 +1426,7 @@
             "destinationOfSymbolicLinkAtPath:error:",
             "deviceModel",
             "deviceModelName",
+            "deviceRGBColorSpace",
             "deviceSpecificEncryptionParameters:baseAppBundleId:",
             "dhPrime",
             "dictionary",
@@ -40301,7 +40302,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 282600,
+          "size": 282608,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40511,7 +40512,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 18080,
+          "size": 18088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
