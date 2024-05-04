@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 64228256,
+          "size": 64224160,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -79576,7 +79576,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 601032,
+          "size": 600992,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79678,7 +79678,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2023456,
+          "size": 2023008,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80005,7 +80005,7 @@
       "vmaddr": 4374659072,
       "vmsize": 4243456,
       "fileoff": 4488,
-      "filesize": 4234672,
+      "filesize": 4234640,
       "maxprot": {
         "read": true,
         "write": false,
@@ -80026,9 +80026,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 81026368,
+      "symoff": 81026328,
       "nsyms": 4438,
-      "stroff": 81135840,
+      "stroff": 81135800,
       "strsize": 185936,
       "fileoff": 4608
     },
@@ -80046,7 +80046,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 81097376,
+      "indirectsymoff": 81097336,
       "nindirectsyms": 9616,
       "extreloff": 0,
       "nextrel": 0,
@@ -80075,7 +80075,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14520784,
+      "entryoff": 14520848,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -80812,18 +80812,18 @@
     {
       "type": "function_starts",
       "dataoff": 80647712,
-      "datasize": 347264,
+      "datasize": 347224,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 80994976,
+      "dataoff": 80994936,
       "datasize": 31392,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 81321776,
+      "dataoff": 81321744,
       "datasize": 654976,
       "fileoff": 12040
     }
