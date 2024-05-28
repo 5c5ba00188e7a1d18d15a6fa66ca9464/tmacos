@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 65026976,
+          "size": 65031072,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1796717,
+          "size": 1796973,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 246159,
+          "size": 246318,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -3258,6 +3258,7 @@
             "analyzerInProgressFilePathComponent",
             "anchorPoint",
             "animates",
+            "animation",
             "animationDidStart:",
             "animationDidStop:finished:",
             "animationForKey:",
@@ -3953,6 +3954,7 @@
             "controlTextDidEndEditing:",
             "controlTimebase",
             "controllerStateChanged:",
+            "controllerWithAnimation:",
             "convertAlphaCharactersInNumber:",
             "convertFont:toHaveTrait:",
             "convertFont:toNotHaveTrait:",
@@ -5856,6 +5858,7 @@
             "keyEventWithType:location:modifierFlags:timestamp:windowNumber:context:characters:charactersIgnoringModifiers:isARepeat:keyCode:",
             "keyPairDictionaryForObject:",
             "keyPrefix",
+            "keyTimes",
             "keyType",
             "keyUp:",
             "keyWindow",
@@ -6699,6 +6702,7 @@
             "parser:validationErrorOccurred:",
             "parserDidEndDocument:",
             "parserDidStartDocument:",
+            "particleIntensity",
             "particleSystems",
             "passthroughPasswordEntryError",
             "passthroughTrackID",
@@ -6941,6 +6945,7 @@
             "properties",
             "propertiesImmutableCopy",
             "propertyConfigurator",
+            "propertyControllers",
             "propertyForKey:",
             "propertyListForType:",
             "propertyNamesToFormFieldNamesMapping",
@@ -8461,6 +8466,8 @@
             "setParentTarget:",
             "setParticleColor:",
             "setParticleColorVariation:",
+            "setParticleIntensity:",
+            "setParticleIntensityVariation:",
             "setParticleLifeSpan:",
             "setParticleVelocity:",
             "setPassthroughPasswordEntryError:",
@@ -8519,6 +8526,7 @@
             "setProgressUpdated:",
             "setProperties:",
             "setPropertiesAndMetadataForCSLog:",
+            "setPropertyControllers:",
             "setPropertyList:forType:",
             "setProtocol:",
             "setProtocolExt:",
@@ -10104,7 +10112,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 327195,
+          "size": 327391,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -64315,7 +64323,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 487828,
+          "size": 487872,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64328,7 +64336,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 29008,
+          "size": 29032,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64341,7 +64349,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 28120,
+          "size": 28124,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80031,7 +80039,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605840,
+          "size": 605884,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80044,7 +80052,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 179632,
+          "size": 179664,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80094,7 +80102,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 41120,
+          "size": 41152,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80133,7 +80141,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2041248,
+          "size": 2041280,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80228,7 +80236,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 42320,
+          "size": 42384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80256,7 +80264,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 5768,
+          "size": 5776,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80312,7 +80320,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 945061,
+          "size": 945125,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80429,7 +80437,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1291440,
+          "size": 1292208,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80460,7 +80468,7 @@
       "vmaddr": 4375609344,
       "vmsize": 4276224,
       "fileoff": 4488,
-      "filesize": 4273008,
+      "filesize": 4273360,
       "maxprot": {
         "read": true,
         "write": false,
@@ -80481,10 +80489,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 81990456,
-      "nsyms": 4447,
-      "stroff": 82100192,
-      "strsize": 186248,
+      "symoff": 81990616,
+      "nsyms": 4451,
+      "stroff": 82100432,
+      "strsize": 186368,
       "fileoff": 4608
     },
     {
@@ -80494,15 +80502,15 @@
       "iextdefsym": 1,
       "nextdefsym": 662,
       "iundefsym": 663,
-      "nundefsym": 3784,
+      "nundefsym": 3788,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 82061608,
-      "nindirectsyms": 9645,
+      "indirectsymoff": 82061832,
+      "nindirectsyms": 9649,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -80530,7 +80538,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14741456,
+      "entryoff": 14744784,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -81266,19 +81274,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 81608112,
-      "datasize": 350608,
+      "dataoff": 81608248,
+      "datasize": 350632,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 81958720,
+      "dataoff": 81958880,
       "datasize": 31736,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 82286448,
+      "dataoff": 82286800,
       "datasize": 662528,
       "fileoff": 12040
     }
