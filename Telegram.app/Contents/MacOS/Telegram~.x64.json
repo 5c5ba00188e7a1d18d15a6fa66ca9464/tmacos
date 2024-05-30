@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1796973,
+          "size": 1797229,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -10112,7 +10112,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 327391,
+          "size": 327457,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10125,7 +10125,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1717806,
+          "size": 1717902,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -25509,6 +25509,8 @@
             "Input file read error",
             "Input packet too small\n",
             "Input stream format:",
+            "Input.Quote.Collapsed",
+            "Input.Quote.Expanded",
             "InputAnimatedEmojiAttach",
             "InputAttach.Popover.File",
             "InputAttach.Popover.Gift",
@@ -45623,6 +45625,7 @@
             "collageButton",
             "collapsable",
             "collapse",
+            "collapseQuotes",
             "collapsed",
             "collation_list",
             "collect_data",
@@ -64393,7 +64396,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 265444,
+          "size": 265480,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64406,7 +64409,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 11220,
+          "size": 11240,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64419,7 +64422,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 242446,
+          "size": 242478,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -67848,6 +67851,7 @@
             "collapsable",
             "collapsable",
             "collapse",
+            "collapseQuotes",
             "collapsed",
             "collapsed",
             "collectUpdateGroups",
@@ -76564,6 +76568,7 @@
             "stars",
             "stars",
             "stars",
+            "starsContext",
             "starsStatus",
             "starsTopupOption",
             "starsTransaction",
@@ -77594,6 +77599,7 @@
             "toggleInvites",
             "toggleMute",
             "togglePreHistoryHidden",
+            "toggleQuote",
             "toggleScreencast",
             "toggleSecretKey",
             "toggleSelected",
@@ -78938,7 +78944,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 242848,
+          "size": 242904,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -78951,7 +78957,7 @@
         {
           "sectname": "__swift5_mpenum",
           "segname": "__TEXT",
-          "size": 14516,
+          "size": 14524,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80049,7 +80055,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 605880,
+          "size": 605892,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80112,7 +80118,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 41152,
+          "size": 41160,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80151,7 +80157,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2041280,
+          "size": 2041376,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80233,7 +80239,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1416040,
+          "size": 1416104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80317,7 +80323,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2166096,
+          "size": 2166104,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80478,7 +80484,7 @@
       "vmaddr": 4375609344,
       "vmsize": 4276224,
       "fileoff": 4488,
-      "filesize": 4273632,
+      "filesize": 4273856,
       "maxprot": {
         "read": true,
         "write": false,
@@ -80499,9 +80505,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 81990880,
+      "symoff": 81991112,
       "nsyms": 4451,
-      "stroff": 82100696,
+      "stroff": 82100928,
       "strsize": 186368,
       "fileoff": 4608
     },
@@ -80519,8 +80525,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 82062096,
-      "nindirectsyms": 9649,
+      "indirectsymoff": 82062328,
+      "nindirectsyms": 9650,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -80548,7 +80554,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14742080,
+      "entryoff": 14738656,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -81284,19 +81290,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 81608504,
-      "datasize": 350640,
+      "dataoff": 81608728,
+      "datasize": 350648,
       "fileoff": 12008
     },
     {
       "type": "data_in_code",
-      "dataoff": 81959144,
+      "dataoff": 81959376,
       "datasize": 31736,
       "fileoff": 12024
     },
     {
       "type": "code_signature",
-      "dataoff": 82287072,
+      "dataoff": 82287296,
       "datasize": 662528,
       "fileoff": 12040
     }

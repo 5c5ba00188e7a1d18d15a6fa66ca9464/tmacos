@@ -3363,7 +3363,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 700971,
+          "size": 700987,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3389,7 +3389,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 243355,
+          "size": 243365,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3415,7 +3415,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 211359,
+          "size": 211375,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13923,6 +13923,7 @@
             "standard",
             "stars",
             "stars",
+            "starsContext",
             "starsStatus",
             "starsTopupOption",
             "starsTransaction",
@@ -15883,7 +15884,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 233704,
+          "size": 233716,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -15935,7 +15936,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 758715,
+          "size": 758795,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22193,6 +22194,8 @@
             "InlineModalAction.Desc",
             "InlineModalAction.Title",
             "Input file read error",
+            "Input.Quote.Collapsed",
+            "Input.Quote.Expanded",
             "InputAttach.Popover.File",
             "InputAttach.Popover.Gift",
             "InputAttach.Popover.Location",
@@ -38617,6 +38620,7 @@
             "stableVersion",
             "stable_get",
             "stack",
+            "starsContext",
             "starsTopupOption",
             "starsTransaction",
             "starsTransactionPeer",
@@ -40249,7 +40253,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 231104,
+          "size": 231120,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40596,7 +40600,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 285600,
+          "size": 285592,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40674,7 +40678,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1003104,
+          "size": 1003144,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -40793,7 +40797,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 467808,
+          "size": 467840,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -40892,7 +40896,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 350242,
+          "size": 350250,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41003,7 +41007,7 @@
       "vmaddr": 4323098624,
       "vmsize": 2998272,
       "fileoff": 4240,
-      "filesize": 2982832,
+      "filesize": 2982912,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41024,9 +41028,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30029400,
+      "symoff": 30029472,
       "nsyms": 6774,
-      "stroff": 30158176,
+      "stroff": 30158248,
       "strsize": 158992,
       "fileoff": 4360
     },
@@ -41044,7 +41048,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30137784,
+      "indirectsymoff": 30137856,
       "nindirectsyms": 5097,
       "extreloff": 0,
       "nextrel": 0,
@@ -41483,19 +41487,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29862992,
+      "dataoff": 29863064,
       "datasize": 166408,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30029400,
+      "dataoff": 30029472,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30317168,
+      "dataoff": 30317248,
       "datasize": 256320,
       "fileoff": 8536
     }
