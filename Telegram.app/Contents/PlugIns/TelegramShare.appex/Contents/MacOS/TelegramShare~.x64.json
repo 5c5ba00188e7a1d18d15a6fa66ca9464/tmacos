@@ -15906,7 +15906,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 759793,
+          "size": 759825,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -21120,6 +21120,7 @@
             "FORMAT",
             "FactCheck.Context.Edit",
             "FactCheck.Info.Second",
+            "FactCheck.Link.OnlyAllowed",
             "FactCheck.Placeholder",
             "FactCheck.Save.Delete",
             "FactCheck.Save.Updated",
@@ -40998,7 +40999,7 @@
       "vmaddr": 4326965248,
       "vmsize": 2998272,
       "fileoff": 4168,
-      "filesize": 2997104,
+      "filesize": 2997152,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41019,9 +41020,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 33877336,
+      "symoff": 33877384,
       "nsyms": 6780,
-      "stroff": 34009016,
+      "stroff": 34009064,
       "strsize": 158960,
       "fileoff": 4288
     },
@@ -41039,7 +41040,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 33985816,
+      "indirectsymoff": 33985864,
       "nindirectsyms": 5799,
       "extreloff": 0,
       "nextrel": 0,
@@ -41481,19 +41482,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 33710352,
+      "dataoff": 33710400,
       "datasize": 166984,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 33877336,
+      "dataoff": 33877384,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 34167984,
+      "dataoff": 34168032,
       "datasize": 286400,
       "fileoff": 8304
     }
