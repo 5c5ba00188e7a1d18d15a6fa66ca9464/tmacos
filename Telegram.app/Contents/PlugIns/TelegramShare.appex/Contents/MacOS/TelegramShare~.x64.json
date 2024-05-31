@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 25937523,
+          "size": 25941619,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -15906,7 +15906,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 759569,
+          "size": 759793,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -25665,6 +25665,13 @@
             "Star.Purchase.Pay",
             "Star.Purchase.Success",
             "Star.Purchase.Text",
+            "Star.Purchase.Text.In_countable",
+            "Star.Purchase.Text.In_few",
+            "Star.Purchase.Text.In_many",
+            "Star.Purchase.Text.In_one",
+            "Star.Purchase.Text.In_other",
+            "Star.Purchase.Text.In_two",
+            "Star.Purchase.Text.In_zero",
             "Star.Transaction.Copied",
             "Star.Transaction.Date",
             "Star.Transaction.Id",
@@ -40233,7 +40240,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 231192,
+          "size": 231224,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40673,7 +40680,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1043920,
+          "size": 1044016,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -40991,7 +40998,7 @@
       "vmaddr": 4326965248,
       "vmsize": 2998272,
       "fileoff": 4168,
-      "filesize": 2996784,
+      "filesize": 2997104,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41012,9 +41019,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 33877024,
+      "symoff": 33877336,
       "nsyms": 6780,
-      "stroff": 34008704,
+      "stroff": 34009016,
       "strsize": 158960,
       "fileoff": 4288
     },
@@ -41032,7 +41039,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 33985504,
+      "indirectsymoff": 33985816,
       "nindirectsyms": 5799,
       "extreloff": 0,
       "nextrel": 0,
@@ -41474,19 +41481,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 33710056,
-      "datasize": 166968,
+      "dataoff": 33710352,
+      "datasize": 166984,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 33877024,
+      "dataoff": 33877336,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 34167664,
+      "dataoff": 34167984,
       "datasize": 286400,
       "fileoff": 8304
     }
