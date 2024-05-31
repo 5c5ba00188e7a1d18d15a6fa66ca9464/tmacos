@@ -3389,7 +3389,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 243365,
+          "size": 243373,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -40253,7 +40253,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 231120,
+          "size": 231192,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40600,7 +40600,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 285592,
+          "size": 285608,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40678,7 +40678,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1003144,
+          "size": 1003384,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41007,7 +41007,7 @@
       "vmaddr": 4323098624,
       "vmsize": 2998272,
       "fileoff": 4240,
-      "filesize": 2982912,
+      "filesize": 2982944,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41028,9 +41028,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30029472,
+      "symoff": 30029504,
       "nsyms": 6774,
-      "stroff": 30158248,
+      "stroff": 30158280,
       "strsize": 158992,
       "fileoff": 4360
     },
@@ -41048,7 +41048,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30137856,
+      "indirectsymoff": 30137888,
       "nindirectsyms": 5097,
       "extreloff": 0,
       "nextrel": 0,
@@ -41487,19 +41487,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29863064,
-      "datasize": 166408,
+      "dataoff": 29863080,
+      "datasize": 166424,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30029472,
+      "dataoff": 30029504,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30317248,
+      "dataoff": 30317280,
       "datasize": 256320,
       "fileoff": 8536
     }
