@@ -21120,7 +21120,6 @@
             "FORMAT",
             "FactCheck.Context.Edit",
             "FactCheck.Info.Second",
-            "FactCheck.Link.OnlyAllowed",
             "FactCheck.Placeholder",
             "FactCheck.Save.Delete",
             "FactCheck.Save.Updated",
@@ -26944,6 +26943,7 @@
             "UPSERT not implemented for virtual table \"%s\"",
             "URI",
             "URI:",
+            "URL.Link.OnlyAllowed",
             "USE TEMP B-TREE FOR %s",
             "USERNAMES_ACTIVE_TOO_MUCH",
             "USERNAME_PURCHASE_AVAILABLE",
@@ -40999,7 +40999,7 @@
       "vmaddr": 4326965248,
       "vmsize": 2998272,
       "fileoff": 4168,
-      "filesize": 2997152,
+      "filesize": 2997136,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41020,9 +41020,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 33877384,
+      "symoff": 33877376,
       "nsyms": 6780,
-      "stroff": 34009064,
+      "stroff": 34009056,
       "strsize": 158960,
       "fileoff": 4288
     },
@@ -41040,7 +41040,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 33985864,
+      "indirectsymoff": 33985856,
       "nindirectsyms": 5799,
       "extreloff": 0,
       "nextrel": 0,
@@ -41482,19 +41482,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 33710400,
+      "dataoff": 33710392,
       "datasize": 166984,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 33877384,
+      "dataoff": 33877376,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 34168032,
+      "dataoff": 34168016,
       "datasize": 286400,
       "fileoff": 8304
     }

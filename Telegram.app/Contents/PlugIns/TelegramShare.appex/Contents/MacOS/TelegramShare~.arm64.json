@@ -21195,7 +21195,6 @@
             "FORMAT",
             "FactCheck.Context.Edit",
             "FactCheck.Info.Second",
-            "FactCheck.Link.OnlyAllowed",
             "FactCheck.Placeholder",
             "FactCheck.Save.Delete",
             "FactCheck.Save.Updated",
@@ -27019,6 +27018,7 @@
             "UPSERT not implemented for virtual table \"%s\"",
             "URI",
             "URI:",
+            "URL.Link.OnlyAllowed",
             "USE TEMP B-TREE FOR %s",
             "USERNAMES_ACTIVE_TOO_MUCH",
             "USERNAME_PURCHASE_AVAILABLE",
@@ -40608,7 +40608,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 285608,
+          "size": 285616,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41036,9 +41036,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30029864,
+      "symoff": 30029856,
       "nsyms": 6774,
-      "stroff": 30158640,
+      "stroff": 30158632,
       "strsize": 158992,
       "fileoff": 4360
     },
@@ -41056,7 +41056,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30138248,
+      "indirectsymoff": 30138240,
       "nindirectsyms": 5097,
       "extreloff": 0,
       "nextrel": 0,
@@ -41495,13 +41495,13 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 29863424,
+      "dataoff": 29863416,
       "datasize": 166440,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30029864,
+      "dataoff": 30029856,
       "datasize": 0,
       "fileoff": 8520
     },
