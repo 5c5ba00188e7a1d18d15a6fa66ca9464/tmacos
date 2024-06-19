@@ -119,7 +119,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 73674,
+          "size": 73703,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -2869,6 +2869,7 @@
             "setValue:forKeyPath:",
             "setValues:",
             "setVelocityRange:",
+            "setVerticalScrollElasticity:",
             "setVerticalScroller:",
             "setVerticallyResizable:",
             "setView:",
@@ -40948,7 +40949,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 15336,
+          "size": 15344,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
