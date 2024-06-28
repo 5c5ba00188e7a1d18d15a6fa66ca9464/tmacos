@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 107,
-  "sizeofcmds": 12024,
+  "ncmds": 108,
+  "sizeofcmds": 12120,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 72089600,
+      "vmsize": 72302592,
       "fileoff": 104,
-      "filesize": 72089600,
+      "filesize": 72302592,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 65350560,
+          "size": 65563552,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -114,7 +114,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1799277,
+          "size": 1800045,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -127,7 +127,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 246353,
+          "size": 246575,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -3184,6 +3184,7 @@
             "addSubscriber:",
             "addSubview:",
             "addSubview:positioned:relativeTo:",
+            "addTargetWithHandler:",
             "addTextContainer:",
             "addTimer:forMode:",
             "addToolTipRect:owner:userData:",
@@ -3679,6 +3680,7 @@
             "change:",
             "changeFontMarkdown:makeBold:makeItalic:",
             "changeLayoutOrientation:",
+            "changePlaybackPositionCommand",
             "channel:didCompleteEnqueueingLog:internalId:",
             "channel:didFailSendingLog:withError:",
             "channel:didPauseWithIdentifyingObject:",
@@ -4142,7 +4144,6 @@
             "dataTask",
             "dataTaskWithRequest:completionHandler:",
             "dataTaskWithURL:",
-            "dataTaskWithURL:completionHandler:",
             "dataU",
             "dataUsingEncoding:",
             "dataUsingEncoding:allowLossyConversion:",
@@ -5179,6 +5180,7 @@
             "initWithBitmapDataPlanes:pixelsWide:pixelsHigh:bitsPerSample:samplesPerPixel:hasAlpha:isPlanar:colorSpaceName:bytesPerRow:bitsPerPixel:",
             "initWithBlock:",
             "initWithBool:",
+            "initWithBoundsSize:requestHandler:",
             "initWithBuffer:",
             "initWithBuffer:frame:mirrorHorizontally:mirrorVertically:",
             "initWithBuffer:frame:mirrorHorizontally:mirrorVertically:hasDeviceRelativeVideoRotation:deviceRelativeVideoRotation:",
@@ -6496,6 +6498,7 @@
             "nextSequenceNumber",
             "nextSequenceNumberHasWrapped",
             "nextServerSalt",
+            "nextTrackCommand",
             "nilSymbol",
             "noInternationalDialling",
             "noStreamVideo",
@@ -6720,6 +6723,7 @@
             "pathForResource:ofType:",
             "pattern",
             "pause",
+            "pauseCommand",
             "pauseSendingLogsWithToken:",
             "pauseTransmissionTargetForToken:",
             "pauseWithIdentifyingObject:",
@@ -6828,6 +6832,7 @@
             "platform",
             "platformString",
             "play",
+            "playCommand",
             "player",
             "playerConfiguration",
             "playerDidEnd:",
@@ -6843,6 +6848,7 @@
             "portFromSockaddr4:",
             "portFromSockaddr6:",
             "position",
+            "positionTime",
             "positionToRemember_",
             "possibleBrandsForNumber:",
             "possibleFormats_",
@@ -6910,6 +6916,7 @@
             "previewPanel:transitionImageForPreviewItem:contentRect:",
             "previewRepresentableActivityItemsForWindow:",
             "previousFailureCount",
+            "previousTrackCommand",
             "price",
             "priceLocale",
             "primaryArchitectureId",
@@ -7179,6 +7186,7 @@
             "removeStatusItem:",
             "removeStream:",
             "removeSubscriber:",
+            "removeTarget:",
             "removeTimeObserver:",
             "removeTokenForDatacenterWithId:",
             "removeTrack:",
@@ -8396,6 +8404,7 @@
             "setNormalizedCoordinates:",
             "setNotificationCategories:",
             "setNotify_next:",
+            "setNowPlayingInfo:",
             "setNtpTimeMs:",
             "setNumTemporalLayers:",
             "setNumber:",
@@ -8494,6 +8503,7 @@
             "setPlaceholder:",
             "setPlaceholderAttributedString:",
             "setPlaceholderAttributedString:update:",
+            "setPlaybackState:",
             "setPlayer:",
             "setPlayerScript:",
             "setPopSample:",
@@ -8991,6 +9001,7 @@
             "sharedAppleEventManager",
             "sharedApplication",
             "sharedClient",
+            "sharedCommandCenter",
             "sharedConfiguration",
             "sharedCost",
             "sharedCredentialStorage",
@@ -9629,6 +9640,7 @@
             "toString",
             "toUTC:",
             "toggleFullScreen:",
+            "togglePlayPauseCommand",
             "token",
             "tokenId",
             "tollFree",
@@ -10113,7 +10125,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 329445,
+          "size": 330173,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10126,7 +10138,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1725966,
+          "size": 1728894,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13218,7 +13230,6 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/InstantPageStoredState.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/InvitePrivacyLimitedController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/ManageSharedAccountInfo.swift",
-            "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/MessageContactMenuItem.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/MessageStatsController.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/MultiGiftPremium.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/Telegram-Mac/PCallSession.swift",
@@ -13819,6 +13830,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/EarliestUnseenPersonalMentionMessage.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/EngineStoryViewListContext.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/ExportMessageLink.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/ExtendedMedia.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/FactCheck.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/ForwardGame.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/TelegramCore/Sources/TelegramEngine/Messages/LoadMessagesIfNecessary.swift",
@@ -16824,6 +16836,7 @@
             "@\"NSError\"16@0:8",
             "@\"NSError\"32@0:8@\"NSApplication\"16@\"NSError\"24",
             "@\"NSEvent\"16@?0@\"NSEvent\"8",
+            "@\"NSImage\"24@?0{CGSize=dd}8",
             "@\"NSIndexSet\"32@0:8@\"NSTableView\"16@\"NSIndexSet\"24",
             "@\"NSMenu\"24@0:8@\"NSApplication\"16",
             "@\"NSMenu\"48@0:8@\"NSTextView\"16@\"NSMenu\"24@\"NSEvent\"32Q40",
@@ -18608,7 +18621,6 @@
             "CERTIFICATEPOLICIES",
             "CF",
             "CFBundleDisplayName",
-            "CFBundleIdentifier",
             "CFBundleName",
             "CFBundleShortVersionString",
             "CFBundleVersion",
@@ -21398,7 +21410,6 @@
             "Could not encrypt signaling message",
             "Could not establish secure connection.",
             "Could not execute the statement, result=%d\n\t%@",
-            "Could not fetch App Store version",
             "Could not find cipher: ",
             "Could not find codec parameters for stream %d (%s): %s\nConsider increasing the value for the 'analyzeduration' and 'probesize' options\n",
             "Could not find ref with POC %d\n",
@@ -22455,7 +22466,6 @@
             "ENGINE_set_name",
             "ENGINE_up_ref",
             "ENQ",
-            "ENTER AMOUNT TO WITHDRAW",
             "ENUM",
             "ENUMERATED",
             "ENV",
@@ -23859,6 +23869,10 @@
             "Fragment.AdsInfo.Option3.Title",
             "Fragment.AdsInfo.Text",
             "Fragment.AdsInfo.Title",
+            "Fragment.Star.AmountPlaceholder",
+            "Fragment.Star.Withdraw",
+            "Fragment.Star.WithdrawInput",
+            "Fragment.Star.WithdrawPlaceholder",
             "Fragment.Stars.AvailableBalance",
             "Fragment.Stars.BalanceTitle",
             "Fragment.Stars.MinWithdraw",
@@ -26361,6 +26375,7 @@
             "Login.New.Cancel.Confirm",
             "Login.New.Code.CallInfo",
             "Login.New.Code.CodeInfo",
+            "Login.New.Code.Email",
             "Login.New.Code.EnterCode",
             "Login.New.Code.EnterSms",
             "Login.New.Code.FragmentInfo",
@@ -26487,6 +26502,7 @@
             "MDC2",
             "MDL",
             "ME",
+            "MEDIA_ALREADY_PAID",
             "MEDIA_GROUPED_INVALID",
             "MEDIUM",
             "MEGAGROUP_PREHISTORY_HIDDEN",
@@ -26746,10 +26762,6 @@
             "MediaManager isLowCostNetwork: ",
             "MediaManager sendBitrateKbps=",
             "MediaManager::~MediaManager()",
-            "MediaPlayer.FFMpegMediaFrameSource",
-            "MediaPlayer.FFMpegMediaFrameSourceContext",
-            "MediaPlayer.UniversalSoftwareVideoSourceTakeFrameParams",
-            "MediaPlayer.UniversalSoftwareVideoSourceThreadParams",
             "MediaSender.DiscardChanges.Header",
             "MediaSender.DiscardChanges.OK",
             "MediaSender.DiscardChanges.Text",
@@ -28243,6 +28255,16 @@
             "Page %u: ",
             "Page at %lld is missing granule\n",
             "Pagecount",
+            "PaidMedia.Header",
+            "PaidMedia.Placeholder",
+            "PaidMedia.Status.Purchased",
+            "PaidMedia.UnlockFor_countable",
+            "PaidMedia.UnlockFor_few",
+            "PaidMedia.UnlockFor_many",
+            "PaidMedia.UnlockFor_one",
+            "PaidMedia.UnlockFor_other",
+            "PaidMedia.UnlockFor_two",
+            "PaidMedia.UnlockFor_zero",
             "PaleGoldenRod",
             "PaleGreen",
             "PaleTurquoise",
@@ -29178,9 +29200,11 @@
             "PreviewSender.CompressFile",
             "PreviewSender.FileTooltip",
             "PreviewSender.Grouped",
+            "PreviewSender.MakePaid",
             "PreviewSender.MediaTooltip",
             "PreviewSender.MoveTextDown",
             "PreviewSender.MoveTextUp",
+            "PreviewSender.RemovePaid",
             "PreviewSender.SendAsFile",
             "PreviewSender.SendAsMedia",
             "PreviewSender.SendAsSpoiler",
@@ -31860,6 +31884,7 @@
             "Star.List.StarsNeeded_two",
             "Star.List.StarsNeeded_zero",
             "Star.List.TelegramStars",
+            "Star.List.Transaction.Ads",
             "Star.List.Transaction.AppStore",
             "Star.List.Transaction.Fragment",
             "Star.List.Transaction.PlayMarket",
@@ -31876,6 +31901,8 @@
             "Star.List.YourBalance",
             "Star.Purchase.Balance",
             "Star.Purchase.Confirm",
+            "Star.Purchase.PaidMedia.Success",
+            "Star.Purchase.PaidMedia.Text",
             "Star.Purchase.Pay",
             "Star.Purchase.Success",
             "Star.Purchase.Text",
@@ -31888,9 +31915,31 @@
             "Star.Purchase.Text.In_zero",
             "Star.Transaction.Copied",
             "Star.Transaction.Date",
+            "Star.Transaction.From",
             "Star.Transaction.Id",
+            "Star.Transaction.MessageId",
             "Star.Transaction.To",
             "Star.Transaction.Tos",
+            "Stars.Balance.BuyAds",
+            "Stars.Transaction.MediaPurchase",
+            "Stars.Transaction.TopUp",
+            "Stars.Transfer.MediaAnd",
+            "Stars.Transfer.Photos_countable",
+            "Stars.Transfer.Photos_few",
+            "Stars.Transfer.Photos_many",
+            "Stars.Transfer.Photos_one",
+            "Stars.Transfer.Photos_other",
+            "Stars.Transfer.Photos_two",
+            "Stars.Transfer.Photos_zero",
+            "Stars.Transfer.SinglePhoto",
+            "Stars.Transfer.SingleVideo",
+            "Stars.Transfer.Videos_countable",
+            "Stars.Transfer.Videos_few",
+            "Stars.Transfer.Videos_many",
+            "Stars.Transfer.Videos_one",
+            "Stars.Transfer.Videos_other",
+            "Stars.Transfer.Videos_two",
+            "Stars.Transfer.Videos_zero",
             "Start Of Frame 0x%02x: width=%u, height=%u, components=%d",
             "Start Of Scan: %d components",
             "Start buffering traces.",
@@ -33156,6 +33205,7 @@
             "Telegram ",
             "Telegram Archive",
             "Telegram Notifications",
+            "Telegram was updated to ",
             "Telegram.APController",
             "Telegram.AboutModalController",
             "Telegram.AboutModalView",
@@ -33227,6 +33277,7 @@
             "Telegram.Avatar_StickersList",
             "Telegram.BackCategoryControl",
             "Telegram.BackView",
+            "Telegram.BadgeView",
             "Telegram.BioViewController",
             "Telegram.BlobLayer",
             "Telegram.BlockedPeersViewController",
@@ -33470,6 +33521,7 @@
             "Telegram.InlineStickerItemLayer",
             "Telegram.InlineStickerLockLayer",
             "Telegram.InlineStickerView",
+            "Telegram.Input",
             "Telegram.InputAnimatedEmojiAttach",
             "Telegram.InputContextHelper",
             "Telegram.InputContextView",
@@ -33540,8 +33592,6 @@
             "Telegram.MediaPreviewRowItem",
             "Telegram.MergedAvatarsView",
             "Telegram.MessageActionsPanelView",
-            "Telegram.MessageContactItem",
-            "Telegram.MessageContactMenuItem",
             "Telegram.MessageContainsPacksItem",
             "Telegram.MessageContainsPacksMenuItem",
             "Telegram.MessageReadMenuItem",
@@ -33629,6 +33679,7 @@
             "Telegram.PremiumStickersDemoView",
             "Telegram.PremiumView",
             "Telegram.Preview",
+            "Telegram.PreviewMediaView",
             "Telegram.PreviewModalController",
             "Telegram.PreviewModalView",
             "Telegram.PreviewSenderController",
@@ -33786,7 +33837,6 @@
             "Telegram.UpdateView",
             "Telegram.UpgradeDatabase.Text",
             "Telegram.UpgradeDatabase.Title",
-            "Telegram.UserContainer",
             "Telegram.UsernameSettingsViewController",
             "Telegram.V",
             "Telegram.ValuesSelectorModalController",
@@ -33961,6 +34011,7 @@
             "Telegram/ChatMapRowItem.swift",
             "Telegram/ChatMediaContentView.swift",
             "Telegram/ChatMediaItem.swift",
+            "Telegram/ChatMediaPaidContentItem.swift",
             "Telegram/ChatMessageAccessoryView.swift",
             "Telegram/ChatMessageDateHeader.swift",
             "Telegram/ChatMessageItem.swift",
@@ -34131,11 +34182,12 @@
             "Telegram/MainViewController.swift",
             "Telegram/MajorBackNavigationBar.swift",
             "Telegram/MediaAnimatedStickerView.swift",
+            "Telegram/MediaGroupPreviewRowItem.swift",
+            "Telegram/MediaPaidSetterController.swift",
             "Telegram/MediaPreviewEditControl.swift",
             "Telegram/MediaUtils.swift",
             "Telegram/MergedAvatarsView.swift",
             "Telegram/MessageActionsPanelView.swift",
-            "Telegram/MessageContactMenuItem.swift",
             "Telegram/MessageReadMenuItem.swift",
             "Telegram/MessageSharedRowItem.swift",
             "Telegram/MetalEngineTestController.swift",
@@ -34382,6 +34434,10 @@
             "TelegramMedia/MediaPlayerView.swift",
             "TelegramMediaFile",
             "TelegramMediaImageRepresentation",
+            "TelegramMediaPlayer.FFMpegMediaFrameSource",
+            "TelegramMediaPlayer.FFMpegMediaFrameSourceContext",
+            "TelegramMediaPlayer.UniversalSoftwareVideoSourceTakeFrameParams",
+            "TelegramMediaPlayer.UniversalSoftwareVideoSourceThreadParams",
             "TelegramPeerNotificationSettings",
             "TelegramTextPboardType",
             "TelegramThemeSettings",
@@ -37475,30 +37531,6 @@
             "_ROWID_",
             "_TPCircularBufferInit",
             "_TtC11ManagedFile11ManagedFile",
-            "_TtC11MediaPlayer14RingByteBuffer",
-            "_TtC11MediaPlayer15MediaTrackFrame",
-            "_TtC11MediaPlayer19SoftwareAudioSource",
-            "_TtC11MediaPlayer19SoftwareVideoSource",
-            "_TtC11MediaPlayer20MediaPlaybackBuffers",
-            "_TtC11MediaPlayer21MediaTrackFrameBuffer",
-            "_TtC11MediaPlayer22FFMpegMediaFrameSource",
-            "_TtC11MediaPlayer23FFMpegAudioFrameDecoder",
-            "_TtC11MediaPlayer24MediaTrackDecodableFrame",
-            "_TtC11MediaPlayer26MediaFrameSourceSeekResult",
-            "_TtC11MediaPlayer28FFMpegMediaVideoFrameDecoder",
-            "_TtC11MediaPlayer28UniversalSoftwareVideoSource",
-            "_TtC11MediaPlayer29FFMpegMediaFrameSourceContext",
-            "_TtC11MediaPlayer36FFMpegMediaFrameSourceContextHelpers",
-            "_TtC11MediaPlayer39FFMpegMediaPassthroughVideoFrameDecoder",
-            "_TtC11MediaPlayerP33_3082E4DEFA1F859C2417AD98F350AC0F16InitializedState",
-            "_TtC11MediaPlayerP33_8E19B1B19D8F9577A4F9C00CDB0F88D815ThreadTaskQueue",
-            "_TtC11MediaPlayerP33_AB6670A2EC6DC190302A087DCF33EB2019SoftwareVideoStream",
-            "_TtC11MediaPlayerP33_AB6670A2EC6DC190302A087DCF33EB2032UniversalSoftwareVideoSourceImpl",
-            "_TtC11MediaPlayerP33_AB6670A2EC6DC190302A087DCF33EB2034UniversalSoftwareVideoSourceThread",
-            "_TtC11MediaPlayerP33_AB6670A2EC6DC190302A087DCF33EB2040UniversalSoftwareVideoSourceThreadParams",
-            "_TtC11MediaPlayerP33_AB6670A2EC6DC190302A087DCF33EB2043UniversalSoftwareVideoSourceTakeFrameParams",
-            "_TtC11MediaPlayerP33_F25248D15435AF8112B11EC5AC9C1C6A19SoftwareAudioStream",
-            "_TtC11MediaPlayerP33_F25248D15435AF8112B11EC5AC9C1C6A19SoftwareVideoStream",
             "_TtC11MetalEngine11MetalEngine",
             "_TtC11MetalEngine12PooledBuffer",
             "_TtC11MetalEngine12SharedBuffer",
@@ -37704,6 +37736,7 @@
             "_TtC12TelegramCore24StarsRevenueStatsContext",
             "_TtC12TelegramCore24StarsTransactionsContext",
             "_TtC12TelegramCore24TelegramBusinessLocation",
+            "_TtC12TelegramCore24TelegramMediaPaidContent",
             "_TtC12TelegramCore24TelegramMediaUnsupported",
             "_TtC12TelegramCore24UnauthorizedAccountState",
             "_TtC12TelegramCore25AccountSortOrderAttribute",
@@ -37984,6 +38017,7 @@
             "_TtC12TelegramCoreP33_F9C1DE9DEFC28A402A6F53CCE17A9BE339UpdatedRevenueBalancesSubscriberContext",
             "_TtC12TelegramCoreP33_F9C1DE9DEFC28A402A6F53CCE17A9BE342UpdatedStarsRevenueStatusSubscriberContext",
             "_TtC12TelegramVoip16ContextQueueImpl",
+            "_TtC12TelegramVoip20LiveStreamController",
             "_TtC12TelegramVoip23OngoingGroupCallContext",
             "_TtC12TelegramVoip24OngoingCallVideoCapturer",
             "_TtC12TelegramVoip26NetworkBroadcastPartSource",
@@ -38102,6 +38136,30 @@
             "_TtC17PrivateCallScreenP33_CABF240ACFDB7448C67CE622CC436EF413SignalControl",
             "_TtC17PrivateCallScreenP33_CABF240ACFDB7448C67CE622CC436EF414ActiveCallView",
             "_TtC18TelegramIconsTheme18TelegramIconsTheme",
+            "_TtC19TelegramMediaPlayer14RingByteBuffer",
+            "_TtC19TelegramMediaPlayer15MediaTrackFrame",
+            "_TtC19TelegramMediaPlayer19SoftwareAudioSource",
+            "_TtC19TelegramMediaPlayer19SoftwareVideoSource",
+            "_TtC19TelegramMediaPlayer20MediaPlaybackBuffers",
+            "_TtC19TelegramMediaPlayer21MediaTrackFrameBuffer",
+            "_TtC19TelegramMediaPlayer22FFMpegMediaFrameSource",
+            "_TtC19TelegramMediaPlayer23FFMpegAudioFrameDecoder",
+            "_TtC19TelegramMediaPlayer24MediaTrackDecodableFrame",
+            "_TtC19TelegramMediaPlayer26MediaFrameSourceSeekResult",
+            "_TtC19TelegramMediaPlayer28FFMpegMediaVideoFrameDecoder",
+            "_TtC19TelegramMediaPlayer28UniversalSoftwareVideoSource",
+            "_TtC19TelegramMediaPlayer29FFMpegMediaFrameSourceContext",
+            "_TtC19TelegramMediaPlayer36FFMpegMediaFrameSourceContextHelpers",
+            "_TtC19TelegramMediaPlayer39FFMpegMediaPassthroughVideoFrameDecoder",
+            "_TtC19TelegramMediaPlayerP33_190F837BE656D56D9A2F4B89994A21C019SoftwareAudioStream",
+            "_TtC19TelegramMediaPlayerP33_190F837BE656D56D9A2F4B89994A21C019SoftwareVideoStream",
+            "_TtC19TelegramMediaPlayerP33_6A3B4F1E3B3B1C859C3E5E0F47571E3619SoftwareVideoStream",
+            "_TtC19TelegramMediaPlayerP33_6A3B4F1E3B3B1C859C3E5E0F47571E3632UniversalSoftwareVideoSourceImpl",
+            "_TtC19TelegramMediaPlayerP33_6A3B4F1E3B3B1C859C3E5E0F47571E3634UniversalSoftwareVideoSourceThread",
+            "_TtC19TelegramMediaPlayerP33_6A3B4F1E3B3B1C859C3E5E0F47571E3640UniversalSoftwareVideoSourceThreadParams",
+            "_TtC19TelegramMediaPlayerP33_6A3B4F1E3B3B1C859C3E5E0F47571E3643UniversalSoftwareVideoSourceTakeFrameParams",
+            "_TtC19TelegramMediaPlayerP33_B71C14682ABE697CE06FC953A9647E3D15ThreadTaskQueue",
+            "_TtC19TelegramMediaPlayerP33_C1B3EAC7FBD740C7F5A168B400BAE1EF16InitializedState",
             "_TtC20InAppPurchaseManager20InAppPurchaseManager",
             "_TtC20InAppPurchaseManagerP33_4115544CEA2E476E5499A05F8522A74725PendingInAppPurchaseState",
             "_TtC3Zip12ZipUtilities",
@@ -38549,6 +38607,7 @@
             "_TtC7TGUIKit27RadialProgressContainerView",
             "_TtC7TGUIKit27TextAndLabelModalController",
             "_TtC7TGUIKit27VerticalParticleListControl",
+            "_TtC7TGUIKit28CaptureProtectedContentLayer",
             "_TtC7TGUIKit30AnimatedGradientBackgroundView",
             "_TtC7TGUIKit31CatalinaStyledSegmentController",
             "_TtC7TGUIKit4Node",
@@ -38620,7 +38679,6 @@
             "_TtC7TGUIKitP33_DA940A34D537F2D17B408C82549A751C19TitledContainerView",
             "_TtC7TGUIKitP33_EC0D47444E4F85F032D3E94EE4B62E0D14PathDataReader",
             "_TtC7TGUIKitP33_EC0D47444E4F85F032D3E94EE4B62E0D28ShimmerEffectForegroundLayer",
-            "_TtC7TGUIKitP33_ED09623AB7EA170C610F3F5A37EE657428CaptureProtectedContentLayer",
             "_TtC7TGUIKitP33_F214F8FD9AD80F351992A884BD31D32B15ModalBackground",
             "_TtC7TGUIKitP33_F214F8FD9AD80F351992A884BD31D32B15ModalHeaderView",
             "_TtC7TGUIKitP33_F214F8FD9AD80F351992A884BD31D32B18ModalContainerView",
@@ -39255,7 +39313,6 @@
             "_TtC8Telegram22InstantPageStoredState",
             "_TtC8Telegram22LinkInvationController",
             "_TtC8Telegram22MajorBackNavigationBar",
-            "_TtC8Telegram22MessageContactMenuItem",
             "_TtC8Telegram22MessageReadMenuRowItem",
             "_TtC8Telegram22PasscodeLockController",
             "_TtC8Telegram22PassportControllerView",
@@ -39360,6 +39417,7 @@
             "_TtC8Telegram24ChatCalendarMonthRowItem",
             "_TtC8Telegram24ChatFileLayoutParameters",
             "_TtC8Telegram24ChatLiveTranslateContext",
+            "_TtC8Telegram24ChatMediaPaidContentItem",
             "_TtC8Telegram24ChatMessageAccessoryView",
             "_TtC8Telegram24ContextSearchMessageItem",
             "_TtC8Telegram24ContextSwitchPeerRowItem",
@@ -39756,6 +39814,7 @@
             "_TtC8TelegramP33_1C5E772D7DD64CA2C9AC98BDF460F5AD23VideoAvatarProgressView",
             "_TtC8TelegramP33_1C5E772D7DD64CA2C9AC98BDF460F5AD29SelectMessagesPlaceholderView",
             "_TtC8TelegramP33_1D69CDE4400AB78102B92312789E8A5016MGalleryItemView",
+            "_TtC8TelegramP33_1D69CDE4400AB78102B92312789E8A505Layer",
             "_TtC8TelegramP33_1EC109634CFF9619CA693296DFC41D8017QuickSwitcherView",
             "_TtC8TelegramP33_1EC109634CFF9619CA693296DFC41D8022QuickSwitcherArguments",
             "_TtC8TelegramP33_1EF176354FD17369F59B27057FE981FA27StorageUsageClearButtonView",
@@ -39776,6 +39835,7 @@
             "_TtC8TelegramP33_23B26887BF9A030858D151DFF7FA7C0C23ValuesSelectorModalView",
             "_TtC8TelegramP33_23DA92CD070246272E179A9D020451BA10HeaderItem",
             "_TtC8TelegramP33_23DA92CD070246272E179A9D020451BA10HeaderView",
+            "_TtC8TelegramP33_23DA92CD070246272E179A9D020451BA17GallerySupplyment",
             "_TtC8TelegramP33_23DA92CD070246272E179A9D020451BA9Arguments",
             "_TtC8TelegramP33_24B05E0CE72C535FB2E576E3C054392E20PremiumReactionsView",
             "_TtC8TelegramP33_2502B663D13FFE73AF3669993B9036D313EditImageView",
@@ -39784,6 +39844,9 @@
             "_TtC8TelegramP33_252EF16268341F197640F355FB8C5E6133ServiceEventLogMessageContentItem",
             "_TtC8TelegramP33_252EF16268341F197640F355FB8C5E6135ServiceEventLogMessageContainerView",
             "_TtC8TelegramP33_2650675262557CE3AD6965487F7A56CB9Arguments",
+            "_TtC8TelegramP33_27496718F46497E2499D277EEA49CF099Arguments",
+            "_TtC8TelegramP33_27496718F46497E2499D277EEA49CF099InputItem",
+            "_TtC8TelegramP33_27496718F46497E2499D277EEA49CF099InputView",
             "_TtC8TelegramP33_279BAAD51C0202A5ADC92BD12162C92F24AutoremoveCallbackObject",
             "_TtC8TelegramP33_279BAAD51C0202A5ADC92BD12162C92F9Arguments",
             "_TtC8TelegramP33_27C1C8F1A514ABAE92741C5A09D9580312PreviewMedia",
@@ -39809,8 +39872,6 @@
             "_TtC8TelegramP33_2E1DCB8FF276C0E41284391E151B541C18WithdrawHeaderView",
             "_TtC8TelegramP33_2E1DCB8FF276C0E41284391E151B541C9Arguments",
             "_TtC8TelegramP33_2F493BC681C68C319C51DA51AB3612AD22RequestJoinChatRowView",
-            "_TtC8TelegramP33_2F7B76CDF29F75A4029261778777B70718MessageContactItem",
-            "_TtC8TelegramP33_2F7B76CDF29F75A4029261778777B70722MessageContactItemVIew",
             "_TtC8TelegramP33_2FA888DD99C07B0294F832A919BCCF6620ConnectingStatusView",
             "_TtC8TelegramP33_2FFDA69D44869DB43631F731FB69050E31ChannelAdminControllerArguments",
             "_TtC8TelegramP33_306E082C884BA8E329B73714BF9D532B22PeerMediaGifsArguments",
@@ -39856,6 +39917,7 @@
             "_TtC8TelegramP33_3C2D9721819E1804CAC7F4F90EE4C58D13TableDelegate",
             "_TtC8TelegramP33_3C2D9721819E1804CAC7F4F90EE4C58D18MessageIdenfitifer",
             "_TtC8TelegramP33_3C2D9721819E1804CAC7F4F90EE4C58D9Arguments",
+            "_TtC8TelegramP33_3CADF44E775A3FD14C70E65D547A24A613ControlCenter",
             "_TtC8TelegramP33_3CD461D1C4915CA0AB121D60D10198A318EditThemeArguments",
             "_TtC8TelegramP33_3CFA13D8F69112D761F53D3B0FD9A24B28Auth_AwaitingResetHeaderView",
             "_TtC8TelegramP33_3EABD976364504FE1D41A563BBF53DE525StorageUsageBlockItemView",
@@ -39888,6 +39950,10 @@
             "_TtC8TelegramP33_4BA0441B230C231959DCADC0CEE0B0E930PaymentsCheckoutPreviewRowView",
             "_TtC8TelegramP33_4C12B75819D3DC6C2A168A51DC69138126ContextShowPeersHolderView",
             "_TtC8TelegramP33_4C13A85699C7E241A61DA219D7433DCC27EditInfoControllerArguments",
+            "_TtC8TelegramP33_4D151AF3EA2FA678E6FC86DB1B1249CD16PreviewMediaView",
+            "_TtC8TelegramP33_4D151AF3EA2FA678E6FC86DB1B1249CD17ChatPaidMediaView",
+            "_TtC8TelegramP33_4D151AF3EA2FA678E6FC86DB1B1249CD6Button",
+            "_TtC8TelegramP33_4D151AF3EA2FA678E6FC86DB1B1249CD9BadgeView",
             "_TtC8TelegramP33_4D2E9CDA5BB73692D766A13E4CED9A7823AutoNightThemeArguments",
             "_TtC8TelegramP33_4DF0AA725FA1179CD47AAF159457DAFD21WidgetStorageProgress",
             "_TtC8TelegramP33_4E3DE3B364686C6C65D63FA682326CD59Arguments",
@@ -40204,6 +40270,7 @@
             "_TtC8TelegramP33_B27BBCA0ED91FE4B8793DA310BCAF43F10AcceptView",
             "_TtC8TelegramP33_B27BBCA0ED91FE4B8793DA310BCAF43F10HeaderItem",
             "_TtC8TelegramP33_B27BBCA0ED91FE4B8793DA310BCAF43F14HeaderItemView",
+            "_TtC8TelegramP33_B27BBCA0ED91FE4B8793DA310BCAF43F16PreviewMediaView",
             "_TtC8TelegramP33_B27BBCA0ED91FE4B8793DA310BCAF43F9Arguments",
             "_TtC8TelegramP33_B289BDF3EB4AE868F77C61FC3C34F2169Arguments",
             "_TtC8TelegramP33_B2F4EF59AEB01D403974484A07DB582D24ChannelRecentPostRowView",
@@ -40658,6 +40725,7 @@
             "_TtCC8Telegram23StickerMediaContentViewP33_6C490F3C139B79FF163A9FB1B55CBC418LockView",
             "_TtCC8Telegram23StoryContentContextImplP33_B1F5DFA3118273E3392605704E90F75211PeerContext",
             "_TtCC8Telegram23StoryContentContextImplP33_B1F5DFA3118273E3392605704E90F75212StateContext",
+            "_TtCC8Telegram24MediaGroupPreviewRowViewP33_266F55C1AD91A4CB7037A0AA2C39059C15PaidContentView",
             "_TtCC8Telegram24StickerPremiumHolderViewP33_C5C639C8240C3CE4FD2860194E00219E10AcceptView",
             "_TtCC8Telegram24StoryContentContextState12FocusedSlice",
             "_TtCC8Telegram25AnimatedEmojiesCategoriesP33_BE8152C6B239A42C33F9B664CCC098C812CategoryView",
@@ -40689,11 +40757,11 @@
             "_TtCC8TelegramP33_2301F9E47A6663C87B4410AD9DB111E87RowView10OptionView",
             "_TtCC8TelegramP33_24B05E0CE72C535FB2E576E3C054392E20PremiumReactionsView10AcceptView",
             "_TtCC8TelegramP33_2502B663D13FFE73AF3669993B9036D313EditImageView5Image",
+            "_TtCC8TelegramP33_27496718F46497E2499D277EEA49CF099InputView5Input",
             "_TtCC8TelegramP33_2DB0F4FEF1B7CBC02D66957710AAED2630GiveawayDurationOptionItemView12DiscountView",
             "_TtCC8TelegramP33_2E1DCB8FF276C0E41284391E151B541C17WithdrawInputView10AcceptView",
             "_TtCC8TelegramP33_2E1DCB8FF276C0E41284391E151B541C17WithdrawInputView13WithdrawInput",
             "_TtCC8TelegramP33_2E1DCB8FF276C0E41284391E151B541C17WithdrawInputView9LimitView",
-            "_TtCC8TelegramP33_2F7B76CDF29F75A4029261778777B70722MessageContactItemVIew13UserContainer",
             "_TtCC8TelegramP33_33CE941206580025411BC4423DD1C90225ChatGiveawayResultRowView11ChannelView",
             "_TtCC8TelegramP33_392CCA3366DE8B5564EAB68AC05686D518PremiumGiftRowView10OptionView",
             "_TtCC8TelegramP33_426605FEC4EBAD9163634CB2FB99DDF518ChatSearchTagsView10UnlockItem",
@@ -42660,6 +42728,7 @@
             "adpcm_vima",
             "adpcm_xa",
             "adpcm_yamaha",
+            "adsAction",
             "advanced_chat_management",
             "advanced_editlist",
             "ae",
@@ -43862,6 +43931,7 @@
             "badgeBackgroundColor",
             "badgeColor",
             "badgeCountDisposable",
+            "badgeLayout",
             "badgeMutedBackgroundColor",
             "badgeMutedTextColor",
             "badgeNode",
@@ -44423,6 +44493,7 @@
             "buttonsContainer",
             "buttonsView",
             "buy",
+            "buyAds",
             "buyMore",
             "bw_adapted_fps: ",
             "bw_adapted_res: ",
@@ -44743,6 +44814,7 @@
             "canReply",
             "canReport",
             "canReset",
+            "canReveal",
             "canSend",
             "canShare",
             "canSpoiler",
@@ -46079,6 +46151,7 @@
             "content_rowid",
             "contentidentifier mismatch",
             "contents",
+            "contentsDidChange",
             "contentsMultiplyColor",
             "contentsOfAdmissions",
             "contentsRect",
@@ -46118,6 +46191,7 @@
             "control",
             "control command failed",
             "controlAction",
+            "controlCenter",
             "controlColor",
             "controlContent",
             "controlMovePosition",
@@ -49977,6 +50051,7 @@
             "groupcall_video_participants_max",
             "groupedContentView",
             "groupedContents",
+            "groupedLayout",
             "grouping",
             "groupingKey",
             "groupingPredicate",
@@ -50381,13 +50456,11 @@
             "https://%@",
             "https://%@/dns-query?name=%@&type=16&random_padding=%@",
             "https://%@/resolve?name=%@&type=16&random_padding=%@",
-            "https://apps.apple.com/us/app/telegram/id747648890",
             "https://fragment.com",
             "https://google.com/resolve?name=%@",
             "https://in.appcenter.ms",
             "https://instagram.com/",
             "https://instagram.com/explore/tags/",
-            "https://itunes.apple.com/lookup?bundleId=",
             "https://itunes.apple.com/search?term=",
             "https://m.youtube.com/watch?v=",
             "https://maps.google.com/maps?q=",
@@ -51369,6 +51442,7 @@
             "inputMediaGeoLive",
             "inputMediaGeoPoint",
             "inputMediaInvoice",
+            "inputMediaPaidMedia",
             "inputMediaPhotoExternal",
             "inputMediaUploadedDocument",
             "inputMediaUploadedPhoto",
@@ -52042,6 +52116,7 @@
             "isProcessingEvent",
             "isProcessingUpdate",
             "isProfileIntended",
+            "isProtected",
             "isProxy",
             "isPublic",
             "isPushToTalkEquaivalent",
@@ -53840,6 +53915,7 @@
             "messageMediaGiveaway",
             "messageMediaGiveawayResults",
             "messageMediaInvoice",
+            "messageMediaPaidMedia",
             "messageMediaPhoto",
             "messageMediaPoll",
             "messageMediaPreuploadManager",
@@ -54743,6 +54819,7 @@
             "next >= 0 || pc->buffer",
             "nextAction",
             "nextButton",
+            "nextCommand",
             "nextDisposable",
             "nextEntryId",
             "nextEpisodeId",
@@ -54779,6 +54856,7 @@
             "nextTargetProgressNorm",
             "nextTextView",
             "nextTimer",
+            "nextTrack",
             "nextTransaction",
             "nextUniqueId",
             "nextUpdate",
@@ -55320,6 +55398,7 @@
             "onSleepValueUpdated",
             "onSpeaking",
             "onSpoilerReveal",
+            "onStage",
             "onStageEndpoints",
             "onStateUpdate",
             "onToggleFullScreen",
@@ -55877,6 +55956,7 @@
             "page_size",
             "pager",
             "pagerTelephoneNumber",
+            "paidPreview",
             "paidView",
             "paint",
             "painterBrushWeight",
@@ -56027,6 +56107,7 @@
             "patternTarget",
             "patternsController",
             "pause",
+            "pauseCommand",
             "pauseCount",
             "pauseOverlay",
             "paused",
@@ -56067,6 +56148,7 @@
             "payments.getPaymentReceipt",
             "payments.getPremiumGiftCodeOptions",
             "payments.getSavedInfo",
+            "payments.getStarsRevenueAdsAccountUrl",
             "payments.getStarsRevenueStats",
             "payments.getStarsRevenueWithdrawalUrl",
             "payments.getStarsStatus",
@@ -56564,6 +56646,7 @@
             "playAfterDragging",
             "playAndRecord",
             "playAnimationView",
+            "playCommand",
             "playIcon",
             "playIntegrityNonce",
             "playIntegrityToken",
@@ -56581,6 +56664,7 @@
             "playbackBufferFull",
             "playbackDisposable",
             "playbackLikelyToKeepUp",
+            "playbackPositionCommand",
             "playbackStatusPromise",
             "playbackStatusValue",
             "playback_requirements",
@@ -56882,6 +56966,7 @@
             "prev",
             "prevAction",
             "prevBannedRights",
+            "prevCommand",
             "prevHoleIndex",
             "prevIsLoading",
             "prevLeft",
@@ -56890,6 +56975,7 @@
             "prevState",
             "prevStory",
             "prevStoryView",
+            "prevTrack",
             "prevView",
             "prevVisibleRect",
             "prev_button",
@@ -56906,6 +56992,7 @@
             "previewItemURL",
             "previewLinesChartRenderer",
             "previewLinesRenderer",
+            "previewMedia",
             "previewPack",
             "previewPercentChartRenderer",
             "previewPlayer",
@@ -57181,7 +57268,6 @@
             "property",
             "prores",
             "prosumer",
-            "protectedOverlay",
             "protectedUntil",
             "protobuf-c.c",
             "protocol",
@@ -57291,6 +57377,7 @@
             "q",
             "q not prime",
             "q16@0:8",
+            "q16@?0@\"MPRemoteCommandEvent\"8",
             "q24@0:8@\"NSMenu\"16",
             "q24@0:8@\"NSTableView\"16",
             "q24@0:8@\"QLPreviewPanel\"16",
@@ -58323,6 +58410,7 @@
             "row",
             "row ",
             "row value misused",
+            "rowCountValue",
             "rowHeight",
             "rowItem",
             "rowView",
@@ -59642,7 +59730,6 @@
             "showPreviewSender",
             "showPrivacy",
             "showProfileId",
-            "showProfileView",
             "showReactionsPanel",
             "showRects",
             "showSendAs",
@@ -60329,17 +60416,20 @@
             "starsChangeHandler",
             "starsContext",
             "starsCount",
+            "starsRevenueAdsAccountUrl",
             "starsRevenueStats",
             "starsRevenueStatus",
             "starsRevenueWithdrawalUrl",
             "starsTopupOption",
             "starsTransaction",
             "starsTransactionPeer",
+            "starsTransactionPeerAds",
             "starsTransactionPeerAppStore",
             "starsTransactionPeerFragment",
             "starsTransactionPeerPlayMarket",
             "starsTransactionPeerPremiumBot",
             "starsTransactionPeerUnsupported",
+            "stars_paid_post_amount_max",
             "stars_purchase_blocked",
             "stars_revenue_withdrawal_min",
             "start",
@@ -61788,6 +61878,8 @@
             "togglePinSelected",
             "togglePinned",
             "togglePip",
+            "togglePlayPause",
+            "togglePlayPauseCommand",
             "togglePreloadLargeVideos",
             "togglePreviewChat",
             "toggleQuote",
@@ -62437,6 +62529,7 @@
             "unlinkGroup",
             "unlock",
             "unlockText",
+            "unlockView",
             "unmutedVideoCount",
             "unmutedVideoLimit",
             "unofficial",
@@ -64505,7 +64598,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 490932,
+          "size": 492316,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64518,7 +64611,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 29088,
+          "size": 29136,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64531,7 +64624,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 28328,
+          "size": 28404,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64570,7 +64663,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 266932,
+          "size": 267220,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64596,7 +64689,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 243678,
+          "size": 243870,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -66616,6 +66709,7 @@
             "admins",
             "adminsTooMuch",
             "adminsTooMuch",
+            "ads",
             "adsHidden",
             "aesIv",
             "aesIv",
@@ -66707,6 +66801,7 @@
             "alwaysStaticItems",
             "amharic",
             "amharicEthiopia",
+            "amount",
             "amount",
             "amount",
             "amount",
@@ -69877,6 +69972,7 @@
             "exportedMessageLink",
             "exportedStoryLink",
             "extendedMedia",
+            "extendedMedia",
             "external",
             "external",
             "external",
@@ -71459,6 +71555,7 @@
             "inputMediaGeoLive",
             "inputMediaGeoPoint",
             "inputMediaInvoice",
+            "inputMediaPaidMedia",
             "inputMediaPhoto",
             "inputMediaPhotoExternal",
             "inputMediaPoll",
@@ -73048,6 +73145,7 @@
             "media",
             "media",
             "media",
+            "media",
             "mediaArea",
             "mediaAreaChannelPost",
             "mediaAreaCoordinates",
@@ -73068,6 +73166,8 @@
             "mediaFileReference",
             "mediaId",
             "mediaId",
+            "mediaProgress",
+            "mediaProgress",
             "mediaReference",
             "mediaReferenceRevalidationContext",
             "mediaReferenceRevalidationContext",
@@ -73359,6 +73459,7 @@
             "messageMediaGiveaway",
             "messageMediaGiveawayResults",
             "messageMediaInvoice",
+            "messageMediaPaidMedia",
             "messageMediaPhoto",
             "messageMediaPoll",
             "messageMediaPreuploadManager",
@@ -74200,6 +74301,8 @@
             "pageSize",
             "pageTableCell",
             "pageTableRow",
+            "paidContent",
+            "paidMessageId",
             "pair",
             "pakistanRupee",
             "palette",
@@ -74504,6 +74607,7 @@
             "peerId",
             "peerIdNamespace",
             "peerIdToIdTable",
+            "peerIds",
             "peerIds",
             "peerIds",
             "peerIds",
@@ -75196,7 +75300,6 @@
             "promoDataEmpty",
             "promoInfo",
             "promotedBy",
-            "protectedOverlay",
             "protocolViolation",
             "provider",
             "provider",
@@ -76377,6 +76480,7 @@
             "serverProvided",
             "serverProvided",
             "serverProvided",
+            "serverProvided",
             "servers",
             "serversDisposable",
             "service",
@@ -76789,6 +76893,7 @@
             "stars",
             "stars",
             "starsContext",
+            "starsRevenueAdsAccountUrl",
             "starsRevenueStats",
             "starsRevenueStatus",
             "starsRevenueWithdrawalUrl",
@@ -76796,6 +76901,7 @@
             "starsTopupOption",
             "starsTransaction",
             "starsTransactionPeer",
+            "starsTransactionPeerAds",
             "starsTransactionPeerAppStore",
             "starsTransactionPeerFragment",
             "starsTransactionPeerPlayMarket",
@@ -79169,7 +79275,7 @@
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 16952,
+          "size": 17000,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -79182,7 +79288,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 245216,
+          "size": 245908,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80293,7 +80399,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 604548,
+          "size": 606204,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80306,7 +80412,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 180312,
+          "size": 180584,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80321,10 +80427,10 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4367056896,
-      "vmsize": 8945664,
+      "vmaddr": 4367269888,
+      "vmsize": 8978432,
       "fileoff": 2176,
-      "filesize": 6979584,
+      "filesize": 7012352,
       "maxprot": {
         "read": true,
         "write": true,
@@ -80356,7 +80462,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 41288,
+          "size": 41368,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80395,7 +80501,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2053280,
+          "size": 2061312,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80421,7 +80527,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 32112,
+          "size": 32208,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80477,7 +80583,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1424016,
+          "size": 1427568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80490,7 +80596,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 42392,
+          "size": 42488,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80518,7 +80624,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 5776,
+          "size": 5808,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80561,7 +80667,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2189888,
+          "size": 2203264,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80574,7 +80680,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 946885,
+          "size": 949317,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80691,7 +80797,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1292976,
+          "size": 1293616,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80704,7 +80810,7 @@
         {
           "sectname": "__common",
           "segname": "__DATA",
-          "size": 666616,
+          "size": 666648,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80719,10 +80825,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4376002560,
-      "vmsize": 4292608,
+      "vmaddr": 4376248320,
+      "vmsize": 4308992,
       "fileoff": 4488,
-      "filesize": 4291824,
+      "filesize": 4302752,
       "maxprot": {
         "read": true,
         "write": false,
@@ -80743,10 +80849,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 82398840,
-      "nsyms": 4454,
-      "stroff": 82508784,
-      "strsize": 186496,
+      "symoff": 82652984,
+      "nsyms": 4464,
+      "stroff": 82763128,
+      "strsize": 186848,
       "fileoff": 4608
     },
     {
@@ -80756,15 +80862,15 @@
       "iextdefsym": 1,
       "nextdefsym": 662,
       "iundefsym": 663,
-      "nundefsym": 3791,
+      "nundefsym": 3801,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 82470104,
-      "nindirectsyms": 9670,
+      "indirectsymoff": 82724408,
+      "nindirectsyms": 9680,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -80792,7 +80898,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14901216,
+      "entryoff": 15009088,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -81046,11 +81152,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/MediaPlayer.framework/Versions/A/MediaPlayer",
+      "timestamp": 2,
+      "current_version": 65536,
+      "compatibility_version": 65536,
+      "fileoff": 7552
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libobjc.A.dylib",
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 7552
+      "fileoff": 7648
     },
     {
       "type": "load_dylib",
@@ -81058,7 +81172,7 @@
       "timestamp": 2,
       "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 7608
+      "fileoff": 7704
     },
     {
       "type": "load_dylib",
@@ -81066,7 +81180,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7664
+      "fileoff": 7760
     },
     {
       "type": "load_dylib",
@@ -81074,7 +81188,7 @@
       "timestamp": 2,
       "current_version": 4194304,
       "compatibility_version": 65536,
-      "fileoff": 7752
+      "fileoff": 7848
     },
     {
       "type": "load_dylib",
@@ -81082,7 +81196,7 @@
       "timestamp": 2,
       "current_version": 65536000,
       "compatibility_version": 65536,
-      "fileoff": 7864
+      "fileoff": 7960
     },
     {
       "type": "load_dylib",
@@ -81090,7 +81204,7 @@
       "timestamp": 2,
       "current_version": 96600064,
       "compatibility_version": 65536,
-      "fileoff": 7968
+      "fileoff": 8064
     },
     {
       "type": "load_dylib",
@@ -81098,7 +81212,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8064
+      "fileoff": 8160
     },
     {
       "type": "load_dylib",
@@ -81106,7 +81220,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 8160
+      "fileoff": 8256
     },
     {
       "type": "load_dylib",
@@ -81114,7 +81228,7 @@
       "timestamp": 2,
       "current_version": 116260868,
       "compatibility_version": 4194304,
-      "fileoff": 8264
+      "fileoff": 8360
     },
     {
       "type": "load_dylib",
@@ -81122,7 +81236,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65537,
-      "fileoff": 8368
+      "fileoff": 8464
     },
     {
       "type": "load_dylib",
@@ -81130,7 +81244,7 @@
       "timestamp": 2,
       "current_version": 189137667,
       "compatibility_version": 65536,
-      "fileoff": 8464
+      "fileoff": 8560
     },
     {
       "type": "load_dylib",
@@ -81138,7 +81252,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8568
+      "fileoff": 8664
     },
     {
       "type": "load_dylib",
@@ -81146,7 +81260,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8664
+      "fileoff": 8760
     },
     {
       "type": "load_dylib",
@@ -81154,7 +81268,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8760
+      "fileoff": 8856
     },
     {
       "type": "load_weak_dylib",
@@ -81162,7 +81276,7 @@
       "timestamp": 2,
       "current_version": 15401472,
       "compatibility_version": 65536,
-      "fileoff": 8848
+      "fileoff": 8944
     },
     {
       "type": "load_dylib",
@@ -81170,7 +81284,7 @@
       "timestamp": 2,
       "current_version": 8323091,
       "compatibility_version": 65536,
-      "fileoff": 8960
+      "fileoff": 9056
     },
     {
       "type": "load_weak_dylib",
@@ -81178,7 +81292,7 @@
       "timestamp": 2,
       "current_version": 7471104,
       "compatibility_version": 65536,
-      "fileoff": 9080
+      "fileoff": 9176
     },
     {
       "type": "load_weak_dylib",
@@ -81186,7 +81300,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9184
+      "fileoff": 9280
     },
     {
       "type": "load_weak_dylib",
@@ -81194,7 +81308,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9272
+      "fileoff": 9368
     },
     {
       "type": "load_dylib",
@@ -81202,7 +81316,7 @@
       "timestamp": 2,
       "current_version": 24838144,
       "compatibility_version": 65536,
-      "fileoff": 9360
+      "fileoff": 9456
     },
     {
       "type": "load_dylib",
@@ -81210,7 +81324,7 @@
       "timestamp": 2,
       "current_version": 84934657,
       "compatibility_version": 65536,
-      "fileoff": 9456
+      "fileoff": 9552
     },
     {
       "type": "load_weak_dylib",
@@ -81218,7 +81332,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9568
+      "fileoff": 9664
     },
     {
       "type": "load_dylib",
@@ -81226,7 +81340,7 @@
       "timestamp": 2,
       "current_version": 458797,
       "compatibility_version": 65536,
-      "fileoff": 9680
+      "fileoff": 9776
     },
     {
       "type": "load_dylib",
@@ -81234,7 +81348,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 9768
+      "fileoff": 9864
     },
     {
       "type": "load_weak_dylib",
@@ -81242,7 +81356,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 9824
+      "fileoff": 9920
     },
     {
       "type": "load_weak_dylib",
@@ -81250,7 +81364,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 9896
+      "fileoff": 9992
     },
     {
       "type": "load_weak_dylib",
@@ -81258,7 +81372,7 @@
       "timestamp": 2,
       "current_version": 123011140,
       "compatibility_version": 65536,
-      "fileoff": 9960
+      "fileoff": 10056
     },
     {
       "type": "load_weak_dylib",
@@ -81266,7 +81380,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 10024
+      "fileoff": 10120
     },
     {
       "type": "load_weak_dylib",
@@ -81274,7 +81388,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 10096
+      "fileoff": 10192
     },
     {
       "type": "load_weak_dylib",
@@ -81282,7 +81396,7 @@
       "timestamp": 2,
       "current_version": 101057536,
       "compatibility_version": 65536,
-      "fileoff": 10160
+      "fileoff": 10256
     },
     {
       "type": "load_weak_dylib",
@@ -81290,7 +81404,7 @@
       "timestamp": 2,
       "current_version": 64618496,
       "compatibility_version": 65536,
-      "fileoff": 10224
+      "fileoff": 10320
     },
     {
       "type": "load_weak_dylib",
@@ -81298,7 +81412,7 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 10296
+      "fileoff": 10392
     },
     {
       "type": "load_weak_dylib",
@@ -81306,7 +81420,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10376
+      "fileoff": 10472
     },
     {
       "type": "load_weak_dylib",
@@ -81314,7 +81428,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 10440
+      "fileoff": 10536
     },
     {
       "type": "load_weak_dylib",
@@ -81322,7 +81436,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 10504
+      "fileoff": 10600
     },
     {
       "type": "load_dylib",
@@ -81330,7 +81444,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 10560
+      "fileoff": 10656
     },
     {
       "type": "load_dylib",
@@ -81338,7 +81452,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 10616
+      "fileoff": 10712
     },
     {
       "type": "load_dylib",
@@ -81346,7 +81460,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 10672
+      "fileoff": 10768
     },
     {
       "type": "load_dylib",
@@ -81354,7 +81468,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 10736
+      "fileoff": 10832
     },
     {
       "type": "load_weak_dylib",
@@ -81362,7 +81476,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 10800
+      "fileoff": 10896
     },
     {
       "type": "load_weak_dylib",
@@ -81370,7 +81484,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 10856
+      "fileoff": 10952
     },
     {
       "type": "load_dylib",
@@ -81378,7 +81492,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 10920
+      "fileoff": 11016
     },
     {
       "type": "load_dylib",
@@ -81386,7 +81500,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 10976
+      "fileoff": 11072
     },
     {
       "type": "load_dylib",
@@ -81394,7 +81508,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 11032
+      "fileoff": 11128
     },
     {
       "type": "load_weak_dylib",
@@ -81402,7 +81516,7 @@
       "timestamp": 2,
       "current_version": 65792,
       "compatibility_version": 65536,
-      "fileoff": 11088
+      "fileoff": 11184
     },
     {
       "type": "load_weak_dylib",
@@ -81410,7 +81524,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11144
+      "fileoff": 11240
     },
     {
       "type": "load_weak_dylib",
@@ -81418,7 +81532,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11200
+      "fileoff": 11296
     },
     {
       "type": "load_weak_dylib",
@@ -81426,7 +81540,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 11256
+      "fileoff": 11352
     },
     {
       "type": "load_weak_dylib",
@@ -81434,7 +81548,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11312
+      "fileoff": 11408
     },
     {
       "type": "load_weak_dylib",
@@ -81442,7 +81556,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11368
+      "fileoff": 11464
     },
     {
       "type": "load_weak_dylib",
@@ -81450,7 +81564,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 11424
+      "fileoff": 11520
     },
     {
       "type": "load_dylib",
@@ -81458,7 +81572,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 11488
+      "fileoff": 11584
     },
     {
       "type": "load_dylib",
@@ -81466,7 +81580,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 11544
+      "fileoff": 11640
     },
     {
       "type": "load_dylib",
@@ -81474,7 +81588,7 @@
       "timestamp": 2,
       "current_version": 66048,
       "compatibility_version": 65536,
-      "fileoff": 11600
+      "fileoff": 11696
     },
     {
       "type": "load_weak_dylib",
@@ -81482,7 +81596,7 @@
       "timestamp": 2,
       "current_version": 196611,
       "compatibility_version": 65536,
-      "fileoff": 11656
+      "fileoff": 11752
     },
     {
       "type": "load_weak_dylib",
@@ -81490,7 +81604,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 11712
+      "fileoff": 11808
     },
     {
       "type": "load_weak_dylib",
@@ -81498,7 +81612,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 11768
+      "fileoff": 11864
     },
     {
       "type": "load_weak_dylib",
@@ -81506,7 +81620,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 11816
+      "fileoff": 11912
     },
     {
       "type": "load_dylib",
@@ -81514,35 +81628,35 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 11872
+      "fileoff": 11968
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 11928
+      "fileoff": 12024
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 11960
+      "fileoff": 12056
     },
     {
       "type": "function_starts",
-      "dataoff": 82014712,
-      "datasize": 352368,
-      "fileoff": 12008
+      "dataoff": 82267888,
+      "datasize": 353392,
+      "fileoff": 12104
     },
     {
       "type": "data_in_code",
-      "dataoff": 82367080,
-      "datasize": 31760,
-      "fileoff": 12024
+      "dataoff": 82621280,
+      "datasize": 31704,
+      "fileoff": 12120
     },
     {
       "type": "code_signature",
-      "dataoff": 82695280,
-      "datasize": 665728,
-      "fileoff": 12040
+      "dataoff": 82949984,
+      "datasize": 667712,
+      "fileoff": 12136
     }
   ],
   "hsize": 32
