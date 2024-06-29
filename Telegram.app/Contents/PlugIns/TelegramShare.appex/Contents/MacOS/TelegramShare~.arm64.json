@@ -41250,7 +41250,7 @@
       "vmaddr": 4323295232,
       "vmsize": 3014656,
       "fileoff": 4240,
-      "filesize": 3001744,
+      "filesize": 3001728,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41271,9 +41271,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30242936,
+      "symoff": 30242920,
       "nsyms": 6778,
-      "stroff": 30371848,
+      "stroff": 30371832,
       "strsize": 159168,
       "fileoff": 4360
     },
@@ -41291,7 +41291,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30351384,
+      "indirectsymoff": 30351368,
       "nindirectsyms": 5115,
       "extreloff": 0,
       "nextrel": 0,
@@ -41730,19 +41730,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30075312,
+      "dataoff": 30075296,
       "datasize": 167624,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30242936,
+      "dataoff": 30242920,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30531024,
+      "dataoff": 30531008,
       "datasize": 257984,
       "fileoff": 8536
     }
