@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 22286132,
+          "size": 22290228,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 73703,
+          "size": 73760,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -2701,11 +2701,13 @@
             "setHTTPBodyStream:",
             "setHTTPError:",
             "setHasHighPriority:",
+            "setHasHorizontalScroller:",
             "setHasShadow:",
             "setHasVerticalScroller:",
             "setHeaderView:",
             "setHeightTracksTextView:",
             "setHidden:",
+            "setHorizontalScrollElasticity:",
             "setHorizontallyResizable:",
             "setHost:",
             "setHostAddress:",
@@ -3379,7 +3381,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 201980,
+          "size": 202004,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16020,7 +16022,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 765291,
+          "size": 765355,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -22883,6 +22885,8 @@
             "Messages.Placeholder.SilentBroadcast",
             "Messages.ReplyLoading.Header",
             "Messages.ReplyLoading.Loading",
+            "Messages.Silent.Tooltip",
+            "Messages.Silent.Tooltip.Silent",
             "Messages.UnreadMark",
             "Microsoft CSP Name",
             "Microsoft Commercial Code Signing",
@@ -40852,7 +40856,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 287488,
+          "size": 287496,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40930,7 +40934,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1011312,
+          "size": 1011320,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41062,7 +41066,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 18216,
+          "size": 18232,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41259,7 +41263,7 @@
       "vmaddr": 4323311616,
       "vmsize": 3014656,
       "fileoff": 4240,
-      "filesize": 3002928,
+      "filesize": 3003216,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41280,9 +41284,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30260352,
+      "symoff": 30260640,
       "nsyms": 6778,
-      "stroff": 30389264,
+      "stroff": 30389552,
       "strsize": 159168,
       "fileoff": 4360
     },
@@ -41300,7 +41304,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30368800,
+      "indirectsymoff": 30369088,
       "nindirectsyms": 5115,
       "extreloff": 0,
       "nextrel": 0,
@@ -41739,19 +41743,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30092640,
-      "datasize": 167712,
+      "dataoff": 30092912,
+      "datasize": 167728,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30260352,
+      "dataoff": 30260640,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30548432,
+      "dataoff": 30548720,
       "datasize": 258144,
       "fileoff": 8536
     }
