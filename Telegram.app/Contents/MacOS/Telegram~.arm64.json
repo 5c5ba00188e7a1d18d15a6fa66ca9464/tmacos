@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 193524,
+          "size": 193652,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -10157,7 +10157,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 330271,
+          "size": 330215,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10170,7 +10170,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1728095,
+          "size": 1728191,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -33608,6 +33608,7 @@
             "Telegram.GalleryThumbsControlView",
             "Telegram.GalleryTouchBarController",
             "Telegram.GalleryViewer",
+            "Telegram.GameView",
             "Telegram.GeneralInputRowItem",
             "Telegram.GeneralRowContainerView",
             "Telegram.GeneralRowItem",
@@ -34014,8 +34015,10 @@
             "Telegram.WeakInstantPageWebEmbedNodeMessageHandler",
             "Telegram.WeakPaymentScriptMessageHandler",
             "Telegram.WeakScriptMessageHandler",
+            "Telegram.WebGameViewController",
             "Telegram.WebSessionsController",
             "Telegram.Webapp",
+            "Telegram.WebpageHeaderView",
             "Telegram.WebpageModalController",
             "Telegram.WebpageView",
             "Telegram.WidgetAppearanceView",
@@ -34534,6 +34537,7 @@
             "Telegram/WallpaperPreviewController.swift",
             "Telegram/WaveView.swift",
             "Telegram/WebAuthorizationRowItem.swift",
+            "Telegram/WebGameViewController.swift",
             "Telegram/WebpageModalController.swift",
             "Telegram/WidgetAppearance.swift",
             "Telegram/WidgetButton.swift",
@@ -36071,7 +36075,6 @@
             "WeT-3V-zwk.title",
             "WeakReference<Modal>",
             "WeakReference<ViewController>",
-            "WeakReference<WebGameViewController>",
             "WebApp.Access.Allow",
             "WebApp.Access.Audio",
             "WebApp.Access.AudioVideo",
@@ -39102,6 +39105,7 @@
             "_TtC8Telegram17StoryNoReplyInput",
             "_TtC8Telegram17UserInfoArguments",
             "_TtC8Telegram17VideoDurationView",
+            "_TtC8Telegram17WebpageHeaderView",
             "_TtC8Telegram18AccentColorRowItem",
             "_TtC8Telegram18AccentColorRowView",
             "_TtC8Telegram18AppearanceMoreItem",
@@ -39871,6 +39875,7 @@
             "_TtC8Telegram6MMMenu",
             "_TtC8Telegram6Sender",
             "_TtC8Telegram8AuthView",
+            "_TtC8Telegram8GameView",
             "_TtC8Telegram8WPLayout",
             "_TtC8Telegram8WaveView",
             "_TtC8Telegram9BlobLayer",
@@ -39889,7 +39894,6 @@
             "_TtC8TelegramP33_0637FD52D1A75501F7902E4380BF36CD9Arguments",
             "_TtC8TelegramP33_06598A36AF732F3893B24DA493DA758B25ChannelOverviewLayoutView",
             "_TtC8TelegramP33_06598A36AF732F3893B24DA493DA758B27ChannelOverviewStatsRowView",
-            "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788510HeaderView",
             "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788511WebpageView",
             "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788515NoScrollWebView",
             "_TtC8TelegramP33_06EA5F012102CF2E4E10B26D291D788524WeakScriptMessageHandler",
@@ -64682,7 +64686,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 492724,
+          "size": 492820,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -64708,7 +64712,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 28420,
+          "size": 28424,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80488,7 +80492,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 711044,
+          "size": 711036,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80536,7 +80540,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA_CONST",
-          "size": 29696,
+          "size": 29704,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80562,7 +80566,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2076008,
+          "size": 2075800,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -80588,7 +80592,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 32256,
+          "size": 32272,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80649,7 +80653,7 @@
       "vmaddr": 4359684096,
       "vmsize": 6291456,
       "fileoff": 3048,
-      "filesize": 4325376,
+      "filesize": 4341760,
       "maxprot": {
         "read": true,
         "write": true,
@@ -80681,7 +80685,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1268944,
+          "size": 1269088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80694,7 +80698,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 51864,
+          "size": 51896,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80765,7 +80769,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2016472,
+          "size": 2021320,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80778,7 +80782,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 944546,
+          "size": 946850,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -80791,7 +80795,7 @@
         {
           "sectname": "__objc_stublist",
           "segname": "__DATA",
-          "size": 816,
+          "size": 808,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -80900,7 +80904,7 @@
       "vmaddr": 4365975552,
       "vmsize": 4046848,
       "fileoff": 4480,
-      "filesize": 4035024,
+      "filesize": 4035824,
       "maxprot": {
         "read": true,
         "write": false,
@@ -80921,10 +80925,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 72245800,
-      "nsyms": 3915,
-      "stroff": 72341256,
-      "strsize": 149928,
+      "symoff": 72262744,
+      "nsyms": 3917,
+      "stroff": 72358240,
+      "strsize": 149992,
       "fileoff": 4600
     },
     {
@@ -80934,15 +80938,15 @@
       "iextdefsym": 1,
       "nextdefsym": 124,
       "iundefsym": 125,
-      "nundefsym": 3790,
+      "nundefsym": 3792,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 72308440,
-      "nindirectsyms": 8204,
+      "indirectsymoff": 72325416,
+      "nindirectsyms": 8205,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -80967,7 +80971,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12652504,
+      "entryoff": 12653212,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -81711,20 +81715,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 71901400,
-      "datasize": 344400,
+      "dataoff": 71918328,
+      "datasize": 344416,
       "fileoff": 12304
     },
     {
       "type": "data_in_code",
-      "dataoff": 72245800,
+      "dataoff": 72262744,
       "datasize": 0,
       "fileoff": 12320
     },
     {
       "type": "code_signature",
-      "dataoff": 72491184,
-      "datasize": 586016,
+      "dataoff": 72508240,
+      "datasize": 586144,
       "fileoff": 12336
     }
   ],
