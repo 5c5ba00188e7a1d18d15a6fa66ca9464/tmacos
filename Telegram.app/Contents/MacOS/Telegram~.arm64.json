@@ -131,7 +131,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 195332,
+          "size": 195316,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -144,7 +144,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1710300,
+          "size": 1710044,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -64949,7 +64949,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 497600,
+          "size": 497616,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80823,7 +80823,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 715568,
+          "size": 715588,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -81100,7 +81100,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2055696,
+          "size": 2055704,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -81235,7 +81235,7 @@
       "vmaddr": 4366581760,
       "vmsize": 4063232,
       "fileoff": 4480,
-      "filesize": 4061856,
+      "filesize": 4061872,
       "maxprot": {
         "read": true,
         "write": false,
@@ -81256,9 +81256,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 72855848,
+      "symoff": 72855864,
       "nsyms": 3940,
-      "stroff": 72951968,
+      "stroff": 72951984,
       "strsize": 151096,
       "fileoff": 4600
     },
@@ -81276,7 +81276,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 72918888,
+      "indirectsymoff": 72918904,
       "nindirectsyms": 8270,
       "extreloff": 0,
       "nextrel": 0,
@@ -81302,7 +81302,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12860544,
+      "entryoff": 12862864,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -82047,18 +82047,18 @@
     {
       "type": "function_starts",
       "dataoff": 72508352,
-      "datasize": 347496,
+      "datasize": 347512,
       "fileoff": 12304
     },
     {
       "type": "data_in_code",
-      "dataoff": 72855848,
+      "dataoff": 72855864,
       "datasize": 0,
       "fileoff": 12320
     },
     {
       "type": "code_signature",
-      "dataoff": 73103072,
+      "dataoff": 73103088,
       "datasize": 590784,
       "fileoff": 12336
     }
