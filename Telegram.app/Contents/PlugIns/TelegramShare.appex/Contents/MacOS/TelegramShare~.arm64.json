@@ -16089,7 +16089,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 767963,
+          "size": 767995,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -27738,6 +27738,7 @@
             "Webapp.AllowMessages.OK",
             "Webapp.AllowMessages.Text",
             "Webapp.AllowMessages.Title",
+            "Webapp.StoryNotAvailable",
             "Webpage.Confirm.Close",
             "Webpage.Confirm.Ok",
             "Weekday.Friday",
@@ -41416,7 +41417,7 @@
       "vmaddr": 4323508224,
       "vmsize": 3031040,
       "fileoff": 4240,
-      "filesize": 3018592,
+      "filesize": 3018624,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41437,9 +41438,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30470752,
+      "symoff": 30470784,
       "nsyms": 6781,
-      "stroff": 30599808,
+      "stroff": 30599840,
       "strsize": 159264,
       "fileoff": 4360
     },
@@ -41457,7 +41458,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30579248,
+      "indirectsymoff": 30579280,
       "nindirectsyms": 5140,
       "extreloff": 0,
       "nextrel": 0,
@@ -41896,19 +41897,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30301792,
+      "dataoff": 30301824,
       "datasize": 168960,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30470752,
+      "dataoff": 30470784,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30759072,
+      "dataoff": 30759104,
       "datasize": 259776,
       "fileoff": 8536
     }
