@@ -136,7 +136,7 @@
         {
           "sectname": "__objc_methlist",
           "segname": "__TEXT",
-          "size": 41640,
+          "size": 41672,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -3380,7 +3380,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 709387,
+          "size": 709403,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3393,7 +3393,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 202856,
+          "size": 202916,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3406,7 +3406,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 248531,
+          "size": 248537,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -16037,7 +16037,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 237008,
+          "size": 237024,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16076,7 +16076,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 15560,
+          "size": 15564,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16089,7 +16089,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 767995,
+          "size": 768011,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -28926,6 +28926,7 @@
             "_TtC7TGUIKit12TextLayerExt",
             "_TtC7TGUIKit12TextViewLine",
             "_TtC7TGUIKit12VisualEffect",
+            "_TtC7TGUIKit13EventLessView",
             "_TtC7TGUIKit13MediaDustView",
             "_TtC7TGUIKit13ModalTouchBar",
             "_TtC7TGUIKit13MouseObserver",
@@ -41010,7 +41011,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 289664,
+          "size": 289688,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41114,7 +41115,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 10968,
+          "size": 10976,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41207,7 +41208,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 472744,
+          "size": 472816,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41293,7 +41294,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 251680,
+          "size": 251864,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41306,7 +41307,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 356378,
+          "size": 356418,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41417,7 +41418,7 @@
       "vmaddr": 4323508224,
       "vmsize": 3031040,
       "fileoff": 4240,
-      "filesize": 3018624,
+      "filesize": 3019056,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41438,10 +41439,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 30470784,
-      "nsyms": 6781,
-      "stroff": 30599840,
-      "strsize": 159264,
+      "symoff": 30471096,
+      "nsyms": 6783,
+      "stroff": 30600184,
+      "strsize": 159352,
       "fileoff": 4360
     },
     {
@@ -41449,8 +41450,8 @@
       "ilocalsym": 0,
       "nlocalsym": 1,
       "iextdefsym": 1,
-      "nextdefsym": 5724,
-      "iundefsym": 5725,
+      "nextdefsym": 5726,
+      "iundefsym": 5727,
       "nundefsym": 1056,
       "tocoff": 0,
       "ntoc": 0,
@@ -41458,7 +41459,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30579280,
+      "indirectsymoff": 30579624,
       "nindirectsyms": 5140,
       "extreloff": 0,
       "nextrel": 0,
@@ -41897,19 +41898,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30301824,
-      "datasize": 168960,
+      "dataoff": 30302128,
+      "datasize": 168968,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30470784,
+      "dataoff": 30471096,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30759104,
+      "dataoff": 30759536,
       "datasize": 259776,
       "fileoff": 8536
     }

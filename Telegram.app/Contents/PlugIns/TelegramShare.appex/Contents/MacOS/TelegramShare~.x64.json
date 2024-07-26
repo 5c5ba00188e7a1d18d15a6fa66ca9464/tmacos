@@ -3363,7 +3363,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 202856,
+          "size": 202916,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3376,7 +3376,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 248531,
+          "size": 248537,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -16007,7 +16007,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 237008,
+          "size": 237024,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16046,7 +16046,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 15560,
+          "size": 15564,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16059,7 +16059,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 768801,
+          "size": 768817,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -28851,6 +28851,7 @@
             "_TtC7TGUIKit12TextLayerExt",
             "_TtC7TGUIKit12TextViewLine",
             "_TtC7TGUIKit12VisualEffect",
+            "_TtC7TGUIKit13EventLessView",
             "_TtC7TGUIKit13MediaDustView",
             "_TtC7TGUIKit13ModalTouchBar",
             "_TtC7TGUIKit13MouseObserver",
@@ -40990,7 +40991,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 244448,
+          "size": 244456,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41109,7 +41110,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 10968,
+          "size": 10976,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41165,7 +41166,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 518152,
+          "size": 518224,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41251,7 +41252,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 284656,
+          "size": 284896,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41264,7 +41265,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 357965,
+          "size": 357997,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -41401,7 +41402,7 @@
       "vmaddr": 4327424000,
       "vmsize": 3047424,
       "fileoff": 4168,
-      "filesize": 3032544,
+      "filesize": 3032976,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41422,10 +41423,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 34367136,
-      "nsyms": 6787,
-      "stroff": 34499104,
-      "strsize": 159232,
+      "symoff": 34367440,
+      "nsyms": 6789,
+      "stroff": 34499440,
+      "strsize": 159320,
       "fileoff": 4288
     },
     {
@@ -41433,8 +41434,8 @@
       "ilocalsym": 0,
       "nlocalsym": 1,
       "iextdefsym": 1,
-      "nextdefsym": 5724,
-      "iundefsym": 5725,
+      "nextdefsym": 5726,
+      "iundefsym": 5727,
       "nundefsym": 1062,
       "tocoff": 0,
       "ntoc": 0,
@@ -41442,7 +41443,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 34475728,
+      "indirectsymoff": 34476064,
       "nindirectsyms": 5844,
       "extreloff": 0,
       "nextrel": 0,
@@ -41884,19 +41885,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 34197656,
-      "datasize": 169480,
+      "dataoff": 34197952,
+      "datasize": 169488,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 34367136,
+      "dataoff": 34367440,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 34658336,
+      "dataoff": 34658768,
       "datasize": 290240,
       "fileoff": 8304
     }
