@@ -80,7 +80,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 13662,
+          "size": 13656,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -97,7 +97,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 22286,
+          "size": 22276,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80814,7 +80814,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 614656,
+          "size": 614660,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -80890,7 +80890,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 18216,
+          "size": 18208,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -81243,7 +81243,7 @@
       "vmaddr": 4377083904,
       "vmsize": 4341760,
       "fileoff": 4488,
-      "filesize": 4335888,
+      "filesize": 4335760,
       "maxprot": {
         "read": true,
         "write": false,
@@ -81264,10 +81264,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 83496072,
-      "nsyms": 4501,
-      "stroff": 83607184,
-      "strsize": 188544,
+      "symoff": 83496016,
+      "nsyms": 4500,
+      "stroff": 83607104,
+      "strsize": 188496,
       "fileoff": 4608
     },
     {
@@ -81277,15 +81277,15 @@
       "iextdefsym": 1,
       "nextdefsym": 662,
       "iundefsym": 663,
-      "nundefsym": 3838,
+      "nundefsym": 3837,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 83568088,
-      "nindirectsyms": 9774,
+      "indirectsymoff": 83568016,
+      "nindirectsyms": 9772,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -81313,7 +81313,7 @@
     },
     {
       "type": "main",
-      "entryoff": 15295168,
+      "entryoff": 15299888,
       "stacksize": 0,
       "fileoff": 4800
     },
@@ -82057,19 +82057,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 83106800,
+      "dataoff": 83106744,
       "datasize": 357128,
       "fileoff": 12104
     },
     {
       "type": "data_in_code",
-      "dataoff": 83463928,
+      "dataoff": 83463872,
       "datasize": 32144,
       "fileoff": 12120
     },
     {
       "type": "code_signature",
-      "dataoff": 83795728,
+      "dataoff": 83795600,
       "datasize": 674304,
       "fileoff": 12136
     }
