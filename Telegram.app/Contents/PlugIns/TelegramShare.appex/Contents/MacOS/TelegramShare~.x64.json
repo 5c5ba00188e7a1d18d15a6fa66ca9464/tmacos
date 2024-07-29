@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 26318451,
+          "size": 26326643,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -3350,7 +3350,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 790919,
+          "size": 791111,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -3363,7 +3363,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 202916,
+          "size": 202956,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3376,7 +3376,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 248537,
+          "size": 248563,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3402,7 +3402,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 213711,
+          "size": 213791,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -6851,6 +6851,7 @@
             "controller",
             "controller",
             "controller",
+            "controllerDidChange",
             "convertToGigagroup",
             "cooldownUntil",
             "cooldownUntilTime",
@@ -9401,6 +9402,7 @@
             "inputFile",
             "inputFileBig",
             "inputFileLocation",
+            "inputFileStoryDocument",
             "inputFolderPeer",
             "inputGameID",
             "inputGameShortName",
@@ -16007,7 +16009,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 237024,
+          "size": 237076,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16020,7 +16022,7 @@
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 16832,
+          "size": 16880,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16033,7 +16035,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 22056,
+          "size": 22072,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16046,7 +16048,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 15564,
+          "size": 15568,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16059,7 +16061,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 768817,
+          "size": 769073,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -19710,6 +19712,7 @@
             "Chat.Service.PremiumGift.Info_zero",
             "Chat.Service.PremiumGift.Sent",
             "Chat.Service.PremiumGift.SentYou",
+            "Chat.Service.Refund",
             "Chat.Service.SearchAllMessages",
             "Chat.Service.SecretChat.DisabledTimer.Self1",
             "Chat.Service.SecretChat.DisabledTimer1",
@@ -21236,6 +21239,7 @@
             "EventLog.Service.ShowMore_two",
             "EventLog.Service.ShowMore_zero",
             "EventLog.Service.UpdatePinned",
+            "ExampleApps.Title",
             "Excluded",
             "Expected at least one valid address",
             "Expected content type %@, got %@",
@@ -25948,7 +25952,10 @@
             "Star.Transaction.Tos",
             "Star.Transaction.UnknwonUser",
             "Stars.Balance.BuyAds",
+            "Stars.ExampleApps.Text",
+            "Stars.Gift.ServiceInfo",
             "Stars.Gift.Title",
+            "Stars.GiftToFriends",
             "Stars.Transaction.MediaPurchase",
             "Stars.Transaction.TopUp",
             "Stars.Transfer.MediaAnd",
@@ -27660,6 +27667,7 @@
             "WebBot.Account.Disclaimer.Third",
             "WebBot.Account.Disclaimer.Title",
             "WebBrowser.Error",
+            "WebBrowser.InstantView",
             "WebBrowser.OpenMainPage",
             "Webapp.AllowMessages.OK",
             "Webapp.AllowMessages.Text",
@@ -32337,6 +32345,7 @@
             "controlState",
             "controlStateIdentifiers",
             "controller",
+            "controllerDidChange",
             "cooldownUntilDate",
             "cooldownUntilTime",
             "cooldownUntilTimestamp",
@@ -34934,6 +34943,7 @@
             "inputEncryptedFileLocation",
             "inputEncryptedFileUploaded",
             "inputFileLocation",
+            "inputFileStoryDocument",
             "inputGameShortName",
             "inputGeoPointEmpty",
             "inputGreenCoefficients",
@@ -40644,7 +40654,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 237020,
+          "size": 237080,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40657,7 +40667,7 @@
         {
           "sectname": "__swift5_mpenum",
           "segname": "__TEXT",
-          "size": 14348,
+          "size": 14412,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -40991,7 +41001,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 244456,
+          "size": 244440,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41004,7 +41014,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 102920,
+          "size": 102952,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41045,7 +41055,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 23840,
+          "size": 23832,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41084,7 +41094,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1059056,
+          "size": 1059344,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -41166,7 +41176,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 518224,
+          "size": 518256,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41252,7 +41262,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 284896,
+          "size": 284960,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41265,7 +41275,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 357997,
+          "size": 358061,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -41371,7 +41381,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 541488,
+          "size": 541616,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -41402,7 +41412,7 @@
       "vmaddr": 4327424000,
       "vmsize": 3047424,
       "fileoff": 4168,
-      "filesize": 3032976,
+      "filesize": 3033664,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41423,9 +41433,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 34367440,
+      "symoff": 34368128,
       "nsyms": 6789,
-      "stroff": 34499440,
+      "stroff": 34500128,
       "strsize": 159320,
       "fileoff": 4288
     },
@@ -41443,8 +41453,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 34476064,
-      "nindirectsyms": 5844,
+      "indirectsymoff": 34476752,
+      "nindirectsyms": 5843,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -41885,19 +41895,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 34197952,
-      "datasize": 169488,
+      "dataoff": 34198600,
+      "datasize": 169528,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 34367440,
+      "dataoff": 34368128,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 34658768,
+      "dataoff": 34659456,
       "datasize": 290240,
       "fileoff": 8304
     }
