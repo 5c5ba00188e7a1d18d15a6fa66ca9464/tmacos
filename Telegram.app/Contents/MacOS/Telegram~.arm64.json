@@ -81098,7 +81098,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 720148,
+          "size": 720424,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -81111,7 +81111,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 317624,
+          "size": 317736,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -81577,7 +81577,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12879204,
+      "entryoff": 12879640,
       "stacksize": 0,
       "fileoff": 4808
     },
