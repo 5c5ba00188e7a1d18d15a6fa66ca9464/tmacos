@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 25919488,
+      "vmsize": 25935872,
       "fileoff": 104,
-      "filesize": 25919488,
+      "filesize": 25935872,
       "maxprot": {
         "read": true,
         "write": false,
@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 22564660,
+          "size": 22568756,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -119,7 +119,7 @@
         {
           "sectname": "__objc_stubs",
           "segname": "__TEXT",
-          "size": 41632,
+          "size": 41664,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 73927,
+          "size": 73948,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -1997,6 +1997,7 @@
             "localPortFromSocket4:",
             "localPortFromSocket6:",
             "localTimeZone",
+            "localizedDescription",
             "localizedStringForKey:value:table:",
             "locationInWindow",
             "lock",
@@ -16128,7 +16129,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 773035,
+          "size": 773467,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17987,6 +17988,8 @@
             "Bot.TransferOwnership.Password.Desc",
             "Bot.TransferOwnership.Password.Title",
             "BotInfo.LaunchInfo",
+            "BotInfo.LaunchInfo.PrivacyUrl",
+            "BotInfo.LaunchInfo.User",
             "BotInlineMessage.botInlineMessageText",
             "BotUsername.Activate.Info",
             "BotUsername.Activate.Ok",
@@ -20331,6 +20334,7 @@
             "ChatMessage.Sponsored.Title",
             "ChatMessage.Tooltip.Views",
             "ChatMessage.ViewChatList",
+            "ChatReaction.StarsDisabled",
             "ChatReactions.TagMessage",
             "ChatReactions.TagMessage.Premium",
             "ChatService.ChangedToSameWallpaper",
@@ -21284,6 +21288,7 @@
             "Entertainment.Switch.GifAndStickers",
             "Eq",
             "Error code definition can be found in Apple's SecureTransport.h",
+            "Error creating regex: %@",
             "Error enabling address reuse (setsockopt)",
             "Error enabling non-blocking IO on socket (fcntl)",
             "Error encoding data",
@@ -26147,6 +26152,13 @@
             "Stars.ReactScreen.Send_other",
             "Stars.ReactScreen.Send_two",
             "Stars.ReactScreen.Send_zero",
+            "Stars.ReactScreen.SentValue_countable",
+            "Stars.ReactScreen.SentValue_few",
+            "Stars.ReactScreen.SentValue_many",
+            "Stars.ReactScreen.SentValue_one",
+            "Stars.ReactScreen.SentValue_other",
+            "Stars.ReactScreen.SentValue_two",
+            "Stars.ReactScreen.SentValue_zero",
             "Stars.ReactScreen.ShowMeInTop",
             "Stars.ReactScreen.Title",
             "Stars.ReactScreen.TopSenders",
@@ -28192,6 +28204,7 @@
             "\\U%04lX",
             "\\W%08lX",
             "\\\\",
+            "\\b[a-zA-Z0-9.-]+\\.ton\\b",
             "]",
             "^\\d+\\.\\d+\\.\\d+(\\.\\d+)?$",
             "^{_NSZone=}16@0:8",
@@ -39721,7 +39734,6 @@
             "tokenchars",
             "tokenize",
             "tokens",
-            "ton",
             "too large",
             "too little nonce requested",
             "too long",
@@ -41157,7 +41169,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 3712,
+          "size": 3764,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41183,7 +41195,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 291032,
+          "size": 291056,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41215,7 +41227,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4320886784,
+      "vmaddr": 4320903168,
       "vmsize": 1097728,
       "fileoff": 2176,
       "filesize": 1097728,
@@ -41274,7 +41286,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA_CONST",
-          "size": 27616,
+          "size": 27648,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41345,7 +41357,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4321984512,
+      "vmaddr": 4322000896,
       "vmsize": 1671168,
       "fileoff": 2888,
       "filesize": 1130496,
@@ -41393,7 +41405,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 18312,
+          "size": 18320,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41587,10 +41599,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4323655680,
+      "vmaddr": 4323672064,
       "vmsize": 3047424,
       "fileoff": 4240,
-      "filesize": 3036176,
+      "filesize": 3036720,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41611,9 +41623,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30634312,
+      "symoff": 30651120,
       "nsyms": 6784,
-      "stroff": 30763456,
+      "stroff": 30780264,
       "strsize": 159368,
       "fileoff": 4360
     },
@@ -41631,7 +41643,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30742856,
+      "indirectsymoff": 30759664,
       "nindirectsyms": 5149,
       "extreloff": 0,
       "nextrel": 0,
@@ -41657,7 +41669,7 @@
     },
     {
       "type": "main",
-      "entryoff": 22588528,
+      "entryoff": 22604912,
       "stacksize": 0,
       "fileoff": 4568
     },
@@ -42070,20 +42082,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30464448,
-      "datasize": 169864,
+      "dataoff": 30481240,
+      "datasize": 169880,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30634312,
+      "dataoff": 30651120,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 30922832,
-      "datasize": 261056,
+      "dataoff": 30939632,
+      "datasize": 261184,
       "fileoff": 8536
     }
   ],

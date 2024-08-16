@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 55944476,
+          "size": 55948572,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10187,7 +10187,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 336561,
+          "size": 336595,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10200,7 +10200,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1746780,
+          "size": 1747228,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -18496,6 +18496,8 @@
             "Bot.TransferOwnership.Password.Desc",
             "Bot.TransferOwnership.Password.Title",
             "BotInfo.LaunchInfo",
+            "BotInfo.LaunchInfo.PrivacyUrl",
+            "BotInfo.LaunchInfo.User",
             "BotInlineMessage.botInlineMessageText",
             "BotUsername.Activate.Info",
             "BotUsername.Activate.Ok",
@@ -21176,6 +21178,7 @@
             "ChatMessage.Sponsored.Title",
             "ChatMessage.Tooltip.Views",
             "ChatMessage.ViewChatList",
+            "ChatReaction.StarsDisabled",
             "ChatReactions.TagMessage",
             "ChatReactions.TagMessage.Premium",
             "ChatService.ChangedToSameWallpaper",
@@ -23052,6 +23055,7 @@
             "Error constructing the frame RPS.\n",
             "Error constructing the reference lists for the current slice.\n",
             "Error converting I420 VideoFrame to NV12 :",
+            "Error creating regex: %@",
             "Error creating regular expression: ",
             "Error decoding AAC frame header.\n",
             "Error enabling address reuse (setsockopt)",
@@ -32233,6 +32237,13 @@
             "Stars.ReactScreen.Send_other",
             "Stars.ReactScreen.Send_two",
             "Stars.ReactScreen.Send_zero",
+            "Stars.ReactScreen.SentValue_countable",
+            "Stars.ReactScreen.SentValue_few",
+            "Stars.ReactScreen.SentValue_many",
+            "Stars.ReactScreen.SentValue_one",
+            "Stars.ReactScreen.SentValue_other",
+            "Stars.ReactScreen.SentValue_two",
+            "Stars.ReactScreen.SentValue_zero",
             "Stars.ReactScreen.ShowMeInTop",
             "Stars.ReactScreen.Title",
             "Stars.ReactScreen.TopSenders",
@@ -37761,6 +37772,7 @@
             "\\\\",
             "\\\\d",
             "\\b",
+            "\\b[a-zA-Z0-9.-]+\\.ton\\b",
             "\\d",
             "\\d(?=[^,}][^,}])",
             "\\d{10,11}",
@@ -60938,6 +60950,7 @@
             "starsChangeHandler",
             "starsContext",
             "starsCount",
+            "starsDisabled",
             "starsRevenueAdsAccountUrl",
             "starsRevenueStats",
             "starsRevenueStatus",
@@ -62492,7 +62505,6 @@
             "tol",
             "tolerance",
             "tollFree",
-            "ton",
             "tonBalance",
             "tonBalanceContainer",
             "tonBalanceView",
@@ -65244,7 +65256,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 270376,
+          "size": 270388,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -65270,7 +65282,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 246110,
+          "size": 246126,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -77565,6 +77577,7 @@
             "starsChatSubscription",
             "starsContext",
             "starsContext",
+            "starsDisabled",
             "starsGift",
             "starsGift",
             "starsGift",
@@ -80014,7 +80027,7 @@
         {
           "sectname": "__gcc_except_tab",
           "segname": "__TEXT",
-          "size": 344608,
+          "size": 344660,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -81098,7 +81111,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 720424,
+          "size": 720492,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -81172,7 +81185,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2103816,
+          "size": 2103976,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -81185,7 +81198,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA_CONST",
-          "size": 193920,
+          "size": 193952,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -81291,7 +81304,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1287048,
+          "size": 1287112,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -81388,7 +81401,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 964578,
+          "size": 964674,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -81510,7 +81523,7 @@
       "vmaddr": 4366974976,
       "vmsize": 4096000,
       "fileoff": 4480,
-      "filesize": 4086480,
+      "filesize": 4087072,
       "maxprot": {
         "read": true,
         "write": false,
@@ -81531,9 +81544,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 73285696,
+      "symoff": 73286288,
       "nsyms": 3955,
-      "stroff": 73382224,
+      "stroff": 73382816,
       "strsize": 151704,
       "fileoff": 4600
     },
@@ -81551,7 +81564,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 73348976,
+      "indirectsymoff": 73349568,
       "nindirectsyms": 8311,
       "extreloff": 0,
       "nextrel": 0,
@@ -81577,7 +81590,7 @@
     },
     {
       "type": "main",
-      "entryoff": 12879640,
+      "entryoff": 12877212,
       "stacksize": 0,
       "fileoff": 4808
     },
@@ -82321,19 +82334,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 72936184,
-      "datasize": 349512,
+      "dataoff": 72936728,
+      "datasize": 349560,
       "fileoff": 12304
     },
     {
       "type": "data_in_code",
-      "dataoff": 73285696,
+      "dataoff": 73286288,
       "datasize": 0,
       "fileoff": 12320
     },
     {
       "type": "code_signature",
-      "dataoff": 73533936,
+      "dataoff": 73534528,
       "datasize": 594144,
       "fileoff": 12336
     }
