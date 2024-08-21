@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 26498675,
+          "size": 26502771,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -3349,7 +3349,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 793159,
+          "size": 793223,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -3362,7 +3362,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 203616,
+          "size": 203624,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3401,7 +3401,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 214703,
+          "size": 214719,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -5081,6 +5081,7 @@
             "_videoPlayerVolumeOff",
             "_view",
             "_view",
+            "_viewOnState",
             "_wallet_close",
             "_wallet_passcode_hidden",
             "_wallet_passcode_visible",
@@ -16047,7 +16048,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 238200,
+          "size": 238212,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16073,7 +16074,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 22212,
+          "size": 22216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16099,7 +16100,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 774273,
+          "size": 774689,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -20003,6 +20004,7 @@
             "ChatList.ChannelSearch.Empty.Info",
             "ChatList.ChannelSearch.Empty.Title",
             "ChatList.ChannelsTag",
+            "ChatList.ChatsTag",
             "ChatList.CloseFilter",
             "ChatList.CloseFilterShort",
             "ChatList.Context.Call",
@@ -20170,6 +20172,7 @@
             "ChatList.GracePeriod.Title",
             "ChatList.GroupChannel",
             "ChatList.HideMuted",
+            "ChatList.MessagesTag",
             "ChatList.Mute.1Day",
             "ChatList.Mute.1Hour",
             "ChatList.Mute.3Days",
@@ -20243,6 +20246,7 @@
             "ChatList.Swiping.Unpin",
             "ChatList.Swiping.Unread",
             "ChatList.TitleFeed",
+            "ChatList.TopicsTag",
             "ChatList.UnhideMuted",
             "ChatList.UnsupportedMessage",
             "ChatListGroupReferencePeer",
@@ -20260,6 +20264,15 @@
             "ChatMessage.Tooltip.Views",
             "ChatMessage.ViewChatList",
             "ChatReaction.StarsDisabled",
+            "ChatReaction.Undo",
+            "ChatReaction.Undo.Reacted_countable",
+            "ChatReaction.Undo.Reacted_few",
+            "ChatReaction.Undo.Reacted_many",
+            "ChatReaction.Undo.Reacted_one",
+            "ChatReaction.Undo.Reacted_other",
+            "ChatReaction.Undo.Reacted_two",
+            "ChatReaction.Undo.Reacted_zero",
+            "ChatReaction.Undo.StarsSent",
             "ChatReactions.TagMessage",
             "ChatReactions.TagMessage.Premium",
             "ChatService.ChangedToSameWallpaper",
@@ -30349,6 +30362,7 @@
             "_videoPlayerVolume",
             "_videoPlayerVolumeOff",
             "_view",
+            "_viewOnState",
             "_wallet_close",
             "_wallet_passcode_hidden",
             "_wallet_passcode_visible",
@@ -41175,7 +41189,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 245400,
+          "size": 245440,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41350,7 +41364,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 519536,
+          "size": 519568,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41436,7 +41450,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 285288,
+          "size": 285528,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41449,7 +41463,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 359597,
+          "size": 359693,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -41555,7 +41569,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 544752,
+          "size": 544880,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -41586,7 +41600,7 @@
       "vmaddr": 4327636992,
       "vmsize": 3063808,
       "fileoff": 4168,
-      "filesize": 3050992,
+      "filesize": 3051888,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41607,9 +41621,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 34596584,
+      "symoff": 34597488,
       "nsyms": 6790,
-      "stroff": 34728640,
+      "stroff": 34729544,
       "strsize": 159336,
       "fileoff": 4288
     },
@@ -41627,7 +41641,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 34705224,
+      "indirectsymoff": 34706128,
       "nindirectsyms": 5854,
       "extreloff": 0,
       "nextrel": 0,
@@ -42069,19 +42083,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 34426184,
-      "datasize": 170400,
+      "dataoff": 34427056,
+      "datasize": 170432,
       "fileoff": 8272
     },
     {
       "type": "data_in_code",
-      "dataoff": 34596584,
+      "dataoff": 34597488,
       "datasize": 0,
       "fileoff": 8288
     },
     {
       "type": "code_signature",
-      "dataoff": 34887984,
+      "dataoff": 34888880,
       "datasize": 292032,
       "fileoff": 8304
     }
