@@ -3379,7 +3379,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 714235,
+          "size": 714251,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -3431,7 +3431,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 215279,
+          "size": 215327,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -4310,6 +4310,8 @@
             "_chatReplyTitleBubble_outgoing",
             "_chatSaveEditedMessage",
             "_chatScam",
+            "_chatScrollDown",
+            "_chatScrollDownActive",
             "_chatScrollUp",
             "_chatScrollUpActive",
             "_chatSearch",
@@ -16109,7 +16111,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 239056,
+          "size": 239080,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16161,7 +16163,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 780267,
+          "size": 780347,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -29821,6 +29823,8 @@
             "_chatReplyTitleBubble_outgoing",
             "_chatSaveEditedMessage",
             "_chatScam",
+            "_chatScrollDown",
+            "_chatScrollDownActive",
             "_chatScrollUp",
             "_chatScrollUpActive",
             "_chatSearch",
@@ -32231,6 +32235,7 @@
             "chatReplyTitleBubble_incoming",
             "chatReplyTitleBubble_outgoing",
             "chatSaveEditedMessage",
+            "chatScrollDownActive",
             "chatScrollUpActive",
             "chatSearchActive",
             "chatSearchCalendar",
@@ -41040,7 +41045,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 239120,
+          "size": 239216,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41387,7 +41392,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 291720,
+          "size": 291736,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -41465,7 +41470,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1027072,
+          "size": 1027232,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41584,7 +41589,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 474160,
+          "size": 474224,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41683,7 +41688,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 358834,
+          "size": 358850,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -41794,7 +41799,7 @@
       "vmaddr": 4323753984,
       "vmsize": 3047424,
       "fileoff": 4240,
-      "filesize": 3047008,
+      "filesize": 3047248,
       "maxprot": {
         "read": true,
         "write": false,
@@ -41815,9 +41820,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 30726344,
+      "symoff": 30726552,
       "nsyms": 6784,
-      "stroff": 30855504,
+      "stroff": 30855712,
       "strsize": 159368,
       "fileoff": 4360
     },
@@ -41835,7 +41840,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 30834888,
+      "indirectsymoff": 30835096,
       "nindirectsyms": 5154,
       "extreloff": 0,
       "nextrel": 0,
@@ -42274,20 +42279,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 30555912,
-      "datasize": 170432,
+      "dataoff": 30556096,
+      "datasize": 170456,
       "fileoff": 8504
     },
     {
       "type": "data_in_code",
-      "dataoff": 30726344,
+      "dataoff": 30726552,
       "datasize": 0,
       "fileoff": 8520
     },
     {
       "type": "code_signature",
-      "dataoff": 31014880,
-      "datasize": 261760,
+      "dataoff": 31015088,
+      "datasize": 261792,
       "fileoff": 8536
     }
   ],
