@@ -8,7 +8,7 @@
   },
   "filetype": "execute",
   "ncmds": 23,
-  "sizeofcmds": 3312,
+  "sizeofcmds": 3392,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -54,13 +54,13 @@
         "write": false,
         "exec": true
       },
-      "nsects": 10,
+      "nsects": 11,
       "flags": {},
       "sections": [
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 64800,
+          "size": 64943,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -77,7 +77,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 540,
+          "size": 552,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -94,7 +94,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 916,
+          "size": 936,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -596,7 +596,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 7186,
+          "size": 7175,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -617,7 +617,6 @@
             "%@.%@",
             "%@: %@",
             "%ld.%ld.%ld",
-            "%{public}@",
             "+[SUInstaller normalizedInstallationPathForHost:]",
             "-W",
             "-b",
@@ -917,6 +916,19 @@
           }
         },
         {
+          "sectname": "__oslogstring",
+          "segname": "__TEXT",
+          "size": 11,
+          "align": 0,
+          "reloff": 0,
+          "nreloc": 0,
+          "type": "cstring_literals",
+          "attributes": {
+            "usr": {},
+            "sys": {}
+          }
+        },
+        {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
           "size": 568,
@@ -936,7 +948,7 @@
       "name": "__DATA",
       "vmaddr": 4295065600,
       "vmsize": 32768,
-      "fileoff": 976,
+      "fileoff": 1056,
       "filesize": 32768,
       "maxprot": {
         "read": true,
@@ -969,7 +981,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 720,
+          "size": 736,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -1163,8 +1175,8 @@
       "name": "__LINKEDIT",
       "vmaddr": 4295098368,
       "vmsize": 32768,
-      "fileoff": 2248,
-      "filesize": 32768,
+      "fileoff": 2328,
+      "filesize": 32016,
       "maxprot": {
         "read": true,
         "write": false,
@@ -1181,15 +1193,15 @@
     },
     {
       "type": "dyld_info",
-      "fileoff": 2320
+      "fileoff": 2400
     },
     {
       "type": "symtab",
-      "symoff": 136544,
-      "nsyms": 160,
-      "stroff": 139944,
-      "strsize": 3376,
-      "fileoff": 2368
+      "symoff": 136592,
+      "nsyms": 162,
+      "stroff": 140040,
+      "strsize": 3408,
+      "fileoff": 2448
     },
     {
       "type": "dysymtab",
@@ -1198,45 +1210,45 @@
       "iextdefsym": 1,
       "nextdefsym": 1,
       "iundefsym": 2,
-      "nundefsym": 158,
+      "nundefsym": 160,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 139104,
-      "nindirectsyms": 210,
+      "indirectsymoff": 139184,
+      "nindirectsyms": 214,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
       "nlocrel": 0,
-      "fileoff": 2392
+      "fileoff": 2472
     },
     {
       "type": "load_dylinker",
       "cmd": "/usr/lib/dyld",
-      "fileoff": 2472
+      "fileoff": 2552
     },
     {
       "type": "uuid",
-      "fileoff": 2504
+      "fileoff": 2584
     },
     {
       "type": "version_min_macosx",
-      "version": "10.11.0",
+      "version": "10.13.0",
       "sdk": "14.0.0",
-      "fileoff": 2528
+      "fileoff": 2608
     },
     {
       "type": "source_version",
-      "fileoff": 2544
+      "fileoff": 2624
     },
     {
       "type": "main",
-      "entryoff": 15930,
+      "entryoff": 15764,
       "stacksize": 0,
-      "fileoff": 2560
+      "fileoff": 2640
     },
     {
       "type": "load_dylib",
@@ -1244,7 +1256,7 @@
       "timestamp": 2,
       "current_version": 162725888,
       "compatibility_version": 2949120,
-      "fileoff": 2584
+      "fileoff": 2664
     },
     {
       "type": "load_dylib",
@@ -1252,7 +1264,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 19660800,
-      "fileoff": 2672
+      "fileoff": 2752
     },
     {
       "type": "load_dylib",
@@ -1260,7 +1272,7 @@
       "timestamp": 2,
       "current_version": 4000317699,
       "compatibility_version": 65536,
-      "fileoff": 2768
+      "fileoff": 2848
     },
     {
       "type": "load_dylib",
@@ -1268,7 +1280,7 @@
       "timestamp": 2,
       "current_version": 14942208,
       "compatibility_version": 65536,
-      "fileoff": 2864
+      "fileoff": 2944
     },
     {
       "type": "load_dylib",
@@ -1276,7 +1288,7 @@
       "timestamp": 2,
       "current_version": 87556096,
       "compatibility_version": 65536,
-      "fileoff": 2920
+      "fileoff": 3000
     },
     {
       "type": "load_dylib",
@@ -1284,7 +1296,7 @@
       "timestamp": 2,
       "current_version": 4194304,
       "compatibility_version": 65536,
-      "fileoff": 2976
+      "fileoff": 3056
     },
     {
       "type": "load_dylib",
@@ -1292,7 +1304,7 @@
       "timestamp": 2,
       "current_version": 134218239,
       "compatibility_version": 9830400,
-      "fileoff": 3088
+      "fileoff": 3168
     },
     {
       "type": "load_dylib",
@@ -1300,25 +1312,25 @@
       "timestamp": 2,
       "current_version": 80347136,
       "compatibility_version": 65536,
-      "fileoff": 3192
+      "fileoff": 3272
     },
     {
       "type": "function_starts",
-      "dataoff": 136224,
+      "dataoff": 136272,
       "datasize": 320,
-      "fileoff": 3296
+      "fileoff": 3376
     },
     {
       "type": "data_in_code",
-      "dataoff": 136544,
+      "dataoff": 136592,
       "datasize": 0,
-      "fileoff": 3312
+      "fileoff": 3392
     },
     {
       "type": "code_signature",
-      "dataoff": 143328,
-      "datasize": 20512,
-      "fileoff": 3328
+      "dataoff": 143456,
+      "datasize": 19632,
+      "fileoff": 3408
     }
   ],
   "hsize": 32
