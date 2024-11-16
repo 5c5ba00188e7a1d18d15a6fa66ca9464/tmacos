@@ -10028,7 +10028,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1779148,
+          "size": 1779276,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -50432,6 +50432,8 @@
             "fullname",
             "fullscreen",
             "fullscreenBackgroundView",
+            "fullscreen_changed",
+            "fullscreen_failed",
             "func(%lu)",
             "function disableWebkitEnterFullscreen(videoElement) {\n  if (videoElement && videoElement.webkitEnterFullscreen) {\n    Object.defineProperty(videoElement, 'webkitEnterFullscreen', {\n      value: undefined\n    });\n  }\n}\n\nfunction disableFullscreenOnExistingVideos() {\n  document.querySelectorAll('video').forEach(disableWebkitEnterFullscreen);\n}\n\nfunction handleMutations(mutations) {\n  mutations.forEach((mutation) => {\n    if (mutation.addedNodes && mutation.addedNodes.length > 0) {\n      mutation.addedNodes.forEach((newNode) => {\n        if (newNode.tagName === 'VIDEO') {\n          disableWebkitEnterFullscreen(newNode);\n        }\n        if (newNode.querySelectorAll) {\n          newNode.querySelectorAll('video').forEach(disableWebkitEnterFullscreen);\n        }\n      });\n    }\n  });\n}\n\ndisableFullscreenOnExistingVideos();\n\nconst observer = new MutationObserver(handleMutations);\n\nobserver.observe(document.body, {\n  childList: true,\n  subtree: true\n});\n\nfunction disconnectObserver() {\n  observer.disconnect();\n}",
             "function setTimeout(...args) {\n    if (args.length === 0) {\n        return -1;\n    }\n\n    const [callback, delay = 0, ...callbackArgs] = args;\n\n    return _timeoutPolyfill.setTimeout(() => {\n        callback(...callbackArgs);\n    }, delay);\n}\n\nfunction setInterval(...args) {\n    if (args.length === 0) {\n        return -1;\n    }\n\n    const [callback, delay = 0, ...callbackArgs] = args;\n\n    return _timeoutPolyfill.setInterval(() => {\n        callback(...callbackArgs);\n    }, delay);\n}\n\nfunction clearTimeout(indentifier) {\n    _timeoutPolyfill.clearTimeout(indentifier)\n}\n\nfunction clearInterval(indentifier) {\n    _timeoutPolyfill.clearTimeout(indentifier)\n}",
@@ -65304,6 +65306,7 @@
             "web_app_biometry_request_auth",
             "web_app_biometry_update_token",
             "web_app_data_send",
+            "web_app_exit_fullscreen",
             "web_app_invoke_custom_method",
             "web_app_open_invoice",
             "web_app_open_link",
@@ -65313,6 +65316,7 @@
             "web_app_read_text_from_clipboard",
             "web_app_request_emoji_status_access",
             "web_app_request_file_download",
+            "web_app_request_fullscreen",
             "web_app_request_phone",
             "web_app_request_viewport",
             "web_app_request_write_access",
@@ -82658,7 +82662,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16024624,
+      "entryoff": 16024592,
       "stacksize": 0,
       "fileoff": 4880
     },
