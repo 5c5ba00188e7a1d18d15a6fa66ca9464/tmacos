@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 26636536,
+          "size": 26640632,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 955950,
+          "size": 956206,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -162,7 +162,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 261352,
+          "size": 261358,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3667,7 +3667,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 212984,
+          "size": 213236,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3706,7 +3706,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 223193,
+          "size": 223225,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -7408,6 +7408,7 @@
             "current",
             "current",
             "current",
+            "current",
             "currentAtomicState",
             "currentAtomicStateUpdated",
             "currentAuth",
@@ -9937,6 +9938,7 @@
             "input",
             "input",
             "input",
+            "input",
             "inputActivity",
             "inputAppEvent",
             "inputBotAppID",
@@ -10693,6 +10695,7 @@
             "items",
             "itemsContainerView",
             "itemsDisposable",
+            "iterator",
             "iterator",
             "joinAsPeers",
             "joinTimestamp",
@@ -13283,6 +13286,7 @@
             "previewChats",
             "previewInfo",
             "previewRepresentations",
+            "previous",
             "previous",
             "previous",
             "previous",
@@ -16974,7 +16978,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 249940,
+          "size": 250004,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17026,7 +17030,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 16320,
+          "size": 16324,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17039,7 +17043,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 935908,
+          "size": 936004,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -31696,6 +31700,7 @@
             "WebApp.Biometry.Confirm.FaceId",
             "WebApp.Biometry.Confirm.TouchId",
             "WebApp.Confirm.OpenWebapp",
+            "WebApp.ExitFullscreen",
             "WebApp.FirstOpen.AllowWrite",
             "WebApp.FirstOpen.Info",
             "WebApp.FirstOpen.Terms",
@@ -33204,6 +33209,7 @@
             "_TtC7TGUIKit9SplitView",
             "_TtC7TGUIKit9TableView",
             "_TtC7TGUIKit9ViewLayer",
+            "_TtC7TGUIKitP33_0348013581643320CC020CD066F6285314PathDataReader",
             "_TtC7TGUIKitP33_06A0149783EB96F3AAA2D8C6B5CBD23C13TextDrawLayer",
             "_TtC7TGUIKitP33_06A0149783EB96F3AAA2D8C6B5CBD23C20TextViewEmbeddedItem",
             "_TtC7TGUIKitP33_0DC571F9EB35CCB089B0E51260EFF59411ParticleSet",
@@ -48415,7 +48421,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 333680,
+          "size": 333712,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -48519,7 +48525,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 11720,
+          "size": 11728,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48612,7 +48618,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 503440,
+          "size": 503720,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48711,7 +48717,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 385338,
+          "size": 385754,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -48822,7 +48828,7 @@
       "vmaddr": 4329832448,
       "vmsize": 3391488,
       "fileoff": 4240,
-      "filesize": 3388832,
+      "filesize": 3389168,
       "maxprot": {
         "read": true,
         "write": false,
@@ -48843,9 +48849,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 35794800,
+      "symoff": 35795136,
       "nsyms": 9815,
-      "stroff": 35974112,
+      "stroff": 35974448,
       "strsize": 240760,
       "fileoff": 4360
     },
@@ -48863,7 +48869,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 35951840,
+      "indirectsymoff": 35952176,
       "nindirectsyms": 5568,
       "extreloff": 0,
       "nextrel": 0,
@@ -49318,19 +49324,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 35609008,
-      "datasize": 185792,
+      "dataoff": 35609312,
+      "datasize": 185824,
       "fileoff": 8616
     },
     {
       "type": "data_in_code",
-      "dataoff": 35794800,
+      "dataoff": 35795136,
       "datasize": 0,
       "fileoff": 8632
     },
     {
       "type": "code_signature",
-      "dataoff": 36214880,
+      "dataoff": 36215216,
       "datasize": 302400,
       "fileoff": 8648
     }
