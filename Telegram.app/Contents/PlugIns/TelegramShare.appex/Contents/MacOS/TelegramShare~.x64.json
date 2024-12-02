@@ -7,8 +7,8 @@
     "endian": "le"
   },
   "filetype": "execute",
-  "ncmds": 69,
-  "sizeofcmds": 8400,
+  "ncmds": 71,
+  "sizeofcmds": 8576,
   "flags": {
     "noundefs": true,
     "dyldlink": true,
@@ -45,9 +45,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 37076992,
+      "vmsize": 37240832,
       "fileoff": 104,
-      "filesize": 37076992,
+      "filesize": 37240832,
       "maxprot": {
         "read": true,
         "write": false,
@@ -69,7 +69,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 33075363,
+          "size": 33218723,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -86,7 +86,7 @@
         {
           "sectname": "__stubs",
           "segname": "__TEXT",
-          "size": 9540,
+          "size": 9576,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -103,7 +103,7 @@
         {
           "sectname": "__stub_helper",
           "segname": "__TEXT",
-          "size": 15916,
+          "size": 15976,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -120,7 +120,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1185406,
+          "size": 1187454,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -133,7 +133,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 261358,
+          "size": 263206,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -146,7 +146,7 @@
         {
           "sectname": "__objc_methname",
           "segname": "__TEXT",
-          "size": 80880,
+          "size": 81016,
           "align": 0,
           "reloff": 0,
           "nreloc": 0,
@@ -1097,6 +1097,7 @@
             "addObserver:selector:name:object:",
             "addObserverForName:object:queue:usingBlock:",
             "addOutgoingBytes:interface:",
+            "addOutput:",
             "addReadData:networkType:",
             "addRepresentation:",
             "addRequest:",
@@ -1438,6 +1439,7 @@
             "copyItemAtPath:toPath:error:",
             "copyItemAtURL:toURL:error:",
             "copyItems",
+            "copyNextSampleBuffer",
             "copyWithZone:",
             "count",
             "countByEnumeratingWithState:objects:count:",
@@ -1826,6 +1828,7 @@
             "initWithAddressList:",
             "initWithArray:",
             "initWithAsset:",
+            "initWithAsset:error:",
             "initWithAttributedString:",
             "initWithAuthInfo:selector:",
             "initWithAuthKey:authKeyId:validUntilTimestamp:notBound:",
@@ -1995,6 +1998,7 @@
             "initWithTimestamp:expirationDate:addressList:",
             "initWithTitle:",
             "initWithTitle:action:keyEquivalent:",
+            "initWithTrack:outputSettings:",
             "initWithTransportClass:address:media:",
             "initWithURL:",
             "initWithUTF8String:",
@@ -2355,7 +2359,7 @@
             "onceToken",
             "opacity",
             "open",
-            "openInput",
+            "openInputWithDirectFilePath:",
             "openPanel",
             "operatingSystemVersionString",
             "operationDidStart",
@@ -3234,6 +3238,7 @@
             "startNotifier",
             "startOffset",
             "startOn:",
+            "startReading",
             "startSleepWatchdogTimer",
             "startTLS:",
             "startTimeAtStreamIndex:",
@@ -3471,6 +3476,7 @@
             "toggleFullScreen:",
             "totalBytesRead",
             "touchBar:makeItemForIdentifier:",
+            "tracksWithMediaType:",
             "transactionId",
             "transactionIds",
             "transactionLockTime",
@@ -3638,7 +3644,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 213236,
+          "size": 213936,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3651,7 +3657,7 @@
         {
           "sectname": "__swift5_builtin",
           "segname": "__TEXT",
-          "size": 10800,
+          "size": 10840,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3664,7 +3670,7 @@
         {
           "sectname": "__swift5_mpenum",
           "segname": "__TEXT",
-          "size": 14820,
+          "size": 14836,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3677,7 +3683,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 223225,
+          "size": 223849,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -5996,6 +6002,7 @@
             "attributes",
             "attributes",
             "attributes",
+            "attributes",
             "attributesData",
             "audio",
             "audio",
@@ -6106,6 +6113,7 @@
             "available",
             "availableBalance",
             "availableBalance",
+            "availableBalanceStars",
             "availableEffect",
             "availableEffects",
             "availableEffectsNotModified",
@@ -6368,6 +6376,7 @@
             "botDoesntSupportGroups",
             "botDomainAccessGranted",
             "botIcons",
+            "botId",
             "botId",
             "botId",
             "botId",
@@ -7026,6 +7035,8 @@
             "comment",
             "commentsPeerId",
             "commentsPeerId",
+            "commissionPermille",
+            "commissionPermille",
             "committedOffset",
             "common",
             "commonGroupCount",
@@ -7077,7 +7088,9 @@
             "connectTimeoutTimer",
             "connectedBot",
             "connectedBot",
+            "connectedBotStarRef",
             "connectedBots",
+            "connectedStarRefBots",
             "connecting",
             "connecting",
             "connection",
@@ -7388,6 +7401,7 @@
             "currentBackgroundColor",
             "currentBalance",
             "currentBalance",
+            "currentBalanceStars",
             "currentBasePath",
             "currentCapacity",
             "currentChannelOperationsContext",
@@ -7578,6 +7592,7 @@
             "cutout",
             "cyan",
             "cycleCount",
+            "dailyRevenuePerUser",
             "dark",
             "dark",
             "dark",
@@ -7668,6 +7683,7 @@
             "date",
             "date",
             "date",
+            "date",
             "dateActive",
             "dateCreated",
             "dates",
@@ -7686,6 +7702,7 @@
             "decodeAutoremoveTimeout",
             "decodeDisplayPeerAsRegularChat",
             "decodeMessageThreadInfo",
+            "decodeTimeStamp",
             "decoded",
             "decoder",
             "decoder",
@@ -8203,6 +8220,9 @@
             "duration",
             "duration",
             "duration",
+            "duration",
+            "durationMonths",
+            "durationMonths",
             "dustView",
             "dynamicContentStateForRestore",
             "dynamicContentStateForRestore",
@@ -8376,6 +8396,7 @@
             "encryptionKey",
             "encryptionParameters",
             "encryptionProvider",
+            "endDate",
             "endGroupCall",
             "endId",
             "endMinute",
@@ -8890,6 +8911,8 @@
             "foundItem",
             "foundStickerSets",
             "foundStickerSetsNotModified",
+            "foundStickers",
+            "foundStickersNotModified",
             "foundStories",
             "foundStory",
             "fps",
@@ -10289,7 +10312,6 @@
             "invoiceSlug",
             "invokeNext",
             "invoked",
-            "ioBufferSize",
             "ip",
             "ip",
             "ip",
@@ -10630,6 +10652,7 @@
             "itemSize",
             "itemTextColor",
             "itemTransition",
+            "items",
             "items",
             "items",
             "items",
@@ -11991,6 +12014,7 @@
             "namespaces",
             "namespaces",
             "namespacesWithHolesFromPreviousState",
+            "nanos",
             "nativeLanguageByCountry",
             "nativeName",
             "nativeNames",
@@ -12091,6 +12115,7 @@
             "nextLevelBoosts",
             "nextMessageStableId",
             "nextMessageStableIdUpdated",
+            "nextOffset",
             "nextOffset",
             "nextOffset",
             "nextOffset",
@@ -12403,6 +12428,7 @@
             "outsideWorkingHours",
             "overallRevenue",
             "overallRevenue",
+            "overallRevenueStars",
             "overlay",
             "overlay",
             "overlay",
@@ -12511,6 +12537,7 @@
             "participants",
             "participants",
             "participants",
+            "participants",
             "participantsCount",
             "participantsCount",
             "participantsSummary",
@@ -12583,6 +12610,7 @@
             "paymentVerificationNeeded",
             "paywall",
             "peek",
+            "peer",
             "peer",
             "peer",
             "peer",
@@ -13251,6 +13279,7 @@
             "presentationAudioLevel",
             "presentationDescription",
             "presentationLayoutUpdated",
+            "presentationTimeStamp",
             "prevHoleIndex",
             "preventsCapture",
             "preview",
@@ -13366,7 +13395,9 @@
             "profilePhoto",
             "profileStoryColors",
             "profileStoryDarkColors",
+            "profitability",
             "proggressBackground",
+            "program",
             "progresiveDataSubscribers",
             "progress",
             "progress",
@@ -14086,6 +14117,7 @@
             "revalidationContext",
             "reveal",
             "revealSpoilers",
+            "revenue",
             "revenueGraph",
             "revenueGraph",
             "reverseAssociatedIndices",
@@ -14457,6 +14489,7 @@
             "sentEmailCode",
             "sentEncryptedFile",
             "sentEncryptedMessage",
+            "sentFrameQueue",
             "sentMedia",
             "sentMessageEventPipe",
             "sentScheduledMessageIds",
@@ -14813,6 +14846,11 @@
             "starGifts",
             "starGiftsCount",
             "starGiftsNotModified",
+            "starRefProgram",
+            "starRefProgram",
+            "starrefAmount",
+            "starrefCommissionPermille",
+            "starrefPeerId",
             "stars",
             "stars",
             "stars",
@@ -14823,6 +14861,8 @@
             "stars",
             "stars",
             "starsAllowed",
+            "starsAmount",
+            "starsAmount",
             "starsChatSubscription",
             "starsContext",
             "starsContext",
@@ -15257,6 +15297,7 @@
             "suggested",
             "suggestedProfilePhoto",
             "suggestedShortName",
+            "suggestedStarRefBots",
             "sum",
             "summary",
             "summary",
@@ -15692,6 +15733,7 @@
             "timestamp",
             "timestamp",
             "timestamp",
+            "timestamp",
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
@@ -15905,6 +15947,7 @@
             "total",
             "total",
             "totalAmount",
+            "totalCount",
             "totalCount",
             "totalCount",
             "totalCount",
@@ -16145,7 +16188,6 @@
             "updateBotPurchasedPaidMedia",
             "updateBotShippingQuery",
             "updateBotStopped",
-            "updateBotSubscriptionExpire",
             "updateBotWebhookJSON",
             "updateBotWebhookJSONQuery",
             "updateBroadcastRevenueTransactions",
@@ -16633,6 +16675,7 @@
             "value",
             "value",
             "value",
+            "value",
             "valueBox",
             "valueBox",
             "valueBox",
@@ -16949,7 +16992,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 250004,
+          "size": 250928,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16962,7 +17005,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 245000,
+          "size": 246628,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16975,7 +17018,7 @@
         {
           "sectname": "__swift5_assocty",
           "segname": "__TEXT",
-          "size": 17624,
+          "size": 17648,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -16988,7 +17031,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 23000,
+          "size": 23144,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17001,7 +17044,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 16324,
+          "size": 16396,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17014,7 +17057,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 946119,
+          "size": 950887,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -17421,6 +17464,7 @@
             "%@, %02d:%02d",
             "%@, %d:%02d AM",
             "%@, %d:%02d PM",
+            "%@-%@",
             "%@:%@",
             "%@:%d",
             "%@:%d (media: %@, cdn: %@, static: %@, secret: %@)",
@@ -18821,6 +18865,92 @@
             "Advanced Real Time Simple Profile",
             "Advanced Scalable Texture Profile",
             "Advanced Simple Profile",
+            "AffilateProgram.Earn",
+            "AffilateProgram.Earn.Info",
+            "Affiliate.Program.StartDelay",
+            "AffiliateProgram.ActionCopyLink",
+            "AffiliateProgram.ActionJoin",
+            "AffiliateProgram.CommistionDestinationText",
+            "AffiliateProgram.DailyRevenueText",
+            "AffiliateProgram.DurationLifetime",
+            "AffiliateProgram.JoinSubtitleLifetime",
+            "AffiliateProgram.JoinSubtitleMonths_1",
+            "AffiliateProgram.JoinSubtitleMonths_any",
+            "AffiliateProgram.JoinSubtitleYears_1",
+            "AffiliateProgram.JoinSubtitleYears_any",
+            "AffiliateProgram.JoinTerms",
+            "AffiliateProgram.JoinTitle",
+            "AffiliateProgram.LinkSubtitleLifetime",
+            "AffiliateProgram.LinkSubtitleMonths_1",
+            "AffiliateProgram.LinkSubtitleMonths_any",
+            "AffiliateProgram.LinkSubtitleYears_1",
+            "AffiliateProgram.LinkSubtitleYears_any",
+            "AffiliateProgram.LinkTitle",
+            "AffiliateProgram.Off",
+            "AffiliateProgram.PeerTypeSelf",
+            "AffiliateProgram.SortSelectorDate",
+            "AffiliateProgram.SortSelectorProfitability",
+            "AffiliateProgram.SortSelectorRevenue",
+            "AffiliateProgram.ToastJoined.Text",
+            "AffiliateProgram.ToastJoined.Title",
+            "AffiliateProgram.ToastLinkCopied.Text",
+            "AffiliateProgram.ToastLinkCopied.Title",
+            "AffiliateProgram.UserCountFooter_0",
+            "AffiliateProgram.UserCountFooter_1",
+            "AffiliateProgram.UserCountFooter_any",
+            "AffiliatePrograms.Confirm.Alert",
+            "AffiliatePrograms.Confirm.Alert.OK",
+            "AffiliatePrograms.Empty",
+            "AffiliatePrograms.ExistingPrograms",
+            "AffiliateSetup.AlertApply.Action",
+            "AffiliateSetup.AlertApply.SectionCommission",
+            "AffiliateSetup.AlertApply.SectionDuration",
+            "AffiliateSetup.AlertApply.Text",
+            "AffiliateSetup.AlertApply.Title",
+            "AffiliateSetup.AlertTerminate.Action",
+            "AffiliateSetup.AlertTerminate.Text",
+            "AffiliateSetup.AlertTerminate.Title",
+            "AffiliateSetup.ConnectedSectionTitle",
+            "AffiliateSetup.EndAction",
+            "AffiliateSetup.ExistingPrograms.Action",
+            "AffiliateSetup.ExistingPrograms.Footer",
+            "AffiliateSetup.Header.Info",
+            "AffiliateSetup.IntroJoin.Text1",
+            "AffiliateSetup.IntroJoin.Text2",
+            "AffiliateSetup.IntroJoin.Text3",
+            "AffiliateSetup.IntroJoin.Title1",
+            "AffiliateSetup.IntroJoin.Title2",
+            "AffiliateSetup.IntroJoin.Title3",
+            "AffiliateSetup.IntroNew.Text1",
+            "AffiliateSetup.IntroNew.Text2",
+            "AffiliateSetup.IntroNew.Text3",
+            "AffiliateSetup.IntroNew.Title1",
+            "AffiliateSetup.IntroNew.Title2",
+            "AffiliateSetup.IntroNew.Title3",
+            "AffiliateSetup.ProgramLeave",
+            "AffiliateSetup.ProgramMenu.CopyLink",
+            "AffiliateSetup.ProgramMenu.Leave",
+            "AffiliateSetup.ProgramMenu.OpenApp",
+            "AffiliateSetup.ProgramMenu.OpenBot",
+            "AffiliateSetup.SectionCommission",
+            "AffiliateSetup.SectionCommissionFooter",
+            "AffiliateSetup.SectionDuration",
+            "AffiliateSetup.SectionDurationFooter",
+            "AffiliateSetup.SortSectionHeader",
+            "AffiliateSetup.Start",
+            "AffiliateSetup.StartTitle",
+            "AffiliateSetup.SuggestedSectionEmpty",
+            "AffiliateSetup.SuggestedSectionTitle",
+            "AffiliateSetup.TermsFooter",
+            "AffiliateSetup.TextJoin",
+            "AffiliateSetup.TextNew",
+            "AffiliateSetup.TitleJoin",
+            "AffiliateSetup.TitleNew",
+            "AffiliateSetup.ToastStarted.Text",
+            "AffiliateSetup.ToastTerminated.Text",
+            "AffiliateSetup.ToastTerminated.Title",
+            "AffiliateSetup.Update",
+            "AffiliateSetup.UpdateTitle",
             "Affiliation Changed",
             "Affinity",
             "After avformat_find_stream_info() pos: %lld bytes read:%lld seeks:%d frames:%d\n",
@@ -21831,6 +21961,7 @@
             "ChatList.Mute.Until.OK",
             "ChatList.Mute.Until.Title",
             "ChatList.MyNotes",
+            "ChatList.OpenMiniApp",
             "ChatList.Popover.Confirm",
             "ChatList.Popover.ReadAll",
             "ChatList.RevealAction.Collapse",
@@ -27031,6 +27162,7 @@
             "PeerInfo.Bot.Share",
             "PeerInfo.BotAddTo",
             "PeerInfo.BotAddTo.Info",
+            "PeerInfo.BotAffiliate",
             "PeerInfo.BotEdit.Balance",
             "PeerInfo.BotEdit.Commands",
             "PeerInfo.BotEdit.Info",
@@ -29477,6 +29609,7 @@
             "Star.Subscription.Status.Cancelled.Info",
             "Star.Subscription.Status.Expired",
             "Star.Subscription.Status.Expired.Info",
+            "Star.Transaciton.ReferredUser",
             "Star.Transaction.Availability",
             "Star.Transaction.Availability.Of",
             "Star.Transaction.Availability.OfLeft",
@@ -29488,6 +29621,7 @@
             "Star.Transaction.BroadcastMessages_other",
             "Star.Transaction.BroadcastMessages_two",
             "Star.Transaction.BroadcastMessages_zero",
+            "Star.Transaction.Commission",
             "Star.Transaction.ConvertAlert.Header",
             "Star.Transaction.ConvertAlert.Info",
             "Star.Transaction.ConvertAlert.Info.Until",
@@ -29501,9 +29635,11 @@
             "Star.Transaction.Id",
             "Star.Transaction.LastSale",
             "Star.Transaction.MessageId",
+            "Star.Transaction.MiniApp",
             "Star.Transaction.ReactionId",
             "Star.Transaction.Reason",
             "Star.Transaction.Reason.Giveaway",
+            "Star.Transaction.ReasonAffiliate",
             "Star.Transaction.SaleFor_countable",
             "Star.Transaction.SaleFor_few",
             "Star.Transaction.SaleFor_many",
@@ -29607,6 +29743,7 @@
             "Stars.Subscription.Period.Monthly",
             "Stars.Subscription.Period.Unknown",
             "Stars.Subscription.Period.Weekly",
+            "Stars.Transaction.Commission",
             "Stars.Transaction.Gift",
             "Stars.Transaction.MediaPurchase",
             "Stars.Transaction.PaidReaction",
@@ -31224,6 +31361,7 @@
             "Unimplemented luma bit depth=%d",
             "Uninitialized entropy context.",
             "UniversalSoftwareVideoSourceThread_stop",
+            "Unknown",
             "Unknown APP0 marker (not JFIF), length %u",
             "Unknown APP14 marker (not Adobe), length %u",
             "Unknown Adobe color transform code %d",
@@ -32322,6 +32460,7 @@
             "_TtC12TelegramCore22PeerMediaUploadingItem",
             "_TtC12TelegramCore22SearchStoryListContext",
             "_TtC12TelegramCore22SendAsMessageAttribute",
+            "_TtC12TelegramCore22TelegramStarRefProgram",
             "_TtC12TelegramCore22WrappedRequestMetadata",
             "_TtC12TelegramCore23AccessChallengeDataView",
             "_TtC12TelegramCore23AccountAuxiliaryMethods",
@@ -32464,6 +32603,8 @@
             "_TtC12TelegramCore31SynchronizePinnedChatsOperation",
             "_TtC12TelegramCore31SynchronizeViewStoriesOperation",
             "_TtC12TelegramCore31TelegramBusinessGreetingMessage",
+            "_TtC12TelegramCore31TelegramConnectedStarRefBotList",
+            "_TtC12TelegramCore31TelegramSuggestedStarRefBotList",
             "_TtC12TelegramCore31UnauthorizedAccountStateManager",
             "_TtC12TelegramCore31WrappedShortFunctionDescription",
             "_TtC12TelegramCore32AutoclearTimeoutMessageAttribute",
@@ -33362,6 +33503,8 @@
             "_TtCC12TelegramCore28PeerExpiringStoryListContext5State",
             "_TtCC12TelegramCore28PeerExpiringStoryListContextP33_57DD610CA59870D1DC3656FE7FC6B2354Impl",
             "_TtCC12TelegramCore29AutomaticCacheEvictionContextP33_7C9F0FFB68349B34F7A18381DE18BA084Impl",
+            "_TtCC12TelegramCore31TelegramConnectedStarRefBotList4Item",
+            "_TtCC12TelegramCore31TelegramSuggestedStarRefBotList4Item",
             "_TtCC12TelegramCore32EngineMessageReactionListContext4Item",
             "_TtCC12TelegramCore32EngineMessageReactionListContextP33_B8ED04A92E6542B600830D7EA52D9AF04Impl",
             "_TtCC12TelegramCore38NetworkFrameworkTcpConnectionInterfaceP33_B7972A917A7C31D2936F3C88CF9DC9EA20ExecutingReadRequest",
@@ -35528,6 +35671,7 @@
             "availabilityTotal",
             "available",
             "availableBalance",
+            "availableBalanceStars",
             "availableEffects",
             "availableEffectsNotModified",
             "availableForUpgrade",
@@ -35880,6 +36024,7 @@
             "bots.checkDownloadFileParams",
             "bots.deletePreviewMedia",
             "bots.editPreviewMedia",
+            "bots.getAdminedBots",
             "bots.getBotCommands",
             "bots.getBotMenuButton",
             "bots.getPopularAppBots",
@@ -35896,6 +36041,7 @@
             "bots.setBotMenuButton",
             "bots.toggleUserEmojiStatusPermission",
             "bots.toggleUsername",
+            "bots.updateStarRefProgram",
             "bots.updateUserEmojiStatus",
             "bottom",
             "bottom coded first (swapped)",
@@ -37065,6 +37211,7 @@
             "commands",
             "comment",
             "commentsPeerId",
+            "commissionPermille",
             "committedOffset",
             "common libcrypto routines",
             "common ok and cancel characters",
@@ -37128,6 +37275,8 @@
             "connectTimeoutTimer",
             "connected",
             "connectedBot",
+            "connectedBotStarRef",
+            "connectedStarRefBots",
             "connecting",
             "connection",
             "connectionRequired called with NULL reachabilityRef",
@@ -37666,6 +37815,7 @@
             "currentAuthRecord",
             "currentBackgroundColor",
             "currentBalance",
+            "currentBalanceStars",
             "currentBasePath",
             "currentCapacity",
             "currentChannelOperationsContext",
@@ -37873,6 +38023,7 @@
             "dRJ-4n-Yzg.title",
             "dSAQuality",
             "daala",
+            "dailyRevenuePerUser",
             "dane_i2d",
             "dark",
             "darkColors",
@@ -38422,6 +38573,7 @@
             "duration",
             "duration >= 0",
             "duration=%lld time=%lld rate=%f\n",
+            "durationMonths",
             "dustView",
             "dvaudio",
             "dvb_subtitle",
@@ -38738,6 +38890,7 @@
             "encryption_scheme",
             "end",
             "end >= 0",
+            "endDate",
             "endMinute",
             "endOfStream",
             "endScrobbling",
@@ -39260,6 +39413,7 @@
             "foundItem",
             "foundStickerSets",
             "foundStickerSetsNotModified",
+            "foundStickersNotModified",
             "fourthBackgroundColor",
             "fps",
             "fps %d is too large\n",
@@ -40956,7 +41110,6 @@
             "inviteRequestsPending",
             "invitedBy",
             "invitedOn",
-            "ioBufferSize",
             "ioctl",
             "ioctlsocket",
             "iods audio profile atom.",
@@ -42229,6 +42382,7 @@
             "messages.searchGlobal",
             "messages.searchSentMedia",
             "messages.searchStickerSets",
+            "messages.searchStickers",
             "messages.sendBotRequestedPeer",
             "messages.sendEncrypted",
             "messages.sendEncryptedFile",
@@ -43254,6 +43408,7 @@
             "output_ts_offset",
             "over_shoot_pct %lld\n",
             "overallRevenue",
+            "overallRevenueStars",
             "overflow in decode_cabac_mb_mvd\n",
             "overflow list length",
             "overlay",
@@ -43429,10 +43584,14 @@
             "payments.changeStarsSubscription",
             "payments.checkGiftCode",
             "payments.clearSavedInfo",
+            "payments.connectStarRefBot",
             "payments.convertStarGift",
+            "payments.editConnectedStarRefBot",
             "payments.exportInvoice",
             "payments.fulfillStarsSubscription",
             "payments.getBankCardData",
+            "payments.getConnectedStarRefBot",
+            "payments.getConnectedStarRefBots",
             "payments.getGiveawayInfo",
             "payments.getPaymentForm",
             "payments.getPaymentReceipt",
@@ -43449,6 +43608,7 @@
             "payments.getStarsTopupOptions",
             "payments.getStarsTransactions",
             "payments.getStarsTransactionsByID",
+            "payments.getSuggestedStarRefBots",
             "payments.getUserStarGifts",
             "payments.launchPrepaidGiveaway",
             "payments.refundStarsCharge",
@@ -44793,6 +44953,7 @@
             "revealAction_warning_background",
             "revealAction_warning_foreground",
             "revealSpoilers",
+            "revenue",
             "revenueGraph",
             "reverseAssociatedPeerTable",
             "reverseAssociatedTable",
@@ -45303,6 +45464,7 @@
             "sentCodeTypeSmsWord",
             "sentEncryptedFile",
             "sentEncryptedMessage",
+            "sentFrameQueue",
             "sentMessageEventPipe",
             "sentScheduledMessageIdsPipe",
             "separate color planes are not supported\n",
@@ -46035,14 +46197,17 @@
             "stallDuration",
             "starGiftsCount",
             "starGiftsNotModified",
+            "starRefProgram",
             "star_reaction_activate.tgs",
             "star_reaction_appear.tgs",
             "star_reaction_center.tgs",
             "star_reaction_effect.tgs",
             "star_reaction_select.tgs",
             "star_reaction_static_icon.webp",
+            "starrefCommissionPermille",
             "stars",
             "starsAllowed",
+            "starsAmount",
             "starsContext",
             "starsGiveawayOption",
             "starsGiveawayWinnersOption",
@@ -46417,6 +46582,7 @@
             "successModalProgress",
             "suggestedLangCode",
             "suggestedShortName",
+            "suggestedStarRefBots",
             "suggestedTipAmounts",
             "sum",
             "sum of absolute DCT transformed differences",
@@ -46709,6 +46875,7 @@
             "timeoutAttribute",
             "timer",
             "timerDisposable",
+            "timescale",
             "timestamp",
             "timestamp too long.\n",
             "timestampBasedMessageAttributesIndexTable",
@@ -47266,7 +47433,6 @@
             "updateBotPurchasedPaidMedia",
             "updateBotShippingQuery",
             "updateBotStopped",
-            "updateBotSubscriptionExpire",
             "updateBotWebhookJSON",
             "updateBotWebhookJSONQuery",
             "updateBroadcastRevenueTransactions",
@@ -48673,7 +48839,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 290728,
+          "size": 288920,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -48686,7 +48852,7 @@
         {
           "sectname": "__eh_frame",
           "segname": "__TEXT",
-          "size": 146336,
+          "size": 146776,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48705,7 +48871,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4332044288,
+      "vmaddr": 4332208128,
       "vmsize": 4259840,
       "fileoff": 2016,
       "filesize": 2506752,
@@ -48727,7 +48893,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 26312,
+          "size": 26400,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48753,7 +48919,7 @@
         {
           "sectname": "__la_symbol_ptr",
           "segname": "__DATA",
-          "size": 12720,
+          "size": 12768,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48766,7 +48932,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 1135488,
+          "size": 1140944,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -48779,7 +48945,7 @@
         {
           "sectname": "__cfstring",
           "segname": "__DATA",
-          "size": 27648,
+          "size": 27712,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48792,7 +48958,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA",
-          "size": 11728,
+          "size": 11768,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48848,7 +49014,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 552656,
+          "size": 554088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48861,7 +49027,7 @@
         {
           "sectname": "__objc_selrefs",
           "segname": "__DATA",
-          "size": 16600,
+          "size": 16656,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48891,7 +49057,7 @@
         {
           "sectname": "__objc_classrefs",
           "segname": "__DATA",
-          "size": 2448,
+          "size": 2480,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48934,7 +49100,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 313288,
+          "size": 313280,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -48947,7 +49113,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 387429,
+          "size": 388869,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -49053,7 +49219,7 @@
         {
           "sectname": "__bss",
           "segname": "__DATA",
-          "size": 1089784,
+          "size": 1093240,
           "align": 5,
           "reloff": 0,
           "nreloc": 0,
@@ -49081,10 +49247,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4336304128,
-      "vmsize": 3653632,
+      "vmaddr": 4336467968,
+      "vmsize": 3670016,
       "fileoff": 4168,
-      "filesize": 3646256,
+      "filesize": 3664608,
       "maxprot": {
         "read": true,
         "write": false,
@@ -49105,10 +49271,10 @@
     },
     {
       "type": "symtab",
-      "symoff": 42311352,
-      "nsyms": 12695,
-      "stroff": 42540352,
-      "strsize": 335216,
+      "symoff": 42491448,
+      "nsyms": 12708,
+      "stroff": 42720744,
+      "strsize": 335608,
       "fileoff": 4288
     },
     {
@@ -49116,17 +49282,17 @@
       "ilocalsym": 0,
       "nlocalsym": 1,
       "iextdefsym": 1,
-      "nextdefsym": 11413,
-      "iundefsym": 11414,
-      "nundefsym": 1281,
+      "nextdefsym": 11414,
+      "iundefsym": 11415,
+      "nundefsym": 1293,
       "tocoff": 0,
       "ntoc": 0,
       "modtaboff": 0,
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 42514472,
-      "nindirectsyms": 6469,
+      "indirectsymoff": 42694776,
+      "nindirectsyms": 6492,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -49154,7 +49320,7 @@
     },
     {
       "type": "main",
-      "entryoff": 33097831,
+      "entryoff": 33249401,
       "stacksize": 0,
       "fileoff": 4480
     },
@@ -49368,11 +49534,19 @@
     },
     {
       "type": "load_dylib",
+      "name": "/System/Library/Frameworks/VideoToolbox.framework/Versions/A/VideoToolbox",
+      "timestamp": 2,
+      "current_version": 65536,
+      "compatibility_version": 65536,
+      "fileoff": 6776
+    },
+    {
+      "type": "load_dylib",
       "name": "/usr/lib/libz.1.dylib",
       "timestamp": 2,
       "current_version": 66060,
       "compatibility_version": 65536,
-      "fileoff": 6776
+      "fileoff": 6880
     },
     {
       "type": "load_weak_dylib",
@@ -49380,7 +49554,7 @@
       "timestamp": 2,
       "current_version": 393216,
       "compatibility_version": 65536,
-      "fileoff": 6824
+      "fileoff": 6928
     },
     {
       "type": "load_weak_dylib",
@@ -49388,7 +49562,7 @@
       "timestamp": 2,
       "current_version": 361103619,
       "compatibility_version": 65536,
-      "fileoff": 6888
+      "fileoff": 6992
     },
     {
       "type": "load_weak_dylib",
@@ -49396,7 +49570,7 @@
       "timestamp": 2,
       "current_version": 262144,
       "compatibility_version": 65536,
-      "fileoff": 6960
+      "fileoff": 7064
     },
     {
       "type": "load_weak_dylib",
@@ -49404,7 +49578,15 @@
       "timestamp": 2,
       "current_version": 51773440,
       "compatibility_version": 65536,
-      "fileoff": 7024
+      "fileoff": 7128
+    },
+    {
+      "type": "load_weak_dylib",
+      "name": "/usr/lib/swift/libswiftVideoToolbox.dylib",
+      "timestamp": 2,
+      "current_version": 199577345,
+      "compatibility_version": 65536,
+      "fileoff": 7208
     },
     {
       "type": "load_weak_dylib",
@@ -49412,7 +49594,7 @@
       "timestamp": 2,
       "current_version": 142888705,
       "compatibility_version": 65536,
-      "fileoff": 7104
+      "fileoff": 7280
     },
     {
       "type": "load_weak_dylib",
@@ -49420,7 +49602,7 @@
       "timestamp": 2,
       "current_version": 2949120,
       "compatibility_version": 65536,
-      "fileoff": 7168
+      "fileoff": 7344
     },
     {
       "type": "load_dylib",
@@ -49428,7 +49610,7 @@
       "timestamp": 2,
       "current_version": 329984,
       "compatibility_version": 65536,
-      "fileoff": 7224
+      "fileoff": 7400
     },
     {
       "type": "load_weak_dylib",
@@ -49436,7 +49618,7 @@
       "timestamp": 2,
       "current_version": 327680,
       "compatibility_version": 65536,
-      "fileoff": 7280
+      "fileoff": 7456
     },
     {
       "type": "load_dylib",
@@ -49444,7 +49626,7 @@
       "timestamp": 2,
       "current_version": 7889920,
       "compatibility_version": 65536,
-      "fileoff": 7336
+      "fileoff": 7512
     },
     {
       "type": "load_dylib",
@@ -49452,7 +49634,7 @@
       "timestamp": 2,
       "current_version": 983040,
       "compatibility_version": 65536,
-      "fileoff": 7400
+      "fileoff": 7576
     },
     {
       "type": "load_weak_dylib",
@@ -49460,7 +49642,7 @@
       "timestamp": 2,
       "current_version": 131072,
       "compatibility_version": 65536,
-      "fileoff": 7464
+      "fileoff": 7640
     },
     {
       "type": "load_weak_dylib",
@@ -49468,7 +49650,7 @@
       "timestamp": 2,
       "current_version": 2359296,
       "compatibility_version": 65536,
-      "fileoff": 7520
+      "fileoff": 7696
     },
     {
       "type": "load_dylib",
@@ -49476,7 +49658,7 @@
       "timestamp": 2,
       "current_version": 199577345,
       "compatibility_version": 65536,
-      "fileoff": 7584
+      "fileoff": 7760
     },
     {
       "type": "load_dylib",
@@ -49484,7 +49666,7 @@
       "timestamp": 2,
       "current_version": 0,
       "compatibility_version": 65536,
-      "fileoff": 7640
+      "fileoff": 7816
     },
     {
       "type": "load_dylib",
@@ -49492,7 +49674,7 @@
       "timestamp": 2,
       "current_version": 2228226,
       "compatibility_version": 65536,
-      "fileoff": 7696
+      "fileoff": 7872
     },
     {
       "type": "load_weak_dylib",
@@ -49500,7 +49682,7 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 7752
+      "fileoff": 7928
     },
     {
       "type": "load_weak_dylib",
@@ -49508,7 +49690,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 7808
+      "fileoff": 7984
     },
     {
       "type": "load_weak_dylib",
@@ -49516,7 +49698,7 @@
       "timestamp": 2,
       "current_version": 22351873,
       "compatibility_version": 65536,
-      "fileoff": 7864
+      "fileoff": 8040
     },
     {
       "type": "load_dylib",
@@ -49524,7 +49706,7 @@
       "timestamp": 2,
       "current_version": 524288,
       "compatibility_version": 65536,
-      "fileoff": 7920
+      "fileoff": 8096
     },
     {
       "type": "load_weak_dylib",
@@ -49532,7 +49714,7 @@
       "timestamp": 2,
       "current_version": 196608,
       "compatibility_version": 65536,
-      "fileoff": 7976
+      "fileoff": 8152
     },
     {
       "type": "load_weak_dylib",
@@ -49540,7 +49722,7 @@
       "timestamp": 2,
       "current_version": 1900546,
       "compatibility_version": 65536,
-      "fileoff": 8032
+      "fileoff": 8208
     },
     {
       "type": "load_weak_dylib",
@@ -49548,7 +49730,7 @@
       "timestamp": 2,
       "current_version": 68157440,
       "compatibility_version": 65536,
-      "fileoff": 8088
+      "fileoff": 8264
     },
     {
       "type": "load_weak_dylib",
@@ -49556,7 +49738,7 @@
       "timestamp": 2,
       "current_version": 1179648,
       "compatibility_version": 65536,
-      "fileoff": 8136
+      "fileoff": 8312
     },
     {
       "type": "load_dylib",
@@ -49564,40 +49746,40 @@
       "timestamp": 2,
       "current_version": 65536,
       "compatibility_version": 65536,
-      "fileoff": 8192
+      "fileoff": 8368
     },
     {
       "type": "rpath",
       "name": "/usr/lib/swift",
-      "fileoff": 8248
+      "fileoff": 8424
     },
     {
       "type": "rpath",
       "name": "@executable_path/../Frameworks",
-      "fileoff": 8280
+      "fileoff": 8456
     },
     {
       "type": "rpath",
       "name": "@executable_path/../../../../Frameworks",
-      "fileoff": 8328
+      "fileoff": 8504
     },
     {
       "type": "function_starts",
-      "dataoff": 42121464,
-      "datasize": 189888,
-      "fileoff": 8384
+      "dataoff": 42300696,
+      "datasize": 190752,
+      "fileoff": 8560
     },
     {
       "type": "data_in_code",
-      "dataoff": 42311352,
+      "dataoff": 42491448,
       "datasize": 0,
-      "fileoff": 8400
+      "fileoff": 8576
     },
     {
       "type": "code_signature",
-      "dataoff": 42875568,
-      "datasize": 354432,
-      "fileoff": 8416
+      "dataoff": 43056352,
+      "datasize": 355840,
+      "fileoff": 8592
     }
   ],
   "hsize": 32
