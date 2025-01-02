@@ -10065,7 +10065,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 353807,
+          "size": 353773,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10078,7 +10078,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1853111,
+          "size": 1853143,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -13726,6 +13726,7 @@
             "/Users/mikerenoir/build-Beta/telegrammacos/packages/InAppVideoServices/Sources/youtube/XCDYouTubeVideoOperation.m",
             "/Users/mikerenoir/build-Beta/telegrammacos/packages/RingBuffer/Sources/RingBuffer/RingBuffer.m",
             "/Users/mikerenoir/build-Beta/telegrammacos/packages/TelegramMedia/Sources/ChunkMediaPlayerDirectFetchSourceImpl.swift",
+            "/Users/mikerenoir/build-Beta/telegrammacos/packages/TelegramMedia/Sources/ChunkMediaPlayerV2.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/packages/TelegramMedia/Sources/HLSVideoJSNativeContentView.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/packages/TextRecognizing/Sources/TextRecognizing/TextRecognizing.swift",
             "/Users/mikerenoir/build-Beta/telegrammacos/submodules/telegram-ios/submodules/Postbox/Sources/MediaBox.swift",
@@ -49830,7 +49831,6 @@
             "dict",
             "did receive response for ssrcs=",
             "didAppear",
-            "didBecomeActiveObserver",
             "didBeginReading",
             "didChangeRegion",
             "didChangeSelectedItem",
@@ -67825,7 +67825,6 @@
             "will not start, canPreloadHistoryValue = false",
             "will request ssrcs=",
             "willChangeRegion",
-            "willResignActiveObserver",
             "win32_bind_func",
             "win32_globallookup",
             "win32_joiner",
@@ -68447,7 +68446,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 283604,
+          "size": 283580,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68473,7 +68472,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 256398,
+          "size": 256334,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -73127,7 +73126,6 @@
             "dict",
             "dict",
             "dictionary",
-            "didBecomeActiveObserver",
             "didBeginReading",
             "didChangeSelectedItem",
             "didChangedIndex",
@@ -83728,7 +83726,6 @@
             "wifi",
             "wifi",
             "wifi",
-            "willResignActiveObserver",
             "window",
             "window",
             "windowSize",
@@ -83844,7 +83841,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 259676,
+          "size": 259736,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -84935,7 +84932,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 747768,
+          "size": 747812,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -85009,7 +85006,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2228856,
+          "size": 2228936,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -85143,7 +85140,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1334080,
+          "size": 1334016,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85227,7 +85224,7 @@
         {
           "sectname": "__objc_data",
           "segname": "__DATA",
-          "size": 2182072,
+          "size": 2182056,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85240,7 +85237,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 992986,
+          "size": 992970,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85362,7 +85359,7 @@
       "vmaddr": 4387782656,
       "vmsize": 4325376,
       "fileoff": 4560,
-      "filesize": 4310656,
+      "filesize": 4310560,
       "maxprot": {
         "read": true,
         "write": false,
@@ -85383,9 +85380,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 77730832,
+      "symoff": 77730736,
       "nsyms": 4011,
-      "stroff": 77828928,
+      "stroff": 77828832,
       "strsize": 154272,
       "fileoff": 4680
     },
@@ -85403,7 +85400,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 77795008,
+      "indirectsymoff": 77794912,
       "nindirectsyms": 8480,
       "extreloff": 0,
       "nextrel": 0,
@@ -86181,19 +86178,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 77365784,
-      "datasize": 365048,
+      "dataoff": 77365680,
+      "datasize": 365056,
       "fileoff": 12456
     },
     {
       "type": "data_in_code",
-      "dataoff": 77730832,
+      "dataoff": 77730736,
       "datasize": 0,
       "fileoff": 12472
     },
     {
       "type": "code_signature",
-      "dataoff": 77983200,
+      "dataoff": 77983104,
       "datasize": 628896,
       "fileoff": 12488
     }
