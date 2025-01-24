@@ -69,7 +69,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 36162704,
+          "size": 36166800,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -3690,7 +3690,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 227257,
+          "size": 227289,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -11966,6 +11966,7 @@
             "minChannelProfileIconLevel",
             "minChannelRestrictAdsLevel",
             "minChannelWallpaperLevel",
+            "minChannelWearGiftLevel",
             "minDate",
             "minGroupAudioTranscriptionLevel",
             "minGroupCustomWallpaperLevel",
@@ -17232,7 +17233,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 256384,
+          "size": 256396,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17297,7 +17298,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1024900,
+          "size": 1024932,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -29903,6 +29904,7 @@
             "Search.Popular.Articles",
             "Search.Popular.Delete",
             "Search.Popular.SavedMessages",
+            "Search.RemoveFromRecent",
             "Search.Separator.Apps.Popular",
             "Search.Separator.Apps.YouUse",
             "Search.Separator.ChannelsJoined",
@@ -52102,7 +52104,7 @@
       "vmaddr": 4356292608,
       "vmsize": 3702784,
       "fileoff": 4168,
-      "filesize": 3691104,
+      "filesize": 3691200,
       "maxprot": {
         "read": true,
         "write": false,
@@ -52123,9 +52125,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 45851248,
+      "symoff": 45851352,
       "nsyms": 12032,
-      "stroff": 46070384,
+      "stroff": 46070488,
       "strsize": 312424,
       "fileoff": 4288
     },
@@ -52143,7 +52145,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 46043760,
+      "indirectsymoff": 46043864,
       "nindirectsyms": 6656,
       "extreloff": 0,
       "nextrel": 0,
@@ -52625,19 +52627,19 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 45654808,
+      "dataoff": 45654912,
       "datasize": 196440,
       "fileoff": 8664
     },
     {
       "type": "data_in_code",
-      "dataoff": 45851248,
+      "dataoff": 45851352,
       "datasize": 0,
       "fileoff": 8680
     },
     {
       "type": "code_signature",
-      "dataoff": 46382816,
+      "dataoff": 46382912,
       "datasize": 381824,
       "fileoff": 8696
     }

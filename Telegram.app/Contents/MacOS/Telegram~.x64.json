@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 79560704,
+      "vmsize": 79593472,
       "fileoff": 104,
-      "filesize": 79560704,
+      "filesize": 79593472,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 72218505,
+          "size": 72255369,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -23436,7 +23436,6 @@
             "Ended",
             "Enqueue SEND:type",
             "Enter PEM pass phrase:",
-            "Enter TON Address",
             "Enterprises",
             "Entertainment.Emoji",
             "Entertainment.Emoji.New",
@@ -32178,6 +32177,7 @@
             "Search.Popular.Articles",
             "Search.Popular.Delete",
             "Search.Popular.SavedMessages",
+            "Search.RemoveFromRecent",
             "Search.Separator.Apps.Popular",
             "Search.Separator.Apps.YouUse",
             "Search.Separator.ChannelsJoined",
@@ -85521,7 +85521,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 639260,
+          "size": 639232,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -85549,7 +85549,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4374528000,
+      "vmaddr": 4374560768,
       "vmsize": 25903104,
       "fileoff": 2176,
       "filesize": 7405568,
@@ -85584,7 +85584,7 @@
         {
           "sectname": "__got",
           "segname": "__DATA",
-          "size": 43080,
+          "size": 43088,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85623,7 +85623,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA",
-          "size": 2132176,
+          "size": 2132624,
           "align": 6,
           "reloff": 0,
           "nreloc": 0,
@@ -85962,10 +85962,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4400431104,
+      "vmaddr": 4400463872,
       "vmsize": 4603904,
       "fileoff": 4568,
-      "filesize": 4600880,
+      "filesize": 4601296,
       "maxprot": {
         "read": true,
         "write": false,
@@ -85986,9 +85986,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 90534120,
+      "symoff": 90567048,
       "nsyms": 4575,
-      "stroff": 90647280,
+      "stroff": 90680216,
       "strsize": 190520,
       "fileoff": 4688
     },
@@ -86006,8 +86006,8 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 90607320,
-      "nindirectsyms": 9990,
+      "indirectsymoff": 90640248,
+      "nindirectsyms": 9991,
       "extreloff": 0,
       "nextrel": 0,
       "locreloff": 0,
@@ -86035,7 +86035,7 @@
     },
     {
       "type": "main",
-      "entryoff": 16836832,
+      "entryoff": 16872048,
       "stacksize": 0,
       "fileoff": 4880
     },
@@ -86787,20 +86787,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 90112344,
-      "datasize": 387200,
+      "dataoff": 90145208,
+      "datasize": 387240,
       "fileoff": 12256
     },
     {
       "type": "data_in_code",
-      "dataoff": 90499544,
-      "datasize": 34576,
+      "dataoff": 90532448,
+      "datasize": 34600,
       "fileoff": 12272
     },
     {
       "type": "code_signature",
-      "dataoff": 90837808,
-      "datasize": 729344,
+      "dataoff": 90870736,
+      "datasize": 729600,
       "fileoff": 12288
     }
   ],
