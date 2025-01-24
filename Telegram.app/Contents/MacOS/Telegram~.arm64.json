@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 67698688,
+      "vmsize": 67715072,
       "fileoff": 104,
-      "filesize": 67698688,
+      "filesize": 67715072,
       "maxprot": {
         "read": true,
         "write": false,
@@ -63,7 +63,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 59961056,
+          "size": 59977440,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -10065,7 +10065,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 356371,
+          "size": 356433,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -10078,7 +10078,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1869166,
+          "size": 1869294,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -39934,6 +39934,7 @@
             "_TtC12TelegramCore30CloudChatClearHistoryOperation",
             "_TtC12TelegramCore30CloudDocumentSizeMediaResource",
             "_TtC12TelegramCore30ForwardOptionsMessageAttribute",
+            "_TtC12TelegramCore30ForwardVideoTimestampAttribute",
             "_TtC12TelegramCore30MutableAccessChallengeDataView",
             "_TtC12TelegramCore30PeerExportedInvitationsContext",
             "_TtC12TelegramCore30PeerInvitationImportersContext",
@@ -39943,6 +39944,7 @@
             "_TtC12TelegramCore31CloudPeerPhotoSizeMediaResource",
             "_TtC12TelegramCore31ExtractedChatListItemCachedData",
             "_TtC12TelegramCore31LocalFileReferenceMediaResource",
+            "_TtC12TelegramCore31LocalMediaPlaybackInfoAttribute",
             "_TtC12TelegramCore31RevenueStatsTransactionsContext",
             "_TtC12TelegramCore31SourceReferenceMessageAttribute",
             "_TtC12TelegramCore31StoryStatsPublicForwardsContext",
@@ -59272,6 +59274,7 @@
             "overview",
             "owner",
             "ownerActions",
+            "ownerAddress",
             "ownerName",
             "ownerPeerId",
             "p",
@@ -68943,7 +68946,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 523056,
+          "size": 523208,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68956,7 +68959,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 31508,
+          "size": 31524,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -68969,7 +68972,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 30472,
+          "size": 30480,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69008,7 +69011,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 285148,
+          "size": 285252,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -69034,7 +69037,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 257246,
+          "size": 257294,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -71066,6 +71069,7 @@
             "additionalPreloadPeerIdsContext",
             "additionalSelections",
             "additionallyIncludePeers",
+            "address",
             "address",
             "address",
             "address",
@@ -73353,6 +73357,7 @@
             "data",
             "data",
             "data",
+            "data",
             "dataArray",
             "dataArray",
             "dataBuffer",
@@ -75420,6 +75425,7 @@
             "hasLoadedOnce",
             "hasLoadedOnce",
             "hasLoadedOnce",
+            "hasLocalVideo",
             "hasMinumimVisibility",
             "hasMore",
             "hasMore",
@@ -79051,6 +79057,7 @@
             "overrideChatTimestamp",
             "overrideWidth",
             "owner",
+            "ownerAddress",
             "ownerName",
             "ownerPeerId",
             "p",
@@ -82924,6 +82931,8 @@
             "timestamp",
             "timestamp",
             "timestamp",
+            "timestamp",
+            "timestamp",
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
@@ -84464,7 +84473,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 261948,
+          "size": 262244,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -85555,7 +85564,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 750424,
+          "size": 750624,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -85583,7 +85592,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4362665984,
+      "vmaddr": 4362682368,
       "vmsize": 2506752,
       "fileoff": 2336,
       "filesize": 2506752,
@@ -85629,7 +85638,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 2241536,
+          "size": 2242288,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -85655,7 +85664,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 34104,
+          "size": 34120,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85728,8 +85737,8 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4365172736,
-      "vmsize": 23166976,
+      "vmaddr": 4365189120,
+      "vmsize": 23150592,
       "fileoff": 3128,
       "filesize": 4620288,
       "maxprot": {
@@ -85763,7 +85772,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 1337872,
+          "size": 1338272,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85860,7 +85869,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 997330,
+          "size": 997722,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -85982,7 +85991,7 @@
       "vmaddr": 4388339712,
       "vmsize": 4341760,
       "fileoff": 4560,
-      "filesize": 4334592,
+      "filesize": 4336384,
       "maxprot": {
         "read": true,
         "write": false,
@@ -86003,9 +86012,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 78290536,
+      "symoff": 78292296,
       "nsyms": 4018,
-      "stroff": 78388848,
+      "stroff": 78390608,
       "strsize": 154568,
       "fileoff": 4680
     },
@@ -86023,7 +86032,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 78354824,
+      "indirectsymoff": 78356584,
       "nindirectsyms": 8505,
       "extreloff": 0,
       "nextrel": 0,
@@ -86049,7 +86058,7 @@
     },
     {
       "type": "main",
-      "entryoff": 14070672,
+      "entryoff": 14071604,
       "stacksize": 0,
       "fileoff": 4888
     },
@@ -86801,20 +86810,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 77923432,
-      "datasize": 367104,
+      "dataoff": 77925096,
+      "datasize": 367200,
       "fileoff": 12456
     },
     {
       "type": "data_in_code",
-      "dataoff": 78290536,
+      "dataoff": 78292296,
       "datasize": 0,
       "fileoff": 12472
     },
     {
       "type": "code_signature",
-      "dataoff": 78543424,
-      "datasize": 633280,
+      "dataoff": 78545184,
+      "datasize": 633312,
       "fileoff": 12488
     }
   ],

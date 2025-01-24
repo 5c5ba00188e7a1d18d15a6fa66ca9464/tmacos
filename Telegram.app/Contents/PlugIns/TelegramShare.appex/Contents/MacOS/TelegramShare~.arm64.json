@@ -44,9 +44,9 @@
       "type": "segment_64",
       "name": "__TEXT",
       "vmaddr": 4294967296,
-      "vmsize": 33619968,
+      "vmsize": 33652736,
       "fileoff": 104,
-      "filesize": 33619968,
+      "filesize": 33652736,
       "maxprot": {
         "read": true,
         "write": false,
@@ -68,7 +68,7 @@
         {
           "sectname": "__text",
           "segname": "__TEXT",
-          "size": 29252364,
+          "size": 29268748,
           "align": 12,
           "reloff": 0,
           "nreloc": 0,
@@ -149,7 +149,7 @@
         {
           "sectname": "__const",
           "segname": "__TEXT",
-          "size": 1112278,
+          "size": 1112534,
           "align": 8,
           "reloff": 0,
           "nreloc": 0,
@@ -162,7 +162,7 @@
         {
           "sectname": "__swift5_typeref",
           "segname": "__TEXT",
-          "size": 269032,
+          "size": 269094,
           "align": 1,
           "reloff": 0,
           "nreloc": 0,
@@ -3680,7 +3680,7 @@
         {
           "sectname": "__constg_swiftt",
           "segname": "__TEXT",
-          "size": 217052,
+          "size": 217204,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -3719,7 +3719,7 @@
         {
           "sectname": "__swift5_reflstr",
           "segname": "__TEXT",
-          "size": 227209,
+          "size": 227257,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -5739,6 +5739,7 @@
             "address",
             "address",
             "address",
+            "address",
             "addressCityInvalid",
             "addressList",
             "addressNameLimitReached",
@@ -7719,6 +7720,7 @@
             "data",
             "data",
             "data",
+            "data",
             "dataArray",
             "dataArray",
             "dataContexts",
@@ -9418,6 +9420,7 @@
             "hasLoadedOnce",
             "hasLoadedOnce",
             "hasLoadedOnce",
+            "hasLocalVideo",
             "hasMinumimVisibility",
             "hasMore",
             "hasMore",
@@ -12600,6 +12603,7 @@
             "overrideChatTimestamp",
             "overrideWidth",
             "owner",
+            "ownerAddress",
             "ownerName",
             "ownerPeerId",
             "p",
@@ -15971,6 +15975,8 @@
             "timestamp",
             "timestamp",
             "timestamp",
+            "timestamp",
+            "timestamp",
             "timestampBasedMessageAttributesIndexTable",
             "timestampBasedMessageAttributesTable",
             "timestampBasedMessageAttributesViews",
@@ -17255,7 +17261,7 @@
         {
           "sectname": "__swift5_fieldmd",
           "segname": "__TEXT",
-          "size": 256280,
+          "size": 256384,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17268,7 +17274,7 @@
         {
           "sectname": "__swift5_capture",
           "segname": "__TEXT",
-          "size": 250396,
+          "size": 250692,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17294,7 +17300,7 @@
         {
           "sectname": "__swift5_proto",
           "segname": "__TEXT",
-          "size": 23756,
+          "size": 23772,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17307,7 +17313,7 @@
         {
           "sectname": "__swift5_types",
           "segname": "__TEXT",
-          "size": 16720,
+          "size": 16728,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -17320,7 +17326,7 @@
         {
           "sectname": "__cstring",
           "segname": "__TEXT",
-          "size": 1023027,
+          "size": 1023171,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -34106,6 +34112,7 @@
             "_TtC12TelegramCore30CloudChatClearHistoryOperation",
             "_TtC12TelegramCore30CloudDocumentSizeMediaResource",
             "_TtC12TelegramCore30ForwardOptionsMessageAttribute",
+            "_TtC12TelegramCore30ForwardVideoTimestampAttribute",
             "_TtC12TelegramCore30MutableAccessChallengeDataView",
             "_TtC12TelegramCore30PeerExportedInvitationsContext",
             "_TtC12TelegramCore30PeerInvitationImportersContext",
@@ -34115,6 +34122,7 @@
             "_TtC12TelegramCore31CloudPeerPhotoSizeMediaResource",
             "_TtC12TelegramCore31ExtractedChatListItemCachedData",
             "_TtC12TelegramCore31LocalFileReferenceMediaResource",
+            "_TtC12TelegramCore31LocalMediaPlaybackInfoAttribute",
             "_TtC12TelegramCore31RevenueStatsTransactionsContext",
             "_TtC12TelegramCore31SourceReferenceMessageAttribute",
             "_TtC12TelegramCore31StoryStatsPublicForwardsContext",
@@ -45726,6 +45734,7 @@
             "overriding to %d logical cores\n",
             "overshoot-pct",
             "owner",
+            "ownerAddress",
             "ownerName",
             "ownerPeerId",
             "p",
@@ -51641,7 +51650,7 @@
         {
           "sectname": "__unwind_info",
           "segname": "__TEXT",
-          "size": 352424,
+          "size": 352520,
           "align": 2,
           "reloff": 0,
           "nreloc": 0,
@@ -51673,7 +51682,7 @@
     {
       "type": "segment_64",
       "name": "__DATA_CONST",
-      "vmaddr": 4328587264,
+      "vmaddr": 4328620032,
       "vmsize": 1359872,
       "fileoff": 2176,
       "filesize": 1359872,
@@ -51719,7 +51728,7 @@
         {
           "sectname": "__const",
           "segname": "__DATA_CONST",
-          "size": 1288336,
+          "size": 1289088,
           "align": 4,
           "reloff": 0,
           "nreloc": 0,
@@ -51745,7 +51754,7 @@
         {
           "sectname": "__objc_classlist",
           "segname": "__DATA_CONST",
-          "size": 11912,
+          "size": 11928,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -51803,7 +51812,7 @@
     {
       "type": "segment_64",
       "name": "__DATA",
-      "vmaddr": 4329947136,
+      "vmaddr": 4329979904,
       "vmsize": 19464192,
       "fileoff": 2888,
       "filesize": 1228800,
@@ -51838,7 +51847,7 @@
         {
           "sectname": "__objc_const",
           "segname": "__DATA",
-          "size": 511424,
+          "size": 511824,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -51937,7 +51946,7 @@
         {
           "sectname": "__data",
           "segname": "__DATA",
-          "size": 387330,
+          "size": 387722,
           "align": 3,
           "reloff": 0,
           "nreloc": 0,
@@ -52045,10 +52054,10 @@
     {
       "type": "segment_64",
       "name": "__LINKEDIT",
-      "vmaddr": 4349411328,
+      "vmaddr": 4349444096,
       "vmsize": 3588096,
       "fileoff": 4240,
-      "filesize": 3578112,
+      "filesize": 3580160,
       "maxprot": {
         "read": true,
         "write": false,
@@ -52069,9 +52078,9 @@
     },
     {
       "type": "symtab",
-      "symoff": 38976192,
+      "symoff": 39010752,
       "nsyms": 11220,
-      "stroff": 39178712,
+      "stroff": 39213272,
       "strsize": 280296,
       "fileoff": 4360
     },
@@ -52089,7 +52098,7 @@
       "nmodtab": 0,
       "extrefsymoff": 0,
       "nextrefsyms": 0,
-      "indirectsymoff": 39155712,
+      "indirectsymoff": 39190272,
       "nindirectsyms": 5750,
       "extreloff": 0,
       "nextrel": 0,
@@ -52115,7 +52124,7 @@
     },
     {
       "type": "main",
-      "entryoff": 29277180,
+      "entryoff": 29305852,
       "stacksize": 0,
       "fileoff": 4568
     },
@@ -52568,20 +52577,20 @@
     },
     {
       "type": "function_starts",
-      "dataoff": 38782568,
-      "datasize": 193624,
+      "dataoff": 38817032,
+      "datasize": 193720,
       "fileoff": 8896
     },
     {
       "type": "data_in_code",
-      "dataoff": 38976192,
+      "dataoff": 39010752,
       "datasize": 0,
       "fileoff": 8912
     },
     {
       "type": "code_signature",
-      "dataoff": 39459008,
-      "datasize": 327744,
+      "dataoff": 39493568,
+      "datasize": 328000,
       "fileoff": 8928
     }
   ],
